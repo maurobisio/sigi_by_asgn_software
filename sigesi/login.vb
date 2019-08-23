@@ -31,7 +31,9 @@
 
         End If
 
-
+        Dim MiSingleton As Singleton = Singleton.Instance
+        'Ejemplo de llamada de un Metodo de Singleton
+        MiSingleton.HacerAlgo()
 
         If txtUsu.Text = "docente" And txtPwd.Text = "docente" Then
             txtUsu.Text = ""
