@@ -1,0 +1,72 @@
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\bin\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\bin\Debug\pruebaBaseDatos.pdb
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\bin\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.altaSalon.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.bajaSalon.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.GestioneInformes.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.homeAdministrativo.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.homeAdminSIstema.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.homeBedel.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.homeDIrector.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.homeDocente.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.listarAlumno.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.LIstarSalones.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.listarUsuarios.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.altaUsuario.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.logeo.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.menuAdministrativo.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.menuAdminSistema.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.menuAlumno.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.menuBedel.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.menuDirector.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.IncidenciasDocente.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.menuDocente.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.modificarAlumno.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.ModificarSalon.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.modificarUsuario.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.reporteDocente.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.reportes.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.splash.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\I.S.Ges.I..vbproj.GenerateResource.Cache
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\pruebaBaseDatos.pdb
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.altaAlumno.resources
+C:\Users\nois\Desktop\pruebaBaseDatos\sigesi\obj\x86\Debug\WindowsApplication1.bajaUsuario.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.pdb
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\pruebaBaseDatos.pdb
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.altaAlumno.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.altaSalon.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.bajaUsuario.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.bajaSalon.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.GestioneInformes.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeAdministrativo.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeAdminSIstema.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeBedel.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeDIrector.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeDocente.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.listarAlumno.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.LIstarSalones.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.listarUsuarios.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.altaUsuario.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.logeo.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuAdministrativo.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuAdminSistema.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuAlumno.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuBedel.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuDirector.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.IncidenciasDocente.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuDocente.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.modificarAlumno.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.ModificarSalon.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.modificarUsuario.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.reporteDocente.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.reportes.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.splash.resources
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\I.S.Ges.I..vbproj.GenerateResource.Cache

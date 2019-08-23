@@ -1,0 +1,44 @@
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.pdb
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.exe
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.xml
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.pdb
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\pruebaBaseDatos.exe
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\pruebaBaseDatos.pdb
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\pruebaBaseDatos.xml
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.altaAlumno.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.altaSalon.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.bajaUsuario.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.bajaSalon.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.GestioneInformes.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeAdministrativo.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeAdminSIstema.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeBedel.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeDIrector.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.homeDocente.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.listarAlumno.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.LIstarSalones.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.listarUsuarios.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.altaUsuario.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuAdministrativo.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuAdminSistema.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuAlumno.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuBedel.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuDirector.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.IncidenciasDocente.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.menuDocente.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.modificarAlumno.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.ModificarSalon.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.modificarUsuario.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.reporteDocente.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.reportes.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.splash.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\S.I.Ges.I.vbproj.GenerateResource.Cache
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.selecUsu.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.loginBedel.resources
+E:\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\WindowsApplication1.idioma.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.exe
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.xml
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\pruebaBaseDatos.pdb

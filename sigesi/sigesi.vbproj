@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22F6D166-91E7-42D1-8598-65DA78FBFAD1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sigesi.My.MyApplication</StartupObject>
+    <RootNamespace>sigesi</RootNamespace>
+    <AssemblyName>sigesi</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sigesi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sigesi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo asgn.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.7.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.7.6\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="altas\altaAlumno.Designer.vb">
+      <DependentUpon>altaAlumno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="altas\altaAlumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="altas\altaSalon.Designer.vb">
+      <DependentUpon>altaSalon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="altas\altaSalon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecursoLenguajeESP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursoLenguajeESP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ApplicationEvents.vb" />
+    <Compile Include="bajas\bajaUsuario.Designer.vb">
+      <DependentUpon>bajaUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bajas\bajaUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bajas\bajaSalon.Designer.vb">
+      <DependentUpon>bajaSalon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bajas\bajaSalon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEInformes.Designer.vb">
+      <DependentUpon>GestionEInformes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEInformes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homes\Class1.vb" />
+    <Compile Include="homes\homeAdministrativo.Designer.vb">
+      <DependentUpon>homeAdministrativo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homes\homeAdministrativo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homes\homeAdminSIstema.Designer.vb">
+      <DependentUpon>homeAdminSIstema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homes\homeAdminSIstema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homes\homeBedel.Designer.vb">
+      <DependentUpon>homeBedel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homes\homeBedel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homes\homeDIrector.Designer.vb">
+      <DependentUpon>homeDIrector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homes\homeDIrector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homes\homeDocente.Designer.vb">
+      <DependentUpon>homeDocente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="homes\homeDocente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="idioma.Designer.vb">
+      <DependentUpon>idioma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="idioma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="limpiarFormulario.vb" />
+    <Compile Include="listar\listarAlumno.Designer.vb">
+      <DependentUpon>listarAlumno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listar\listarAlumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listar\listarSalones.Designer.vb">
+      <DependentUpon>listarSalones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listar\listarSalones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listar\listarUsuarios.Designer.vb">
+      <DependentUpon>listarUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listar\listarUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="altas\altaUsuario.Designer.vb">
+      <DependentUpon>altaUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="altas\altaUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu\menuAdministrativo.Designer.vb">
+      <DependentUpon>menuAdministrativo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu\menuAdministrativo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu\menuAdminSistema.Designer.vb">
+      <DependentUpon>menuAdminSistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu\menuAdminSistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu\menuAlumno.Designer.vb">
+      <DependentUpon>menuAlumno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu\menuAlumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu\menuBedel.Designer.vb">
+      <DependentUpon>menuBedel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu\menuBedel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu\menuDirector.Designer.vb">
+      <DependentUpon>menuDirector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu\menuDirector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncidenciasDocente.Designer.vb">
+      <DependentUpon>IncidenciasDocente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncidenciasDocente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu\menuDocente.Designer.vb">
+      <DependentUpon>menuDocente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu\menuDocente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificaciones\modificarAlumno.Designer.vb">
+      <DependentUpon>modificarAlumno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modificaciones\modificarAlumno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificaciones\modificarSalon.Designer.vb">
+      <DependentUpon>modificarSalon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modificaciones\modificarSalon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificaciones\modificarUsuario.Designer.vb">
+      <DependentUpon>modificarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modificaciones\modificarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_idioma.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecursoLenguajeENG.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursoLenguajeENG.resx</DependentUpon>
+    </Compile>
+    <Compile Include="reporteDocente.Designer.vb">
+      <DependentUpon>reporteDocente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reporteDocente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportes.Designer.vb">
+      <DependentUpon>reportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selecUsu.Designer.vb">
+      <DependentUpon>selecUsu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="selecUsu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splash.Designer.vb">
+      <DependentUpon>splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="altas\altaAlumno.resx">
+      <DependentUpon>altaAlumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="altas\altaSalon.resx">
+      <DependentUpon>altaSalon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bajas\bajaUsuario.resx">
+      <DependentUpon>bajaUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bajas\bajaSalon.resx">
+      <DependentUpon>bajaSalon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEInformes.resx">
+      <DependentUpon>GestionEInformes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homes\homeAdministrativo.resx">
+      <DependentUpon>homeAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homes\homeAdminSIstema.resx">
+      <DependentUpon>homeAdminSIstema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homes\homeBedel.resx">
+      <DependentUpon>homeBedel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homes\homeDIrector.resx">
+      <DependentUpon>homeDIrector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homes\homeDocente.resx">
+      <DependentUpon>homeDocente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idioma.resx">
+      <DependentUpon>idioma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listar\listarAlumno.resx">
+      <DependentUpon>listarAlumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listar\listarSalones.resx">
+      <DependentUpon>listarSalones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listar\listarUsuarios.resx">
+      <DependentUpon>listarUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="altas\altaUsuario.resx">
+      <DependentUpon>altaUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu\menuAdministrativo.resx">
+      <DependentUpon>menuAdministrativo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu\menuAdminSistema.resx">
+      <DependentUpon>menuAdminSistema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu\menuAlumno.resx">
+      <DependentUpon>menuAlumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu\menuBedel.resx">
+      <DependentUpon>menuBedel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu\menuDirector.resx">
+      <DependentUpon>menuDirector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncidenciasDocente.resx">
+      <DependentUpon>IncidenciasDocente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu\menuDocente.resx">
+      <DependentUpon>menuDocente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificaciones\modificarAlumno.resx">
+      <DependentUpon>modificarAlumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificaciones\modificarSalon.resx">
+      <DependentUpon>modificarSalon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificaciones\modificarUsuario.resx">
+      <DependentUpon>modificarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecursoLenguajeENG.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursoLenguajeENG.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteDocente.resx">
+      <DependentUpon>reporteDocente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes.resx">
+      <DependentUpon>reportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecursoLenguajeESP.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursoLenguajeESP.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selecUsu.resx">
+      <DependentUpon>selecUsu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splash.resx">
+      <DependentUpon>splash.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext325280556753282.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo asgn gr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ab880e92f163a6c4033e2fd0b0220fd1-guerra-da-bandeira-espanha-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandera_inglaterra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thL4ML6C5E.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext3252805567532821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo asgn gr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica vertical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-españa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandera_inglaterra1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandera_inglaterra2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-españa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ab880e92f163a6c4033e2fd0b0220fd1-guerra-da-bandeira-espanha-by-vexels1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thL4ML6C5E1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo asgn gr2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica vertical1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext3252805567532822.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-ok-button-AW50GK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thACZT8YAL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thACZT8YAL1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\so-simple-sample-image-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th4VKLX8GI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maaschica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica vertical2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono cerrar FN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Maximizar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono cerrar FN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica vertical3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica vertical4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_119317114-stock-illustration-magnifying-glass-isolated-on-white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_31598433-stock-photo-classroom-symbol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education_flat-extended_Classroom-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_79450054-stock-photo-3d-white-people-search-in.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-ok-button-AW50GK1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_84956590_Ri84B4IhJOV0VEI5xFdSLPPrM7XexyEF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_24751617-stock-photo-accept-blue-circle-web-glossy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alumnos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alumnos copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfondo copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfondo copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfondo copy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinfondo copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finala.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_31598433-stock-photo-classroom-symbol copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfondo copy3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salones3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeSInFondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home sin fondo2 .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-Menu-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directorAjustada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directorfinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO SALONES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO USUARIOS 50X50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO CERRAR SECCION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directorfinal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chica vertical5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO CERRAR SECCION 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directorfinal azul nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thKR10EJ3W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono candado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono candado 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copia de asf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_84956590_Ri84B4IhJOV0VEI5xFdSLPPrM7XexyEF1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preddeyspadlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultima1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_180866944-stock-illustration-magnifying-glass-realistic-isolated-on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa de busqueda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa de busqueda1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono lupa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono limpiar copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono limpiar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home docente.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono incidencia copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono incidencia 60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono incidencia 50 .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono agregarUsuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar usuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono agregar ususario 50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_79450054-stock-photo-3d-white-people-search-in1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s-employee-module.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th9T4XU6J4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono mo 50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono nuev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono incidencia 50 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono incidencia 50 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_18324989-stock-photo-dictionary-blue-glossy-icon-on.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_18324989-stock-photo-dictionary-blue-glossy-icon-on1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_116517602-stock-illustration-closed-spiral-notebook-and-pen copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_116517602-stock-illustration-closed-spiral-notebook-and-pen copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moduasdfles_admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono mail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo asgn.ico" />
+    <None Include="Resources\cooltext333538344172539 %281%29.png" />
+    <None Include="Resources\atras 60z60 icono.png" />
+    <None Include="Resources\atras icono.jpg" />
+    <None Include="Resources\back-arrow-icon-isolated-on-glossy-blue-round-button-abstract-illustration-HAMC07.jpg" />
+    <None Include="Resources\cooltext332621547141440.png" />
+    <None Include="Resources\thACZT8YAL2.jpg" />
+    <None Include="Resources\cooltext332618445056385.png" />
+    <None Include="Resources\cooltext331759147325231.png" />
+    <None Include="Resources\eng.jpg" />
+    <None Include="Resources\esp.jpg" />
+    <None Include="Resources\espanol.jpg" />
+    <None Include="Resources\istockphoto-165819519-1024x10241.jpg" />
+    <None Include="Resources\istockphoto-165819519-1024x1024.jpg" />
+    <None Include="Resources\logo asgn ultima azul.png" />
+    <None Include="Resources\admin jpg 100x100.jpg" />
+    <None Include="Resources\alumnos 100 x 100 black.jpg" />
+    <None Include="Resources\docente new 100x100.jpg" />
+    <None Include="Resources\administrativa 100x100.jpg" />
+    <None Include="Resources\director 100x100.jpg" />
+    <None Include="Resources\bedel 100x100.jpg" />
+    <None Include="Resources\logo sigesi.png" />
+    <None Include="Resources\cooltext3309054766168345.png" />
+    <None Include="Resources\cooltext3309054766168344.png" />
+    <None Include="Resources\cooltext3309054766168343.png" />
+    <None Include="Resources\cooltext3309054766168342.png" />
+    <None Include="Resources\cooltext3309054766168341.png" />
+    <None Include="Resources\cooltext330905476616834.png" />
+    <None Include="Resources\cooltext3309049807506591.png" />
+    <None Include="Resources\cooltext330904980750659.png" />
+    <None Include="Resources\cooltext330686918210470.png" />
+    <None Include="Resources\cooltext330687179807521.png" />
+    <None Include="Resources\cooltext330901595299381.png" />
+    <None Include="Resources\cooltext330901925305166.png" />
+    <None Include="Resources\icono-gestion x 40.png" />
+    <None Include="Resources\icono-gestion x 50.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

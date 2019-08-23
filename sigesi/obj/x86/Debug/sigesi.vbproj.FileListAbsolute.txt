@@ -1,0 +1,83 @@
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.vbproj.GenerateResource.Cache
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.altaAlumno.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.altaSalon.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.bajaUsuario.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.bajaSalon.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.GestioneInformes.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeAdministrativo.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeAdminSIstema.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeBedel.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeDIrector.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeDocente.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.idioma.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.listarAlumno.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.LIstarSalones.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.listarUsuarios.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.altaUsuario.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuAdministrativo.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuAdminSistema.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuAlumno.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuBedel.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuDirector.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.IncidenciasDocente.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuDocente.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.modificarAlumno.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.ModificarSalon.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.modificarUsuario.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.Resources.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.reporteDocente.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.reportes.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.selecUsu.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.splash.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\sigesi.exe
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\sigesi.pdb
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\sigesi.xml
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.exe
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.xml
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.pdb
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.login.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeENG.resources
+C:\Users\Nicolás\Desktop\sigesi ultimo respaldo\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeESP.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.exe
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.xml
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.pdb
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\sigesi.exe
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\sigesi.pdb
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\bin\Debug\sigesi.xml
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.altaAlumno.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.altaSalon.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.bajaUsuario.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.bajaSalon.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.GestioneInformes.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeAdministrativo.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeAdminSIstema.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeBedel.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeDIrector.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.homeDocente.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.idioma.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.listarAlumno.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.LIstarSalones.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.listarUsuarios.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.altaUsuario.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.login.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuAdministrativo.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuAdminSistema.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuAlumno.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuBedel.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuDirector.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.IncidenciasDocente.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.menuDocente.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.modificarAlumno.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.ModificarSalon.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.modificarUsuario.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.Resources.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeENG.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.reporteDocente.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.reportes.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeESP.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.selecUsu.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.splash.resources
+D:\Users\e435323\Downloads\S.I.Ges.I by ASGN Software\sigesi\obj\x86\Debug\sigesi.vbproj.GenerateResource.Cache
+D:\Users\e435323\Downloads\sigi_by_asg_software\sigesi\obj\x86\Debug\sigesi.exe
+D:\Users\e435323\Downloads\sigi_by_asg_software\sigesi\obj\x86\Debug\sigesi.xml
+D:\Users\e435323\Downloads\sigi_by_asg_software\sigesi\obj\x86\Debug\sigesi.pdb

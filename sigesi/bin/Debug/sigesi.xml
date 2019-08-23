@@ -1,0 +1,774 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sigesi
+</name>
+</assembly>
+<members>
+<member name="P:sigesi.My.Resources.RecursoLenguajeESP.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnAtras">
+	<summary>
+  Looks up a localized string similar to Volver.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnBuscar">
+	<summary>
+  Looks up a localized string similar to Buscar.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnEntrar">
+	<summary>
+  Looks up a localized string similar to ENTRAR.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.gpbBuscarAlumnos">
+	<summary>
+  Looks up a localized string similar to Buscar alumno.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblCurso">
+	<summary>
+  Looks up a localized string similar to Curso.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblPwd">
+	<summary>
+  Looks up a localized string similar to CONTRASEÑA.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblUsu">
+	<summary>
+  Looks up a localized string similar to USUARIO.
+</summary>
+</member><member name="T:sigesi.My.Resources.RecursoLenguajeESP">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources._3d_ok_button_AW50GK1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources._500_F_84956590_Ri84B4IhJOV0VEI5xFdSLPPrM7XexyEF">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources._class">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ab880e92f163a6c4033e2fd0b0220fd1_guerra_da_bandeira_espanha_by_vexels">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ab880e92f163a6c4033e2fd0b0220fd1_guerra_da_bandeira_espanha_by_vexels1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.admin_jpg_100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.administrativa_100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.alumnos">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.alumnos_100_x_100_black">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.alumnos_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.asf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.atras_60z60_icono">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.atras_icono">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.back_arrow_icon_isolated_on_glossy_blue_round_button_abstract_illustration_HAMC07">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.bandera_inglaterra">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.bandera_inglaterra1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.bandera_inglaterra2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.bedel_100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.boton_españa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.boton_españa1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica_vertical">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica_vertical1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica_vertical2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica_vertical3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica_vertical4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica_vertical5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.chica2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.classroom_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.clientes">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.clientes1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.clientes2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.clientes3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext325280556753282">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3252805567532821">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3252805567532822">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext330686918210470">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext330687179807521">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext330901595299381">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext330901925305166">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext330904980750659">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3309049807506591">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext330905476616834">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3309054766168341">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3309054766168342">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3309054766168343">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3309054766168344">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext3309054766168345">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext331759147325231">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext332618445056385">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext332621547141440">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.cooltext333538344172539__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_116517602_stock_illustration_closed_spiral_notebook_and_pen_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_116517602_stock_illustration_closed_spiral_notebook_and_pen_copy1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_119317114_stock_illustration_magnifying_glass_isolated_on_white">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_180866944_stock_illustration_magnifying_glass_realistic_isolated_on">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_18324989_stock_photo_dictionary_blue_glossy_icon_on">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_18324989_stock_photo_dictionary_blue_glossy_icon_on1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_24751617_stock_photo_accept_blue_circle_web_glossy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_31598433_stock_photo_classroom_symbol">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_31598433_stock_photo_classroom_symbol_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_79450054_stock_photo_3d_white_people_search_in">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.depositphotos_79450054_stock_photo_3d_white_people_search_in1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.descarga">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.descarga__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.director">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.director_100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.director1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.director2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.director3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.directorAjustada">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.directorfinal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.directorfinal_azul_nuevo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.directorfinal1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.docente_new_100x100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.education_flat_extended_Classroom_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.eliminar_usuario">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.eng">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.esp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.espanol">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.final">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.final_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.final1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.final2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.final3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.finala">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.home_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.home_copy1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.home_docente">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.home_sin_fondo2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.home1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.homeSInFondo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_agregar_ususario_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_agregarUsuario">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_candado">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_candado_40">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Icono_cerrar_FN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Icono_cerrar_FN1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ICONO_CERRAR_SECCION">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ICONO_CERRAR_SECCION_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_gestion_x_40">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_gestion_x_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_house">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_incidencia_50_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_incidencia_50_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_incidencia_50_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_incidencia_60">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_incidencia_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_limpiar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_limpiar_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_lupa">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_mail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Icono_Maximizar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Icono_Maximizar1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Icono_Minimizar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_mo_50x50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono_nuev">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Icono_Restaurar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ICONO_SALONES">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.icono2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.istockphoto_165819519_1024x1024">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.istockphoto_165819519_1024x10241">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_asgn_gr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_asgn_gr1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_asgn_gr2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_asgn_ultima_azul">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_asgn_ultima_azul1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_sigesi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.logo_sigesi1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.lupa_de_busqueda">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.lupa_de_busqueda1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.maaschica">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Mobile_Menu_Icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.moduasdfles_admin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.Preddeyspadlock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.s_employee_module">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.salones">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.salones3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.sfondo_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.sfondo_copy1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.sfondo_copy2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.sfondo_copy3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.sin_fondo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.sinfondo_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.so_simple_sample_image_4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.th4VKLX8GI">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.th9T4XU6J4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.thACZT8YAL">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.thACZT8YAL1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.thACZT8YAL2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.thKR10EJ3W">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.thL4ML6C5E">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.thL4ML6C5E1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ultima">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.ultima1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:sigesi.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAtras">
+	<summary>
+  Looks up a localized string similar to Back.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBuscar">
+	<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEntrar">
+	<summary>
+  Looks up a localized string similar to Enter.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos">
+	<summary>
+  Looks up a localized string similar to Search student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdministrativo">
+	<summary>
+  Looks up a localized string similar to Administrative.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdminSist">
+	<summary>
+  Looks up a localized string similar to System administrator.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAlu">
+	<summary>
+  Looks up a localized string similar to Student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCurso">
+	<summary>
+  Looks up a localized string similar to Course.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDirector">
+	<summary>
+  Looks up a localized string similar to Director.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDocente">
+	<summary>
+  Looks up a localized string similar to Teacher.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblPwd">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblSelecUsu">
+	<summary>
+  Looks up a localized string similar to Choose your type of user.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblUsu">
+	<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member><member name="T:sigesi.My.Resources.RecursoLenguajeENG">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

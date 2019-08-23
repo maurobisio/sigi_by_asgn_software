@@ -1,0 +1,6 @@
+C:\Users\nois\Desktop\pruebaBaseDatos\pruebaBaseDatos\obj\x86\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\pruebaBaseDatos\pruebaBaseDatos\obj\x86\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\pruebaBaseDatos\pruebaBaseDatos\obj\x86\Debug\pruebaBaseDatos.pdb
+C:\Users\nois\Desktop\I.S.Ges.I._by_ASGN_Software\pruebaBaseDatos\obj\x86\Debug\pruebaBaseDatos.exe
+C:\Users\nois\Desktop\I.S.Ges.I._by_ASGN_Software\pruebaBaseDatos\obj\x86\Debug\pruebaBaseDatos.xml
+C:\Users\nois\Desktop\I.S.Ges.I._by_ASGN_Software\pruebaBaseDatos\obj\x86\Debug\pruebaBaseDatos.pdb
