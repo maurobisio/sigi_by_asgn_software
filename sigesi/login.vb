@@ -1,4 +1,6 @@
-﻿Public Class login
+﻿Imports MySql.Data.MySqlClient
+
+Public Class login
 
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click
         Me.Close()
@@ -31,9 +33,37 @@
 
         End If
 
-        Dim MiSingleton As Singleton = Singleton.Instance
+        Dim connection As New MySqlConnection
+        Dim dataAdapter As New MySqlDataAdapter
+        Dim dataSet As New DataSet
+        Dim sql As String
+        Dim switch As Boolean = False
+
+        Try
+            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            sql = "SELECT * FROM usuario WHERE email='" & txtUsu.Text & "' and pass='" & txtPwd.Text & "';"
+            MessageBox.Show(sql)
+            dataAdapter = New MySqlDataAdapter(sql, connection)
+            connection.Open()
+            dataAdapter.Fill(dataSet, "usuario")
+            If (dataSet.Tables("usuario").Rows.Count <> 0) Then
+                'Encontro un usuario'
+                Dim reader = dataAdapter
+                MessageBox.Show("Bienviendo al Sistema" & , "Sistema")
+                switch = True
+            Else
+                MessageBox.Show("Usuario y/o Passoword no válidos", "Sistema")
+            End If
+
+
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+
+        End Try
+
+        'Dim MiSingleton As Singleton = Singleton.Instance
         'Ejemplo de llamada de un Metodo de Singleton
-        MiSingleton.HacerAlgo()
+        'MiSingleton.HacerAlgo()
 
         If txtUsu.Text = "docente" And txtPwd.Text = "docente" Then
             txtUsu.Text = ""

@@ -47,6 +47,71 @@ sigesi
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAtras">
+	<summary>
+  Looks up a localized string similar to Back.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBuscar">
+	<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEntrar">
+	<summary>
+  Looks up a localized string similar to Enter.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos">
+	<summary>
+  Looks up a localized string similar to Search student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdministrativo">
+	<summary>
+  Looks up a localized string similar to Administrative.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdminSist">
+	<summary>
+  Looks up a localized string similar to System administrator.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAlu">
+	<summary>
+  Looks up a localized string similar to Student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCurso">
+	<summary>
+  Looks up a localized string similar to Course.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDirector">
+	<summary>
+  Looks up a localized string similar to Director.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDocente">
+	<summary>
+  Looks up a localized string similar to Teacher.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblPwd">
+	<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblSelecUsu">
+	<summary>
+  Looks up a localized string similar to Choose your type of user.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblUsu">
+	<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member><member name="T:sigesi.My.Resources.RecursoLenguajeENG">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
 </member><member name="P:sigesi.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
@@ -701,71 +766,6 @@ sigesi
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="T:sigesi.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAtras">
-	<summary>
-  Looks up a localized string similar to Back.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBuscar">
-	<summary>
-  Looks up a localized string similar to Search.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEntrar">
-	<summary>
-  Looks up a localized string similar to Enter.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos">
-	<summary>
-  Looks up a localized string similar to Search student.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdministrativo">
-	<summary>
-  Looks up a localized string similar to Administrative.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdminSist">
-	<summary>
-  Looks up a localized string similar to System administrator.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAlu">
-	<summary>
-  Looks up a localized string similar to Student.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCurso">
-	<summary>
-  Looks up a localized string similar to Course.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDirector">
-	<summary>
-  Looks up a localized string similar to Director.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDocente">
-	<summary>
-  Looks up a localized string similar to Teacher.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblPwd">
-	<summary>
-  Looks up a localized string similar to Password.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblSelecUsu">
-	<summary>
-  Looks up a localized string similar to Choose your type of user.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblUsu">
-	<summary>
-  Looks up a localized string similar to User.
-</summary>
-</member><member name="T:sigesi.My.Resources.RecursoLenguajeENG">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
