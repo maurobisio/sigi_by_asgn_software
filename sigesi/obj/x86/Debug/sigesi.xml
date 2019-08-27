@@ -6,7 +6,23 @@ sigesi
 </name>
 </assembly>
 <members>
-<member name="P:sigesi.My.Resources.RecursoLenguajeESP.ResourceManager">
+<member name="M:sigesi.Model1Container.#ctor">
+	<summary>
+ Initializes a new Model1Container object using the connection string found in the 'Model1Container' section of the application configuration file.
+ </summary>
+</member><member name="M:sigesi.Model1Container.#ctor(System.String)">
+	<summary>
+ Initialize a new Model1Container object.
+ </summary>
+</member><member name="M:sigesi.Model1Container.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new Model1Container object.
+ </summary>
+</member><member name="T:sigesi.Model1Container">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

@@ -107,10 +107,10 @@
       <DependentUpon>RecursoLenguajeESP.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\ApplicationEvents.vb" />
-    <Compile Include="bajas\bajaUsuario.Designer.vb">
+    <Compile Include="usuario\bajaUsuario.Designer.vb">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="bajas\bajaUsuario.vb">
+    <Compile Include="usuario\bajaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="bajas\bajaSalon.Designer.vb">
@@ -175,16 +175,16 @@
     <Compile Include="listar\listarSalones.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="listar\listarUsuarios.Designer.vb">
+    <Compile Include="usuario\listarUsuarios.Designer.vb">
       <DependentUpon>listarUsuarios.vb</DependentUpon>
     </Compile>
-    <Compile Include="listar\listarUsuarios.vb">
+    <Compile Include="usuario\listarUsuarios.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="altas\altaUsuario.Designer.vb">
+    <Compile Include="usuario\altaUsuario.Designer.vb">
       <DependentUpon>altaUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="altas\altaUsuario.vb">
+    <Compile Include="usuario\altaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.vb">
@@ -247,10 +247,10 @@
     <Compile Include="modificaciones\modificarSalon.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="modificaciones\modificarUsuario.Designer.vb">
+    <Compile Include="usuario\modificarUsuario.Designer.vb">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="modificaciones\modificarUsuario.vb">
+    <Compile Include="usuario\modificarUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo_idioma.vb" />
@@ -300,7 +300,7 @@
     <EmbeddedResource Include="altas\altaSalon.resx">
       <DependentUpon>altaSalon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bajas\bajaUsuario.resx">
+    <EmbeddedResource Include="usuario\bajaUsuario.resx">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="bajas\bajaSalon.resx">
@@ -333,10 +333,10 @@
     <EmbeddedResource Include="listar\listarSalones.resx">
       <DependentUpon>listarSalones.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="listar\listarUsuarios.resx">
+    <EmbeddedResource Include="usuario\listarUsuarios.resx">
       <DependentUpon>listarUsuarios.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="altas\altaUsuario.resx">
+    <EmbeddedResource Include="usuario\altaUsuario.resx">
       <DependentUpon>altaUsuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
@@ -369,7 +369,7 @@
     <EmbeddedResource Include="modificaciones\modificarSalon.resx">
       <DependentUpon>modificarSalon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="modificaciones\modificarUsuario.resx">
+    <EmbeddedResource Include="usuario\modificarUsuario.resx">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">

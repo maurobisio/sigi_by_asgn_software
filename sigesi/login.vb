@@ -26,94 +26,65 @@ Public Class login
         Else
             If txtUsu.Text = "" Then
                 MsgBox("Ingrese nombre de Usuario ")
-            ElseIf txtPwd.Text = "" Then
-                MsgBox("Ingrese Contraseña")
-
-            End If
-
-        End If
-
-        Dim connection As New MySqlConnection
-        Dim dataAdapter As New MySqlDataAdapter
-        Dim dataSet As New DataSet
-        Dim sql As String
-        Dim switch As Boolean = False
-
-        Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-            sql = "SELECT * FROM usuario WHERE email='" & txtUsu.Text & "' and pass='" & txtPwd.Text & "';"
-            MessageBox.Show(sql)
-            dataAdapter = New MySqlDataAdapter(sql, connection)
-            connection.Open()
-            dataAdapter.Fill(dataSet, "usuario")
-            If (dataSet.Tables("usuario").Rows.Count <> 0) Then
-                'Encontro un usuario'
-                Dim reader = dataAdapter
-                MessageBox.Show("Bienviendo al Sistema" & , "Sistema")
-                switch = True
             Else
-                MessageBox.Show("Usuario y/o Passoword no válidos", "Sistema")
-            End If
+                If txtPwd.Text = "" Then
+                    MsgBox("Ingrese Contraseña")
+                Else
+                    'Establece la conexón con el orgien de los datos
+                    Dim connection As New MySqlConnection
+                    'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+                    Dim dataAdapter As New MySqlDataAdapter
+                    'Contiene los datos resultantes de ejecutar el comando SQL.
+                    Dim dataSet As New DataSet
+                    'Recupera datos del proceedor(SELECT * FROM ...)
+                    Dim command As String
 
+                    Try
+                        connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                        command = "SELECT * FROM usuario WHERE email='" & txtUsu.Text & "' and pass='" & txtPwd.Text & "';"
+                        dataAdapter = New MySqlDataAdapter(command, connection)
+                        'Abrir la conexión
+                        connection.Open()
+                        'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+                        dataAdapter.Fill(dataSet, "usuario")
+                        'cerreamos la conexión
+                        connection.Close()
+                        'Las Tablas, filas y columnas del DataSet se pueden acceder por su índice o por su nombre dataSet.Tables("usuario").Rows[n]
+                        'Encontro un usuario'
+                        If (dataSet.Tables("usuario").Rows.Count <> 0) Then
+                            MsgBox("Bienviendo al Sistema " & dataSet.Tables("usuario").Rows(0)("primer_nombre") & " " & dataSet.Tables("usuario").Rows(0)("apellido"))
 
-        Catch ex As Exception
-            MsgBox(ex.ToString)
+                            'obtengo el rol del usuario'
+                            Dim user_rol = dataSet.Tables("usuario").Rows(0)("id_rol")
+                            MsgBox(user_rol)
 
-        End Try
+                            Select Case user_rol
+                                Case 0
+                                    Me.Hide()
+                                    menuAdminSistema.Show()
+                                Case 1
+                                    Me.Hide()
+                                    menuDirector.Show()
+                                Case 2
+                                    Me.Hide()
+                                    menuBedel.Show()
+                                Case 3
+                                    Me.Hide()
+                                    menuAdministrativo.Show()
+                                Case 4
+                                    Me.Hide()
+                                    menuDocente.Show()
+                                Case 5
+                                    Me.Hide()
+                                    menuAlumno.Show()
+                            End Select
+                        Else
+                        MsgBox("Usuario y/o Contraseña no válidos", "Sistema")
 
-        'Dim MiSingleton As Singleton = Singleton.Instance
-        'Ejemplo de llamada de un Metodo de Singleton
-        'MiSingleton.HacerAlgo()
-
-        If txtUsu.Text = "docente" And txtPwd.Text = "docente" Then
-            txtUsu.Text = ""
-            txtPwd.Text = ""
-            Me.Hide()
-            menuDocente.Show()
-        Else
-
-        End If
-        If txtUsu.Text = "director" And txtPwd.Text = "director" Then
-            txtUsu.Text = ""
-            txtPwd.Text = ""
-            Me.Hide()
-
-            menuDirector.Show()
-        Else
-
-        End If
-        If txtUsu.Text = "root" And txtPwd.Text = "root" Then
-            txtUsu.Text = ""
-            txtPwd.Text = ""
-            Me.Hide()
-            menuAdminSistema.Show()
-        Else
-
-        End If
-        If txtUsu.Text = "bedel" And txtPwd.Text = "bedel" Then
-            txtUsu.Text = ""
-            txtPwd.Text = ""
-            Me.Hide()
-            menuBedel.Show()
-        Else
-
-        End If
-        If txtUsu.Text = "administrativo" And txtPwd.Text = "administrativo" Then
-            txtUsu.Text = ""
-            txtPwd.Text = ""
-            Me.Hide()
-            menuAdministrativo.Show()
-        Else
-            If txtUsu.Text = "alumno" And txtPwd.Text = "alumno" Then
-                txtUsu.Text = ""
-                txtPwd.Text = ""
-                Me.Hide()
-                menuAlumno.Show()
-            Else
-                If txtPwd.Text <> "" And txtUsu.Text <> "" Then
-
-
-                    MsgBox("Contraseña o usuario incorretos")
+                        End If
+                    Catch ex As Exception
+                        MsgBox(ex.ToString)
+                    End Try
                 End If
             End If
         End If
