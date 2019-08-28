@@ -121,3 +121,6 @@ D:\Users\e435323\Documents\GitHub\sigi_by_asg_software\sigesi\obj\x86\Debug\sige
 D:\Users\e435323\Documents\GitHub\sigi_by_asg_software\sigesi\bin\Debug\sigesi.exe
 D:\Users\e435323\Documents\GitHub\sigi_by_asg_software\sigesi\bin\Debug\sigesi.pdb
 D:\Users\e435323\Documents\GitHub\sigi_by_asg_software\sigesi\bin\Debug\sigesi.xml
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.exe
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.xml
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.pdb

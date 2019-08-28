@@ -83,16 +83,16 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="altas\altaAlumno.Designer.vb">
+    <Compile Include="Alumno\altaAlumno.Designer.vb">
       <DependentUpon>altaAlumno.vb</DependentUpon>
     </Compile>
-    <Compile Include="altas\altaAlumno.vb">
+    <Compile Include="Alumno\altaAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="altas\altaSalon.Designer.vb">
+    <Compile Include="Salon\altaSalon.Designer.vb">
       <DependentUpon>altaSalon.vb</DependentUpon>
     </Compile>
-    <Compile Include="altas\altaSalon.vb">
+    <Compile Include="Salon\altaSalon.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Model1.Designer.vb">
@@ -107,16 +107,16 @@
       <DependentUpon>RecursoLenguajeESP.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\ApplicationEvents.vb" />
-    <Compile Include="usuario\bajaUsuario.Designer.vb">
+    <Compile Include="Usuario\bajaUsuario.Designer.vb">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="usuario\bajaUsuario.vb">
+    <Compile Include="Usuario\bajaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="bajas\bajaSalon.Designer.vb">
+    <Compile Include="Salon\bajaSalon.Designer.vb">
       <DependentUpon>bajaSalon.vb</DependentUpon>
     </Compile>
-    <Compile Include="bajas\bajaSalon.vb">
+    <Compile Include="Salon\bajaSalon.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GestionEInformes.Designer.vb">
@@ -125,35 +125,35 @@
     <Compile Include="GestionEInformes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="homes\Class1.vb" />
-    <Compile Include="homes\homeAdministrativo.Designer.vb">
+    <Compile Include="Home\Class1.vb" />
+    <Compile Include="Home\homeAdministrativo.Designer.vb">
       <DependentUpon>homeAdministrativo.vb</DependentUpon>
     </Compile>
-    <Compile Include="homes\homeAdministrativo.vb">
+    <Compile Include="Home\homeAdministrativo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="homes\homeAdminSIstema.Designer.vb">
+    <Compile Include="Home\homeAdminSIstema.Designer.vb">
       <DependentUpon>homeAdminSIstema.vb</DependentUpon>
     </Compile>
-    <Compile Include="homes\homeAdminSIstema.vb">
+    <Compile Include="Home\homeAdminSIstema.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="homes\homeBedel.Designer.vb">
+    <Compile Include="Home\homeBedel.Designer.vb">
       <DependentUpon>homeBedel.vb</DependentUpon>
     </Compile>
-    <Compile Include="homes\homeBedel.vb">
+    <Compile Include="Home\homeBedel.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="homes\homeDIrector.Designer.vb">
+    <Compile Include="Home\homeDIrector.Designer.vb">
       <DependentUpon>homeDIrector.vb</DependentUpon>
     </Compile>
-    <Compile Include="homes\homeDIrector.vb">
+    <Compile Include="Home\homeDIrector.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="homes\homeDocente.Designer.vb">
+    <Compile Include="Home\homeDocente.Designer.vb">
       <DependentUpon>homeDocente.vb</DependentUpon>
     </Compile>
-    <Compile Include="homes\homeDocente.vb">
+    <Compile Include="Home\homeDocente.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="idioma.Designer.vb">
@@ -163,28 +163,28 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="limpiarFormulario.vb" />
-    <Compile Include="listar\listarAlumno.Designer.vb">
+    <Compile Include="Alumno\listarAlumno.Designer.vb">
       <DependentUpon>listarAlumno.vb</DependentUpon>
     </Compile>
-    <Compile Include="listar\listarAlumno.vb">
+    <Compile Include="Alumno\listarAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="listar\listarSalones.Designer.vb">
+    <Compile Include="Salon\listarSalones.Designer.vb">
       <DependentUpon>listarSalones.vb</DependentUpon>
     </Compile>
-    <Compile Include="listar\listarSalones.vb">
+    <Compile Include="Salon\listarSalones.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="usuario\listarUsuarios.Designer.vb">
+    <Compile Include="Usuario\listarUsuarios.Designer.vb">
       <DependentUpon>listarUsuarios.vb</DependentUpon>
     </Compile>
-    <Compile Include="usuario\listarUsuarios.vb">
+    <Compile Include="Usuario\listarUsuarios.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="usuario\altaUsuario.Designer.vb">
+    <Compile Include="Usuario\altaUsuario.Designer.vb">
       <DependentUpon>altaUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="usuario\altaUsuario.vb">
+    <Compile Include="Usuario\altaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.vb">
@@ -193,34 +193,34 @@
     <Compile Include="login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu\menuAdministrativo.Designer.vb">
+    <Compile Include="Menu\menuAdministrativo.Designer.vb">
       <DependentUpon>menuAdministrativo.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu\menuAdministrativo.vb">
+    <Compile Include="Menu\menuAdministrativo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu\menuAdminSistema.Designer.vb">
+    <Compile Include="Menu\menuAdminSistema.Designer.vb">
       <DependentUpon>menuAdminSistema.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu\menuAdminSistema.vb">
+    <Compile Include="Menu\menuAdminSistema.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu\menuAlumno.Designer.vb">
+    <Compile Include="Menu\menuAlumno.Designer.vb">
       <DependentUpon>menuAlumno.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu\menuAlumno.vb">
+    <Compile Include="Menu\menuAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu\menuBedel.Designer.vb">
+    <Compile Include="Menu\menuBedel.Designer.vb">
       <DependentUpon>menuBedel.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu\menuBedel.vb">
+    <Compile Include="Menu\menuBedel.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu\menuDirector.Designer.vb">
+    <Compile Include="Menu\menuDirector.Designer.vb">
       <DependentUpon>menuDirector.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu\menuDirector.vb">
+    <Compile Include="Menu\menuDirector.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IncidenciasDocente.Designer.vb">
@@ -229,28 +229,28 @@
     <Compile Include="IncidenciasDocente.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu\menuDocente.Designer.vb">
+    <Compile Include="Menu\menuDocente.Designer.vb">
       <DependentUpon>menuDocente.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu\menuDocente.vb">
+    <Compile Include="Menu\menuDocente.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="modificaciones\modificarAlumno.Designer.vb">
+    <Compile Include="Alumno\modificarAlumno.Designer.vb">
       <DependentUpon>modificarAlumno.vb</DependentUpon>
     </Compile>
-    <Compile Include="modificaciones\modificarAlumno.vb">
+    <Compile Include="Alumno\modificarAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="modificaciones\modificarSalon.Designer.vb">
+    <Compile Include="Salon\modificarSalon.Designer.vb">
       <DependentUpon>modificarSalon.vb</DependentUpon>
     </Compile>
-    <Compile Include="modificaciones\modificarSalon.vb">
+    <Compile Include="Salon\modificarSalon.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="usuario\modificarUsuario.Designer.vb">
+    <Compile Include="Usuario\modificarUsuario.Designer.vb">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="usuario\modificarUsuario.vb">
+    <Compile Include="Usuario\modificarUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modulo_idioma.vb" />
@@ -294,82 +294,82 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="altas\altaAlumno.resx">
+    <EmbeddedResource Include="Alumno\altaAlumno.resx">
       <DependentUpon>altaAlumno.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="altas\altaSalon.resx">
+    <EmbeddedResource Include="Salon\altaSalon.resx">
       <DependentUpon>altaSalon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usuario\bajaUsuario.resx">
+    <EmbeddedResource Include="Usuario\bajaUsuario.resx">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="bajas\bajaSalon.resx">
+    <EmbeddedResource Include="Salon\bajaSalon.resx">
       <DependentUpon>bajaSalon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionEInformes.resx">
       <DependentUpon>GestionEInformes.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homes\homeAdministrativo.resx">
+    <EmbeddedResource Include="Home\homeAdministrativo.resx">
       <DependentUpon>homeAdministrativo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homes\homeAdminSIstema.resx">
+    <EmbeddedResource Include="Home\homeAdminSIstema.resx">
       <DependentUpon>homeAdminSIstema.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homes\homeBedel.resx">
+    <EmbeddedResource Include="Home\homeBedel.resx">
       <DependentUpon>homeBedel.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homes\homeDIrector.resx">
+    <EmbeddedResource Include="Home\homeDIrector.resx">
       <DependentUpon>homeDIrector.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="homes\homeDocente.resx">
+    <EmbeddedResource Include="Home\homeDocente.resx">
       <DependentUpon>homeDocente.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="idioma.resx">
       <DependentUpon>idioma.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="listar\listarAlumno.resx">
+    <EmbeddedResource Include="Alumno\listarAlumno.resx">
       <DependentUpon>listarAlumno.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="listar\listarSalones.resx">
+    <EmbeddedResource Include="Salon\listarSalones.resx">
       <DependentUpon>listarSalones.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usuario\listarUsuarios.resx">
+    <EmbeddedResource Include="Usuario\listarUsuarios.resx">
       <DependentUpon>listarUsuarios.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usuario\altaUsuario.resx">
+    <EmbeddedResource Include="Usuario\altaUsuario.resx">
       <DependentUpon>altaUsuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu\menuAdministrativo.resx">
+    <EmbeddedResource Include="Menu\menuAdministrativo.resx">
       <DependentUpon>menuAdministrativo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu\menuAdminSistema.resx">
+    <EmbeddedResource Include="Menu\menuAdminSistema.resx">
       <DependentUpon>menuAdminSistema.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu\menuAlumno.resx">
+    <EmbeddedResource Include="Menu\menuAlumno.resx">
       <DependentUpon>menuAlumno.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu\menuBedel.resx">
+    <EmbeddedResource Include="Menu\menuBedel.resx">
       <DependentUpon>menuBedel.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu\menuDirector.resx">
+    <EmbeddedResource Include="Menu\menuDirector.resx">
       <DependentUpon>menuDirector.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IncidenciasDocente.resx">
       <DependentUpon>IncidenciasDocente.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu\menuDocente.resx">
+    <EmbeddedResource Include="Menu\menuDocente.resx">
       <DependentUpon>menuDocente.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="modificaciones\modificarAlumno.resx">
+    <EmbeddedResource Include="Alumno\modificarAlumno.resx">
       <DependentUpon>modificarAlumno.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="modificaciones\modificarSalon.resx">
+    <EmbeddedResource Include="Salon\modificarSalon.resx">
       <DependentUpon>modificarSalon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usuario\modificarUsuario.resx">
+    <EmbeddedResource Include="Usuario\modificarUsuario.resx">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
