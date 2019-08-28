@@ -22,47 +22,6 @@ sigesi
 	<summary>
  No Metadata Documentation available.
  </summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnAtras">
-	<summary>
-  Looks up a localized string similar to Volver.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnBuscar">
-	<summary>
-  Looks up a localized string similar to Buscar.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnEntrar">
-	<summary>
-  Looks up a localized string similar to ENTRAR.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.gpbBuscarAlumnos">
-	<summary>
-  Looks up a localized string similar to Buscar alumno.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblCurso">
-	<summary>
-  Looks up a localized string similar to Curso.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblPwd">
-	<summary>
-  Looks up a localized string similar to CONTRASEÑA.
-</summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblUsu">
-	<summary>
-  Looks up a localized string similar to USUARIO.
-</summary>
-</member><member name="T:sigesi.My.Resources.RecursoLenguajeESP">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
@@ -782,6 +741,47 @@ sigesi
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="T:sigesi.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnAtras">
+	<summary>
+  Looks up a localized string similar to Volver.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnBuscar">
+	<summary>
+  Looks up a localized string similar to Buscar.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.btnEntrar">
+	<summary>
+  Looks up a localized string similar to ENTRAR.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.gpbBuscarAlumnos">
+	<summary>
+  Looks up a localized string similar to Buscar alumno.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblCurso">
+	<summary>
+  Looks up a localized string similar to Curso.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblPwd">
+	<summary>
+  Looks up a localized string similar to CONTRASEÑA.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeESP.lblUsu">
+	<summary>
+  Looks up a localized string similar to USUARIO.
+</summary>
+</member><member name="T:sigesi.My.Resources.RecursoLenguajeESP">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
