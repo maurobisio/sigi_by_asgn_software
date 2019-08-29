@@ -101,6 +101,18 @@
     <Compile Include="Materia\bajaMateria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Materia\listarMateria.Designer.vb">
+      <DependentUpon>listarMateria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materia\listarMateria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materia\modificarMateria.Designer.vb">
+      <DependentUpon>modificarMateria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materia\modificarMateria.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Salon\altaSalon.Designer.vb">
       <DependentUpon>altaSalon.vb</DependentUpon>
     </Compile>
@@ -314,6 +326,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\bajaMateria.resx">
       <DependentUpon>bajaMateria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materia\listarMateria.resx">
+      <DependentUpon>listarMateria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materia\modificarMateria.resx">
+      <DependentUpon>modificarMateria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Salon\altaSalon.resx">
       <DependentUpon>altaSalon.vb</DependentUpon>

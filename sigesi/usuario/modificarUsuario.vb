@@ -172,4 +172,84 @@ Public Class modificarUsuario
     Private Sub cboRoll_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cboRoll.KeyPress
         e.Handled = True
     End Sub
+
+    Private Sub lbl9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl9.Click
+
+    End Sub
+
+    Private Sub txtCi_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtCi.TextChanged
+
+    End Sub
+
+    Private Sub txtApe_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtApe.TextChanged
+
+    End Sub
+
+    Private Sub txtNom2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNom2.TextChanged
+
+    End Sub
+
+    Private Sub lbl7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl7.Click
+
+    End Sub
+
+    Private Sub cboRoll_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cboRoll.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub lbl5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl5.Click
+
+    End Sub
+
+    Private Sub lbl1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl1.Click
+
+    End Sub
+
+    Private Sub lbl2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl2.Click
+
+    End Sub
+
+    Private Sub lbl3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl3.Click
+
+    End Sub
+
+    Private Sub txtPwd_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtPwd.TextChanged
+
+    End Sub
+
+    Private Sub txtNom1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNom1.TextChanged
+
+    End Sub
+
+    Private Sub txtEmail_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtEmail.TextChanged
+
+    End Sub
+
+    Private Sub lbl4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl4.Click
+
+    End Sub
+
+    Private Sub txtDir_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtDir.TextChanged
+
+    End Sub
+
+    Private Sub lbl6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl6.Click
+
+    End Sub
+
+    Private Sub txtTel_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtTel.TextChanged
+
+    End Sub
+
+    Private Sub lblTitulo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblTitulo.Click
+
+    End Sub
+
+    Private Sub lblAyuda_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblAyuda.Click
+
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+
+    End Sub
 End Class

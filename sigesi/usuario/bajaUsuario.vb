@@ -110,4 +110,8 @@ Public Class bajaUsuario
     Private Sub txtNom_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
+
+    Private Sub lblCi_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblCi.Click
+
+    End Sub
 End Class
