@@ -87,4 +87,8 @@
     Private Sub pnlCentral_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles pnlCentral.Paint
 
     End Sub
+
+    Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
+        abrirFormPanel(New listarMateria)
+    End Sub
 End Class

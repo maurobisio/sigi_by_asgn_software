@@ -161,3 +161,7 @@ D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sig
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeESP.resources
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.selecUsu.resources
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.vbproj.GenerateResource.Cache
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaMateria.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaMateria.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listarMateria.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarMateria.resources

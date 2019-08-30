@@ -22,12 +22,18 @@ CREATE TABLE usuario(
                     segundo_nombre varchar(100),
                     apellido varchar(100),
                     direccion varchar(100),
-                    telefono integer not null,
                     email varchar(50),
                     pass varchar(50),
                     id_rol integer not null,
                     primary key (ci),
                     foreign key (id_rol) references rol (id_rol)
+                    );
+
+CREATE TABLE usuario_telefono(
+					ci integer not null,
+                    telefono integer not null,
+                    primary key (ci, telefono),
+                    foreign key (ci) references usuario (ci)
                     );
                     
 CREATE TABLE documento(
@@ -157,5 +163,17 @@ VALUES ('4', 'docente', 'docente', 'docente', 'docente', 'docente', 'docente','4
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('5', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno','5');
 
+INSERT INTO materia (id_materia, nom_materia, año) 
+VALUES ('0','Fisica', '2019');
 
-                    
+INSERT INTO materia (id_materia, nom_materia, año) 
+VALUES ('1','Quimica', '2019');
+
+INSERT INTO materia (id_materia, nom_materia, año) 
+VALUES ('2','Sociologia', '2019');
+
+INSERT INTO materia (id_materia, nom_materia, año) 
+VALUES ('3','Historia', '2019');
+
+INSERT INTO materia (id_materia, nom_materia, año) 
+VALUES ('4','Base de Datos', '2019');

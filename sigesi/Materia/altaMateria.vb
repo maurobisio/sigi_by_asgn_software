@@ -3,7 +3,7 @@
 Public Class altaMateria
 
     Private Sub aceptar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles aceptar.Click
-        If txtCod.Text = "" Or txtNom.Text = "" Or txtAño.Text = "" = "" Then
+        If txtCod.Text = "" Or txtNom.Text = "" Or txtAño.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -20,7 +20,6 @@ Public Class altaMateria
                 command = "INSERT INTO materia (id_materia, nom_materia, año) "
                 command += "VALUES ('" + txtCod.Text
                 command += "', '" + txtNom.Text
-                command += "','" + txtAño.Text
                 command += "', '" + txtAño.Text + "');"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -28,7 +27,7 @@ Public Class altaMateria
                 connection.Open()
                 'Llenamos el dataSet con el método Fill() del objeto dataAdapter
                 dataAdapter.Fill(dataSet, "usuario")
-                MsgBox("Usuario ingresado correctamente")
+                MsgBox("Materia ingresada correctamente")
                 Call LimpiarForm(Me)
 
                 connection.Close()

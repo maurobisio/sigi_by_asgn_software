@@ -24,14 +24,15 @@ Public Class modificarMateria
                 command = "UPDATE materia SET "
                 command += "id_materia='" + txtCod.Text
                 command += "', nom_materia='" + txtNom.Text
-                command += "', año='" + txtAño.Text + "';"
+                command += "', año='" + txtAño.Text
+                command += "' WHERE id_materia='" + txtCod.Text + "';"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
                 connection.Open()
                 'Llenamos el dataSet con el método Fill() del objeto dataAdapter
                 dataAdapter.Fill(dataSet, "materia")
-                MsgBox("Usuario modificado correctamente")
+                MsgBox("Materia modificada correctamente")
                 Call LimpiarForm(Me)
 
                 connection.Close()
@@ -42,7 +43,6 @@ Public Class modificarMateria
             loadGrid()
         End If
 
-    End Sub
     End Sub
 
     Sub loadGrid()
@@ -75,5 +75,13 @@ Public Class modificarMateria
 
     Private Sub modificarMateria_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         loadGrid()
+    End Sub
+
+    Private Sub dgvModificarUsu_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvModificarUsu.CellClick
+        Dim i As Integer
+        i = dgvModificarUsu.CurrentRow.Index
+        txtCod.Text = dgvModificarUsu.Item(0, i).Value()
+        txtNom.Text = dgvModificarUsu.Item(1, i).Value()
+        txtAño.Text = dgvModificarUsu.Item(2, i).Value()
     End Sub
 End Class
