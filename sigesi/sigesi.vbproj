@@ -89,6 +89,12 @@
     <Compile Include="Alumno\altaAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Grupo\altaGrupo.Designer.vb">
+      <DependentUpon>altaGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\altaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Materia\altaMateria.Designer.vb">
       <DependentUpon>altaMateria.vb</DependentUpon>
     </Compile>
@@ -320,6 +326,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Alumno\altaAlumno.resx">
       <DependentUpon>altaAlumno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupo\altaGrupo.resx">
+      <DependentUpon>altaGrupo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\altaMateria.resx">
       <DependentUpon>altaMateria.vb</DependentUpon>

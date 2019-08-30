@@ -70,16 +70,18 @@ CREATE TABLE pertenece(
                     );
 
 CREATE TABLE edificio(
+                    id_edificio integer not null,
 					tipo_edificio varchar(50),
-                    primary key (tipo_edificio)
+                    primary key (id_edificio)
                     );
 	
 CREATE TABLE grupo(
+                    id_grupo integer not null,
 					nombre_grupo varchar(10),
                     turno varchar(20),
-                    tipo_edificio varchar(50),
-                    primary key (nombre_grupo),
-                    foreign key (tipo_edificio) references edificio (tipo_edificio)
+                    id_edificio integer not null,
+                    primary key (id_grupo),
+                    foreign key (id_edificio) references edificio (id_edificio)
                     );
                     
 CREATE TABLE materia(
