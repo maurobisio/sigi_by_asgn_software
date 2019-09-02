@@ -107,7 +107,7 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalones.Click
-        abrirFormPanel(New LIstarSalones)
+        abrirFormPanel(New listarEdificio)
     End Sub
 
     Private Sub btnSalir_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click

@@ -89,10 +89,52 @@
     <Compile Include="Alumno\altaAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Edificio\altaEdificio.Designer.vb">
+      <DependentUpon>altaEdificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edificio\altaEdificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edificio\bajaEdificio.Designer.vb">
+      <DependentUpon>bajaEdificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edificio\bajaEdificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edificio\listarEdificio.Designer.vb">
+      <DependentUpon>listarEdificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edificio\listarEdificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edificio\modificarEdificio.Designer.vb">
+      <DependentUpon>modificarEdificio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edificio\modificarEdificio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Grupo\altaGrupo.Designer.vb">
       <DependentUpon>altaGrupo.vb</DependentUpon>
     </Compile>
     <Compile Include="Grupo\altaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupo\bajaGrupo.Designer.vb">
+      <DependentUpon>bajaGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\bajaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupo\listarGrupo.Designer.vb">
+      <DependentUpon>listarGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\listarGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupo\modificarGrupo.Designer.vb">
+      <DependentUpon>modificarGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\modificarGrupo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Materia\altaMateria.Designer.vb">
@@ -119,17 +161,6 @@
     <Compile Include="Materia\modificarMateria.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Salon\altaSalon.Designer.vb">
-      <DependentUpon>altaSalon.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Salon\altaSalon.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Model1.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Singleton.vb" />
     <Compile Include="RecursoLenguajeESP.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -143,19 +174,12 @@
     <Compile Include="Usuario\bajaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Salon\bajaSalon.Designer.vb">
-      <DependentUpon>bajaSalon.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Salon\bajaSalon.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="GestionEInformes.Designer.vb">
       <DependentUpon>GestionEInformes.vb</DependentUpon>
     </Compile>
     <Compile Include="GestionEInformes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home\Class1.vb" />
     <Compile Include="Home\homeAdministrativo.Designer.vb">
       <DependentUpon>homeAdministrativo.vb</DependentUpon>
     </Compile>
@@ -197,12 +221,6 @@
       <DependentUpon>listarAlumno.vb</DependentUpon>
     </Compile>
     <Compile Include="Alumno\listarAlumno.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Salon\listarSalones.Designer.vb">
-      <DependentUpon>listarSalones.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Salon\listarSalones.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Usuario\listarUsuarios.Designer.vb">
@@ -271,12 +289,6 @@
     <Compile Include="Alumno\modificarAlumno.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Salon\modificarSalon.Designer.vb">
-      <DependentUpon>modificarSalon.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Salon\modificarSalon.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Usuario\modificarUsuario.Designer.vb">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </Compile>
@@ -327,8 +339,29 @@
     <EmbeddedResource Include="Alumno\altaAlumno.resx">
       <DependentUpon>altaAlumno.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Edificio\altaEdificio.resx">
+      <DependentUpon>altaEdificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edificio\bajaEdificio.resx">
+      <DependentUpon>bajaEdificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edificio\listarEdificio.resx">
+      <DependentUpon>listarEdificio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edificio\modificarEdificio.resx">
+      <DependentUpon>modificarEdificio.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Grupo\altaGrupo.resx">
       <DependentUpon>altaGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupo\bajaGrupo.resx">
+      <DependentUpon>bajaGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupo\listarGrupo.resx">
+      <DependentUpon>listarGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupo\modificarGrupo.resx">
+      <DependentUpon>modificarGrupo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\altaMateria.resx">
       <DependentUpon>altaMateria.vb</DependentUpon>
@@ -342,14 +375,8 @@
     <EmbeddedResource Include="Materia\modificarMateria.resx">
       <DependentUpon>modificarMateria.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Salon\altaSalon.resx">
-      <DependentUpon>altaSalon.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Usuario\bajaUsuario.resx">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Salon\bajaSalon.resx">
-      <DependentUpon>bajaSalon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionEInformes.resx">
       <DependentUpon>GestionEInformes.vb</DependentUpon>
@@ -374,9 +401,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Alumno\listarAlumno.resx">
       <DependentUpon>listarAlumno.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Salon\listarSalones.resx">
-      <DependentUpon>listarSalones.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario\listarUsuarios.resx">
       <DependentUpon>listarUsuarios.vb</DependentUpon>
@@ -411,9 +435,6 @@
     <EmbeddedResource Include="Alumno\modificarAlumno.resx">
       <DependentUpon>modificarAlumno.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Salon\modificarSalon.resx">
-      <DependentUpon>modificarSalon.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Usuario\modificarUsuario.resx">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </EmbeddedResource>
@@ -444,10 +465,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Model1.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.vb</LastGenOutput>
-    </EntityDeploy>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

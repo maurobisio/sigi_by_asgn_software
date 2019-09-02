@@ -48,7 +48,7 @@
         abrirFormPanel(New homeBedel)
     End Sub
     Private Sub btnSalones_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(New LIstarSalones)
+        abrirFormPanel(New listarEdificio)
 
     End Sub
 
@@ -107,7 +107,7 @@
     End Sub
 
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalones.Click
-        abrirFormPanel(New LIstarSalones)
+        abrirFormPanel(New listarEdificio)
     End Sub
 
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnreportes.Click

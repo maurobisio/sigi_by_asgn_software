@@ -14,7 +14,7 @@ Public Class listarGrupo
 
         Try
             connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-            command = "SELECT id_grupo, nombre_grupo, turno, tipo_edificio FROM grupo INNER JOIN edificio ON gripo.id_edificio = edificio.id_edificio;"
+            command = "SELECT id_grupo, nombre_grupo, turno, tipo_edificio FROM grupo INNER JOIN edificio ON grupo.id_edificio = edificio.id_edificio;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
             connection.Open()

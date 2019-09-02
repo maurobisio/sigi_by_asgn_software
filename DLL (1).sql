@@ -94,10 +94,10 @@ CREATE TABLE materia(
 CREATE TABLE tiene (
                     id_tiene int not null,
 					id_materia int not null,
-                    nombre_grupo varchar(10),
-                    primary key (id_tiene, id_materia, nombre_grupo),
+                    id_grupo integer not null,
+                    primary key (id_tiene, id_materia, id_grupo),
                     foreign key (id_materia) references materia (id_materia),
-                    foreign key (nombre_grupo) references grupo (nombre_grupo)
+                    foreign key (id_grupo) references grupo (id_grupo)
                     );
 	
 CREATE TABLE registro_tiene(
@@ -179,3 +179,22 @@ VALUES ('3','Historia', '2019');
 
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('4','Base de Datos', '2019');
+
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('0','Central');
+
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('1','Anexo 1');
+
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Anexo 2');
+
+INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
+VALUES ('0','3ro HI', 'Maturino', '0');
+
+INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
+VALUES ('1','2ro HI', 'Vespertino', '1');
+
+INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
+VALUES ('2','1ro HI', 'Nocturno', '2');
+

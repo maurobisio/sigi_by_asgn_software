@@ -91,4 +91,12 @@
     Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
         abrirFormPanel(New listarMateria)
     End Sub
+
+    Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
+        abrirFormPanel(New listarGrupo)
+    End Sub
+
+    Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
+        abrirFormPanel(New listarEdificio)
+    End Sub
 End Class
