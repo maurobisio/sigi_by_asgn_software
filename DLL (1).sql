@@ -11,27 +11,27 @@ SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EV
 USE `sigesi`;
 
 CREATE TABLE rol(
-					id_rol integer not null,
+					id_rol int not null,
                     nombre_rol varchar(50),
                     primary  key (id_rol)
 					);
 
 CREATE TABLE usuario(
-					ci integer not null,
+					ci int not null,
                     primer_nombre varchar(100),
                     segundo_nombre varchar(100),
                     apellido varchar(100),
                     direccion varchar(100),
                     email varchar(50),
                     pass varchar(50),
-                    id_rol integer not null,
+                    id_rol int not null,
                     primary key (ci),
                     foreign key (id_rol) references rol (id_rol)
                     );
 
 CREATE TABLE usuario_telefono(
-					ci integer not null,
-                    telefono integer not null,
+					ci int not null,
+                    telefono int not null,
                     primary key (ci, telefono),
                     foreign key (ci) references usuario (ci)
                     );
@@ -42,7 +42,7 @@ CREATE TABLE documento(
                     );
                     
 CREATE TABLE solicita(
-					ci integer not null,
+					ci int not null,
                     fecha date not null,
                     hora time(6) not null,
                     tipo_doc varchar(100),
@@ -51,7 +51,7 @@ CREATE TABLE solicita(
                     );
                     
 CREATE TABLE solicita_gestiona(
-					ci integer not null,
+					ci int not null,
                     fecha date not null,
                     hora time(6) not null,
                     tipo_doc varchar(100),
@@ -60,26 +60,17 @@ CREATE TABLE solicita_gestiona(
                     foreign key (tipo_doc) references documento (tipo_doc)
                     );
                     
-CREATE TABLE pertenece(
-					ci integer not null,
-                    nro_lista int not null,
-                    turno varchar(20),
-                    nombre_grupo varchar(10),
-                    primary key (ci),
-                    foreign key (ci) references usuario (ci)
-                    );
-
 CREATE TABLE edificio(
-                    id_edificio integer not null,
+                    id_edificio int not null,
 					tipo_edificio varchar(50),
                     primary key (id_edificio)
                     );
 	
 CREATE TABLE grupo(
-                    id_grupo integer not null,
+                    id_grupo int not null,
 					nombre_grupo varchar(10),
                     turno varchar(20),
-                    id_edificio integer not null,
+                    id_edificio int not null,
                     primary key (id_grupo),
                     foreign key (id_edificio) references edificio (id_edificio)
                     );
@@ -92,12 +83,21 @@ CREATE TABLE materia(
                     );
                     
 CREATE TABLE tiene (
-                    id_tiene int not null,
+                    id_tiene int not null AUTO_INCREMENT,
 					id_materia int not null,
-                    id_grupo integer not null,
+                    id_grupo int not null,
                     primary key (id_tiene, id_materia, id_grupo),
                     foreign key (id_materia) references materia (id_materia),
                     foreign key (id_grupo) references grupo (id_grupo)
+                    );
+
+CREATE TABLE pertenece(
+					ci int not null,
+                    id_tiene int not null,
+                    nro_lista int not null,
+                    primary key (ci, id_tiene),
+                    foreign key (ci) references usuario (ci),
+                    foreign key (id_tiene) references tiene (id_tiene)
                     );
 	
 CREATE TABLE registro_tiene(
@@ -108,7 +108,7 @@ CREATE TABLE registro_tiene(
                     promedio_1 int,
                     promedio_2 int,
                     promedio_3 int,
-                    ci integer not null,
+                    ci int not null,
 					primary key (id_registro_tiene, id_tiene, ci),
                     foreign key (id_tiene) references tiene (id_tiene),
                     foreign key (ci) references usuario (ci)
@@ -117,7 +117,7 @@ CREATE TABLE registro_tiene(
 CREATE TABLE registro_notas(
 					id_registro_nota int not null,
 					id_tiene int not null,
-                    ci integer not null,
+                    ci int not null,
                     notas int,
                     primary key (id_tiene, id_registro_nota, ci),
                     foreign key (id_tiene) references tiene (id_tiene),
@@ -127,7 +127,7 @@ CREATE TABLE registro_notas(
 CREATE TABLE registro_faltas(
 					id_registro_faltas int not null,
 					id_tiene int not null,
-                    ci integer not null,
+                    ci int not null,
                     faltas int,
                     primary key (id_tiene, id_registro_faltas, ci),
                     foreign key (id_tiene) references tiene (id_tiene),
@@ -190,7 +190,7 @@ INSERT INTO edificio (id_edificio, tipo_edificio)
 VALUES ('2','Anexo 2');
 
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
-VALUES ('0','3ro HI', 'Maturino', '0');
+VALUES ('0','3ro HI', 'Matutino', '0');
 
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
 VALUES ('1','2ro HI', 'Vespertino', '1');
@@ -198,3 +198,8 @@ VALUES ('1','2ro HI', 'Vespertino', '1');
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
 VALUES ('2','1ro HI', 'Nocturno', '2');
 
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('0','0');
+
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('5','1','0');

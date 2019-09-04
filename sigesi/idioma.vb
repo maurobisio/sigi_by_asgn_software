@@ -24,7 +24,7 @@
         login.lblPwd.Text = sigesi.My.Resources.RecursoLenguajeESP.lblPwd
         login.btnAtras.Text = sigesi.My.Resources.RecursoLenguajeESP.btnAtras
         login.btnEntrar.Text = sigesi.My.Resources.RecursoLenguajeESP.btnEntrar
-        listarAlumno.gpbBuscarAlumnos.Text = sigesi.My.Resources.RecursoLenguajeESP.gpbBuscarAlumnos
+        listarInscripcion.gpbBuscarAlumnos.Text = sigesi.My.Resources.RecursoLenguajeESP.gpbBuscarAlumnos
     End Function
 
 
@@ -45,9 +45,9 @@
         login.lblPwd.Text = sigesi.My.Resources.RecursoLenguajeENG.lblPwd
         login.btnAtras.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAtras
         login.btnEntrar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEntrar
-        listarAlumno.gpbBuscarAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos
-        listarAlumno.lblCurso.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCurso
-        listarAlumno.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+        listarInscripcion.gpbBuscarAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos
+        listarInscripcion.lblCurso.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCurso
+        listarInscripcion.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
     End Function
 

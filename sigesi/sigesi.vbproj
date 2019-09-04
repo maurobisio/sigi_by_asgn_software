@@ -83,12 +83,6 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno\altaAlumno.Designer.vb">
-      <DependentUpon>altaAlumno.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Alumno\altaAlumno.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Edificio\altaEdificio.Designer.vb">
       <DependentUpon>altaEdificio.vb</DependentUpon>
     </Compile>
@@ -113,6 +107,24 @@
     <Compile Include="Edificio\modificarEdificio.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GrupoTieneMaterias\altaMateriaGrupo.Designer.vb">
+      <DependentUpon>altaMateriaGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoTieneMaterias\altaMateriaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupoTieneMaterias\bajaMateriaGrupo.Designer.vb">
+      <DependentUpon>bajaMateriaGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoTieneMaterias\bajaMateriaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrupoTieneMaterias\listarMateriaGrupo.Designer.vb">
+      <DependentUpon>listarMateriaGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoTieneMaterias\listarMateriaGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Grupo\altaGrupo.Designer.vb">
       <DependentUpon>altaGrupo.vb</DependentUpon>
     </Compile>
@@ -135,6 +147,18 @@
       <DependentUpon>modificarGrupo.vb</DependentUpon>
     </Compile>
     <Compile Include="Grupo\modificarGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Incidencias\altaIncidencia.Designer.vb">
+      <DependentUpon>altaIncidencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Incidencias\altaIncidencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Incidencias\listaIncidencias.Designer.vb">
+      <DependentUpon>listaIncidencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Incidencias\listaIncidencias.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Materia\altaMateria.Designer.vb">
@@ -217,10 +241,10 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="limpiarFormulario.vb" />
-    <Compile Include="Alumno\listarAlumno.Designer.vb">
-      <DependentUpon>listarAlumno.vb</DependentUpon>
+    <Compile Include="Inscripciones\listarInscripcion.Designer.vb">
+      <DependentUpon>listarInscripcion.vb</DependentUpon>
     </Compile>
-    <Compile Include="Alumno\listarAlumno.vb">
+    <Compile Include="Inscripciones\listarInscripcion.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Usuario\listarUsuarios.Designer.vb">
@@ -283,12 +307,6 @@
     <Compile Include="Menu\menuDocente.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Alumno\modificarAlumno.Designer.vb">
-      <DependentUpon>modificarAlumno.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Alumno\modificarAlumno.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Usuario\modificarUsuario.Designer.vb">
       <DependentUpon>modificarUsuario.vb</DependentUpon>
     </Compile>
@@ -336,9 +354,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Alumno\altaAlumno.resx">
-      <DependentUpon>altaAlumno.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Edificio\altaEdificio.resx">
       <DependentUpon>altaEdificio.vb</DependentUpon>
     </EmbeddedResource>
@@ -351,6 +366,15 @@
     <EmbeddedResource Include="Edificio\modificarEdificio.resx">
       <DependentUpon>modificarEdificio.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GrupoTieneMaterias\altaMateriaGrupo.resx">
+      <DependentUpon>altaMateriaGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupoTieneMaterias\bajaMateriaGrupo.resx">
+      <DependentUpon>bajaMateriaGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrupoTieneMaterias\listarMateriaGrupo.resx">
+      <DependentUpon>listarMateriaGrupo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Grupo\altaGrupo.resx">
       <DependentUpon>altaGrupo.vb</DependentUpon>
     </EmbeddedResource>
@@ -362,6 +386,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Grupo\modificarGrupo.resx">
       <DependentUpon>modificarGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Incidencias\altaIncidencia.resx">
+      <DependentUpon>altaIncidencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Incidencias\listaIncidencias.resx">
+      <DependentUpon>listaIncidencias.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\altaMateria.resx">
       <DependentUpon>altaMateria.vb</DependentUpon>
@@ -399,8 +429,8 @@
     <EmbeddedResource Include="idioma.resx">
       <DependentUpon>idioma.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Alumno\listarAlumno.resx">
-      <DependentUpon>listarAlumno.vb</DependentUpon>
+    <EmbeddedResource Include="Inscripciones\listarInscripcion.resx">
+      <DependentUpon>listarInscripcion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario\listarUsuarios.resx">
       <DependentUpon>listarUsuarios.vb</DependentUpon>
@@ -431,9 +461,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\menuDocente.resx">
       <DependentUpon>menuDocente.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Alumno\modificarAlumno.resx">
-      <DependentUpon>modificarAlumno.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario\modificarUsuario.resx">
       <DependentUpon>modificarUsuario.vb</DependentUpon>

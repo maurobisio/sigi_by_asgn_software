@@ -24,6 +24,8 @@ Partial Class menuAdminSistema
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
+        Me.btnGrupoMateria = New System.Windows.Forms.Button()
+        Me.btnEdificio = New System.Windows.Forms.Button()
         Me.btnGrupo = New System.Windows.Forms.Button()
         Me.btnMateria = New System.Windows.Forms.Button()
         Me.btnCerrarSesion = New System.Windows.Forms.Button()
@@ -38,7 +40,7 @@ Partial Class menuAdminSistema
         Me.picIsgesi = New System.Windows.Forms.PictureBox()
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
-        Me.btnEdificio = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,6 +51,8 @@ Partial Class menuAdminSistema
         'pnlIzquierda
         '
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
+        Me.pnlIzquierda.Controls.Add(Me.Button1)
+        Me.pnlIzquierda.Controls.Add(Me.btnGrupoMateria)
         Me.pnlIzquierda.Controls.Add(Me.btnEdificio)
         Me.pnlIzquierda.Controls.Add(Me.btnGrupo)
         Me.pnlIzquierda.Controls.Add(Me.btnMateria)
@@ -60,8 +64,42 @@ Partial Class menuAdminSistema
         Me.pnlIzquierda.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnlIzquierda.Location = New System.Drawing.Point(0, 0)
         Me.pnlIzquierda.Name = "pnlIzquierda"
-        Me.pnlIzquierda.Size = New System.Drawing.Size(214, 440)
+        Me.pnlIzquierda.Size = New System.Drawing.Size(214, 573)
         Me.pnlIzquierda.TabIndex = 0
+        '
+        'btnGrupoMateria
+        '
+        Me.btnGrupoMateria.FlatAppearance.BorderSize = 0
+        Me.btnGrupoMateria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnGrupoMateria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnGrupoMateria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnGrupoMateria.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnGrupoMateria.ForeColor = System.Drawing.Color.White
+        Me.btnGrupoMateria.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnGrupoMateria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnGrupoMateria.Location = New System.Drawing.Point(0, 276)
+        Me.btnGrupoMateria.Name = "btnGrupoMateria"
+        Me.btnGrupoMateria.Size = New System.Drawing.Size(247, 54)
+        Me.btnGrupoMateria.TabIndex = 42
+        Me.btnGrupoMateria.Text = "Materias Grupo"
+        Me.btnGrupoMateria.UseVisualStyleBackColor = True
+        '
+        'btnEdificio
+        '
+        Me.btnEdificio.FlatAppearance.BorderSize = 0
+        Me.btnEdificio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnEdificio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnEdificio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnEdificio.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEdificio.ForeColor = System.Drawing.Color.White
+        Me.btnEdificio.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnEdificio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnEdificio.Location = New System.Drawing.Point(0, 336)
+        Me.btnEdificio.Name = "btnEdificio"
+        Me.btnEdificio.Size = New System.Drawing.Size(218, 54)
+        Me.btnEdificio.TabIndex = 41
+        Me.btnEdificio.Text = "Edificio"
+        Me.btnEdificio.UseVisualStyleBackColor = True
         '
         'btnGrupo
         '
@@ -73,7 +111,7 @@ Partial Class menuAdminSistema
         Me.btnGrupo.ForeColor = System.Drawing.Color.White
         Me.btnGrupo.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnGrupo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnGrupo.Location = New System.Drawing.Point(0, 185)
+        Me.btnGrupo.Location = New System.Drawing.Point(3, 167)
         Me.btnGrupo.Name = "btnGrupo"
         Me.btnGrupo.Size = New System.Drawing.Size(218, 54)
         Me.btnGrupo.TabIndex = 40
@@ -90,7 +128,7 @@ Partial Class menuAdminSistema
         Me.btnMateria.ForeColor = System.Drawing.Color.White
         Me.btnMateria.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnMateria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnMateria.Location = New System.Drawing.Point(0, 125)
+        Me.btnMateria.Location = New System.Drawing.Point(0, 121)
         Me.btnMateria.Name = "btnMateria"
         Me.btnMateria.Size = New System.Drawing.Size(218, 54)
         Me.btnMateria.TabIndex = 39
@@ -107,7 +145,7 @@ Partial Class menuAdminSistema
         Me.btnCerrarSesion.ForeColor = System.Drawing.Color.White
         Me.btnCerrarSesion.Image = Global.sigesi.My.Resources.Resources.icono_candado_40
         Me.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerrarSesion.Location = New System.Drawing.Point(0, 344)
+        Me.btnCerrarSesion.Location = New System.Drawing.Point(3, 477)
         Me.btnCerrarSesion.Name = "btnCerrarSesion"
         Me.btnCerrarSesion.Size = New System.Drawing.Size(215, 48)
         Me.btnCerrarSesion.TabIndex = 38
@@ -137,7 +175,7 @@ Partial Class menuAdminSistema
         Me.btnInicio.ForeColor = System.Drawing.Color.White
         Me.btnInicio.Image = Global.sigesi.My.Resources.Resources.icono_house
         Me.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnInicio.Location = New System.Drawing.Point(0, 289)
+        Me.btnInicio.Location = New System.Drawing.Point(0, 417)
         Me.btnInicio.Name = "btnInicio"
         Me.btnInicio.Size = New System.Drawing.Size(218, 54)
         Me.btnInicio.TabIndex = 35
@@ -154,7 +192,7 @@ Partial Class menuAdminSistema
         Me.btnUsuarios.ForeColor = System.Drawing.Color.White
         Me.btnUsuarios.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUsuarios.Location = New System.Drawing.Point(0, 65)
+        Me.btnUsuarios.Location = New System.Drawing.Point(3, 75)
         Me.btnUsuarios.Name = "btnUsuarios"
         Me.btnUsuarios.Size = New System.Drawing.Size(218, 54)
         Me.btnUsuarios.TabIndex = 34
@@ -165,7 +203,7 @@ Partial Class menuAdminSistema
         '
         Me.picAsgn.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.picAsgn.Image = Global.sigesi.My.Resources.Resources.logo_asgn_gr2
-        Me.picAsgn.Location = New System.Drawing.Point(0, 398)
+        Me.picAsgn.Location = New System.Drawing.Point(0, 531)
         Me.picAsgn.Name = "picAsgn"
         Me.picAsgn.Size = New System.Drawing.Size(214, 42)
         Me.picAsgn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -178,7 +216,7 @@ Partial Class menuAdminSistema
         Me.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlCentral.Location = New System.Drawing.Point(214, 59)
         Me.pnlCentral.Name = "pnlCentral"
-        Me.pnlCentral.Size = New System.Drawing.Size(738, 381)
+        Me.pnlCentral.Size = New System.Drawing.Size(738, 514)
         Me.pnlCentral.TabIndex = 0
         '
         'pnlArriba
@@ -240,28 +278,28 @@ Partial Class menuAdminSistema
         'tmrMostrarMenu
         '
         '
-        'btnEdificio
+        'Button1
         '
-        Me.btnEdificio.FlatAppearance.BorderSize = 0
-        Me.btnEdificio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnEdificio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnEdificio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEdificio.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEdificio.ForeColor = System.Drawing.Color.White
-        Me.btnEdificio.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnEdificio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEdificio.Location = New System.Drawing.Point(0, 245)
-        Me.btnEdificio.Name = "btnEdificio"
-        Me.btnEdificio.Size = New System.Drawing.Size(218, 54)
-        Me.btnEdificio.TabIndex = 41
-        Me.btnEdificio.Text = "Edificio"
-        Me.btnEdificio.UseVisualStyleBackColor = True
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(3, 216)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(218, 54)
+        Me.Button1.TabIndex = 43
+        Me.Button1.Text = "Incidencias"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'menuAdminSistema
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(952, 440)
+        Me.ClientSize = New System.Drawing.Size(952, 573)
         Me.Controls.Add(Me.pnlCentral)
         Me.Controls.Add(Me.pnlArriba)
         Me.Controls.Add(Me.pnlIzquierda)
@@ -293,4 +331,6 @@ Partial Class menuAdminSistema
     Friend WithEvents btnMateria As System.Windows.Forms.Button
     Friend WithEvents btnGrupo As System.Windows.Forms.Button
     Friend WithEvents btnEdificio As System.Windows.Forms.Button
+    Friend WithEvents btnGrupoMateria As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

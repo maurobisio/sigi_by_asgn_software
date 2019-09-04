@@ -6,7 +6,7 @@
     End Sub
     
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(New listarAlumno)
+        abrirFormPanel(New listarInscripcion)
     End Sub
     Public Sub abrirFormPanel(ByVal formHijo As Object)
         'creo metodo para abrir formularios dentro d el panel central
@@ -95,7 +95,7 @@
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumnos.Click
-        abrirFormPanel(New listarAlumno)
+        abrirFormPanel(New listarInscripcion)
     End Sub
 
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click

@@ -95,7 +95,7 @@
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumnos.Click
-        abrirFormPanel(New listarAlumno)
+        abrirFormPanel(New listarInscripcion)
     End Sub
 
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
