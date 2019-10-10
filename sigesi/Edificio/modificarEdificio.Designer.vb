@@ -23,12 +23,12 @@ Partial Class modificarEdificio
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblTitulo = New System.Windows.Forms.Label()
-        Me.btnAgregar = New System.Windows.Forms.Button()
+        Me.btnModificar = New System.Windows.Forms.Button()
         Me.dgvModificarEd = New System.Windows.Forms.DataGridView()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.lblAyuda = New System.Windows.Forms.Label()
         Me.btnCancelar = New System.Windows.Forms.Button()
-        Me.txtNom1 = New System.Windows.Forms.TextBox()
+        Me.txtNom = New System.Windows.Forms.TextBox()
         Me.lblNom = New System.Windows.Forms.Label()
         Me.lblCod = New System.Windows.Forms.Label()
         Me.txtCod = New System.Windows.Forms.TextBox()
@@ -48,17 +48,17 @@ Partial Class modificarEdificio
         Me.lblTitulo.TabIndex = 42
         Me.lblTitulo.Text = "Modificar  usuario"
         '
-        'btnAgregar
+        'btnModificar
         '
-        Me.btnAgregar.BackColor = System.Drawing.Color.White
-        Me.btnAgregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregar.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.btnAgregar.Location = New System.Drawing.Point(228, 247)
-        Me.btnAgregar.Name = "btnAgregar"
-        Me.btnAgregar.Size = New System.Drawing.Size(199, 32)
-        Me.btnAgregar.TabIndex = 9
-        Me.btnAgregar.Text = "Modificar"
-        Me.btnAgregar.UseVisualStyleBackColor = False
+        Me.btnModificar.BackColor = System.Drawing.Color.White
+        Me.btnModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificar.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnModificar.Location = New System.Drawing.Point(228, 247)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(199, 32)
+        Me.btnModificar.TabIndex = 9
+        Me.btnModificar.Text = "Modificar"
+        Me.btnModificar.UseVisualStyleBackColor = False
         '
         'dgvModificarEd
         '
@@ -107,13 +107,13 @@ Partial Class modificarEdificio
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = False
         '
-        'txtNom1
+        'txtNom
         '
-        Me.txtNom1.Location = New System.Drawing.Point(116, 221)
-        Me.txtNom1.MaxLength = 50
-        Me.txtNom1.Name = "txtNom1"
-        Me.txtNom1.Size = New System.Drawing.Size(191, 20)
-        Me.txtNom1.TabIndex = 47
+        Me.txtNom.Location = New System.Drawing.Point(116, 221)
+        Me.txtNom.MaxLength = 50
+        Me.txtNom.Name = "txtNom"
+        Me.txtNom.Size = New System.Drawing.Size(191, 20)
+        Me.txtNom.TabIndex = 47
         '
         'lblNom
         '
@@ -149,13 +149,13 @@ Partial Class modificarEdificio
         Me.txtCod.Size = New System.Drawing.Size(191, 20)
         Me.txtCod.TabIndex = 46
         '
-        'modificaEdificio
+        'modificarEdificio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(487, 297)
-        Me.Controls.Add(Me.txtNom1)
+        Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.lblNom)
         Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.txtCod)
@@ -164,9 +164,9 @@ Partial Class modificarEdificio
         Me.Controls.Add(Me.dgvModificarEd)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
-        Me.Controls.Add(Me.btnAgregar)
+        Me.Controls.Add(Me.btnModificar)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "modificaEdificio"
+        Me.Name = "modificarEdificio"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ve"
         Me.TopMost = True
@@ -177,11 +177,11 @@ Partial Class modificarEdificio
     End Sub
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
-    Friend WithEvents btnAgregar As System.Windows.Forms.Button
+    Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents dgvModificarEd As System.Windows.Forms.DataGridView
     Friend WithEvents lblAyuda As System.Windows.Forms.Label
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
-    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents lblNom As System.Windows.Forms.Label
     Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents txtCod As System.Windows.Forms.TextBox

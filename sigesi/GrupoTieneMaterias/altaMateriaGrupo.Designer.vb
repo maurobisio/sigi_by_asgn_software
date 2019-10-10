@@ -25,7 +25,7 @@ Partial Class altaMateriaGrupo
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(altaMateriaGrupo))
         Me.txtCodGrup = New System.Windows.Forms.TextBox()
         Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.lblCi = New System.Windows.Forms.Label()
+        Me.lblGrupo = New System.Windows.Forms.Label()
         Me.lblMateria = New System.Windows.Forms.Label()
         Me.txtCodMat = New System.Windows.Forms.TextBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
@@ -49,12 +49,12 @@ Partial Class altaMateriaGrupo
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.UseVisualStyleBackColor = False
         '
-        'lblCi
+        'lblGrupo
         '
-        resources.ApplyResources(Me.lblCi, "lblCi")
-        Me.lblCi.BackColor = System.Drawing.Color.Transparent
-        Me.lblCi.ForeColor = System.Drawing.Color.Black
-        Me.lblCi.Name = "lblCi"
+        resources.ApplyResources(Me.lblGrupo, "lblGrupo")
+        Me.lblGrupo.BackColor = System.Drawing.Color.Transparent
+        Me.lblGrupo.ForeColor = System.Drawing.Color.Black
+        Me.lblGrupo.Name = "lblGrupo"
         '
         'lblMateria
         '
@@ -112,7 +112,7 @@ Partial Class altaMateriaGrupo
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.txtCodMat)
         Me.Controls.Add(Me.lblMateria)
-        Me.Controls.Add(Me.lblCi)
+        Me.Controls.Add(Me.lblGrupo)
         Me.Controls.Add(Me.btnAgregar)
         Me.Controls.Add(Me.txtCodGrup)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -126,7 +126,7 @@ Partial Class altaMateriaGrupo
     End Sub
     Friend WithEvents txtCodGrup As System.Windows.Forms.TextBox
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
-    Friend WithEvents lblCi As System.Windows.Forms.Label
+    Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblMateria As System.Windows.Forms.Label
     Friend WithEvents txtCodMat As System.Windows.Forms.TextBox
     Friend WithEvents lblTitulo As System.Windows.Forms.Label

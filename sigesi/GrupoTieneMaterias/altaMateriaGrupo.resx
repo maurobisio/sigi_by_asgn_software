@@ -177,37 +177,37 @@
   <data name="&gt;&gt;btnAgregar.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="lblCi.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblGrupo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblCi.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblGrupo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="lblCi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblGrupo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblCi.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblGrupo.Location" type="System.Drawing.Point, System.Drawing">
     <value>57, 228</value>
   </data>
-  <data name="lblCi.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblGrupo.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 18</value>
   </data>
-  <data name="lblCi.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblGrupo.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="lblCi.Text" xml:space="preserve">
+  <data name="lblGrupo.Text" xml:space="preserve">
     <value>Grupo</value>
   </data>
-  <data name="&gt;&gt;lblCi.Name" xml:space="preserve">
-    <value>lblCi</value>
+  <data name="&gt;&gt;lblGrupo.Name" xml:space="preserve">
+    <value>lblGrupo</value>
   </data>
-  <data name="&gt;&gt;lblCi.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblGrupo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblCi.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblGrupo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblCi.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblGrupo.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="lblMateria.AutoSize" type="System.Boolean, mscorlib">

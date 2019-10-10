@@ -24,8 +24,8 @@ Partial Class listarEdificio
     Private Sub InitializeComponent()
         Me.dgvLIstarEdificio = New System.Windows.Forms.DataGridView()
         Me.btnModificar = New System.Windows.Forms.Button()
-        Me.btnAgregarUsuario = New System.Windows.Forms.Button()
-        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.btnAlta = New System.Windows.Forms.Button()
+        Me.btnBaja = New System.Windows.Forms.Button()
         CType(Me.dgvLIstarEdificio, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,7 +47,7 @@ Partial Class listarEdificio
         Me.btnModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnModificar.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModificar.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnModificar.Image = Global.sigesi.My.Resources.Resources.icono_nuev
         Me.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -58,43 +58,43 @@ Partial Class listarEdificio
         Me.btnModificar.Text = "         Modificar "
         Me.btnModificar.UseVisualStyleBackColor = False
         '
-        'btnAgregarUsuario
+        'btnAlta
         '
-        Me.btnAgregarUsuario.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnAgregarUsuario.BackColor = System.Drawing.Color.Black
-        Me.btnAgregarUsuario.FlatAppearance.BorderSize = 0
-        Me.btnAgregarUsuario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnAgregarUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.btnAgregarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAgregarUsuario.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregarUsuario.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.btnAgregarUsuario.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
-        Me.btnAgregarUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAgregarUsuario.Location = New System.Drawing.Point(519, 64)
-        Me.btnAgregarUsuario.Name = "btnAgregarUsuario"
-        Me.btnAgregarUsuario.Size = New System.Drawing.Size(199, 69)
-        Me.btnAgregarUsuario.TabIndex = 2
-        Me.btnAgregarUsuario.Text = "Alta"
-        Me.btnAgregarUsuario.UseVisualStyleBackColor = False
+        Me.btnAlta.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnAlta.BackColor = System.Drawing.Color.Black
+        Me.btnAlta.FlatAppearance.BorderSize = 0
+        Me.btnAlta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnAlta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.btnAlta.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAlta.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAlta.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.btnAlta.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
+        Me.btnAlta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAlta.Location = New System.Drawing.Point(519, 64)
+        Me.btnAlta.Name = "btnAlta"
+        Me.btnAlta.Size = New System.Drawing.Size(199, 69)
+        Me.btnAlta.TabIndex = 2
+        Me.btnAlta.Text = "Alta"
+        Me.btnAlta.UseVisualStyleBackColor = False
         '
-        'btnEliminar
+        'btnBaja
         '
-        Me.btnEliminar.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnEliminar.BackColor = System.Drawing.Color.Black
-        Me.btnEliminar.FlatAppearance.BorderSize = 0
-        Me.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEliminar.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminar.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.btnEliminar.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
-        Me.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEliminar.Location = New System.Drawing.Point(519, 242)
-        Me.btnEliminar.Name = "btnEliminar"
-        Me.btnEliminar.Size = New System.Drawing.Size(199, 57)
-        Me.btnEliminar.TabIndex = 1
-        Me.btnEliminar.Text = " Baja"
-        Me.btnEliminar.UseVisualStyleBackColor = False
+        Me.btnBaja.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnBaja.BackColor = System.Drawing.Color.Black
+        Me.btnBaja.FlatAppearance.BorderSize = 0
+        Me.btnBaja.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnBaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.btnBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBaja.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBaja.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.btnBaja.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
+        Me.btnBaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBaja.Location = New System.Drawing.Point(519, 242)
+        Me.btnBaja.Name = "btnBaja"
+        Me.btnBaja.Size = New System.Drawing.Size(199, 57)
+        Me.btnBaja.TabIndex = 1
+        Me.btnBaja.Text = " Baja"
+        Me.btnBaja.UseVisualStyleBackColor = False
         '
         'listarEdificio
         '
@@ -103,8 +103,8 @@ Partial Class listarEdificio
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(746, 372)
         Me.Controls.Add(Me.btnModificar)
-        Me.Controls.Add(Me.btnAgregarUsuario)
-        Me.Controls.Add(Me.btnEliminar)
+        Me.Controls.Add(Me.btnAlta)
+        Me.Controls.Add(Me.btnBaja)
         Me.Controls.Add(Me.dgvLIstarEdificio)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "listarEdificio"
@@ -114,7 +114,7 @@ Partial Class listarEdificio
 
     End Sub
     Friend WithEvents btnModificar As System.Windows.Forms.Button
-    Friend WithEvents btnEliminar As System.Windows.Forms.Button
+    Friend WithEvents btnBaja As System.Windows.Forms.Button
     Friend WithEvents dgvLIstarEdificio As System.Windows.Forms.DataGridView
-    Friend WithEvents btnAgregarUsuario As System.Windows.Forms.Button
+    Friend WithEvents btnAlta As System.Windows.Forms.Button
 End Class

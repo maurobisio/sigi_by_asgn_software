@@ -29,7 +29,7 @@ Public Class listarUsuarios
         End Try
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEliminar.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBaja.Click
         bajaUsuario.Show()
 
     End Sub
@@ -58,7 +58,7 @@ Public Class listarUsuarios
 
     End Sub
 
-    Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregarUsuario.Click
+    Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
 
         altaUsuario.Show()
 

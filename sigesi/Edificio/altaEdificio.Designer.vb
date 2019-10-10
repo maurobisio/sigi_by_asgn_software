@@ -27,7 +27,7 @@ Partial Class altaEdificio
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.lblCod = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
-        Me.txtNom1 = New System.Windows.Forms.TextBox()
+        Me.txtNom = New System.Windows.Forms.TextBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -59,10 +59,10 @@ Partial Class altaEdificio
         Me.lblNom.ForeColor = System.Drawing.Color.Black
         Me.lblNom.Name = "lblNom"
         '
-        'txtNom1
+        'txtNom
         '
-        resources.ApplyResources(Me.txtNom1, "txtNom1")
-        Me.txtNom1.Name = "txtNom1"
+        resources.ApplyResources(Me.txtNom, "txtNom")
+        Me.txtNom.Name = "txtNom"
         '
         'lblTitulo
         '
@@ -90,7 +90,7 @@ Partial Class altaEdificio
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
-        Me.Controls.Add(Me.txtNom1)
+        Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.lblNom)
         Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnAgregar)
@@ -106,7 +106,7 @@ Partial Class altaEdificio
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
     Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
-    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnSalir As System.Windows.Forms.Button
 End Class

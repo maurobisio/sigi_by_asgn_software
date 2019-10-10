@@ -30,9 +30,9 @@ Partial Class modificarGrupo
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.ComboEdi = New System.Windows.Forms.ComboBox()
         Me.txtturn = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblTurno = New System.Windows.Forms.Label()
         Me.txtNom1 = New System.Windows.Forms.TextBox()
-        Me.lblApe = New System.Windows.Forms.Label()
+        Me.lblEdificio = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
         Me.lblCod = New System.Windows.Forms.Label()
         Me.txtCod = New System.Windows.Forms.TextBox()
@@ -127,18 +127,18 @@ Partial Class modificarGrupo
         Me.txtturn.Size = New System.Drawing.Size(191, 20)
         Me.txtturn.TabIndex = 48
         '
-        'Label1
+        'lblTurno
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.Label1.Location = New System.Drawing.Point(36, 250)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 18)
-        Me.Label1.TabIndex = 52
-        Me.Label1.Text = "Turno"
+        Me.lblTurno.AutoSize = True
+        Me.lblTurno.BackColor = System.Drawing.Color.Transparent
+        Me.lblTurno.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblTurno.ForeColor = System.Drawing.Color.Black
+        Me.lblTurno.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblTurno.Location = New System.Drawing.Point(36, 250)
+        Me.lblTurno.Name = "lblTurno"
+        Me.lblTurno.Size = New System.Drawing.Size(52, 18)
+        Me.lblTurno.TabIndex = 52
+        Me.lblTurno.Text = "Turno"
         '
         'txtNom1
         '
@@ -148,18 +148,18 @@ Partial Class modificarGrupo
         Me.txtNom1.Size = New System.Drawing.Size(191, 20)
         Me.txtNom1.TabIndex = 47
         '
-        'lblApe
+        'lblEdificio
         '
-        Me.lblApe.AutoSize = True
-        Me.lblApe.BackColor = System.Drawing.Color.Transparent
-        Me.lblApe.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.lblApe.ForeColor = System.Drawing.Color.Black
-        Me.lblApe.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblApe.Location = New System.Drawing.Point(37, 277)
-        Me.lblApe.Name = "lblApe"
-        Me.lblApe.Size = New System.Drawing.Size(64, 18)
-        Me.lblApe.TabIndex = 51
-        Me.lblApe.Text = "Edificio"
+        Me.lblEdificio.AutoSize = True
+        Me.lblEdificio.BackColor = System.Drawing.Color.Transparent
+        Me.lblEdificio.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblEdificio.ForeColor = System.Drawing.Color.Black
+        Me.lblEdificio.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblEdificio.Location = New System.Drawing.Point(37, 277)
+        Me.lblEdificio.Name = "lblEdificio"
+        Me.lblEdificio.Size = New System.Drawing.Size(64, 18)
+        Me.lblEdificio.TabIndex = 51
+        Me.lblEdificio.Text = "Edificio"
         '
         'lblNom
         '
@@ -203,9 +203,9 @@ Partial Class modificarGrupo
         Me.ClientSize = New System.Drawing.Size(487, 357)
         Me.Controls.Add(Me.ComboEdi)
         Me.Controls.Add(Me.txtturn)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblTurno)
         Me.Controls.Add(Me.txtNom1)
-        Me.Controls.Add(Me.lblApe)
+        Me.Controls.Add(Me.lblEdificio)
         Me.Controls.Add(Me.lblNom)
         Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.txtCod)
@@ -233,9 +233,9 @@ Partial Class modificarGrupo
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
     Friend WithEvents ComboEdi As System.Windows.Forms.ComboBox
     Friend WithEvents txtturn As System.Windows.Forms.TextBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblTurno As System.Windows.Forms.Label
     Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
-    Friend WithEvents lblApe As System.Windows.Forms.Label
+    Friend WithEvents lblEdificio As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
     Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents txtCod As System.Windows.Forms.TextBox

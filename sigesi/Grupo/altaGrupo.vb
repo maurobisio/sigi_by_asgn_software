@@ -33,7 +33,7 @@ Public Class altaGrupo
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCod.Text = "" Or txtNom1.Text = "" Or txtturn.Text = "" Or ComboEdi.Text = "" Then
+        If txtCod.Text = "" Or txtNom.Text = "" Or txtTurn.Text = "" Or ComboEdi.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -49,8 +49,8 @@ Public Class altaGrupo
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) "
                 command += "VALUES ('" + txtCod.Text
-                command += "', '" + txtNom1.Text
-                command += "','" + txtturn.Text
+                command += "', '" + txtNom.Text
+                command += "','" + txtTurn.Text
                 command += "', '" + ComboEdi.Text
                 command += "');"
 
@@ -115,7 +115,7 @@ Public Class altaGrupo
         End If
     End Sub
 
-    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom1.KeyPress
+    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom.KeyPress
         ' valido letras (hay que ir al evento key press y dentro del :)
         If Char.IsLetter(e.KeyChar) Then
             e.Handled = False

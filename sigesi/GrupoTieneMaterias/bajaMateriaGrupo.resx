@@ -133,13 +133,13 @@
     <value>141, 21</value>
   </data>
   <data name="lblTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 31</value>
+    <value>265, 31</value>
   </data>
   <data name="lblTitulo.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="lblTitulo.Text" xml:space="preserve">
-    <value>Baja de usuario</value>
+    <value>Baja Materia Grupo</value>
   </data>
   <data name="&gt;&gt;lblTitulo.Name" xml:space="preserve">
     <value>lblTitulo</value>
@@ -163,7 +163,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnEliminar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 146</value>
+    <value>291, 121</value>
   </data>
   <data name="btnEliminar.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 26</value>
@@ -186,41 +186,41 @@
   <data name="&gt;&gt;btnEliminar.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="lblCi.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblCod.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblCi.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblCod.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="lblCi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblCod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblCi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 107</value>
+  <data name="lblCod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 84</value>
   </data>
-  <data name="lblCi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 18</value>
+  <data name="lblCod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 18</value>
   </data>
-  <data name="lblCi.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblCod.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="lblCi.Text" xml:space="preserve">
-    <value>Ingrese cédula de usuario</value>
+  <data name="lblCod.Text" xml:space="preserve">
+    <value>Ingrese el codigo de Materia/Grupo</value>
   </data>
-  <data name="&gt;&gt;lblCi.Name" xml:space="preserve">
-    <value>lblCi</value>
+  <data name="&gt;&gt;lblCod.Name" xml:space="preserve">
+    <value>lblCod</value>
   </data>
-  <data name="&gt;&gt;lblCi.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblCod.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblCi.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblCod.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblCi.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblCod.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="txtCi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 105</value>
+    <value>291, 85</value>
   </data>
   <data name="txtCi.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
@@ -253,7 +253,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnSalir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>450, 7</value>
+    <value>503, 7</value>
   </data>
   <data name="btnSalir.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
@@ -283,7 +283,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnCancelar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 146</value>
+    <value>84, 121</value>
   </data>
   <data name="btnCancelar.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 26</value>
@@ -316,7 +316,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>450, 5</value>
+    <value>503, 5</value>
   </data>
   <data name="btnMax.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 45</value>
@@ -343,7 +343,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>502, 205</value>
+    <value>555, 171</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -3,7 +3,7 @@
 Public Class altaEdificio
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCod.Text = "" Or txtNom1.Text = "" Then
+        If txtCod.Text = "" Or txtNom.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -19,7 +19,7 @@ Public Class altaEdificio
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "INSERT INTO edificio (id_edificio, tipo_edificio) "
                 command += "VALUES ('" + txtCod.Text
-                command += "', '" + txtNom1.Text
+                command += "', '" + txtNom.Text
                 command += "');"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -59,7 +59,7 @@ Public Class altaEdificio
         End If
     End Sub
 
-    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom1.KeyPress
+    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom.KeyPress
         ' valido letras (hay que ir al evento key press y dentro del :)
         If Char.IsLetter(e.KeyChar) Then
             e.Handled = False

@@ -111,7 +111,7 @@ Public Class bajaGrupo
 
     End Sub
 
-    Private Sub lblCi_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblCi.Click
+    Private Sub lblCi_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblCod.Click
 
     End Sub
 End Class

@@ -207,61 +207,61 @@
   <data name="&gt;&gt;lblCod.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="lblNom.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblDesc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblNom.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblDesc.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="lblNom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblNom.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblDesc.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 140</value>
   </data>
-  <data name="lblNom.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblDesc.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 18</value>
   </data>
-  <data name="lblNom.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblDesc.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="lblNom.Text" xml:space="preserve">
+  <data name="lblDesc.Text" xml:space="preserve">
     <value>Descripción</value>
   </data>
-  <data name="&gt;&gt;lblNom.Name" xml:space="preserve">
-    <value>lblNom</value>
+  <data name="&gt;&gt;lblDesc.Name" xml:space="preserve">
+    <value>lblDesc</value>
   </data>
-  <data name="&gt;&gt;lblNom.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblDesc.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblNom.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblDesc.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblNom.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblDesc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="txtNom1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtDesc.Location" type="System.Drawing.Point, System.Drawing">
     <value>141, 137</value>
   </data>
-  <data name="txtNom1.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtDesc.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
-  <data name="txtNom1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtDesc.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 20</value>
   </data>
-  <data name="txtNom1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtDesc.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;txtNom1.Name" xml:space="preserve">
-    <value>txtNom1</value>
+  <data name="&gt;&gt;txtDesc.Name" xml:space="preserve">
+    <value>txtDesc</value>
   </data>
-  <data name="&gt;&gt;txtNom1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtDesc.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtNom1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtDesc.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtNom1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtDesc.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="lblTitulo.AutoSize" type="System.Boolean, mscorlib">

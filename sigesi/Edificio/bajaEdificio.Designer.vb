@@ -25,7 +25,7 @@ Partial Class bajaEdificio
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(bajaEdificio))
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnEliminar = New System.Windows.Forms.Button()
-        Me.lblCi = New System.Windows.Forms.Label()
+        Me.lblCod = New System.Windows.Forms.Label()
         Me.txtCod = New System.Windows.Forms.TextBox()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnCancelar = New System.Windows.Forms.Button()
@@ -48,12 +48,12 @@ Partial Class bajaEdificio
         Me.btnEliminar.Name = "btnEliminar"
         Me.btnEliminar.UseVisualStyleBackColor = False
         '
-        'lblCi
+        'lblCod
         '
-        resources.ApplyResources(Me.lblCi, "lblCi")
-        Me.lblCi.BackColor = System.Drawing.Color.Transparent
-        Me.lblCi.ForeColor = System.Drawing.Color.Black
-        Me.lblCi.Name = "lblCi"
+        resources.ApplyResources(Me.lblCod, "lblCod")
+        Me.lblCod.BackColor = System.Drawing.Color.Transparent
+        Me.lblCod.ForeColor = System.Drawing.Color.Black
+        Me.lblCod.Name = "lblCod"
         '
         'txtCod
         '
@@ -89,7 +89,7 @@ Partial Class bajaEdificio
         Me.btnMax.Name = "btnMax"
         Me.btnMax.UseVisualStyleBackColor = False
         '
-        'bajaEdificiovb
+        'bajaEdificio
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -98,11 +98,11 @@ Partial Class bajaEdificio
         Me.Controls.Add(Me.btnMax)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.txtCod)
-        Me.Controls.Add(Me.lblCi)
+        Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.lblTitulo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "bajaEdificiovb"
+        Me.Name = "bajaEdificio"
         Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -110,7 +110,7 @@ Partial Class bajaEdificio
     End Sub
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
-    Friend WithEvents lblCi As System.Windows.Forms.Label
+    Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents txtCod As System.Windows.Forms.TextBox
     Friend WithEvents btnMax As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button

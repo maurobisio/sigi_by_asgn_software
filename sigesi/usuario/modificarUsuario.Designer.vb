@@ -24,28 +24,28 @@ Partial Class modificarUsuario
     Private Sub InitializeComponent()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.txtTel = New System.Windows.Forms.TextBox()
-        Me.lbl6 = New System.Windows.Forms.Label()
+        Me.lblDir = New System.Windows.Forms.Label()
         Me.txtDir = New System.Windows.Forms.TextBox()
-        Me.lbl4 = New System.Windows.Forms.Label()
+        Me.lblEmail = New System.Windows.Forms.Label()
         Me.txtEmail = New System.Windows.Forms.TextBox()
-        Me.txtNom1 = New System.Windows.Forms.TextBox()
+        Me.txtNom = New System.Windows.Forms.TextBox()
         Me.txtPwd = New System.Windows.Forms.TextBox()
-        Me.lbl3 = New System.Windows.Forms.Label()
-        Me.lbl2 = New System.Windows.Forms.Label()
-        Me.lbl1 = New System.Windows.Forms.Label()
-        Me.lbl5 = New System.Windows.Forms.Label()
+        Me.lblApe = New System.Windows.Forms.Label()
+        Me.lblNom = New System.Windows.Forms.Label()
+        Me.lblCi = New System.Windows.Forms.Label()
+        Me.lblTel = New System.Windows.Forms.Label()
         Me.cboRoll = New System.Windows.Forms.ComboBox()
-        Me.lbl7 = New System.Windows.Forms.Label()
-        Me.btnAgregar = New System.Windows.Forms.Button()
+        Me.lblRoll = New System.Windows.Forms.Label()
+        Me.btnModificar = New System.Windows.Forms.Button()
         Me.txtApe = New System.Windows.Forms.TextBox()
         Me.txtCi = New System.Windows.Forms.TextBox()
-        Me.lbl9 = New System.Windows.Forms.Label()
+        Me.lblPwd = New System.Windows.Forms.Label()
         Me.dgvModificarUsu = New System.Windows.Forms.DataGridView()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.lblAyuda = New System.Windows.Forms.Label()
         Me.btnCancelar = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtNom2 = New System.Windows.Forms.TextBox()
+        Me.lblNom1 = New System.Windows.Forms.Label()
+        Me.txtNom1 = New System.Windows.Forms.TextBox()
         CType(Me.dgvModificarUsu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,17 +70,17 @@ Partial Class modificarUsuario
         Me.txtTel.Size = New System.Drawing.Size(127, 20)
         Me.txtTel.TabIndex = 5
         '
-        'lbl6
+        'lblDir
         '
-        Me.lbl6.AutoSize = True
-        Me.lbl6.BackColor = System.Drawing.Color.Transparent
-        Me.lbl6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl6.ForeColor = System.Drawing.Color.Black
-        Me.lbl6.Location = New System.Drawing.Point(108, 425)
-        Me.lbl6.Name = "lbl6"
-        Me.lbl6.Size = New System.Drawing.Size(89, 18)
-        Me.lbl6.TabIndex = 40
-        Me.lbl6.Text = "Direccción"
+        Me.lblDir.AutoSize = True
+        Me.lblDir.BackColor = System.Drawing.Color.Transparent
+        Me.lblDir.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDir.ForeColor = System.Drawing.Color.Black
+        Me.lblDir.Location = New System.Drawing.Point(108, 425)
+        Me.lblDir.Name = "lblDir"
+        Me.lblDir.Size = New System.Drawing.Size(89, 18)
+        Me.lblDir.TabIndex = 40
+        Me.lblDir.Text = "Direccción"
         '
         'txtDir
         '
@@ -90,17 +90,17 @@ Partial Class modificarUsuario
         Me.txtDir.Size = New System.Drawing.Size(127, 20)
         Me.txtDir.TabIndex = 6
         '
-        'lbl4
+        'lblEmail
         '
-        Me.lbl4.AutoSize = True
-        Me.lbl4.BackColor = System.Drawing.Color.Transparent
-        Me.lbl4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl4.ForeColor = System.Drawing.Color.Black
-        Me.lbl4.Location = New System.Drawing.Point(108, 355)
-        Me.lbl4.Name = "lbl4"
-        Me.lbl4.Size = New System.Drawing.Size(50, 18)
-        Me.lbl4.TabIndex = 38
-        Me.lbl4.Text = "Email"
+        Me.lblEmail.AutoSize = True
+        Me.lblEmail.BackColor = System.Drawing.Color.Transparent
+        Me.lblEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEmail.ForeColor = System.Drawing.Color.Black
+        Me.lblEmail.Location = New System.Drawing.Point(108, 355)
+        Me.lblEmail.Name = "lblEmail"
+        Me.lblEmail.Size = New System.Drawing.Size(50, 18)
+        Me.lblEmail.TabIndex = 38
+        Me.lblEmail.Text = "Email"
         '
         'txtEmail
         '
@@ -110,13 +110,13 @@ Partial Class modificarUsuario
         Me.txtEmail.Size = New System.Drawing.Size(127, 20)
         Me.txtEmail.TabIndex = 4
         '
-        'txtNom1
+        'txtNom
         '
-        Me.txtNom1.Location = New System.Drawing.Point(223, 243)
-        Me.txtNom1.MaxLength = 20
-        Me.txtNom1.Name = "txtNom1"
-        Me.txtNom1.Size = New System.Drawing.Size(127, 20)
-        Me.txtNom1.TabIndex = 1
+        Me.txtNom.Location = New System.Drawing.Point(223, 243)
+        Me.txtNom.MaxLength = 20
+        Me.txtNom.Name = "txtNom"
+        Me.txtNom.Size = New System.Drawing.Size(127, 20)
+        Me.txtNom.TabIndex = 1
         '
         'txtPwd
         '
@@ -126,53 +126,53 @@ Partial Class modificarUsuario
         Me.txtPwd.Size = New System.Drawing.Size(127, 20)
         Me.txtPwd.TabIndex = 8
         '
-        'lbl3
+        'lblApe
         '
-        Me.lbl3.AutoSize = True
-        Me.lbl3.BackColor = System.Drawing.Color.Transparent
-        Me.lbl3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl3.ForeColor = System.Drawing.Color.Black
-        Me.lbl3.Location = New System.Drawing.Point(108, 319)
-        Me.lbl3.Name = "lbl3"
-        Me.lbl3.Size = New System.Drawing.Size(67, 18)
-        Me.lbl3.TabIndex = 33
-        Me.lbl3.Text = "Apellido"
+        Me.lblApe.AutoSize = True
+        Me.lblApe.BackColor = System.Drawing.Color.Transparent
+        Me.lblApe.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblApe.ForeColor = System.Drawing.Color.Black
+        Me.lblApe.Location = New System.Drawing.Point(108, 319)
+        Me.lblApe.Name = "lblApe"
+        Me.lblApe.Size = New System.Drawing.Size(67, 18)
+        Me.lblApe.TabIndex = 33
+        Me.lblApe.Text = "Apellido"
         '
-        'lbl2
+        'lblNom
         '
-        Me.lbl2.AutoSize = True
-        Me.lbl2.BackColor = System.Drawing.Color.Transparent
-        Me.lbl2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl2.ForeColor = System.Drawing.Color.Black
-        Me.lbl2.Location = New System.Drawing.Point(94, 245)
-        Me.lbl2.Name = "lbl2"
-        Me.lbl2.Size = New System.Drawing.Size(123, 18)
-        Me.lbl2.TabIndex = 32
-        Me.lbl2.Text = "Primer Nombre"
+        Me.lblNom.AutoSize = True
+        Me.lblNom.BackColor = System.Drawing.Color.Transparent
+        Me.lblNom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNom.ForeColor = System.Drawing.Color.Black
+        Me.lblNom.Location = New System.Drawing.Point(94, 245)
+        Me.lblNom.Name = "lblNom"
+        Me.lblNom.Size = New System.Drawing.Size(123, 18)
+        Me.lblNom.TabIndex = 32
+        Me.lblNom.Text = "Primer Nombre"
         '
-        'lbl1
+        'lblCi
         '
-        Me.lbl1.AutoSize = True
-        Me.lbl1.BackColor = System.Drawing.Color.Transparent
-        Me.lbl1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl1.ForeColor = System.Drawing.Color.Black
-        Me.lbl1.Location = New System.Drawing.Point(108, 211)
-        Me.lbl1.Name = "lbl1"
-        Me.lbl1.Size = New System.Drawing.Size(34, 18)
-        Me.lbl1.TabIndex = 31
-        Me.lbl1.Text = "C.I."
+        Me.lblCi.AutoSize = True
+        Me.lblCi.BackColor = System.Drawing.Color.Transparent
+        Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCi.ForeColor = System.Drawing.Color.Black
+        Me.lblCi.Location = New System.Drawing.Point(108, 211)
+        Me.lblCi.Name = "lblCi"
+        Me.lblCi.Size = New System.Drawing.Size(34, 18)
+        Me.lblCi.TabIndex = 31
+        Me.lblCi.Text = "C.I."
         '
-        'lbl5
+        'lblTel
         '
-        Me.lbl5.AutoSize = True
-        Me.lbl5.BackColor = System.Drawing.Color.Transparent
-        Me.lbl5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl5.ForeColor = System.Drawing.Color.Black
-        Me.lbl5.Location = New System.Drawing.Point(108, 390)
-        Me.lbl5.Name = "lbl5"
-        Me.lbl5.Size = New System.Drawing.Size(74, 18)
-        Me.lbl5.TabIndex = 30
-        Me.lbl5.Text = "Teléfono"
+        Me.lblTel.AutoSize = True
+        Me.lblTel.BackColor = System.Drawing.Color.Transparent
+        Me.lblTel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTel.ForeColor = System.Drawing.Color.Black
+        Me.lblTel.Location = New System.Drawing.Point(108, 390)
+        Me.lblTel.Name = "lblTel"
+        Me.lblTel.Size = New System.Drawing.Size(74, 18)
+        Me.lblTel.TabIndex = 30
+        Me.lblTel.Text = "Teléfono"
         '
         'cboRoll
         '
@@ -183,29 +183,29 @@ Partial Class modificarUsuario
         Me.cboRoll.Size = New System.Drawing.Size(129, 21)
         Me.cboRoll.TabIndex = 7
         '
-        'lbl7
+        'lblRoll
         '
-        Me.lbl7.AutoSize = True
-        Me.lbl7.BackColor = System.Drawing.Color.Transparent
-        Me.lbl7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl7.ForeColor = System.Drawing.Color.Black
-        Me.lbl7.Location = New System.Drawing.Point(109, 460)
-        Me.lbl7.Name = "lbl7"
-        Me.lbl7.Size = New System.Drawing.Size(38, 18)
-        Me.lbl7.TabIndex = 28
-        Me.lbl7.Text = "Roll"
+        Me.lblRoll.AutoSize = True
+        Me.lblRoll.BackColor = System.Drawing.Color.Transparent
+        Me.lblRoll.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRoll.ForeColor = System.Drawing.Color.Black
+        Me.lblRoll.Location = New System.Drawing.Point(109, 460)
+        Me.lblRoll.Name = "lblRoll"
+        Me.lblRoll.Size = New System.Drawing.Size(38, 18)
+        Me.lblRoll.TabIndex = 28
+        Me.lblRoll.Text = "Roll"
         '
-        'btnAgregar
+        'btnModificar
         '
-        Me.btnAgregar.BackColor = System.Drawing.Color.White
-        Me.btnAgregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregar.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.btnAgregar.Location = New System.Drawing.Point(276, 562)
-        Me.btnAgregar.Name = "btnAgregar"
-        Me.btnAgregar.Size = New System.Drawing.Size(199, 32)
-        Me.btnAgregar.TabIndex = 9
-        Me.btnAgregar.Text = "Modificar"
-        Me.btnAgregar.UseVisualStyleBackColor = False
+        Me.btnModificar.BackColor = System.Drawing.Color.White
+        Me.btnModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificar.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnModificar.Location = New System.Drawing.Point(276, 562)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(199, 32)
+        Me.btnModificar.TabIndex = 9
+        Me.btnModificar.Text = "Modificar"
+        Me.btnModificar.UseVisualStyleBackColor = False
         '
         'txtApe
         '
@@ -223,17 +223,17 @@ Partial Class modificarUsuario
         Me.txtCi.Size = New System.Drawing.Size(127, 20)
         Me.txtCi.TabIndex = 0
         '
-        'lbl9
+        'lblPwd
         '
-        Me.lbl9.AutoSize = True
-        Me.lbl9.BackColor = System.Drawing.Color.Transparent
-        Me.lbl9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl9.ForeColor = System.Drawing.Color.Black
-        Me.lbl9.Location = New System.Drawing.Point(109, 492)
-        Me.lbl9.Name = "lbl9"
-        Me.lbl9.Size = New System.Drawing.Size(95, 18)
-        Me.lbl9.TabIndex = 24
-        Me.lbl9.Text = "Contraseña"
+        Me.lblPwd.AutoSize = True
+        Me.lblPwd.BackColor = System.Drawing.Color.Transparent
+        Me.lblPwd.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPwd.ForeColor = System.Drawing.Color.Black
+        Me.lblPwd.Location = New System.Drawing.Point(109, 492)
+        Me.lblPwd.Name = "lblPwd"
+        Me.lblPwd.Size = New System.Drawing.Size(95, 18)
+        Me.lblPwd.TabIndex = 24
+        Me.lblPwd.Text = "Contraseña"
         '
         'dgvModificarUsu
         '
@@ -282,25 +282,25 @@ Partial Class modificarUsuario
         Me.btnCancelar.Text = "Cancelar"
         Me.btnCancelar.UseVisualStyleBackColor = False
         '
-        'Label1
+        'lblNom1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(78, 284)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(139, 18)
-        Me.Label1.TabIndex = 47
-        Me.Label1.Text = "Segundo Nombre"
+        Me.lblNom1.AutoSize = True
+        Me.lblNom1.BackColor = System.Drawing.Color.Transparent
+        Me.lblNom1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNom1.ForeColor = System.Drawing.Color.Black
+        Me.lblNom1.Location = New System.Drawing.Point(78, 284)
+        Me.lblNom1.Name = "lblNom1"
+        Me.lblNom1.Size = New System.Drawing.Size(139, 18)
+        Me.lblNom1.TabIndex = 47
+        Me.lblNom1.Text = "Segundo Nombre"
         '
-        'txtNom2
+        'txtNom1
         '
-        Me.txtNom2.Location = New System.Drawing.Point(221, 284)
-        Me.txtNom2.MaxLength = 20
-        Me.txtNom2.Name = "txtNom2"
-        Me.txtNom2.Size = New System.Drawing.Size(127, 20)
-        Me.txtNom2.TabIndex = 2
+        Me.txtNom1.Location = New System.Drawing.Point(221, 284)
+        Me.txtNom1.MaxLength = 20
+        Me.txtNom1.Name = "txtNom1"
+        Me.txtNom1.Size = New System.Drawing.Size(127, 20)
+        Me.txtNom1.TabIndex = 2
         '
         'modificarUsuario
         '
@@ -308,30 +308,30 @@ Partial Class modificarUsuario
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(487, 606)
-        Me.Controls.Add(Me.txtNom2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtNom1)
+        Me.Controls.Add(Me.lblNom1)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.lblAyuda)
         Me.Controls.Add(Me.dgvModificarUsu)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.txtTel)
-        Me.Controls.Add(Me.lbl6)
+        Me.Controls.Add(Me.lblDir)
         Me.Controls.Add(Me.txtDir)
-        Me.Controls.Add(Me.lbl4)
+        Me.Controls.Add(Me.lblEmail)
         Me.Controls.Add(Me.txtEmail)
-        Me.Controls.Add(Me.txtNom1)
+        Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.txtPwd)
-        Me.Controls.Add(Me.lbl3)
-        Me.Controls.Add(Me.lbl2)
-        Me.Controls.Add(Me.lbl1)
-        Me.Controls.Add(Me.lbl5)
+        Me.Controls.Add(Me.lblApe)
+        Me.Controls.Add(Me.lblNom)
+        Me.Controls.Add(Me.lblCi)
+        Me.Controls.Add(Me.lblTel)
         Me.Controls.Add(Me.cboRoll)
-        Me.Controls.Add(Me.lbl7)
-        Me.Controls.Add(Me.btnAgregar)
+        Me.Controls.Add(Me.lblRoll)
+        Me.Controls.Add(Me.btnModificar)
         Me.Controls.Add(Me.txtApe)
         Me.Controls.Add(Me.txtCi)
-        Me.Controls.Add(Me.lbl9)
+        Me.Controls.Add(Me.lblPwd)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "modificarUsuario"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -345,25 +345,25 @@ Partial Class modificarUsuario
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents txtTel As System.Windows.Forms.TextBox
-    Friend WithEvents lbl6 As System.Windows.Forms.Label
+    Friend WithEvents lblDir As System.Windows.Forms.Label
     Friend WithEvents txtDir As System.Windows.Forms.TextBox
-    Friend WithEvents lbl4 As System.Windows.Forms.Label
+    Friend WithEvents lblEmail As System.Windows.Forms.Label
     Friend WithEvents txtEmail As System.Windows.Forms.TextBox
-    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents txtPwd As System.Windows.Forms.TextBox
-    Friend WithEvents lbl3 As System.Windows.Forms.Label
-    Friend WithEvents lbl2 As System.Windows.Forms.Label
-    Friend WithEvents lbl1 As System.Windows.Forms.Label
-    Friend WithEvents lbl5 As System.Windows.Forms.Label
+    Friend WithEvents lblApe As System.Windows.Forms.Label
+    Friend WithEvents lblNom As System.Windows.Forms.Label
+    Friend WithEvents lblCi As System.Windows.Forms.Label
+    Friend WithEvents lblTel As System.Windows.Forms.Label
     Friend WithEvents cboRoll As System.Windows.Forms.ComboBox
-    Friend WithEvents lbl7 As System.Windows.Forms.Label
-    Friend WithEvents btnAgregar As System.Windows.Forms.Button
+    Friend WithEvents lblRoll As System.Windows.Forms.Label
+    Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents txtApe As System.Windows.Forms.TextBox
     Friend WithEvents txtCi As System.Windows.Forms.TextBox
-    Friend WithEvents lbl9 As System.Windows.Forms.Label
+    Friend WithEvents lblPwd As System.Windows.Forms.Label
     Friend WithEvents dgvModificarUsu As System.Windows.Forms.DataGridView
     Friend WithEvents lblAyuda As System.Windows.Forms.Label
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents txtNom2 As System.Windows.Forms.TextBox
+    Friend WithEvents lblNom1 As System.Windows.Forms.Label
+    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
 End Class

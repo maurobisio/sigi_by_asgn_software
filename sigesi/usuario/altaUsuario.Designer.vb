@@ -34,16 +34,16 @@ Partial Class altaUsuario
         Me.lblNom = New System.Windows.Forms.Label()
         Me.lblApe = New System.Windows.Forms.Label()
         Me.txtPwd = New System.Windows.Forms.TextBox()
-        Me.txtNom1 = New System.Windows.Forms.TextBox()
+        Me.txtNom = New System.Windows.Forms.TextBox()
         Me.txtEmail = New System.Windows.Forms.TextBox()
-        Me.lblmail = New System.Windows.Forms.Label()
+        Me.lblEmail = New System.Windows.Forms.Label()
         Me.txtDir = New System.Windows.Forms.TextBox()
         Me.lblDir = New System.Windows.Forms.Label()
         Me.txtTel = New System.Windows.Forms.TextBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtNom2 = New System.Windows.Forms.TextBox()
+        Me.lblNom1 = New System.Windows.Forms.Label()
+        Me.txtNom1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'lblPwd
@@ -118,22 +118,22 @@ Partial Class altaUsuario
         resources.ApplyResources(Me.txtPwd, "txtPwd")
         Me.txtPwd.Name = "txtPwd"
         '
-        'txtNom1
+        'txtNom
         '
-        resources.ApplyResources(Me.txtNom1, "txtNom1")
-        Me.txtNom1.Name = "txtNom1"
+        resources.ApplyResources(Me.txtNom, "txtNom")
+        Me.txtNom.Name = "txtNom"
         '
         'txtEmail
         '
         resources.ApplyResources(Me.txtEmail, "txtEmail")
         Me.txtEmail.Name = "txtEmail"
         '
-        'lblmail
+        'lblEmail
         '
-        resources.ApplyResources(Me.lblmail, "lblmail")
-        Me.lblmail.BackColor = System.Drawing.Color.Transparent
-        Me.lblmail.ForeColor = System.Drawing.Color.Black
-        Me.lblmail.Name = "lblmail"
+        resources.ApplyResources(Me.lblEmail, "lblEmail")
+        Me.lblEmail.BackColor = System.Drawing.Color.Transparent
+        Me.lblEmail.ForeColor = System.Drawing.Color.Black
+        Me.lblEmail.Name = "lblEmail"
         '
         'txtDir
         '
@@ -170,17 +170,17 @@ Partial Class altaUsuario
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.UseVisualStyleBackColor = False
         '
-        'Label1
+        'lblNom1
         '
-        resources.ApplyResources(Me.Label1, "Label1")
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Name = "Label1"
+        resources.ApplyResources(Me.lblNom1, "lblNom1")
+        Me.lblNom1.BackColor = System.Drawing.Color.Transparent
+        Me.lblNom1.ForeColor = System.Drawing.Color.Black
+        Me.lblNom1.Name = "lblNom1"
         '
-        'txtNom2
+        'txtNom1
         '
-        resources.ApplyResources(Me.txtNom2, "txtNom2")
-        Me.txtNom2.Name = "txtNom2"
+        resources.ApplyResources(Me.txtNom1, "txtNom1")
+        Me.txtNom1.Name = "txtNom1"
         '
         'altaUsuario
         '
@@ -188,16 +188,16 @@ Partial Class altaUsuario
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Controls.Add(Me.txtNom2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtNom1)
+        Me.Controls.Add(Me.lblNom1)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.txtTel)
         Me.Controls.Add(Me.lblDir)
         Me.Controls.Add(Me.txtDir)
-        Me.Controls.Add(Me.lblmail)
+        Me.Controls.Add(Me.lblEmail)
         Me.Controls.Add(Me.txtEmail)
-        Me.Controls.Add(Me.txtNom1)
+        Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.txtPwd)
         Me.Controls.Add(Me.lblApe)
         Me.Controls.Add(Me.lblNom)
@@ -227,14 +227,14 @@ Partial Class altaUsuario
     Friend WithEvents lblNom As System.Windows.Forms.Label
     Friend WithEvents lblApe As System.Windows.Forms.Label
     Friend WithEvents txtPwd As System.Windows.Forms.TextBox
-    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents txtEmail As System.Windows.Forms.TextBox
-    Friend WithEvents lblmail As System.Windows.Forms.Label
+    Friend WithEvents lblEmail As System.Windows.Forms.Label
     Friend WithEvents txtDir As System.Windows.Forms.TextBox
     Friend WithEvents lblDir As System.Windows.Forms.Label
     Friend WithEvents txtTel As System.Windows.Forms.TextBox
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnSalir As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents txtNom2 As System.Windows.Forms.TextBox
+    Friend WithEvents lblNom1 As System.Windows.Forms.Label
+    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
 End Class

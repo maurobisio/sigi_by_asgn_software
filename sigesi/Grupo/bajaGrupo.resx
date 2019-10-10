@@ -186,37 +186,37 @@
   <data name="&gt;&gt;btnEliminar.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="lblCi.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblCod.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblCi.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblCod.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="lblCi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblCod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblCi.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblCod.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 107</value>
   </data>
-  <data name="lblCi.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblCod.Size" type="System.Drawing.Size, System.Drawing">
     <value>212, 18</value>
   </data>
-  <data name="lblCi.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblCod.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="lblCi.Text" xml:space="preserve">
+  <data name="lblCod.Text" xml:space="preserve">
     <value>Ingrese el código del grupo</value>
   </data>
-  <data name="&gt;&gt;lblCi.Name" xml:space="preserve">
-    <value>lblCi</value>
+  <data name="&gt;&gt;lblCod.Name" xml:space="preserve">
+    <value>lblCod</value>
   </data>
-  <data name="&gt;&gt;lblCi.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblCod.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblCi.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblCod.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblCi.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblCod.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="txtCod.Location" type="System.Drawing.Point, System.Drawing">

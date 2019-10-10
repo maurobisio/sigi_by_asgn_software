@@ -23,7 +23,7 @@ Partial Class listarMateriaGrupo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.dgvLIstarMatGrup = New System.Windows.Forms.DataGridView()
-        Me.btnAgregarUsuario = New System.Windows.Forms.Button()
+        Me.btnAlta = New System.Windows.Forms.Button()
         Me.btnEliminar = New System.Windows.Forms.Button()
         CType(Me.dgvLIstarMatGrup, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -38,24 +38,24 @@ Partial Class listarMateriaGrupo
         Me.dgvLIstarMatGrup.Size = New System.Drawing.Size(434, 328)
         Me.dgvLIstarMatGrup.TabIndex = 2
         '
-        'btnAgregarUsuario
+        'btnAlta
         '
-        Me.btnAgregarUsuario.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnAgregarUsuario.BackColor = System.Drawing.Color.Black
-        Me.btnAgregarUsuario.FlatAppearance.BorderSize = 0
-        Me.btnAgregarUsuario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnAgregarUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.btnAgregarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAgregarUsuario.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregarUsuario.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.btnAgregarUsuario.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
-        Me.btnAgregarUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAgregarUsuario.Location = New System.Drawing.Point(519, 64)
-        Me.btnAgregarUsuario.Name = "btnAgregarUsuario"
-        Me.btnAgregarUsuario.Size = New System.Drawing.Size(199, 69)
-        Me.btnAgregarUsuario.TabIndex = 2
-        Me.btnAgregarUsuario.Text = "Alta"
-        Me.btnAgregarUsuario.UseVisualStyleBackColor = False
+        Me.btnAlta.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnAlta.BackColor = System.Drawing.Color.Black
+        Me.btnAlta.FlatAppearance.BorderSize = 0
+        Me.btnAlta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnAlta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.btnAlta.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAlta.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAlta.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.btnAlta.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
+        Me.btnAlta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAlta.Location = New System.Drawing.Point(519, 64)
+        Me.btnAlta.Name = "btnAlta"
+        Me.btnAlta.Size = New System.Drawing.Size(199, 69)
+        Me.btnAlta.TabIndex = 2
+        Me.btnAlta.Text = "Alta"
+        Me.btnAlta.UseVisualStyleBackColor = False
         '
         'btnEliminar
         '
@@ -65,7 +65,7 @@ Partial Class listarMateriaGrupo
         Me.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEliminar.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEliminar.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnEliminar.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
         Me.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -82,7 +82,7 @@ Partial Class listarMateriaGrupo
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(746, 372)
-        Me.Controls.Add(Me.btnAgregarUsuario)
+        Me.Controls.Add(Me.btnAlta)
         Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.dgvLIstarMatGrup)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -94,5 +94,5 @@ Partial Class listarMateriaGrupo
     End Sub
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
     Friend WithEvents dgvLIstarMatGrup As System.Windows.Forms.DataGridView
-    Friend WithEvents btnAgregarUsuario As System.Windows.Forms.Button
+    Friend WithEvents btnAlta As System.Windows.Forms.Button
 End Class

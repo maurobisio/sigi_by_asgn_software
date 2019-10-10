@@ -27,12 +27,12 @@ Partial Class altaGrupo
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.lblCod = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
-        Me.lblApe = New System.Windows.Forms.Label()
-        Me.txtNom1 = New System.Windows.Forms.TextBox()
+        Me.lblEdificio = New System.Windows.Forms.Label()
+        Me.txtNom = New System.Windows.Forms.TextBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtturn = New System.Windows.Forms.TextBox()
+        Me.lblTurno = New System.Windows.Forms.Label()
+        Me.txtTurn = New System.Windows.Forms.TextBox()
         Me.ComboEdi = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
@@ -63,17 +63,17 @@ Partial Class altaGrupo
         Me.lblNom.ForeColor = System.Drawing.Color.Black
         Me.lblNom.Name = "lblNom"
         '
-        'lblApe
+        'lblEdificio
         '
-        resources.ApplyResources(Me.lblApe, "lblApe")
-        Me.lblApe.BackColor = System.Drawing.Color.Transparent
-        Me.lblApe.ForeColor = System.Drawing.Color.Black
-        Me.lblApe.Name = "lblApe"
+        resources.ApplyResources(Me.lblEdificio, "lblEdificio")
+        Me.lblEdificio.BackColor = System.Drawing.Color.Transparent
+        Me.lblEdificio.ForeColor = System.Drawing.Color.Black
+        Me.lblEdificio.Name = "lblEdificio"
         '
-        'txtNom1
+        'txtNom
         '
-        resources.ApplyResources(Me.txtNom1, "txtNom1")
-        Me.txtNom1.Name = "txtNom1"
+        resources.ApplyResources(Me.txtNom, "txtNom")
+        Me.txtNom.Name = "txtNom"
         '
         'lblTitulo
         '
@@ -93,17 +93,17 @@ Partial Class altaGrupo
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.UseVisualStyleBackColor = False
         '
-        'Label1
+        'lblTurno
         '
-        resources.ApplyResources(Me.Label1, "Label1")
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Name = "Label1"
+        resources.ApplyResources(Me.lblTurno, "lblTurno")
+        Me.lblTurno.BackColor = System.Drawing.Color.Transparent
+        Me.lblTurno.ForeColor = System.Drawing.Color.Black
+        Me.lblTurno.Name = "lblTurno"
         '
-        'txtturn
+        'txtTurn
         '
-        resources.ApplyResources(Me.txtturn, "txtturn")
-        Me.txtturn.Name = "txtturn"
+        resources.ApplyResources(Me.txtTurn, "txtTurn")
+        Me.txtTurn.Name = "txtTurn"
         '
         'ComboEdi
         '
@@ -118,12 +118,12 @@ Partial Class altaGrupo
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Controls.Add(Me.ComboEdi)
-        Me.Controls.Add(Me.txtturn)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtTurn)
+        Me.Controls.Add(Me.lblTurno)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
-        Me.Controls.Add(Me.txtNom1)
-        Me.Controls.Add(Me.lblApe)
+        Me.Controls.Add(Me.txtNom)
+        Me.Controls.Add(Me.lblEdificio)
         Me.Controls.Add(Me.lblNom)
         Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnAgregar)
@@ -139,11 +139,11 @@ Partial Class altaGrupo
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
     Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
-    Friend WithEvents lblApe As System.Windows.Forms.Label
-    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
+    Friend WithEvents lblEdificio As System.Windows.Forms.Label
+    Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnSalir As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents txtturn As System.Windows.Forms.TextBox
+    Friend WithEvents lblTurno As System.Windows.Forms.Label
+    Friend WithEvents txtTurn As System.Windows.Forms.TextBox
     Friend WithEvents ComboEdi As System.Windows.Forms.ComboBox
 End Class

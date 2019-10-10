@@ -1,7 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class listarMateriaGrupo
-    Dim id_tiene
+    Dim id_tiene = DBNull.Value.ToString
     Private Sub datagridview_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         'Establece la conexón con el orgien de los datos
         Dim connection As New MySqlConnection
@@ -74,7 +74,7 @@ Public Class listarMateriaGrupo
         Me.Close()
     End Sub
 
-    Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregarUsuario.Click
+    Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
         altaMateriaGrupo.Show()
     End Sub
 

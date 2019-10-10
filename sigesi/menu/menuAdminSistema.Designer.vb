@@ -24,7 +24,8 @@ Partial Class menuAdminSistema
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
-        Me.btnGrupoMateria = New System.Windows.Forms.Button()
+        Me.btnIncidencias = New System.Windows.Forms.Button()
+        Me.btnMateriaGrupo = New System.Windows.Forms.Button()
         Me.btnEdificio = New System.Windows.Forms.Button()
         Me.btnGrupo = New System.Windows.Forms.Button()
         Me.btnMateria = New System.Windows.Forms.Button()
@@ -40,7 +41,6 @@ Partial Class menuAdminSistema
         Me.picIsgesi = New System.Windows.Forms.PictureBox()
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,8 +51,8 @@ Partial Class menuAdminSistema
         'pnlIzquierda
         '
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
-        Me.pnlIzquierda.Controls.Add(Me.Button1)
-        Me.pnlIzquierda.Controls.Add(Me.btnGrupoMateria)
+        Me.pnlIzquierda.Controls.Add(Me.btnIncidencias)
+        Me.pnlIzquierda.Controls.Add(Me.btnMateriaGrupo)
         Me.pnlIzquierda.Controls.Add(Me.btnEdificio)
         Me.pnlIzquierda.Controls.Add(Me.btnGrupo)
         Me.pnlIzquierda.Controls.Add(Me.btnMateria)
@@ -67,22 +67,39 @@ Partial Class menuAdminSistema
         Me.pnlIzquierda.Size = New System.Drawing.Size(214, 573)
         Me.pnlIzquierda.TabIndex = 0
         '
-        'btnGrupoMateria
+        'btnIncidencias
         '
-        Me.btnGrupoMateria.FlatAppearance.BorderSize = 0
-        Me.btnGrupoMateria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnGrupoMateria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnGrupoMateria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnGrupoMateria.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnGrupoMateria.ForeColor = System.Drawing.Color.White
-        Me.btnGrupoMateria.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnGrupoMateria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnGrupoMateria.Location = New System.Drawing.Point(0, 276)
-        Me.btnGrupoMateria.Name = "btnGrupoMateria"
-        Me.btnGrupoMateria.Size = New System.Drawing.Size(247, 54)
-        Me.btnGrupoMateria.TabIndex = 42
-        Me.btnGrupoMateria.Text = "Materias Grupo"
-        Me.btnGrupoMateria.UseVisualStyleBackColor = True
+        Me.btnIncidencias.FlatAppearance.BorderSize = 0
+        Me.btnIncidencias.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnIncidencias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnIncidencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIncidencias.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIncidencias.ForeColor = System.Drawing.Color.White
+        Me.btnIncidencias.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnIncidencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnIncidencias.Location = New System.Drawing.Point(3, 216)
+        Me.btnIncidencias.Name = "btnIncidencias"
+        Me.btnIncidencias.Size = New System.Drawing.Size(218, 54)
+        Me.btnIncidencias.TabIndex = 43
+        Me.btnIncidencias.Text = "Incidencias"
+        Me.btnIncidencias.UseVisualStyleBackColor = True
+        '
+        'btnMateriaGrupo
+        '
+        Me.btnMateriaGrupo.FlatAppearance.BorderSize = 0
+        Me.btnMateriaGrupo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnMateriaGrupo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnMateriaGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMateriaGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMateriaGrupo.ForeColor = System.Drawing.Color.White
+        Me.btnMateriaGrupo.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnMateriaGrupo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnMateriaGrupo.Location = New System.Drawing.Point(0, 276)
+        Me.btnMateriaGrupo.Name = "btnMateriaGrupo"
+        Me.btnMateriaGrupo.Size = New System.Drawing.Size(247, 54)
+        Me.btnMateriaGrupo.TabIndex = 42
+        Me.btnMateriaGrupo.Text = "Materias Grupo"
+        Me.btnMateriaGrupo.UseVisualStyleBackColor = True
         '
         'btnEdificio
         '
@@ -278,23 +295,6 @@ Partial Class menuAdminSistema
         'tmrMostrarMenu
         '
         '
-        'Button1
-        '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(3, 216)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(218, 54)
-        Me.Button1.TabIndex = 43
-        Me.Button1.Text = "Incidencias"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'menuAdminSistema
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -331,6 +331,6 @@ Partial Class menuAdminSistema
     Friend WithEvents btnMateria As System.Windows.Forms.Button
     Friend WithEvents btnGrupo As System.Windows.Forms.Button
     Friend WithEvents btnEdificio As System.Windows.Forms.Button
-    Friend WithEvents btnGrupoMateria As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnMateriaGrupo As System.Windows.Forms.Button
+    Friend WithEvents btnIncidencias As System.Windows.Forms.Button
 End Class

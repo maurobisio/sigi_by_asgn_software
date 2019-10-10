@@ -26,8 +26,8 @@ Partial Class altaIncidencia
         Me.txtCi = New System.Windows.Forms.TextBox()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.lblCod = New System.Windows.Forms.Label()
-        Me.lblNom = New System.Windows.Forms.Label()
-        Me.txtNom1 = New System.Windows.Forms.TextBox()
+        Me.lblDesc = New System.Windows.Forms.Label()
+        Me.txtDesc = New System.Windows.Forms.TextBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -52,17 +52,17 @@ Partial Class altaIncidencia
         Me.lblCod.ForeColor = System.Drawing.Color.Black
         Me.lblCod.Name = "lblCod"
         '
-        'lblNom
+        'lblDesc
         '
-        resources.ApplyResources(Me.lblNom, "lblNom")
-        Me.lblNom.BackColor = System.Drawing.Color.Transparent
-        Me.lblNom.ForeColor = System.Drawing.Color.Black
-        Me.lblNom.Name = "lblNom"
+        resources.ApplyResources(Me.lblDesc, "lblDesc")
+        Me.lblDesc.BackColor = System.Drawing.Color.Transparent
+        Me.lblDesc.ForeColor = System.Drawing.Color.Black
+        Me.lblDesc.Name = "lblDesc"
         '
-        'txtNom1
+        'txtDesc
         '
-        resources.ApplyResources(Me.txtNom1, "txtNom1")
-        Me.txtNom1.Name = "txtNom1"
+        resources.ApplyResources(Me.txtDesc, "txtDesc")
+        Me.txtDesc.Name = "txtDesc"
         '
         'lblTitulo
         '
@@ -90,8 +90,8 @@ Partial Class altaIncidencia
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
-        Me.Controls.Add(Me.txtNom1)
-        Me.Controls.Add(Me.lblNom)
+        Me.Controls.Add(Me.txtDesc)
+        Me.Controls.Add(Me.lblDesc)
         Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnAgregar)
         Me.Controls.Add(Me.txtCi)
@@ -105,8 +105,8 @@ Partial Class altaIncidencia
     Friend WithEvents txtCi As System.Windows.Forms.TextBox
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
     Friend WithEvents lblCod As System.Windows.Forms.Label
-    Friend WithEvents lblNom As System.Windows.Forms.Label
-    Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
+    Friend WithEvents lblDesc As System.Windows.Forms.Label
+    Friend WithEvents txtDesc As System.Windows.Forms.TextBox
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnSalir As System.Windows.Forms.Button
 End Class

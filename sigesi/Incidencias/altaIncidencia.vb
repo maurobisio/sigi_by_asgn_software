@@ -7,7 +7,7 @@ Public Class altaIncidencia
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCi.Text = "" Or txtNom1.Text = "" Then
+        If txtCi.Text = "" Or txtDesc.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -24,7 +24,7 @@ Public Class altaIncidencia
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol) "
                 command += "VALUES ('" + txtCi.Text
-                command += "', '" + txtNom1.Text
+                command += "', '" + txtDesc.Text
                 command += "');"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -120,7 +120,7 @@ Public Class altaIncidencia
         End If
     End Sub
 
-    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom1.KeyPress
+    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtDesc.KeyPress
         ' valido letras (hay que ir al evento key press y dentro del :)
         If Char.IsLetter(e.KeyChar) Then
             e.Handled = False

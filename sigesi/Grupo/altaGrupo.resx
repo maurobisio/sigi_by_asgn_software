@@ -240,61 +240,61 @@
   <data name="&gt;&gt;lblNom.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="lblApe.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblEdificio.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblApe.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblEdificio.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="lblApe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblEdificio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblApe.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblEdificio.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 156</value>
   </data>
-  <data name="lblApe.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblEdificio.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 18</value>
   </data>
-  <data name="lblApe.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblEdificio.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="lblApe.Text" xml:space="preserve">
+  <data name="lblEdificio.Text" xml:space="preserve">
     <value>Edificio</value>
   </data>
-  <data name="&gt;&gt;lblApe.Name" xml:space="preserve">
-    <value>lblApe</value>
+  <data name="&gt;&gt;lblEdificio.Name" xml:space="preserve">
+    <value>lblEdificio</value>
   </data>
-  <data name="&gt;&gt;lblApe.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblEdificio.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblApe.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblEdificio.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblApe.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblEdificio.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="txtNom1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtNom.Location" type="System.Drawing.Point, System.Drawing">
     <value>122, 101</value>
   </data>
-  <data name="txtNom1.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtNom.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
-  <data name="txtNom1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtNom.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 20</value>
   </data>
-  <data name="txtNom1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtNom.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;txtNom1.Name" xml:space="preserve">
-    <value>txtNom1</value>
+  <data name="&gt;&gt;txtNom.Name" xml:space="preserve">
+    <value>txtNom</value>
   </data>
-  <data name="&gt;&gt;txtNom1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtNom.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtNom1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtNom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtNom1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtNom.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="lblTitulo.AutoSize" type="System.Boolean, mscorlib">
@@ -360,61 +360,61 @@
   <data name="&gt;&gt;btnSalir.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblTurno.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblTurno.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblTurno.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblTurno.Location" type="System.Drawing.Point, System.Drawing">
     <value>40, 129</value>
   </data>
-  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblTurno.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 18</value>
   </data>
-  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblTurno.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
+  <data name="lblTurno.Text" xml:space="preserve">
     <value>Turno</value>
   </data>
-  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
-    <value>Label1</value>
+  <data name="&gt;&gt;lblTurno.Name" xml:space="preserve">
+    <value>lblTurno</value>
   </data>
-  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblTurno.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblTurno.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblTurno.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="txtturn.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtTurn.Location" type="System.Drawing.Point, System.Drawing">
     <value>122, 130</value>
   </data>
-  <data name="txtturn.MaxLength" type="System.Int32, mscorlib">
+  <data name="txtTurn.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
   </data>
-  <data name="txtturn.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtTurn.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 20</value>
   </data>
-  <data name="txtturn.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtTurn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;txtturn.Name" xml:space="preserve">
-    <value>txtturn</value>
+  <data name="&gt;&gt;txtTurn.Name" xml:space="preserve">
+    <value>txtTurn</value>
   </data>
-  <data name="&gt;&gt;txtturn.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtTurn.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtturn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtTurn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtturn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtTurn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="ComboEdi.Location" type="System.Drawing.Point, System.Drawing">

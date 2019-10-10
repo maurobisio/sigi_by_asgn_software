@@ -17,4 +17,8 @@
     Private Sub lblHOra_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblHOra.Click
 
     End Sub
+
+    Private Sub lblB_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblTitulo.Click
+
+    End Sub
 End Class

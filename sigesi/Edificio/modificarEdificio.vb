@@ -37,11 +37,11 @@ Public Class modificarEdificio
         Dim i As Integer
         i = dgvModificarEd.CurrentRow.Index
         txtCod.Text = dgvModificarEd.Item(0, i).Value()
-        txtNom1.Text = dgvModificarEd.Item(1, i).Value()
+        txtNom.Text = dgvModificarEd.Item(1, i).Value()
     End Sub
 
-    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCod.Text = "" Or txtNom1.Text = "" Then
+    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
+        If txtCod.Text = "" Or txtNom.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -57,7 +57,7 @@ Public Class modificarEdificio
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "UPDATE edificio SET "
                 command += "id_edificio='" + txtCod.Text
-                command += "', tipo_edificio='" + txtNom1.Text
+                command += "', tipo_edificio='" + txtNom.Text
                 command += "' WHERE id_edificio='" + txtCod.Text + "';"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -87,7 +87,7 @@ Public Class modificarEdificio
         Call LimpiarForm(Me)
     End Sub
 
-    Private Sub txtNom1_KeyPress1(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom1.KeyPress
+    Private Sub txtNom1_KeyPress1(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom.KeyPress
         ' valido letras (hay que ir al evento key press y dentro del :)
         If Char.IsLetter(e.KeyChar) Then
             e.Handled = False

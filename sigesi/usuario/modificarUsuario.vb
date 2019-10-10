@@ -46,16 +46,16 @@ Public Class modificarUsuario
         i = dgvModificarUsu.CurrentRow.Index
         txtCi.Text = dgvModificarUsu.Item(0, i).Value()
         txtApe.Text = dgvModificarUsu.Item(3, i).Value()
-        txtNom1.Text = dgvModificarUsu.Item(1, i).Value()
-        txtNom2.Text = dgvModificarUsu.Item(2, i).Value()
+        txtNom.Text = dgvModificarUsu.Item(1, i).Value()
+        txtNom1.Text = dgvModificarUsu.Item(2, i).Value()
         txtDir.Text = dgvModificarUsu.Item(4, i).Value()
         txtEmail.Text = dgvModificarUsu.Item(5, i).Value()
         txtPwd.Text = dgvModificarUsu.Item(6, i).Value()
         cboRoll.Text = dgvModificarUsu.Item(7, i).Value()
     End Sub
 
-    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtApe.Text = "" Or txtCi.Text = "" Or txtDir.Text = "" Or txtEmail.Text = "" Or txtNom1.Text = "" Or txtPwd.Text = "" Or txtTel.Text = "" Or txtNom2.Text = "" Or cboRoll.Text = "" Then
+    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
+        If txtApe.Text = "" Or txtCi.Text = "" Or txtDir.Text = "" Or txtEmail.Text = "" Or txtNom.Text = "" Or txtPwd.Text = "" Or txtTel.Text = "" Or txtNom1.Text = "" Or cboRoll.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -87,8 +87,8 @@ Public Class modificarUsuario
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "UPDATE usuario SET "
                 command += "ci='" + txtCi.Text
-                command += "', primer_nombre='" + txtNom1.Text
-                command += "', segundo_nombre='" + txtNom2.Text
+                command += "', primer_nombre='" + txtNom.Text
+                command += "', segundo_nombre='" + txtNom1.Text
                 command += "', apellido='" + txtApe.Text
                 command += "', direccion='" + txtDir.Text
                 command += "', email='" + txtEmail.Text
@@ -111,7 +111,7 @@ Public Class modificarUsuario
             Call LimpiarForm(Me)
             loadGrid()
         End If
-       
+
     End Sub
 
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click
@@ -155,7 +155,7 @@ Public Class modificarUsuario
         End If
     End Sub
 
-    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom1.KeyPress
+    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom.KeyPress
         ' valido letras (hay que ir al evento key press y dentro del :)
         If Char.IsLetter(e.KeyChar) Then
             e.Handled = False
@@ -173,7 +173,7 @@ Public Class modificarUsuario
         e.Handled = True
     End Sub
 
-    Private Sub lbl9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl9.Click
+    Private Sub lbl9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblPwd.Click
 
     End Sub
 
@@ -185,11 +185,11 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub txtNom2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNom2.TextChanged
+    Private Sub txtNom2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNom1.TextChanged
 
     End Sub
 
-    Private Sub lbl7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl7.Click
+    Private Sub lbl7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblRoll.Click
 
     End Sub
 
@@ -197,19 +197,19 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub lbl5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl5.Click
+    Private Sub lbl5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblTel.Click
 
     End Sub
 
-    Private Sub lbl1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl1.Click
+    Private Sub lbl1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblCi.Click
 
     End Sub
 
-    Private Sub lbl2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl2.Click
+    Private Sub lbl2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblNom.Click
 
     End Sub
 
-    Private Sub lbl3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl3.Click
+    Private Sub lbl3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblApe.Click
 
     End Sub
 
@@ -217,7 +217,7 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub txtNom1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNom1.TextChanged
+    Private Sub txtNom1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNom.TextChanged
 
     End Sub
 
@@ -225,7 +225,7 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub lbl4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl4.Click
+    Private Sub lbl4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblEmail.Click
 
     End Sub
 
@@ -233,7 +233,7 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub lbl6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lbl6.Click
+    Private Sub lbl6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblDir.Click
 
     End Sub
 
@@ -249,7 +249,7 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblNom1.Click
 
     End Sub
 End Class

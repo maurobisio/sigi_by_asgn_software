@@ -94,7 +94,7 @@
         login.Show()
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumnos.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumno.Click
         abrirFormPanel(New listarInscripcion)
     End Sub
 
@@ -110,7 +110,7 @@
         abrirFormPanel(New listarEdificio)
     End Sub
 
-    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnreportes.Click
+    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
         abrirFormPanel(New reportes)
 
     End Sub
