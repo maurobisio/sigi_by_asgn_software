@@ -156,4 +156,13 @@
   <data name="lblCurso" xml:space="preserve">
     <value>Course</value>
   </data>
+  <data name="lblTituloAltaEdificio" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Modify Build</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Delete Build</value>
+  </data>
 </root>

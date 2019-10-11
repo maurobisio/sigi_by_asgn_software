@@ -173,11 +173,38 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Add User.
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloAltaEdificio() As String
+            Get
+                Return ResourceManager.GetString("lblTituloAltaEdificio", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to User.
         '''</summary>
         Friend Shared ReadOnly Property lblUsu() As String
             Get
                 Return ResourceManager.GetString("lblUsu", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Modify Build.
+        '''</summary>
+        Friend Shared ReadOnly Property String1() As String
+            Get
+                Return ResourceManager.GetString("String1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Delete Build.
+        '''</summary>
+        Friend Shared ReadOnly Property String2() As String
+            Get
+                Return ResourceManager.GetString("String2", resourceCulture)
             End Get
         End Property
     End Class
