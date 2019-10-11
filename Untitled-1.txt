@@ -1,9 +1,9 @@
-altaEdificio.lblTitulo.Text
-altaEdificio.lblCod.Text
-altaEdificio.lblNom.Text
-altaEdificio.btnAgregar.Text
+altaEdificio.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTitulo
+altaEdificio.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+altaEdificio.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
+altaEdificio.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAgregar
 
-bajaEdificio.lblTitulo.Text
+bajaEdificio.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaEdificio
 bajaEdificio.lblCod.Text
 bajaEdificio.btnCancelar.Text
 bajaEdificio.btnEliminar.Text
@@ -129,7 +129,7 @@ menuBedel.btnAlumno
 menuBedel.btnSalones
 menuBedel.btnIncidencias
 menuBedel.btnReportes
-menuBedel.btnGestiónEInformes
+menuBedel.btnGestiónInformes
 menuBedel.btnInicio
 menuBedel.btnCerrarSesion
 
