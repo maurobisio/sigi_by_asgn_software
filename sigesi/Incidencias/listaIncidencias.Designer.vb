@@ -24,7 +24,7 @@ Partial Class listaIncidencias
     Private Sub InitializeComponent()
         Me.dgvListarAlumnos = New System.Windows.Forms.DataGridView()
         Me.lblListaIncidencia = New System.Windows.Forms.Label()
-        Me.gpbBuscarAlumnos = New System.Windows.Forms.GroupBox()
+        Me.gpbBuscarIncidencia = New System.Windows.Forms.GroupBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.lblAlumno = New System.Windows.Forms.Label()
         Me.btnCancelar = New System.Windows.Forms.Button()
@@ -36,7 +36,7 @@ Partial Class listaIncidencias
         Me.btnAlta = New System.Windows.Forms.Button()
         Me.btnBaja = New System.Windows.Forms.Button()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.gpbBuscarAlumnos.SuspendLayout()
+        Me.gpbBuscarIncidencia.SuspendLayout()
         Me.SuspendLayout()
         '
         'dgvListarAlumnos
@@ -60,24 +60,24 @@ Partial Class listaIncidencias
         Me.lblListaIncidencia.TabIndex = 3
         Me.lblListaIncidencia.Text = "Lista de Incidencia"
         '
-        'gpbBuscarAlumnos
+        'gpbBuscarIncidencia
         '
-        Me.gpbBuscarAlumnos.Controls.Add(Me.ComboBox1)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.lblAlumno)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.btnCancelar)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.btnBuscar)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.cboGrupo)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.cboCurso)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.lblGrupo)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.lblMateria)
-        Me.gpbBuscarAlumnos.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gpbBuscarAlumnos.ForeColor = System.Drawing.Color.White
-        Me.gpbBuscarAlumnos.Location = New System.Drawing.Point(27, 33)
-        Me.gpbBuscarAlumnos.Name = "gpbBuscarAlumnos"
-        Me.gpbBuscarAlumnos.Size = New System.Drawing.Size(616, 172)
-        Me.gpbBuscarAlumnos.TabIndex = 59
-        Me.gpbBuscarAlumnos.TabStop = False
-        Me.gpbBuscarAlumnos.Text = "Buscar Incidencias"
+        Me.gpbBuscarIncidencia.Controls.Add(Me.ComboBox1)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.lblAlumno)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.btnCancelar)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.btnBuscar)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.cboGrupo)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.cboCurso)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.lblGrupo)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.lblMateria)
+        Me.gpbBuscarIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gpbBuscarIncidencia.ForeColor = System.Drawing.Color.White
+        Me.gpbBuscarIncidencia.Location = New System.Drawing.Point(27, 33)
+        Me.gpbBuscarIncidencia.Name = "gpbBuscarIncidencia"
+        Me.gpbBuscarIncidencia.Size = New System.Drawing.Size(616, 172)
+        Me.gpbBuscarIncidencia.TabIndex = 59
+        Me.gpbBuscarIncidencia.TabStop = False
+        Me.gpbBuscarIncidencia.Text = "Buscar Incidencias"
         '
         'ComboBox1
         '
@@ -220,7 +220,7 @@ Partial Class listaIncidencias
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(735, 448)
         Me.Controls.Add(Me.btnBaja)
-        Me.Controls.Add(Me.gpbBuscarAlumnos)
+        Me.Controls.Add(Me.gpbBuscarIncidencia)
         Me.Controls.Add(Me.lblListaIncidencia)
         Me.Controls.Add(Me.btnAlta)
         Me.Controls.Add(Me.dgvListarAlumnos)
@@ -229,8 +229,8 @@ Partial Class listaIncidencias
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "listarAlumno"
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.gpbBuscarAlumnos.ResumeLayout(False)
-        Me.gpbBuscarAlumnos.PerformLayout()
+        Me.gpbBuscarIncidencia.ResumeLayout(False)
+        Me.gpbBuscarIncidencia.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -238,7 +238,7 @@ Partial Class listaIncidencias
     Friend WithEvents dgvListarAlumnos As System.Windows.Forms.DataGridView
     Friend WithEvents lblListaIncidencia As System.Windows.Forms.Label
     Friend WithEvents btnAlta As System.Windows.Forms.Button
-    Friend WithEvents gpbBuscarAlumnos As System.Windows.Forms.GroupBox
+    Friend WithEvents gpbBuscarIncidencia As System.Windows.Forms.GroupBox
     Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
     Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblMateria As System.Windows.Forms.Label

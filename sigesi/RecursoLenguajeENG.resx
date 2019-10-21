@@ -123,7 +123,7 @@
   <data name="lblAdminSist" xml:space="preserve">
     <value>System administrator</value>
   </data>
-  <data name="lblAlu" xml:space="preserve">
+  <data name="lblAlumno" xml:space="preserve">
     <value>Student</value>
   </data>
   <data name="lblDirector" xml:space="preserve">
@@ -157,7 +157,7 @@
     <value>Course</value>
   </data>
   <data name="lblTituloAltaEdificio" xml:space="preserve">
-    <value>Add User</value>
+    <value>Add Build</value>
   </data>
   <data name="lblTituloModificarEdificio" xml:space="preserve">
     <value>Modify Build</value>
@@ -166,93 +166,153 @@
     <value>Delete Build</value>
   </data>
   <data name="btnAgregar" xml:space="preserve">
-    <value />
+    <value>Add</value>
   </data>
   <data name="btnAlta" xml:space="preserve">
-    <value />
+    <value>Add</value>
   </data>
   <data name="btnAlumno" xml:space="preserve">
-    <value />
+    <value>Student</value>
   </data>
   <data name="btnBaja" xml:space="preserve">
-    <value />
+    <value>Drop</value>
   </data>
   <data name="btnCancelar" xml:space="preserve">
-    <value />
+    <value>Cancel</value>
   </data>
   <data name="btnCerrarSesion" xml:space="preserve">
-    <value />
+    <value>Close Session</value>
   </data>
   <data name="btnEdificio" xml:space="preserve">
-    <value />
+    <value>Building</value>
   </data>
   <data name="btnEliminar" xml:space="preserve">
-    <value />
+    <value>Remove</value>
   </data>
   <data name="btnGestionInformes" xml:space="preserve">
-    <value />
+    <value>Report Management</value>
   </data>
   <data name="btnGrupo" xml:space="preserve">
-    <value />
+    <value>Group</value>
   </data>
   <data name="btnIncidencias" xml:space="preserve">
-    <value />
+    <value>incidents</value>
   </data>
   <data name="btnInicio" xml:space="preserve">
-    <value />
+    <value>Start</value>
   </data>
   <data name="btnMateria" xml:space="preserve">
-    <value />
+    <value>Subject</value>
   </data>
   <data name="btnModificar" xml:space="preserve">
-    <value />
+    <value>Modify</value>
   </data>
   <data name="btnReportes" xml:space="preserve">
-    <value />
+    <value>Reports</value>
   </data>
   <data name="btnSalones" xml:space="preserve">
-    <value />
+    <value>Classrooms</value>
   </data>
   <data name="lblApe" xml:space="preserve">
-    <value />
+    <value>Surname</value>
   </data>
   <data name="lblCi" xml:space="preserve">
-    <value />
+    <value>Identity card</value>
   </data>
   <data name="lblCod" xml:space="preserve">
-    <value />
+    <value>Code</value>
   </data>
   <data name="lblDir" xml:space="preserve">
-    <value />
+    <value>Address</value>
   </data>
   <data name="lblEdificio" xml:space="preserve">
-    <value />
+    <value>Building</value>
   </data>
   <data name="lblEmail" xml:space="preserve">
-    <value />
+    <value>E-mail</value>
   </data>
   <data name="lblGrupo" xml:space="preserve">
-    <value />
+    <value>Group</value>
   </data>
   <data name="lblListaIncidencia" xml:space="preserve">
-    <value />
+    <value>list incidents</value>
   </data>
   <data name="lblMateria" xml:space="preserve">
-    <value />
+    <value>Subject</value>
   </data>
   <data name="lblNom" xml:space="preserve">
-    <value />
+    <value>First Name</value>
   </data>
   <data name="lblNom1" xml:space="preserve">
-    <value />
+    <value>Second Name</value>
   </data>
   <data name="lblRoll" xml:space="preserve">
-    <value />
+    <value>Roll</value>
   </data>
   <data name="lblTel" xml:space="preserve">
-    <value />
+    <value>Telephone</value>
   </data>
   <data name="lblTurno" xml:space="preserve">
+    <value>Turn</value>
+  </data>
+  <data name="btnMateriaGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUsuario" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbBuscarIncidencia" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbBuscarInscripciones" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAyudaModificarEdificio" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAyudaModificarGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAyudaModificarUsuario" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloAltaGrupo" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="lblTituloAltaIncidencia" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloAltaUsuario" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloBajaGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloBajaUsuario" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloHomeAdministrativo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloHomeAdminSistema" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloHomeBedel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloHomeDirector" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloMateriaGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloModificarGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTituloModificarUsuario" xml:space="preserve">
     <value />
   </data>
 </root>

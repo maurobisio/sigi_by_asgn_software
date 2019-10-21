@@ -94,7 +94,7 @@
 
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumn.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumno.Click
         abrirFormPanel(New listarInscripcion)
     End Sub
 

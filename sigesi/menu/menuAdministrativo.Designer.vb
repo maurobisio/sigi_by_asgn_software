@@ -25,24 +25,24 @@ Partial Class menuAdministrativo
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(menuAdministrativo))
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
-        Me.pnlArriba = New System.Windows.Forms.Panel()
-        Me.PnlCentral = New System.Windows.Forms.Panel()
-        Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
-        Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
-        Me.picIsgesi = New System.Windows.Forms.PictureBox()
-        Me.btnSalir = New System.Windows.Forms.Button()
-        Me.btnMinimizar = New System.Windows.Forms.Button()
         Me.btnIncidencias = New System.Windows.Forms.Button()
         Me.btnCerrarSesion = New System.Windows.Forms.Button()
         Me.btnAlumno = New System.Windows.Forms.Button()
         Me.PctMenu = New System.Windows.Forms.PictureBox()
-        Me.btnIncio = New System.Windows.Forms.Button()
+        Me.btnInicio = New System.Windows.Forms.Button()
         Me.picAsgn = New System.Windows.Forms.PictureBox()
+        Me.pnlArriba = New System.Windows.Forms.Panel()
+        Me.picIsgesi = New System.Windows.Forms.PictureBox()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.btnMinimizar = New System.Windows.Forms.Button()
+        Me.PnlCentral = New System.Windows.Forms.Panel()
+        Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
+        Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.pnlIzquierda.SuspendLayout()
-        Me.pnlArriba.SuspendLayout()
-        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlArriba.SuspendLayout()
+        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlIzquierda
@@ -52,7 +52,7 @@ Partial Class menuAdministrativo
         Me.pnlIzquierda.Controls.Add(Me.btnCerrarSesion)
         Me.pnlIzquierda.Controls.Add(Me.btnAlumno)
         Me.pnlIzquierda.Controls.Add(Me.PctMenu)
-        Me.pnlIzquierda.Controls.Add(Me.btnIncio)
+        Me.pnlIzquierda.Controls.Add(Me.btnInicio)
         Me.pnlIzquierda.Controls.Add(Me.picAsgn)
         Me.pnlIzquierda.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnlIzquierda.ForeColor = System.Drawing.Color.White
@@ -60,71 +60,6 @@ Partial Class menuAdministrativo
         Me.pnlIzquierda.Name = "pnlIzquierda"
         Me.pnlIzquierda.Size = New System.Drawing.Size(214, 677)
         Me.pnlIzquierda.TabIndex = 8
-        '
-        'pnlArriba
-        '
-        Me.pnlArriba.Controls.Add(Me.picIsgesi)
-        Me.pnlArriba.Controls.Add(Me.btnSalir)
-        Me.pnlArriba.Controls.Add(Me.btnMinimizar)
-        Me.pnlArriba.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlArriba.Location = New System.Drawing.Point(214, 0)
-        Me.pnlArriba.Name = "pnlArriba"
-        Me.pnlArriba.Size = New System.Drawing.Size(735, 67)
-        Me.pnlArriba.TabIndex = 9
-        '
-        'PnlCentral
-        '
-        Me.PnlCentral.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PnlCentral.Location = New System.Drawing.Point(214, 67)
-        Me.PnlCentral.Name = "PnlCentral"
-        Me.PnlCentral.Size = New System.Drawing.Size(735, 610)
-        Me.PnlCentral.TabIndex = 10
-        '
-        'tmrMostrarMenu
-        '
-        '
-        'tmrOcultarMenu
-        '
-        '
-        'picIsgesi
-        '
-        Me.picIsgesi.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.picIsgesi.BackColor = System.Drawing.Color.Transparent
-        Me.picIsgesi.Image = Global.sigesi.My.Resources.Resources.cooltext330905476616834
-        Me.picIsgesi.Location = New System.Drawing.Point(228, -3)
-        Me.picIsgesi.Name = "picIsgesi"
-        Me.picIsgesi.Size = New System.Drawing.Size(235, 64)
-        Me.picIsgesi.TabIndex = 9
-        Me.picIsgesi.TabStop = False
-        '
-        'btnSalir
-        '
-        Me.btnSalir.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnSalir.FlatAppearance.BorderSize = 0
-        Me.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
-        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSalir.Image = Global.sigesi.My.Resources.Resources.Icono_cerrar_FN
-        Me.btnSalir.Location = New System.Drawing.Point(683, 12)
-        Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(40, 40)
-        Me.btnSalir.TabIndex = 40
-        Me.btnSalir.Text = "         "
-        Me.btnSalir.UseVisualStyleBackColor = True
-        '
-        'btnMinimizar
-        '
-        Me.btnMinimizar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnMinimizar.FlatAppearance.BorderSize = 0
-        Me.btnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray
-        Me.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMinimizar.Image = Global.sigesi.My.Resources.Resources.Icono_Minimizar
-        Me.btnMinimizar.Location = New System.Drawing.Point(627, 12)
-        Me.btnMinimizar.Name = "btnMinimizar"
-        Me.btnMinimizar.Size = New System.Drawing.Size(40, 40)
-        Me.btnMinimizar.TabIndex = 41
-        Me.btnMinimizar.UseVisualStyleBackColor = True
         '
         'btnIncidencias
         '
@@ -190,22 +125,22 @@ Partial Class menuAdministrativo
         Me.PctMenu.TabIndex = 42
         Me.PctMenu.TabStop = False
         '
-        'btnIncio
+        'btnInicio
         '
-        Me.btnIncio.FlatAppearance.BorderSize = 0
-        Me.btnIncio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnIncio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnIncio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIncio.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIncio.ForeColor = System.Drawing.Color.White
-        Me.btnIncio.Image = Global.sigesi.My.Resources.Resources.icono_house
-        Me.btnIncio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncio.Location = New System.Drawing.Point(-3, 266)
-        Me.btnIncio.Name = "btnIncio"
-        Me.btnIncio.Size = New System.Drawing.Size(217, 54)
-        Me.btnIncio.TabIndex = 36
-        Me.btnIncio.Text = " Inicio"
-        Me.btnIncio.UseVisualStyleBackColor = True
+        Me.btnInicio.FlatAppearance.BorderSize = 0
+        Me.btnInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnInicio.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInicio.ForeColor = System.Drawing.Color.White
+        Me.btnInicio.Image = Global.sigesi.My.Resources.Resources.icono_house
+        Me.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInicio.Location = New System.Drawing.Point(-3, 266)
+        Me.btnInicio.Name = "btnInicio"
+        Me.btnInicio.Size = New System.Drawing.Size(217, 54)
+        Me.btnInicio.TabIndex = 36
+        Me.btnInicio.Text = " Inicio"
+        Me.btnInicio.UseVisualStyleBackColor = True
         '
         'picAsgn
         '
@@ -217,6 +152,71 @@ Partial Class menuAdministrativo
         Me.picAsgn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picAsgn.TabIndex = 8
         Me.picAsgn.TabStop = False
+        '
+        'pnlArriba
+        '
+        Me.pnlArriba.Controls.Add(Me.picIsgesi)
+        Me.pnlArriba.Controls.Add(Me.btnSalir)
+        Me.pnlArriba.Controls.Add(Me.btnMinimizar)
+        Me.pnlArriba.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlArriba.Location = New System.Drawing.Point(214, 0)
+        Me.pnlArriba.Name = "pnlArriba"
+        Me.pnlArriba.Size = New System.Drawing.Size(735, 67)
+        Me.pnlArriba.TabIndex = 9
+        '
+        'picIsgesi
+        '
+        Me.picIsgesi.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.picIsgesi.BackColor = System.Drawing.Color.Transparent
+        Me.picIsgesi.Image = Global.sigesi.My.Resources.Resources.cooltext330905476616834
+        Me.picIsgesi.Location = New System.Drawing.Point(228, -3)
+        Me.picIsgesi.Name = "picIsgesi"
+        Me.picIsgesi.Size = New System.Drawing.Size(235, 64)
+        Me.picIsgesi.TabIndex = 9
+        Me.picIsgesi.TabStop = False
+        '
+        'btnSalir
+        '
+        Me.btnSalir.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnSalir.FlatAppearance.BorderSize = 0
+        Me.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
+        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSalir.Image = Global.sigesi.My.Resources.Resources.Icono_cerrar_FN
+        Me.btnSalir.Location = New System.Drawing.Point(683, 12)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(40, 40)
+        Me.btnSalir.TabIndex = 40
+        Me.btnSalir.Text = "         "
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'btnMinimizar
+        '
+        Me.btnMinimizar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnMinimizar.FlatAppearance.BorderSize = 0
+        Me.btnMinimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGray
+        Me.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMinimizar.Image = Global.sigesi.My.Resources.Resources.Icono_Minimizar
+        Me.btnMinimizar.Location = New System.Drawing.Point(627, 12)
+        Me.btnMinimizar.Name = "btnMinimizar"
+        Me.btnMinimizar.Size = New System.Drawing.Size(40, 40)
+        Me.btnMinimizar.TabIndex = 41
+        Me.btnMinimizar.UseVisualStyleBackColor = True
+        '
+        'PnlCentral
+        '
+        Me.PnlCentral.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PnlCentral.Location = New System.Drawing.Point(214, 67)
+        Me.PnlCentral.Name = "PnlCentral"
+        Me.PnlCentral.Size = New System.Drawing.Size(735, 610)
+        Me.PnlCentral.TabIndex = 10
+        '
+        'tmrMostrarMenu
+        '
+        '
+        'tmrOcultarMenu
+        '
         '
         'menuAdministrativo
         '
@@ -233,10 +233,10 @@ Partial Class menuAdministrativo
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "menuAdministrativo"
         Me.pnlIzquierda.ResumeLayout(False)
-        Me.pnlArriba.ResumeLayout(False)
-        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlArriba.ResumeLayout(False)
+        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -245,7 +245,7 @@ Partial Class menuAdministrativo
     Friend WithEvents btnIncidencias As System.Windows.Forms.Button
     Friend WithEvents btnCerrarSesion As System.Windows.Forms.Button
     Friend WithEvents btnAlumno As System.Windows.Forms.Button
-    Friend WithEvents btnIncio As System.Windows.Forms.Button
+    Friend WithEvents btnInicio As System.Windows.Forms.Button
     Friend WithEvents pnlArriba As System.Windows.Forms.Panel
     Friend WithEvents PctMenu As System.Windows.Forms.PictureBox
     Friend WithEvents btnMinimizar As System.Windows.Forms.Button

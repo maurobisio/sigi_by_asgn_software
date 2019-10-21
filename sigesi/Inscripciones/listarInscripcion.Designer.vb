@@ -24,7 +24,7 @@ Partial Class listarInscripcion
     Private Sub InitializeComponent()
         Me.dgvListarAlumnos = New System.Windows.Forms.DataGridView()
         Me.lblListaAlumnos = New System.Windows.Forms.Label()
-        Me.gpbBuscarAlumnos = New System.Windows.Forms.GroupBox()
+        Me.gpbBuscarInscripciones = New System.Windows.Forms.GroupBox()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.cboGrupo = New System.Windows.Forms.ComboBox()
@@ -34,7 +34,7 @@ Partial Class listarInscripcion
         Me.btnAlta = New System.Windows.Forms.Button()
         Me.btnEliminar = New System.Windows.Forms.Button()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.gpbBuscarAlumnos.SuspendLayout()
+        Me.gpbBuscarInscripciones.SuspendLayout()
         Me.SuspendLayout()
         '
         'dgvListarAlumnos
@@ -58,22 +58,22 @@ Partial Class listarInscripcion
         Me.lblListaAlumnos.TabIndex = 3
         Me.lblListaAlumnos.Text = "Lista de alumnos"
         '
-        'gpbBuscarAlumnos
+        'gpbBuscarInscripciones
         '
-        Me.gpbBuscarAlumnos.Controls.Add(Me.btnCancelar)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.btnBuscar)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.cboGrupo)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.cboCurso)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.lblGrupo)
-        Me.gpbBuscarAlumnos.Controls.Add(Me.lblCurso)
-        Me.gpbBuscarAlumnos.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gpbBuscarAlumnos.ForeColor = System.Drawing.Color.White
-        Me.gpbBuscarAlumnos.Location = New System.Drawing.Point(27, 33)
-        Me.gpbBuscarAlumnos.Name = "gpbBuscarAlumnos"
-        Me.gpbBuscarAlumnos.Size = New System.Drawing.Size(616, 172)
-        Me.gpbBuscarAlumnos.TabIndex = 59
-        Me.gpbBuscarAlumnos.TabStop = False
-        Me.gpbBuscarAlumnos.Text = "Buscar Inscripciones"
+        Me.gpbBuscarInscripciones.Controls.Add(Me.btnCancelar)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.btnBuscar)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.cboGrupo)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.cboCurso)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.lblGrupo)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.lblCurso)
+        Me.gpbBuscarInscripciones.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gpbBuscarInscripciones.ForeColor = System.Drawing.Color.White
+        Me.gpbBuscarInscripciones.Location = New System.Drawing.Point(27, 33)
+        Me.gpbBuscarInscripciones.Name = "gpbBuscarInscripciones"
+        Me.gpbBuscarInscripciones.Size = New System.Drawing.Size(616, 172)
+        Me.gpbBuscarInscripciones.TabIndex = 59
+        Me.gpbBuscarInscripciones.TabStop = False
+        Me.gpbBuscarInscripciones.Text = "Buscar Inscripciones"
         '
         'btnCancelar
         '
@@ -196,7 +196,7 @@ Partial Class listarInscripcion
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(735, 448)
         Me.Controls.Add(Me.btnEliminar)
-        Me.Controls.Add(Me.gpbBuscarAlumnos)
+        Me.Controls.Add(Me.gpbBuscarInscripciones)
         Me.Controls.Add(Me.lblListaAlumnos)
         Me.Controls.Add(Me.btnAlta)
         Me.Controls.Add(Me.dgvListarAlumnos)
@@ -205,8 +205,8 @@ Partial Class listarInscripcion
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "listarAlumno"
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.gpbBuscarAlumnos.ResumeLayout(False)
-        Me.gpbBuscarAlumnos.PerformLayout()
+        Me.gpbBuscarInscripciones.ResumeLayout(False)
+        Me.gpbBuscarInscripciones.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -214,7 +214,7 @@ Partial Class listarInscripcion
     Friend WithEvents dgvListarAlumnos As System.Windows.Forms.DataGridView
     Friend WithEvents lblListaAlumnos As System.Windows.Forms.Label
     Friend WithEvents btnAlta As System.Windows.Forms.Button
-    Friend WithEvents gpbBuscarAlumnos As System.Windows.Forms.GroupBox
+    Friend WithEvents gpbBuscarInscripciones As System.Windows.Forms.GroupBox
     Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
     Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblCurso As System.Windows.Forms.Label

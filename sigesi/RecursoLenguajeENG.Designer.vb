@@ -65,7 +65,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Add.
         '''</summary>
         Friend Shared ReadOnly Property btnAgregar() As String
             Get
@@ -74,7 +74,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Add.
         '''</summary>
         Friend Shared ReadOnly Property btnAlta() As String
             Get
@@ -83,7 +83,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Student.
         '''</summary>
         Friend Shared ReadOnly Property btnAlumno() As String
             Get
@@ -101,7 +101,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Drop.
         '''</summary>
         Friend Shared ReadOnly Property btnBaja() As String
             Get
@@ -119,7 +119,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Cancel.
         '''</summary>
         Friend Shared ReadOnly Property btnCancelar() As String
             Get
@@ -128,7 +128,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Close Session.
         '''</summary>
         Friend Shared ReadOnly Property btnCerrarSesion() As String
             Get
@@ -137,7 +137,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Building.
         '''</summary>
         Friend Shared ReadOnly Property btnEdificio() As String
             Get
@@ -146,7 +146,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Remove.
         '''</summary>
         Friend Shared ReadOnly Property btnEliminar() As String
             Get
@@ -164,7 +164,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Report Management.
         '''</summary>
         Friend Shared ReadOnly Property btnGestionInformes() As String
             Get
@@ -173,7 +173,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Group.
         '''</summary>
         Friend Shared ReadOnly Property btnGrupo() As String
             Get
@@ -182,7 +182,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to incidents.
         '''</summary>
         Friend Shared ReadOnly Property btnIncidencias() As String
             Get
@@ -191,7 +191,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Start.
         '''</summary>
         Friend Shared ReadOnly Property btnInicio() As String
             Get
@@ -200,7 +200,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Subject.
         '''</summary>
         Friend Shared ReadOnly Property btnMateria() As String
             Get
@@ -211,6 +211,15 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to .
         '''</summary>
+        Friend Shared ReadOnly Property btnMateriaGrupo() As String
+            Get
+                Return ResourceManager.GetString("btnMateriaGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Modify.
+        '''</summary>
         Friend Shared ReadOnly Property btnModificar() As String
             Get
                 Return ResourceManager.GetString("btnModificar", resourceCulture)
@@ -218,7 +227,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Reports.
         '''</summary>
         Friend Shared ReadOnly Property btnReportes() As String
             Get
@@ -227,11 +236,20 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Classrooms.
         '''</summary>
         Friend Shared ReadOnly Property btnSalones() As String
             Get
                 Return ResourceManager.GetString("btnSalones", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnUsuario() As String
+            Get
+                Return ResourceManager.GetString("btnUsuario", resourceCulture)
             End Get
         End Property
         
@@ -241,6 +259,24 @@ Namespace My.Resources
         Friend Shared ReadOnly Property gpbBuscarAlumnos() As String
             Get
                 Return ResourceManager.GetString("gpbBuscarAlumnos", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property gpbBuscarIncidencia() As String
+            Get
+                Return ResourceManager.GetString("gpbBuscarIncidencia", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property gpbBuscarInscripciones() As String
+            Get
+                Return ResourceManager.GetString("gpbBuscarInscripciones", resourceCulture)
             End Get
         End Property
         
@@ -265,14 +301,14 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to Student.
         '''</summary>
-        Friend Shared ReadOnly Property lblAlu() As String
+        Friend Shared ReadOnly Property lblAlumno() As String
             Get
-                Return ResourceManager.GetString("lblAlu", resourceCulture)
+                Return ResourceManager.GetString("lblAlumno", resourceCulture)
             End Get
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Surname.
         '''</summary>
         Friend Shared ReadOnly Property lblApe() As String
             Get
@@ -283,6 +319,33 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized string similar to .
         '''</summary>
+        Friend Shared ReadOnly Property lblAyudaModificarEdificio() As String
+            Get
+                Return ResourceManager.GetString("lblAyudaModificarEdificio", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblAyudaModificarGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblAyudaModificarGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblAyudaModificarUsuario() As String
+            Get
+                Return ResourceManager.GetString("lblAyudaModificarUsuario", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Identity card.
+        '''</summary>
         Friend Shared ReadOnly Property lblCi() As String
             Get
                 Return ResourceManager.GetString("lblCi", resourceCulture)
@@ -290,7 +353,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Code.
         '''</summary>
         Friend Shared ReadOnly Property lblCod() As String
             Get
@@ -309,6 +372,15 @@ Namespace My.Resources
         
         '''<summary>
         '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblDesc() As String
+            Get
+                Return ResourceManager.GetString("lblDesc", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Address.
         '''</summary>
         Friend Shared ReadOnly Property lblDir() As String
             Get
@@ -335,7 +407,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Building.
         '''</summary>
         Friend Shared ReadOnly Property lblEdificio() As String
             Get
@@ -344,7 +416,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to E-mail.
         '''</summary>
         Friend Shared ReadOnly Property lblEmail() As String
             Get
@@ -353,7 +425,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Group.
         '''</summary>
         Friend Shared ReadOnly Property lblGrupo() As String
             Get
@@ -362,7 +434,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to list incidents.
         '''</summary>
         Friend Shared ReadOnly Property lblListaIncidencia() As String
             Get
@@ -371,7 +443,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Subject.
         '''</summary>
         Friend Shared ReadOnly Property lblMateria() As String
             Get
@@ -380,7 +452,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to First Name.
         '''</summary>
         Friend Shared ReadOnly Property lblNom() As String
             Get
@@ -389,7 +461,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Second Name.
         '''</summary>
         Friend Shared ReadOnly Property lblNom1() As String
             Get
@@ -407,7 +479,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Roll.
         '''</summary>
         Friend Shared ReadOnly Property lblRoll() As String
             Get
@@ -425,7 +497,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Telephone.
         '''</summary>
         Friend Shared ReadOnly Property lblTel() As String
             Get
@@ -434,11 +506,38 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Add User.
+        '''  Looks up a localized string similar to Add Build.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloAltaEdificio() As String
             Get
                 Return ResourceManager.GetString("lblTituloAltaEdificio", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Add Group.
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloAltaGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloAltaGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloAltaIncidencia() As String
+            Get
+                Return ResourceManager.GetString("lblTituloAltaIncidencia", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloAltaUsuario() As String
+            Get
+                Return ResourceManager.GetString("lblTituloAltaUsuario", resourceCulture)
             End Get
         End Property
         
@@ -448,6 +547,69 @@ Namespace My.Resources
         Friend Shared ReadOnly Property lblTituloBajaEdificio() As String
             Get
                 Return ResourceManager.GetString("lblTituloBajaEdificio", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloBajaGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloBajaGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloBajaUsuario() As String
+            Get
+                Return ResourceManager.GetString("lblTituloBajaUsuario", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloHomeAdministrativo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloHomeAdministrativo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloHomeAdminSistema() As String
+            Get
+                Return ResourceManager.GetString("lblTituloHomeAdminSistema", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloHomeBedel() As String
+            Get
+                Return ResourceManager.GetString("lblTituloHomeBedel", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloHomeDirector() As String
+            Get
+                Return ResourceManager.GetString("lblTituloHomeDirector", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloMateriaGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloMateriaGrupo", resourceCulture)
             End Get
         End Property
         
@@ -462,6 +624,24 @@ Namespace My.Resources
         
         '''<summary>
         '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloModificarGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloModificarGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloModificarUsuario() As String
+            Get
+                Return ResourceManager.GetString("lblTituloModificarUsuario", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Turn.
         '''</summary>
         Friend Shared ReadOnly Property lblTurno() As String
             Get

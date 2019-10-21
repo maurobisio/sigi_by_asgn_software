@@ -38,7 +38,7 @@ Partial Class menuBedel
         Me.PctMenu = New System.Windows.Forms.PictureBox()
         Me.btnIncidencias = New System.Windows.Forms.Button()
         Me.picAsgn = New System.Windows.Forms.PictureBox()
-        Me.btnCerrarSesión = New System.Windows.Forms.Button()
+        Me.btnCerrarSesion = New System.Windows.Forms.Button()
         Me.btnAlumno = New System.Windows.Forms.Button()
         Me.btnInicio = New System.Windows.Forms.Button()
         Me.btnSalones = New System.Windows.Forms.Button()
@@ -128,7 +128,7 @@ Partial Class menuBedel
         Me.pnlIzquierda.Controls.Add(Me.PctMenu)
         Me.pnlIzquierda.Controls.Add(Me.btnIncidencias)
         Me.pnlIzquierda.Controls.Add(Me.picAsgn)
-        Me.pnlIzquierda.Controls.Add(Me.btnCerrarSesión)
+        Me.pnlIzquierda.Controls.Add(Me.btnCerrarSesion)
         Me.pnlIzquierda.Controls.Add(Me.btnAlumno)
         Me.pnlIzquierda.Controls.Add(Me.btnInicio)
         Me.pnlIzquierda.Controls.Add(Me.btnSalones)
@@ -214,22 +214,22 @@ Partial Class menuBedel
         Me.picAsgn.TabIndex = 8
         Me.picAsgn.TabStop = False
         '
-        'btnCerrarSesión
+        'btnCerrarSesion
         '
-        Me.btnCerrarSesión.FlatAppearance.BorderSize = 0
-        Me.btnCerrarSesión.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnCerrarSesión.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnCerrarSesión.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCerrarSesión.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCerrarSesión.ForeColor = System.Drawing.Color.White
-        Me.btnCerrarSesión.Image = Global.sigesi.My.Resources.Resources.icono_candado_40
-        Me.btnCerrarSesión.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerrarSesión.Location = New System.Drawing.Point(-2, 545)
-        Me.btnCerrarSesión.Name = "btnCerrarSesión"
-        Me.btnCerrarSesión.Size = New System.Drawing.Size(221, 48)
-        Me.btnCerrarSesión.TabIndex = 34
-        Me.btnCerrarSesión.Text = "         Cerrar sesíon"
-        Me.btnCerrarSesión.UseVisualStyleBackColor = True
+        Me.btnCerrarSesion.FlatAppearance.BorderSize = 0
+        Me.btnCerrarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCerrarSesion.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCerrarSesion.ForeColor = System.Drawing.Color.White
+        Me.btnCerrarSesion.Image = Global.sigesi.My.Resources.Resources.icono_candado_40
+        Me.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCerrarSesion.Location = New System.Drawing.Point(-2, 545)
+        Me.btnCerrarSesion.Name = "btnCerrarSesion"
+        Me.btnCerrarSesion.Size = New System.Drawing.Size(221, 48)
+        Me.btnCerrarSesion.TabIndex = 34
+        Me.btnCerrarSesion.Text = "         Cerrar sesíon"
+        Me.btnCerrarSesion.UseVisualStyleBackColor = True
         '
         'btnAlumno
         '
@@ -312,7 +312,7 @@ Partial Class menuBedel
     Friend WithEvents pnlCentral As System.Windows.Forms.Panel
     Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents btnIncidencias As System.Windows.Forms.Button
-    Friend WithEvents btnCerrarSesión As System.Windows.Forms.Button
+    Friend WithEvents btnCerrarSesion As System.Windows.Forms.Button
     Friend WithEvents btnAlumno As System.Windows.Forms.Button
     Friend WithEvents btnInicio As System.Windows.Forms.Button
     Friend WithEvents btnSalones As System.Windows.Forms.Button

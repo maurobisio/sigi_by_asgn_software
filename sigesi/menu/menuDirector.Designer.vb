@@ -27,7 +27,7 @@ Partial Class menuDirector
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
         Me.btnGestionInformes = New System.Windows.Forms.Button()
-        Me.btnAlumn = New System.Windows.Forms.Button()
+        Me.btnAlumno = New System.Windows.Forms.Button()
         Me.btnReportes = New System.Windows.Forms.Button()
         Me.btnIncidencias = New System.Windows.Forms.Button()
         Me.btnCerrarSesion = New System.Windows.Forms.Button()
@@ -57,7 +57,7 @@ Partial Class menuDirector
         '
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
         Me.pnlIzquierda.Controls.Add(Me.btnGestionInformes)
-        Me.pnlIzquierda.Controls.Add(Me.btnAlumn)
+        Me.pnlIzquierda.Controls.Add(Me.btnAlumno)
         Me.pnlIzquierda.Controls.Add(Me.btnReportes)
         Me.pnlIzquierda.Controls.Add(Me.btnIncidencias)
         Me.pnlIzquierda.Controls.Add(Me.btnCerrarSesion)
@@ -89,22 +89,22 @@ Partial Class menuDirector
         Me.btnGestionInformes.Text = "       Gestión e Informes"
         Me.btnGestionInformes.UseVisualStyleBackColor = True
         '
-        'btnAlumn
+        'btnAlumno
         '
-        Me.btnAlumn.FlatAppearance.BorderSize = 0
-        Me.btnAlumn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnAlumn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnAlumn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAlumn.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAlumn.ForeColor = System.Drawing.Color.White
-        Me.btnAlumn.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnAlumn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAlumn.Location = New System.Drawing.Point(-3, 131)
-        Me.btnAlumn.Name = "btnAlumn"
-        Me.btnAlumn.Size = New System.Drawing.Size(217, 54)
-        Me.btnAlumn.TabIndex = 40
-        Me.btnAlumn.Text = "      Alumnos"
-        Me.btnAlumn.UseVisualStyleBackColor = True
+        Me.btnAlumno.FlatAppearance.BorderSize = 0
+        Me.btnAlumno.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnAlumno.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnAlumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAlumno.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAlumno.ForeColor = System.Drawing.Color.White
+        Me.btnAlumno.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnAlumno.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAlumno.Location = New System.Drawing.Point(-3, 131)
+        Me.btnAlumno.Name = "btnAlumno"
+        Me.btnAlumno.Size = New System.Drawing.Size(217, 54)
+        Me.btnAlumno.TabIndex = 40
+        Me.btnAlumno.Text = "      Alumnos"
+        Me.btnAlumno.UseVisualStyleBackColor = True
         '
         'btnReportes
         '
@@ -305,7 +305,7 @@ Partial Class menuDirector
     Friend WithEvents btnCerrarSesion As System.Windows.Forms.Button
     Friend WithEvents btnReportes As System.Windows.Forms.Button
     Friend WithEvents btnIncidencias As System.Windows.Forms.Button
-    Friend WithEvents btnAlumn As System.Windows.Forms.Button
+    Friend WithEvents btnAlumno As System.Windows.Forms.Button
     Friend WithEvents pnlArriba As System.Windows.Forms.Panel
     Friend WithEvents btnMinimizar As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button

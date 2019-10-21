@@ -24,7 +24,7 @@ Partial Class listarMateriaGrupo
     Private Sub InitializeComponent()
         Me.dgvLIstarMatGrup = New System.Windows.Forms.DataGridView()
         Me.btnAlta = New System.Windows.Forms.Button()
-        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.btnBaja = New System.Windows.Forms.Button()
         CType(Me.dgvLIstarMatGrup, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -57,24 +57,24 @@ Partial Class listarMateriaGrupo
         Me.btnAlta.Text = "Alta"
         Me.btnAlta.UseVisualStyleBackColor = False
         '
-        'btnEliminar
+        'btnBaja
         '
-        Me.btnEliminar.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnEliminar.BackColor = System.Drawing.Color.Black
-        Me.btnEliminar.FlatAppearance.BorderSize = 0
-        Me.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminar.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.btnEliminar.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
-        Me.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEliminar.Location = New System.Drawing.Point(519, 139)
-        Me.btnEliminar.Name = "btnEliminar"
-        Me.btnEliminar.Size = New System.Drawing.Size(199, 57)
-        Me.btnEliminar.TabIndex = 1
-        Me.btnEliminar.Text = " Baja"
-        Me.btnEliminar.UseVisualStyleBackColor = False
+        Me.btnBaja.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnBaja.BackColor = System.Drawing.Color.Black
+        Me.btnBaja.FlatAppearance.BorderSize = 0
+        Me.btnBaja.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnBaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.btnBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBaja.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBaja.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.btnBaja.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
+        Me.btnBaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBaja.Location = New System.Drawing.Point(519, 139)
+        Me.btnBaja.Name = "btnBaja"
+        Me.btnBaja.Size = New System.Drawing.Size(199, 57)
+        Me.btnBaja.TabIndex = 1
+        Me.btnBaja.Text = " Baja"
+        Me.btnBaja.UseVisualStyleBackColor = False
         '
         'listarMateriaGrupo
         '
@@ -83,7 +83,7 @@ Partial Class listarMateriaGrupo
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(746, 372)
         Me.Controls.Add(Me.btnAlta)
-        Me.Controls.Add(Me.btnEliminar)
+        Me.Controls.Add(Me.btnBaja)
         Me.Controls.Add(Me.dgvLIstarMatGrup)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "listarMateriaGrupo"
@@ -92,7 +92,7 @@ Partial Class listarMateriaGrupo
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents btnEliminar As System.Windows.Forms.Button
+    Friend WithEvents btnBaja As System.Windows.Forms.Button
     Friend WithEvents dgvLIstarMatGrup As System.Windows.Forms.DataGridView
     Friend WithEvents btnAlta As System.Windows.Forms.Button
 End Class

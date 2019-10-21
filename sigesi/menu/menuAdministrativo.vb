@@ -89,7 +89,7 @@
         login.Show()
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncio.Click
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
         abrirFormPanel(New homeAdministrativo)
     End Sub
 End Class
