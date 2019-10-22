@@ -24,7 +24,7 @@ Partial Class bajaMateria
     Private Sub InitializeComponent()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.txtCod = New System.Windows.Forms.TextBox()
-        Me.lbCod = New System.Windows.Forms.Label()
+        Me.lblCod = New System.Windows.Forms.Label()
         Me.btnEliminar = New System.Windows.Forms.Button()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -52,18 +52,18 @@ Partial Class bajaMateria
         Me.txtCod.Size = New System.Drawing.Size(220, 20)
         Me.txtCod.TabIndex = 14
         '
-        'lbCod
+        'lblCod
         '
-        Me.lbCod.AutoSize = True
-        Me.lbCod.BackColor = System.Drawing.Color.Transparent
-        Me.lbCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.lbCod.ForeColor = System.Drawing.Color.Black
-        Me.lbCod.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lbCod.Location = New System.Drawing.Point(11, 95)
-        Me.lbCod.Name = "lbCod"
-        Me.lbCod.Size = New System.Drawing.Size(206, 18)
-        Me.lbCod.TabIndex = 13
-        Me.lbCod.Text = "Ingrese Código de Materia"
+        Me.lblCod.AutoSize = True
+        Me.lblCod.BackColor = System.Drawing.Color.Transparent
+        Me.lblCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblCod.ForeColor = System.Drawing.Color.Black
+        Me.lblCod.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblCod.Location = New System.Drawing.Point(11, 95)
+        Me.lblCod.Name = "lblCod"
+        Me.lblCod.Size = New System.Drawing.Size(206, 18)
+        Me.lblCod.TabIndex = 13
+        Me.lblCod.Text = "Ingrese Código de Materia"
         '
         'btnEliminar
         '
@@ -97,10 +97,11 @@ Partial Class bajaMateria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(453, 179)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.txtCod)
-        Me.Controls.Add(Me.lbCod)
+        Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.lblTitulo)
         Me.Name = "bajaMateria"
@@ -111,7 +112,7 @@ Partial Class bajaMateria
     End Sub
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
     Friend WithEvents txtCod As System.Windows.Forms.TextBox
-    Friend WithEvents lbCod As System.Windows.Forms.Label
+    Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
 End Class

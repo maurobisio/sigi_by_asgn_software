@@ -256,63 +256,72 @@
     <value>Turn</value>
   </data>
   <data name="btnMateriaGrupo" xml:space="preserve">
-    <value />
+    <value>Subject by Group</value>
   </data>
   <data name="btnUsuario" xml:space="preserve">
-    <value />
+    <value>Users</value>
   </data>
   <data name="gpbBuscarIncidencia" xml:space="preserve">
-    <value />
+    <value>Search incident</value>
   </data>
   <data name="gpbBuscarInscripciones" xml:space="preserve">
-    <value />
+    <value>Search inscription</value>
   </data>
   <data name="lblAyudaModificarEdificio" xml:space="preserve">
-    <value />
+    <value>To modify, select a building from the list</value>
   </data>
   <data name="lblAyudaModificarGrupo" xml:space="preserve">
-    <value />
+    <value>To modify, select a group from the list</value>
   </data>
   <data name="lblAyudaModificarUsuario" xml:space="preserve">
-    <value />
+    <value>To modify, select a user from the list</value>
   </data>
   <data name="lblDesc" xml:space="preserve">
-    <value />
+    <value>description</value>
   </data>
   <data name="lblTituloAltaGrupo" xml:space="preserve">
     <value>Add Group</value>
   </data>
   <data name="lblTituloAltaIncidencia" xml:space="preserve">
-    <value />
+    <value>Add Incident</value>
   </data>
   <data name="lblTituloAltaUsuario" xml:space="preserve">
-    <value />
+    <value>Add User</value>
   </data>
   <data name="lblTituloBajaGrupo" xml:space="preserve">
-    <value />
+    <value>Delete Group</value>
   </data>
   <data name="lblTituloBajaUsuario" xml:space="preserve">
-    <value />
+    <value>Delete User</value>
   </data>
   <data name="lblTituloHomeAdministrativo" xml:space="preserve">
-    <value />
+    <value>Administrative</value>
   </data>
   <data name="lblTituloHomeAdminSistema" xml:space="preserve">
-    <value />
+    <value>System administrator</value>
   </data>
   <data name="lblTituloHomeBedel" xml:space="preserve">
-    <value />
+    <value>Attached teacher</value>
   </data>
   <data name="lblTituloHomeDirector" xml:space="preserve">
-    <value />
+    <value>Director</value>
   </data>
-  <data name="lblTituloMateriaGrupo" xml:space="preserve">
-    <value />
+  <data name="lblTituloAltaMateriaGrupo" xml:space="preserve">
+    <value>Add subject to group</value>
   </data>
   <data name="lblTituloModificarGrupo" xml:space="preserve">
-    <value />
+    <value>Updare Group</value>
   </data>
   <data name="lblTituloModificarUsuario" xml:space="preserve">
-    <value />
+    <value>Update User</value>
+  </data>
+  <data name="lblTituloBajaMateria" xml:space="preserve">
+    <value>Drop Subject</value>
+  </data>
+  <data name="lblTituloBajaMateriaGrupo" xml:space="preserve">
+    <value>Remove matter from a group</value>
+  </data>
+  <data name="lblYear" xml:space="preserve">
+    <value>Year</value>
   </data>
 </root>

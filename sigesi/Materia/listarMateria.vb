@@ -10,7 +10,7 @@ Public Class listarMateria
         modificarMateria.Show()
     End Sub
 
-    Private Sub btnEliminar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEliminar.Click
+    Private Sub btnEliminar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBaja.Click
         bajaMateria.Show()
     End Sub
 

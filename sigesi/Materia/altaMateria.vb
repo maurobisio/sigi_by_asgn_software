@@ -2,7 +2,7 @@
 
 Public Class altaMateria
 
-    Private Sub aceptar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles aceptar.Click
+    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
         If txtCod.Text = "" Or txtNom.Text = "" Or txtAño.Text = "" Then
             MsgBox("Complete todos los campos")
         Else

@@ -209,7 +209,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Subject by Group.
         '''</summary>
         Friend Shared ReadOnly Property btnMateriaGrupo() As String
             Get
@@ -245,7 +245,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Users.
         '''</summary>
         Friend Shared ReadOnly Property btnUsuario() As String
             Get
@@ -263,7 +263,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Search incident.
         '''</summary>
         Friend Shared ReadOnly Property gpbBuscarIncidencia() As String
             Get
@@ -272,7 +272,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Search inscription.
         '''</summary>
         Friend Shared ReadOnly Property gpbBuscarInscripciones() As String
             Get
@@ -317,7 +317,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to To modify, select a building from the list.
         '''</summary>
         Friend Shared ReadOnly Property lblAyudaModificarEdificio() As String
             Get
@@ -326,7 +326,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to To modify, select a group from the list.
         '''</summary>
         Friend Shared ReadOnly Property lblAyudaModificarGrupo() As String
             Get
@@ -335,7 +335,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to To modify, select a user from the list.
         '''</summary>
         Friend Shared ReadOnly Property lblAyudaModificarUsuario() As String
             Get
@@ -371,7 +371,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to description.
         '''</summary>
         Friend Shared ReadOnly Property lblDesc() As String
             Get
@@ -524,7 +524,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Add Incident.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloAltaIncidencia() As String
             Get
@@ -533,7 +533,16 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Add subject to group.
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloAltaMateriaGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloAltaMateriaGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Add User.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloAltaUsuario() As String
             Get
@@ -551,7 +560,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Delete Group.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloBajaGrupo() As String
             Get
@@ -560,7 +569,25 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Drop Subject.
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloBajaMateria() As String
+            Get
+                Return ResourceManager.GetString("lblTituloBajaMateria", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Remove matter from a group.
+        '''</summary>
+        Friend Shared ReadOnly Property lblTituloBajaMateriaGrupo() As String
+            Get
+                Return ResourceManager.GetString("lblTituloBajaMateriaGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Delete User.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloBajaUsuario() As String
             Get
@@ -569,7 +596,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Administrative.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloHomeAdministrativo() As String
             Get
@@ -578,7 +605,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to System administrator.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloHomeAdminSistema() As String
             Get
@@ -587,7 +614,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Attached teacher.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloHomeBedel() As String
             Get
@@ -596,20 +623,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Director.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloHomeDirector() As String
             Get
                 Return ResourceManager.GetString("lblTituloHomeDirector", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized string similar to .
-        '''</summary>
-        Friend Shared ReadOnly Property lblTituloMateriaGrupo() As String
-            Get
-                Return ResourceManager.GetString("lblTituloMateriaGrupo", resourceCulture)
             End Get
         End Property
         
@@ -623,7 +641,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Updare Group.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloModificarGrupo() As String
             Get
@@ -632,7 +650,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Update User.
         '''</summary>
         Friend Shared ReadOnly Property lblTituloModificarUsuario() As String
             Get
@@ -655,6 +673,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property lblUsu() As String
             Get
                 Return ResourceManager.GetString("lblUsu", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Year.
+        '''</summary>
+        Friend Shared ReadOnly Property lblYear() As String
+            Get
+                Return ResourceManager.GetString("lblYear", resourceCulture)
             End Get
         End Property
     End Class

@@ -95,9 +95,9 @@ Partial Class modificarGrupo
         Me.lblAyuda.ForeColor = System.Drawing.Color.Black
         Me.lblAyuda.Location = New System.Drawing.Point(26, 71)
         Me.lblAyuda.Name = "lblAyuda"
-        Me.lblAyuda.Size = New System.Drawing.Size(283, 13)
+        Me.lblAyuda.Size = New System.Drawing.Size(274, 13)
         Me.lblAyuda.TabIndex = 45
-        Me.lblAyuda.Text = "Para modificar, seleccione un usuario de la lista."
+        Me.lblAyuda.Text = "Para modificar, seleccione un grupo de la lista."
         '
         'btnCancelar
         '

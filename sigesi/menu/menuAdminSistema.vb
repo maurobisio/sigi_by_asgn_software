@@ -25,11 +25,11 @@
 
     End Sub
     Private Sub menuAdminSistema_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        abrirFormPanel(New homeAdminSIstema)
+        abrirFormPanel(homeAdminSIstema)
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(New homeAdminSIstema)
+        abrirFormPanel(homeAdminSIstema)
     End Sub
 
     Private Sub tmrMostrarMenu_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tmrMostrarMenu.Tick
@@ -73,7 +73,7 @@
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
-        abrirFormPanel(New listarUsuarios)
+        abrirFormPanel(listarUsuarios)
     End Sub
 
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click
@@ -89,22 +89,22 @@
     End Sub
 
     Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
-        abrirFormPanel(New listarMateria)
+        abrirFormPanel(listarMateria)
     End Sub
 
     Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
-        abrirFormPanel(New listarGrupo)
+        abrirFormPanel(listarGrupo)
     End Sub
 
     Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
-        abrirFormPanel(New listarEdificio)
+        abrirFormPanel(listarEdificio)
     End Sub
 
     Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateriaGrupo.Click
-        abrirFormPanel(New listarMateriaGrupo)
+        abrirFormPanel(listarMateriaGrupo)
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
-        abrirFormPanel(New listaIncidencias)
+        abrirFormPanel(listaIncidencias)
     End Sub
 End Class

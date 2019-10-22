@@ -24,7 +24,7 @@ Partial Class listarMateria
     Private Sub InitializeComponent()
         Me.btnModificar = New System.Windows.Forms.Button()
         Me.btnAlta = New System.Windows.Forms.Button()
-        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.btnBaja = New System.Windows.Forms.Button()
         Me.dgvListar = New System.Windows.Forms.DataGridView()
         CType(Me.dgvListar, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -67,24 +67,24 @@ Partial Class listarMateria
         Me.btnAlta.Text = "Alta"
         Me.btnAlta.UseVisualStyleBackColor = False
         '
-        'btnEliminar
+        'btnBaja
         '
-        Me.btnEliminar.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btnEliminar.BackColor = System.Drawing.Color.Black
-        Me.btnEliminar.FlatAppearance.BorderSize = 0
-        Me.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEliminar.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.btnEliminar.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
-        Me.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEliminar.Location = New System.Drawing.Point(473, 230)
-        Me.btnEliminar.Name = "btnEliminar"
-        Me.btnEliminar.Size = New System.Drawing.Size(199, 57)
-        Me.btnEliminar.TabIndex = 4
-        Me.btnEliminar.Text = " Baja"
-        Me.btnEliminar.UseVisualStyleBackColor = False
+        Me.btnBaja.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnBaja.BackColor = System.Drawing.Color.Black
+        Me.btnBaja.FlatAppearance.BorderSize = 0
+        Me.btnBaja.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnBaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.btnBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBaja.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBaja.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.btnBaja.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
+        Me.btnBaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBaja.Location = New System.Drawing.Point(473, 230)
+        Me.btnBaja.Name = "btnBaja"
+        Me.btnBaja.Size = New System.Drawing.Size(199, 57)
+        Me.btnBaja.TabIndex = 4
+        Me.btnBaja.Text = " Baja"
+        Me.btnBaja.UseVisualStyleBackColor = False
         '
         'dgvListar
         '
@@ -100,10 +100,11 @@ Partial Class listarMateria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlText
         Me.ClientSize = New System.Drawing.Size(687, 347)
         Me.Controls.Add(Me.btnModificar)
         Me.Controls.Add(Me.btnAlta)
-        Me.Controls.Add(Me.btnEliminar)
+        Me.Controls.Add(Me.btnBaja)
         Me.Controls.Add(Me.dgvListar)
         Me.Name = "listarMateria"
         Me.Text = "listarMateria"
@@ -113,6 +114,6 @@ Partial Class listarMateria
     End Sub
     Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents btnAlta As System.Windows.Forms.Button
-    Friend WithEvents btnEliminar As System.Windows.Forms.Button
+    Friend WithEvents btnBaja As System.Windows.Forms.Button
     Friend WithEvents dgvListar As System.Windows.Forms.DataGridView
 End Class

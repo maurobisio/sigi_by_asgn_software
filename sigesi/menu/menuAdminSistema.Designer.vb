@@ -128,7 +128,7 @@ Partial Class menuAdminSistema
         Me.btnGrupo.ForeColor = System.Drawing.Color.White
         Me.btnGrupo.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnGrupo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnGrupo.Location = New System.Drawing.Point(3, 167)
+        Me.btnGrupo.Location = New System.Drawing.Point(2, 167)
         Me.btnGrupo.Name = "btnGrupo"
         Me.btnGrupo.Size = New System.Drawing.Size(218, 54)
         Me.btnGrupo.TabIndex = 40

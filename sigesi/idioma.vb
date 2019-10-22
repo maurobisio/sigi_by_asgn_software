@@ -96,13 +96,40 @@
         modificarGrupo.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
         modificarGrupo.lblAyuda.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarGrupo
 
-        altaMateriaGrupo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloMateriaGrupo
+        altaMateria.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaGrupo
+        altaMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        altaMateria.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
+        altaMateria.lblYear.Text = sigesi.My.Resources.RecursoLenguajeENG.lblYear
+
+        bajaMateria.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaGrupo
+        bajaMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        bajaMateria.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
+        bajaMateria.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
+
+        listarMateria.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
+        listarMateria.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
+        listarMateria.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
+
+        modificarMateria.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarGrupo
+        modificarMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        modificarMateria.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
+        modificarMateria.lblYear.Text = sigesi.My.Resources.RecursoLenguajeENG.lblYear
+        modificarMateria.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
+        modificarMateria.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
+        modificarMateria.lblAyuda.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarGrupo
+
+        altaMateriaGrupo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaMateriaGrupo
         altaMateriaGrupo.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
         altaMateriaGrupo.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
         altaMateriaGrupo.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAgregar
 
         listarMateriaGrupo.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
         listarMateriaGrupo.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
+
+        bajaMateriaGrupo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaMateriaGrupo
+        bajaMateriaGrupo.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        bajaMateriaGrupo.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
+        bajaMateriaGrupo.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
 
         altaUsuario.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaUsuario
         altaUsuario.lblCi.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCi

@@ -22,109 +22,119 @@ Partial Class altaMateria
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.aceptar = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtCod = New System.Windows.Forms.TextBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.txtNom = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.txtAño = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.GroupBox1.SuspendLayout()
+        Me.lblYear = New System.Windows.Forms.Label()
+        Me.txtNom = New System.Windows.Forms.TextBox()
+        Me.lblNom = New System.Windows.Forms.Label()
+        Me.txtCod = New System.Windows.Forms.TextBox()
+        Me.lblCod = New System.Windows.Forms.Label()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.btnAgregar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'aceptar
-        '
-        Me.aceptar.Location = New System.Drawing.Point(104, 127)
-        Me.aceptar.Name = "aceptar"
-        Me.aceptar.Size = New System.Drawing.Size(75, 23)
-        Me.aceptar.TabIndex = 0
-        Me.aceptar.Text = "Aceptar"
-        Me.aceptar.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(28, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Código"
-        '
-        'txtCod
-        '
-        Me.txtCod.Location = New System.Drawing.Point(78, 19)
-        Me.txtCod.Name = "txtCod"
-        Me.txtCod.Size = New System.Drawing.Size(176, 20)
-        Me.txtCod.TabIndex = 2
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.txtAño)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.txtNom)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.txtCod)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(260, 108)
-        Me.GroupBox1.TabIndex = 3
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Datos"
-        '
-        'txtNom
-        '
-        Me.txtNom.Location = New System.Drawing.Point(78, 45)
-        Me.txtNom.Name = "txtNom"
-        Me.txtNom.Size = New System.Drawing.Size(176, 20)
-        Me.txtNom.TabIndex = 4
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(24, 48)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Nombre"
         '
         'txtAño
         '
-        Me.txtAño.Location = New System.Drawing.Point(78, 71)
+        Me.txtAño.Location = New System.Drawing.Point(91, 102)
         Me.txtAño.Name = "txtAño"
         Me.txtAño.Size = New System.Drawing.Size(176, 20)
-        Me.txtAño.TabIndex = 6
+        Me.txtAño.TabIndex = 12
         '
-        'Label3
+        'lblYear
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(38, 74)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(26, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Año"
+        Me.lblYear.AutoSize = True
+        Me.lblYear.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblYear.Location = New System.Drawing.Point(37, 104)
+        Me.lblYear.Name = "lblYear"
+        Me.lblYear.Size = New System.Drawing.Size(37, 18)
+        Me.lblYear.TabIndex = 11
+        Me.lblYear.Text = "Año"
+        '
+        'txtNom
+        '
+        Me.txtNom.Location = New System.Drawing.Point(91, 76)
+        Me.txtNom.Name = "txtNom"
+        Me.txtNom.Size = New System.Drawing.Size(176, 20)
+        Me.txtNom.TabIndex = 10
+        '
+        'lblNom
+        '
+        Me.lblNom.AutoSize = True
+        Me.lblNom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblNom.Location = New System.Drawing.Point(23, 78)
+        Me.lblNom.Name = "lblNom"
+        Me.lblNom.Size = New System.Drawing.Size(68, 18)
+        Me.lblNom.TabIndex = 9
+        Me.lblNom.Text = "Nombre"
+        '
+        'txtCod
+        '
+        Me.txtCod.Location = New System.Drawing.Point(91, 50)
+        Me.txtCod.Name = "txtCod"
+        Me.txtCod.Size = New System.Drawing.Size(176, 20)
+        Me.txtCod.TabIndex = 8
+        '
+        'lblCod
+        '
+        Me.lblCod.AutoSize = True
+        Me.lblCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblCod.Location = New System.Drawing.Point(27, 52)
+        Me.lblCod.Name = "lblCod"
+        Me.lblCod.Size = New System.Drawing.Size(62, 18)
+        Me.lblCod.TabIndex = 7
+        Me.lblCod.Text = "Código"
+        '
+        'lblTitulo
+        '
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.BackColor = System.Drawing.Color.Transparent
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold)
+        Me.lblTitulo.ForeColor = System.Drawing.Color.Black
+        Me.lblTitulo.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblTitulo.Location = New System.Drawing.Point(54, 9)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(199, 31)
+        Me.lblTitulo.TabIndex = 22
+        Me.lblTitulo.Text = "Agregar grupo"
+        '
+        'btnAgregar
+        '
+        Me.btnAgregar.BackColor = System.Drawing.Color.White
+        Me.btnAgregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnAgregar.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnAgregar.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnAgregar.Location = New System.Drawing.Point(50, 131)
+        Me.btnAgregar.Name = "btnAgregar"
+        Me.btnAgregar.Size = New System.Drawing.Size(235, 32)
+        Me.btnAgregar.TabIndex = 23
+        Me.btnAgregar.Text = "Agregar"
+        Me.btnAgregar.UseVisualStyleBackColor = False
         '
         'altaMateria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 162)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.aceptar)
+        Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.ClientSize = New System.Drawing.Size(319, 175)
+        Me.Controls.Add(Me.btnAgregar)
+        Me.Controls.Add(Me.lblTitulo)
+        Me.Controls.Add(Me.txtAño)
+        Me.Controls.Add(Me.lblYear)
+        Me.Controls.Add(Me.txtNom)
+        Me.Controls.Add(Me.lblNom)
+        Me.Controls.Add(Me.txtCod)
+        Me.Controls.Add(Me.lblCod)
         Me.Name = "altaMateria"
         Me.Text = "Alta de Materia"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents aceptar As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents txtCod As System.Windows.Forms.TextBox
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents txtAño As System.Windows.Forms.TextBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lblYear As System.Windows.Forms.Label
     Friend WithEvents txtNom As System.Windows.Forms.TextBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblNom As System.Windows.Forms.Label
+    Friend WithEvents txtCod As System.Windows.Forms.TextBox
+    Friend WithEvents lblCod As System.Windows.Forms.Label
+    Friend WithEvents lblTitulo As System.Windows.Forms.Label
+    Friend WithEvents btnAgregar As System.Windows.Forms.Button
 End Class

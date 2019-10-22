@@ -6,7 +6,7 @@ Public Class modificarMateria
 
     End Sub
 
-    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
+    Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
         If txtCod.Text = "" Or txtNom.Text = "" Or txtAño.Text = "" Then
             MsgBox("Complete todos los campos")
         Else

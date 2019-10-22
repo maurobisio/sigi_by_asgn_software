@@ -15,21 +15,101 @@ sigesi
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAgregar">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAlta">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAlumno">
+	<summary>
+  Looks up a localized string similar to Student.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAtras">
 	<summary>
   Looks up a localized string similar to Back.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBaja">
+	<summary>
+  Looks up a localized string similar to Drop.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBuscar">
 	<summary>
   Looks up a localized string similar to Search.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnCancelar">
+	<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion">
+	<summary>
+  Looks up a localized string similar to Close Session.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEdificio">
+	<summary>
+  Looks up a localized string similar to Building.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEliminar">
+	<summary>
+  Looks up a localized string similar to Remove.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEntrar">
 	<summary>
   Looks up a localized string similar to Enter.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnGestionInformes">
+	<summary>
+  Looks up a localized string similar to Report Management.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnGrupo">
+	<summary>
+  Looks up a localized string similar to Group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias">
+	<summary>
+  Looks up a localized string similar to incidents.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnInicio">
+	<summary>
+  Looks up a localized string similar to Start.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnMateria">
+	<summary>
+  Looks up a localized string similar to Subject.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnMateriaGrupo">
+	<summary>
+  Looks up a localized string similar to Subject by Group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnModificar">
+	<summary>
+  Looks up a localized string similar to Modify.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnReportes">
+	<summary>
+  Looks up a localized string similar to Reports.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnSalones">
+	<summary>
+  Looks up a localized string similar to Classrooms.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnUsuario">
+	<summary>
+  Looks up a localized string similar to Users.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos">
 	<summary>
   Looks up a localized string similar to Search student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarIncidencia">
+	<summary>
+  Looks up a localized string similar to Search incident.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarInscripciones">
+	<summary>
+  Looks up a localized string similar to Search inscription.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdministrativo">
 	<summary>
@@ -39,13 +119,45 @@ sigesi
 	<summary>
   Looks up a localized string similar to System administrator.
 </summary>
-</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAlu">
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAlumno">
 	<summary>
   Looks up a localized string similar to Student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblApe">
+	<summary>
+  Looks up a localized string similar to Surname.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarEdificio">
+	<summary>
+  Looks up a localized string similar to To modify, select a building from the list.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarGrupo">
+	<summary>
+  Looks up a localized string similar to To modify, select a group from the list.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarUsuario">
+	<summary>
+  Looks up a localized string similar to To modify, select a user from the list.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCi">
+	<summary>
+  Looks up a localized string similar to Identity card.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCod">
+	<summary>
+  Looks up a localized string similar to Code.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCurso">
 	<summary>
   Looks up a localized string similar to Course.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDesc">
+	<summary>
+  Looks up a localized string similar to description.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDir">
+	<summary>
+  Looks up a localized string similar to Address.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblDirector">
 	<summary>
@@ -55,17 +167,129 @@ sigesi
 	<summary>
   Looks up a localized string similar to Teacher.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblEdificio">
+	<summary>
+  Looks up a localized string similar to Building.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblEmail">
+	<summary>
+  Looks up a localized string similar to E-mail.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblGrupo">
+	<summary>
+  Looks up a localized string similar to Group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblListaIncidencia">
+	<summary>
+  Looks up a localized string similar to list incidents.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblMateria">
+	<summary>
+  Looks up a localized string similar to Subject.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblNom">
+	<summary>
+  Looks up a localized string similar to First Name.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblNom1">
+	<summary>
+  Looks up a localized string similar to Second Name.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblPwd">
 	<summary>
   Looks up a localized string similar to Password.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblRoll">
+	<summary>
+  Looks up a localized string similar to Roll.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblSelecUsu">
 	<summary>
   Looks up a localized string similar to Choose your type of user.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTel">
+	<summary>
+  Looks up a localized string similar to Telephone.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaEdificio">
+	<summary>
+  Looks up a localized string similar to Add Build.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaGrupo">
+	<summary>
+  Looks up a localized string similar to Add Group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaIncidencia">
+	<summary>
+  Looks up a localized string similar to Add Incident.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaMateriaGrupo">
+	<summary>
+  Looks up a localized string similar to Add subject to group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaUsuario">
+	<summary>
+  Looks up a localized string similar to Add User.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaEdificio">
+	<summary>
+  Looks up a localized string similar to Delete Build.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaGrupo">
+	<summary>
+  Looks up a localized string similar to Delete Group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaMateria">
+	<summary>
+  Looks up a localized string similar to Drop Subject.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaMateriaGrupo">
+	<summary>
+  Looks up a localized string similar to Remove matter from a group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaUsuario">
+	<summary>
+  Looks up a localized string similar to Delete User.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdministrativo">
+	<summary>
+  Looks up a localized string similar to Administrative.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdminSistema">
+	<summary>
+  Looks up a localized string similar to System administrator.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeBedel">
+	<summary>
+  Looks up a localized string similar to Attached teacher.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeDirector">
+	<summary>
+  Looks up a localized string similar to Director.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarEdificio">
+	<summary>
+  Looks up a localized string similar to Modify Build.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarGrupo">
+	<summary>
+  Looks up a localized string similar to Updare Group.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarUsuario">
+	<summary>
+  Looks up a localized string similar to Update User.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTurno">
+	<summary>
+  Looks up a localized string similar to Turn.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblUsu">
 	<summary>
   Looks up a localized string similar to User.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblYear">
+	<summary>
+  Looks up a localized string similar to Year.
 </summary>
 </member><member name="T:sigesi.My.Resources.RecursoLenguajeENG">
 	<summary>

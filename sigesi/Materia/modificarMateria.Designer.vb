@@ -27,16 +27,14 @@ Partial Class modificarMateria
         Me.dgvModificarUsu = New System.Windows.Forms.DataGridView()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.lblTitulo = New System.Windows.Forms.Label()
-        Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnModificar = New System.Windows.Forms.Button()
         Me.txtAño = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lblYear = New System.Windows.Forms.Label()
         Me.txtNom = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblNom = New System.Windows.Forms.Label()
         Me.txtCod = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblCod = New System.Windows.Forms.Label()
         CType(Me.dgvModificarUsu, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnCancelar
@@ -44,7 +42,7 @@ Partial Class modificarMateria
         Me.btnCancelar.BackColor = System.Drawing.Color.White
         Me.btnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancelar.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.btnCancelar.Location = New System.Drawing.Point(12, 321)
+        Me.btnCancelar.Location = New System.Drawing.Point(28, 289)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(131, 32)
         Me.btnCancelar.TabIndex = 58
@@ -59,9 +57,9 @@ Partial Class modificarMateria
         Me.lblAyuda.ForeColor = System.Drawing.Color.Black
         Me.lblAyuda.Location = New System.Drawing.Point(9, 72)
         Me.lblAyuda.Name = "lblAyuda"
-        Me.lblAyuda.Size = New System.Drawing.Size(283, 13)
+        Me.lblAyuda.Size = New System.Drawing.Size(290, 13)
         Me.lblAyuda.TabIndex = 70
-        Me.lblAyuda.Text = "Para modificar, seleccione un usuario de la lista."
+        Me.lblAyuda.Text = "Para modificar, seleccione una materia de la lista."
         '
         'dgvModificarUsu
         '
@@ -95,102 +93,94 @@ Partial Class modificarMateria
         Me.lblTitulo.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.lblTitulo.Location = New System.Drawing.Point(93, 10)
         Me.lblTitulo.Name = "lblTitulo"
-        Me.lblTitulo.Size = New System.Drawing.Size(245, 31)
+        Me.lblTitulo.Size = New System.Drawing.Size(238, 31)
         Me.lblTitulo.TabIndex = 67
-        Me.lblTitulo.Text = "Modificar  usuario"
+        Me.lblTitulo.Text = "Modificar Materia"
         '
-        'btnAgregar
+        'btnModificar
         '
-        Me.btnAgregar.BackColor = System.Drawing.Color.White
-        Me.btnAgregar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAgregar.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.btnAgregar.Location = New System.Drawing.Point(149, 321)
-        Me.btnAgregar.Name = "btnAgregar"
-        Me.btnAgregar.Size = New System.Drawing.Size(123, 32)
-        Me.btnAgregar.TabIndex = 57
-        Me.btnAgregar.Text = "Modificar"
-        Me.btnAgregar.UseVisualStyleBackColor = False
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.txtAño)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.txtNom)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.txtCod)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 207)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(260, 108)
-        Me.GroupBox1.TabIndex = 71
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Datos"
+        Me.btnModificar.BackColor = System.Drawing.Color.White
+        Me.btnModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificar.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnModificar.Location = New System.Drawing.Point(165, 289)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(123, 32)
+        Me.btnModificar.TabIndex = 57
+        Me.btnModificar.Text = "Modificar"
+        Me.btnModificar.UseVisualStyleBackColor = False
         '
         'txtAño
         '
-        Me.txtAño.Location = New System.Drawing.Point(78, 71)
+        Me.txtAño.Location = New System.Drawing.Point(96, 263)
         Me.txtAño.Name = "txtAño"
         Me.txtAño.Size = New System.Drawing.Size(176, 20)
-        Me.txtAño.TabIndex = 6
+        Me.txtAño.TabIndex = 76
         '
-        'Label3
+        'lblYear
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(38, 74)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(26, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Año"
+        Me.lblYear.AutoSize = True
+        Me.lblYear.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblYear.Location = New System.Drawing.Point(38, 265)
+        Me.lblYear.Name = "lblYear"
+        Me.lblYear.Size = New System.Drawing.Size(37, 18)
+        Me.lblYear.TabIndex = 75
+        Me.lblYear.Text = "Año"
         '
         'txtNom
         '
-        Me.txtNom.Location = New System.Drawing.Point(78, 45)
+        Me.txtNom.Location = New System.Drawing.Point(96, 239)
         Me.txtNom.Name = "txtNom"
         Me.txtNom.Size = New System.Drawing.Size(176, 20)
-        Me.txtNom.TabIndex = 4
+        Me.txtNom.TabIndex = 74
         '
-        'Label2
+        'lblNom
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(24, 48)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Nombre"
+        Me.lblNom.AutoSize = True
+        Me.lblNom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblNom.Location = New System.Drawing.Point(24, 239)
+        Me.lblNom.Name = "lblNom"
+        Me.lblNom.Size = New System.Drawing.Size(68, 18)
+        Me.lblNom.TabIndex = 73
+        Me.lblNom.Text = "Nombre"
         '
         'txtCod
         '
-        Me.txtCod.Location = New System.Drawing.Point(78, 19)
+        Me.txtCod.Location = New System.Drawing.Point(96, 210)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(176, 20)
-        Me.txtCod.TabIndex = 2
+        Me.txtCod.TabIndex = 72
         '
-        'Label1
+        'lblCod
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(28, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Código"
+        Me.lblCod.AutoSize = True
+        Me.lblCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblCod.Location = New System.Drawing.Point(28, 213)
+        Me.lblCod.Name = "lblCod"
+        Me.lblCod.Size = New System.Drawing.Size(62, 18)
+        Me.lblCod.TabIndex = 71
+        Me.lblCod.Text = "Código"
         '
         'modificarMateria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(466, 375)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.ClientSize = New System.Drawing.Size(466, 332)
+        Me.Controls.Add(Me.txtAño)
+        Me.Controls.Add(Me.lblYear)
+        Me.Controls.Add(Me.txtNom)
+        Me.Controls.Add(Me.lblNom)
+        Me.Controls.Add(Me.txtCod)
+        Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.lblAyuda)
         Me.Controls.Add(Me.dgvModificarUsu)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblTitulo)
-        Me.Controls.Add(Me.btnAgregar)
+        Me.Controls.Add(Me.btnModificar)
         Me.Name = "modificarMateria"
         Me.Text = "modificarMateria"
         CType(Me.dgvModificarUsu, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -200,12 +190,11 @@ Partial Class modificarMateria
     Friend WithEvents dgvModificarUsu As System.Windows.Forms.DataGridView
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
-    Friend WithEvents btnAgregar As System.Windows.Forms.Button
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents txtAño As System.Windows.Forms.TextBox
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lblYear As System.Windows.Forms.Label
     Friend WithEvents txtNom As System.Windows.Forms.TextBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblNom As System.Windows.Forms.Label
     Friend WithEvents txtCod As System.Windows.Forms.TextBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblCod As System.Windows.Forms.Label
 End Class
