@@ -1,12 +1,8 @@
 ﻿
-'*******************************CODIGO PARA LA SEGUNDA ENTREGA DEL PROYECTO****************************************************
-'Imports MySql.Data.MySqlClient
+Imports MySql.Data.MySqlClient
+
 Public Class listarInscripcion
 
-    '*******************************CODIGO PARA LA SEGUNDA ENTREGA DEL PROYECTO****************************************************
-    ' Dim conexion As New MySqlConnection
-    ' Dim datos As DataSet
-    ' Dim adaptador As New MySqlDataAdapter
     Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'altaAlumno.Show()
 
@@ -36,31 +32,13 @@ Public Class listarInscripcion
 
 
 
-    Private Sub listarAlumno_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-        '*******************************CODIGO PARA LA SEGUNDA ENTREGA DEL PROYECTO****************************************************
-
-        '  Try
-
-        'conexion.ConnectionString = "Server=localhost;user=root;password=;database=sigesi"
-        ' conexion.Open()
-        ' Dim consulta As String
-        ' consulta = "select * from alumnos"
-        ' adaptador = New MySqlDataAdapter(consulta, conexion)
-        ' datos = New DataSet
-        ' adaptador.Fill(datos, "alumnos")
-        'dgvListarAlumnos.DataSource = datos
-        ' dgvListarAlumnos.DataMember = "alumnos"
-
-
-        'Catch ex As Exception
-        'MsgBox(ex.Message)
-        ' End Try
-
-
-    End Sub
+    
 
     Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
+        'Tiene que controlar que no puede estar inscripto a mas de dos turnos
+        'Tiene que controlar que no puede cursar Materias de Distintos Grupos en el mismo turno.
+
+
         'altaAlumno.Show()
     End Sub
 
@@ -75,5 +53,32 @@ Public Class listarInscripcion
 
     Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
 
+    End Sub
+
+    Private Sub listarInscripcion_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Establece la conexón con el orgien de los datos
+        Dim connection As New MySqlConnection
+        'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+        Dim dataAdapter As New MySqlDataAdapter
+        'Contiene los datos resultantes de ejecutar el comando SQL.
+        Dim dataSet As New DataSet
+        'Recupera datos del proceedor(SELECT * FROM ...)
+        Dim command As String
+
+        Try
+            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            command = "SELECT id_grupo, nombre_grupo, turno FROM grupo;"
+            dataAdapter = New MySqlDataAdapter(command, connection)
+            'Abrir la conexión
+            connection.Open()
+            'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+            dataAdapter.Fill(dataSet, "grupo")
+            cboCurso.DataSource = dataSet.Tables("grupo")
+            cboCurso.DisplayMember = "nombre_grupo"
+            cboCurso.ValueMember = "nombre_grupo"
+            connection.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
     End Sub
 End Class

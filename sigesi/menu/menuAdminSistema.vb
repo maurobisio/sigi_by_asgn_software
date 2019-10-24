@@ -107,4 +107,8 @@
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
         abrirFormPanel(listaIncidencias)
     End Sub
+
+    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        abrirFormPanel(listarInscripcion)
+    End Sub
 End Class

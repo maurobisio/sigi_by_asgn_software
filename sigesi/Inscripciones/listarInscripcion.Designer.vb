@@ -27,8 +27,8 @@ Partial Class listarInscripcion
         Me.gpbBuscarInscripciones = New System.Windows.Forms.GroupBox()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.cboGrupo = New System.Windows.Forms.ComboBox()
         Me.cboCurso = New System.Windows.Forms.ComboBox()
+        Me.cboGrupo = New System.Windows.Forms.ComboBox()
         Me.lblGrupo = New System.Windows.Forms.Label()
         Me.lblCurso = New System.Windows.Forms.Label()
         Me.btnAlta = New System.Windows.Forms.Button()
@@ -50,11 +50,11 @@ Partial Class listarInscripcion
         'lblListaAlumnos
         '
         Me.lblListaAlumnos.AutoSize = True
-        Me.lblListaAlumnos.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblListaAlumnos.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblListaAlumnos.ForeColor = System.Drawing.Color.White
         Me.lblListaAlumnos.Location = New System.Drawing.Point(39, 226)
         Me.lblListaAlumnos.Name = "lblListaAlumnos"
-        Me.lblListaAlumnos.Size = New System.Drawing.Size(179, 23)
+        Me.lblListaAlumnos.Size = New System.Drawing.Size(175, 25)
         Me.lblListaAlumnos.TabIndex = 3
         Me.lblListaAlumnos.Text = "Lista de alumnos"
         '
@@ -62,11 +62,11 @@ Partial Class listarInscripcion
         '
         Me.gpbBuscarInscripciones.Controls.Add(Me.btnCancelar)
         Me.gpbBuscarInscripciones.Controls.Add(Me.btnBuscar)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboGrupo)
         Me.gpbBuscarInscripciones.Controls.Add(Me.cboCurso)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.cboGrupo)
         Me.gpbBuscarInscripciones.Controls.Add(Me.lblGrupo)
         Me.gpbBuscarInscripciones.Controls.Add(Me.lblCurso)
-        Me.gpbBuscarInscripciones.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gpbBuscarInscripciones.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gpbBuscarInscripciones.ForeColor = System.Drawing.Color.White
         Me.gpbBuscarInscripciones.Location = New System.Drawing.Point(27, 33)
         Me.gpbBuscarInscripciones.Name = "gpbBuscarInscripciones"
@@ -82,7 +82,7 @@ Partial Class listarInscripcion
         Me.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
         Me.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
         Me.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancelar.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancelar.ForeColor = System.Drawing.Color.White
         Me.btnCancelar.Image = Global.sigesi.My.Resources.Resources.icono_limpiar
         Me.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -100,7 +100,7 @@ Partial Class listarInscripcion
         Me.btnBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
         Me.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
         Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBuscar.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBuscar.ForeColor = System.Drawing.Color.White
         Me.btnBuscar.Image = Global.sigesi.My.Resources.Resources.icono_lupa
         Me.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -111,43 +111,43 @@ Partial Class listarInscripcion
         Me.btnBuscar.Text = "  Buscar "
         Me.btnBuscar.UseVisualStyleBackColor = True
         '
-        'cboGrupo
-        '
-        Me.cboGrupo.FormattingEnabled = True
-        Me.cboGrupo.Items.AddRange(New Object() {"3if", "2ij", "1id"})
-        Me.cboGrupo.Location = New System.Drawing.Point(429, 46)
-        Me.cboGrupo.Name = "cboGrupo"
-        Me.cboGrupo.Size = New System.Drawing.Size(149, 26)
-        Me.cboGrupo.TabIndex = 32
-        '
         'cboCurso
         '
         Me.cboCurso.FormattingEnabled = True
-        Me.cboCurso.Items.AddRange(New Object() {"E.M.T.", "Administración", "Electrónica", "Mecánica", "Ciclo básico", "Bachillerato Humanistico", "Bachillerato  Biológico", "Bachillerato Medicina"})
-        Me.cboCurso.Location = New System.Drawing.Point(109, 42)
+        Me.cboCurso.Items.AddRange(New Object() {"3if", "2ij", "1id"})
+        Me.cboCurso.Location = New System.Drawing.Point(429, 46)
         Me.cboCurso.Name = "cboCurso"
-        Me.cboCurso.Size = New System.Drawing.Size(149, 26)
-        Me.cboCurso.TabIndex = 25
+        Me.cboCurso.Size = New System.Drawing.Size(149, 28)
+        Me.cboCurso.TabIndex = 32
+        '
+        'cboGrupo
+        '
+        Me.cboGrupo.FormattingEnabled = True
+        Me.cboGrupo.Items.AddRange(New Object() {"E.M.T.", "Administración", "Electrónica", "Mecánica", "Ciclo básico", "Bachillerato Humanistico", "Bachillerato  Biológico", "Bachillerato Medicina"})
+        Me.cboGrupo.Location = New System.Drawing.Point(109, 42)
+        Me.cboGrupo.Name = "cboGrupo"
+        Me.cboGrupo.Size = New System.Drawing.Size(149, 28)
+        Me.cboGrupo.TabIndex = 25
         '
         'lblGrupo
         '
         Me.lblGrupo.AutoSize = True
-        Me.lblGrupo.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblGrupo.ForeColor = System.Drawing.Color.White
         Me.lblGrupo.Location = New System.Drawing.Point(12, 42)
         Me.lblGrupo.Name = "lblGrupo"
-        Me.lblGrupo.Size = New System.Drawing.Size(74, 22)
+        Me.lblGrupo.Size = New System.Drawing.Size(68, 24)
         Me.lblGrupo.TabIndex = 0
         Me.lblGrupo.Text = "Grupo:"
         '
         'lblCurso
         '
         Me.lblCurso.AutoSize = True
-        Me.lblCurso.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCurso.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCurso.ForeColor = System.Drawing.Color.White
         Me.lblCurso.Location = New System.Drawing.Point(324, 46)
         Me.lblCurso.Name = "lblCurso"
-        Me.lblCurso.Size = New System.Drawing.Size(70, 22)
+        Me.lblCurso.Size = New System.Drawing.Size(65, 24)
         Me.lblCurso.TabIndex = 1
         Me.lblCurso.Text = "Curso:"
         '
@@ -159,7 +159,7 @@ Partial Class listarInscripcion
         Me.btnAlta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnAlta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.btnAlta.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAlta.Font = New System.Drawing.Font("Lucida Bright", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAlta.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAlta.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnAlta.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
         Me.btnAlta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -178,7 +178,7 @@ Partial Class listarInscripcion
         Me.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnEliminar.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEliminar.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnEliminar.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
         Me.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -215,10 +215,10 @@ Partial Class listarInscripcion
     Friend WithEvents lblListaAlumnos As System.Windows.Forms.Label
     Friend WithEvents btnAlta As System.Windows.Forms.Button
     Friend WithEvents gpbBuscarInscripciones As System.Windows.Forms.GroupBox
-    Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
+    Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
     Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblCurso As System.Windows.Forms.Label
-    Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
+    Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
     Friend WithEvents btnBuscar As System.Windows.Forms.Button
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
     Friend WithEvents btnEliminar As System.Windows.Forms.Button

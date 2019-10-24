@@ -25,12 +25,12 @@ Partial Class listaIncidencias
         Me.dgvListarAlumnos = New System.Windows.Forms.DataGridView()
         Me.lblListaIncidencia = New System.Windows.Forms.Label()
         Me.gpbBuscarIncidencia = New System.Windows.Forms.GroupBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboAlumno = New System.Windows.Forms.ComboBox()
         Me.lblAlumno = New System.Windows.Forms.Label()
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.cboGrupo = New System.Windows.Forms.ComboBox()
         Me.cboCurso = New System.Windows.Forms.ComboBox()
+        Me.cboGrupo = New System.Windows.Forms.ComboBox()
         Me.lblGrupo = New System.Windows.Forms.Label()
         Me.lblMateria = New System.Windows.Forms.Label()
         Me.btnAlta = New System.Windows.Forms.Button()
@@ -62,12 +62,12 @@ Partial Class listaIncidencias
         '
         'gpbBuscarIncidencia
         '
-        Me.gpbBuscarIncidencia.Controls.Add(Me.ComboBox1)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.cboAlumno)
         Me.gpbBuscarIncidencia.Controls.Add(Me.lblAlumno)
         Me.gpbBuscarIncidencia.Controls.Add(Me.btnCancelar)
         Me.gpbBuscarIncidencia.Controls.Add(Me.btnBuscar)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.cboGrupo)
         Me.gpbBuscarIncidencia.Controls.Add(Me.cboCurso)
+        Me.gpbBuscarIncidencia.Controls.Add(Me.cboGrupo)
         Me.gpbBuscarIncidencia.Controls.Add(Me.lblGrupo)
         Me.gpbBuscarIncidencia.Controls.Add(Me.lblMateria)
         Me.gpbBuscarIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -79,14 +79,14 @@ Partial Class listaIncidencias
         Me.gpbBuscarIncidencia.TabStop = False
         Me.gpbBuscarIncidencia.Text = "Buscar Incidencias"
         '
-        'ComboBox1
+        'cboAlumno
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"3if", "2ij", "1id"})
-        Me.ComboBox1.Location = New System.Drawing.Point(377, 77)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(149, 28)
-        Me.ComboBox1.TabIndex = 62
+        Me.cboAlumno.FormattingEnabled = True
+        Me.cboAlumno.Items.AddRange(New Object() {"3if", "2ij", "1id"})
+        Me.cboAlumno.Location = New System.Drawing.Point(377, 77)
+        Me.cboAlumno.Name = "cboAlumno"
+        Me.cboAlumno.Size = New System.Drawing.Size(149, 28)
+        Me.cboAlumno.TabIndex = 62
         '
         'lblAlumno
         '
@@ -135,23 +135,23 @@ Partial Class listaIncidencias
         Me.btnBuscar.Text = "  Buscar "
         Me.btnBuscar.UseVisualStyleBackColor = True
         '
-        'cboGrupo
-        '
-        Me.cboGrupo.FormattingEnabled = True
-        Me.cboGrupo.Items.AddRange(New Object() {"3if", "2ij", "1id"})
-        Me.cboGrupo.Location = New System.Drawing.Point(377, 42)
-        Me.cboGrupo.Name = "cboGrupo"
-        Me.cboGrupo.Size = New System.Drawing.Size(149, 28)
-        Me.cboGrupo.TabIndex = 32
-        '
         'cboCurso
         '
         Me.cboCurso.FormattingEnabled = True
-        Me.cboCurso.Items.AddRange(New Object() {"E.M.T.", "Administración", "Electrónica", "Mecánica", "Ciclo básico", "Bachillerato Humanistico", "Bachillerato  Biológico", "Bachillerato Medicina"})
-        Me.cboCurso.Location = New System.Drawing.Point(109, 42)
+        Me.cboCurso.Items.AddRange(New Object() {"3if", "2ij", "1id"})
+        Me.cboCurso.Location = New System.Drawing.Point(377, 42)
         Me.cboCurso.Name = "cboCurso"
         Me.cboCurso.Size = New System.Drawing.Size(149, 28)
-        Me.cboCurso.TabIndex = 25
+        Me.cboCurso.TabIndex = 32
+        '
+        'cboGrupo
+        '
+        Me.cboGrupo.FormattingEnabled = True
+        Me.cboGrupo.Items.AddRange(New Object() {"E.M.T.", "Administración", "Electrónica", "Mecánica", "Ciclo básico", "Bachillerato Humanistico", "Bachillerato  Biológico", "Bachillerato Medicina"})
+        Me.cboGrupo.Location = New System.Drawing.Point(109, 42)
+        Me.cboGrupo.Name = "cboGrupo"
+        Me.cboGrupo.Size = New System.Drawing.Size(149, 28)
+        Me.cboGrupo.TabIndex = 25
         '
         'lblGrupo
         '
@@ -239,13 +239,13 @@ Partial Class listaIncidencias
     Friend WithEvents lblListaIncidencia As System.Windows.Forms.Label
     Friend WithEvents btnAlta As System.Windows.Forms.Button
     Friend WithEvents gpbBuscarIncidencia As System.Windows.Forms.GroupBox
-    Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
+    Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
     Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblMateria As System.Windows.Forms.Label
-    Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
+    Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
     Friend WithEvents btnBuscar As System.Windows.Forms.Button
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
     Friend WithEvents btnBaja As System.Windows.Forms.Button
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cboAlumno As System.Windows.Forms.ComboBox
     Friend WithEvents lblAlumno As System.Windows.Forms.Label
 End Class

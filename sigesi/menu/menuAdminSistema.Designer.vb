@@ -41,6 +41,7 @@ Partial Class menuAdminSistema
         Me.picIsgesi = New System.Windows.Forms.PictureBox()
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,6 +52,7 @@ Partial Class menuAdminSistema
         'pnlIzquierda
         '
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
+        Me.pnlIzquierda.Controls.Add(Me.Button1)
         Me.pnlIzquierda.Controls.Add(Me.btnIncidencias)
         Me.pnlIzquierda.Controls.Add(Me.btnMateriaGrupo)
         Me.pnlIzquierda.Controls.Add(Me.btnEdificio)
@@ -111,7 +113,7 @@ Partial Class menuAdminSistema
         Me.btnEdificio.ForeColor = System.Drawing.Color.White
         Me.btnEdificio.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnEdificio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEdificio.Location = New System.Drawing.Point(0, 336)
+        Me.btnEdificio.Location = New System.Drawing.Point(0, 323)
         Me.btnEdificio.Name = "btnEdificio"
         Me.btnEdificio.Size = New System.Drawing.Size(218, 54)
         Me.btnEdificio.TabIndex = 41
@@ -295,6 +297,23 @@ Partial Class menuAdminSistema
         'tmrMostrarMenu
         '
         '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button1.Location = New System.Drawing.Point(3, 373)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(218, 54)
+        Me.Button1.TabIndex = 44
+        Me.Button1.Text = "Inscripciones"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'menuAdminSistema
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -333,4 +352,5 @@ Partial Class menuAdminSistema
     Friend WithEvents btnEdificio As System.Windows.Forms.Button
     Friend WithEvents btnMateriaGrupo As System.Windows.Forms.Button
     Friend WithEvents btnIncidencias As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class
