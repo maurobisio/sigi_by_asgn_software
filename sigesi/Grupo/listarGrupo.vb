@@ -20,8 +20,8 @@ Public Class listarGrupo
             connection.Open()
             'Llenamos el dataSet con el método Fill() del objeto dataAdapter
             dataAdapter.Fill(dataSet, "grupo")
-            dgvLIstarUsuarios.DataSource = dataSet
-            dgvLIstarUsuarios.DataMember = "grupo"
+            dgvLIstarGrupos.DataSource = dataSet
+            dgvLIstarGrupos.DataMember = "grupo"
 
             connection.Close()
         Catch ex As Exception
@@ -65,15 +65,15 @@ Public Class listarGrupo
 
     End Sub
 
-    
 
 
-    Private Sub dgvLIstarUsuarios_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvLIstarUsuarios.CellClick
-        
+
+    Private Sub dgvLIstarUsuarios_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvLIstarGrupos.CellClick
+
 
     End Sub
 
-    Private Sub dgvLIstarUsuarios_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvLIstarUsuarios.CellContentClick
+    Private Sub dgvLIstarUsuarios_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvLIstarGrupos.CellContentClick
 
     End Sub
 End Class

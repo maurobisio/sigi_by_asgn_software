@@ -92,14 +92,15 @@ CREATE TABLE tiene (
                     );
 
 CREATE TABLE pertenece(
+                    id_pertenece int not null AUTO_INCREMENT,
 					ci int not null,
                     id_tiene int not null,
                     nro_lista int not null,
-                    primary key (ci, id_tiene),
+                    primary key (id_pertenece, ci, id_tiene),
                     foreign key (ci) references usuario (ci),
                     foreign key (id_tiene) references tiene (id_tiene)
                     );
-	
+
 CREATE TABLE registro_tiene(
                     id_registro_tiene int not null,
 					id_tiene int not null,

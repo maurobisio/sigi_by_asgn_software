@@ -47,7 +47,7 @@
         login.btnEntrar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEntrar
 
         listarInscripcion.gpbBuscarInscripciones.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarInscripciones
-        listarInscripcion.lblCurso.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCurso
+        listarInscripcion.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCurso
         listarInscripcion.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
         altaEdificio.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaEdificio

@@ -22,22 +22,22 @@ Partial Class listarGrupo
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.dgvLIstarUsuarios = New System.Windows.Forms.DataGridView()
+        Me.dgvLIstarGrupos = New System.Windows.Forms.DataGridView()
         Me.btnModificar = New System.Windows.Forms.Button()
         Me.btnAlta = New System.Windows.Forms.Button()
         Me.btnBaja = New System.Windows.Forms.Button()
-        CType(Me.dgvLIstarUsuarios, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvLIstarGrupos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'dgvLIstarUsuarios
+        'dgvLIstarGrupos
         '
-        Me.dgvLIstarUsuarios.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.dgvLIstarUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvLIstarUsuarios.Location = New System.Drawing.Point(60, 21)
-        Me.dgvLIstarUsuarios.Name = "dgvLIstarUsuarios"
-        Me.dgvLIstarUsuarios.ReadOnly = True
-        Me.dgvLIstarUsuarios.Size = New System.Drawing.Size(434, 328)
-        Me.dgvLIstarUsuarios.TabIndex = 2
+        Me.dgvLIstarGrupos.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.dgvLIstarGrupos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvLIstarGrupos.Location = New System.Drawing.Point(60, 21)
+        Me.dgvLIstarGrupos.Name = "dgvLIstarGrupos"
+        Me.dgvLIstarGrupos.ReadOnly = True
+        Me.dgvLIstarGrupos.Size = New System.Drawing.Size(434, 328)
+        Me.dgvLIstarGrupos.TabIndex = 2
         '
         'btnModificar
         '
@@ -105,16 +105,16 @@ Partial Class listarGrupo
         Me.Controls.Add(Me.btnModificar)
         Me.Controls.Add(Me.btnAlta)
         Me.Controls.Add(Me.btnBaja)
-        Me.Controls.Add(Me.dgvLIstarUsuarios)
+        Me.Controls.Add(Me.dgvLIstarGrupos)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "listarGrupo"
         Me.Text = "datagridview"
-        CType(Me.dgvLIstarUsuarios, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvLIstarGrupos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents btnBaja As System.Windows.Forms.Button
-    Friend WithEvents dgvLIstarUsuarios As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvLIstarGrupos As System.Windows.Forms.DataGridView
     Friend WithEvents btnAlta As System.Windows.Forms.Button
 End Class
