@@ -59,9 +59,7 @@ Public Class listarGrupo
     End Sub
 
     Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
-
         altaGrupo.Show()
-
 
     End Sub
 

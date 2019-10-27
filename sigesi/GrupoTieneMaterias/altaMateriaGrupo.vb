@@ -57,26 +57,50 @@ Public Class altaMateriaGrupo
             Dim dataSet As New DataSet
             'Recupera datos del proceedor(SELECT * FROM ...)
             Dim command As String
+            Dim existe As Boolean = False
 
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                command = "INSERT INTO tiene (id_grupo, id_materia) "
-                command += "VALUES ('" + txtCodGrup.Text
-                command += "', '" + txtCodMat.Text
-                command += "');"
+                command = "SELECT * FROM tiene WHERE "
+                command += "id_grupo=" + txtCodGrup.Text
+                command += " and id_materia =" + txtCodMat.Text
+                command += ";"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
                 connection.Open()
                 'Llenamos el dataSet con el método Fill() del objeto dataAdapter
                 dataAdapter.Fill(dataSet, "tiene")
-                MsgBox("La materia se agrego al grupo correctamente")
-                Call LimpiarForm(Me)
+                existe = (dataSet.Tables("tiene").Rows.Count <> 0)
 
                 connection.Close()
             Catch ex As Exception
                 MsgBox(ex.ToString)
             End Try
+
+            If Not existe Then
+                Try
+                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    command = "INSERT INTO tiene (id_grupo, id_materia) "
+                    command += "VALUES ('" + txtCodGrup.Text
+                    command += "', '" + txtCodMat.Text
+                    command += "');"
+
+                    dataAdapter = New MySqlDataAdapter(command, connection)
+                    'Abrir la conexión
+                    connection.Open()
+                    'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+                    dataAdapter.Fill(dataSet, "tiene")
+                    MsgBox("La materia se agrego al grupo correctamente")
+                    Call LimpiarForm(Me)
+
+                    connection.Close()
+                Catch ex As Exception
+                    MsgBox(ex.ToString)
+                End Try
+            Else
+                MsgBox("Este grupo ya tiene a esta materia asociada")
+            End If
         End If
 
     End Sub
@@ -86,6 +110,7 @@ Public Class altaMateriaGrupo
     End Sub
 
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click
+        listarMateriaGrupo.dgvLoad()
         Me.Close()
     End Sub
 
