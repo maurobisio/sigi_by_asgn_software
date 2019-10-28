@@ -213,80 +213,59 @@
   <data name="&gt;&gt;btnAgregar.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;cboMateria.Name" xml:space="preserve">
-    <value>cboMateria</value>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;cboMateria.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="&gt;&gt;cboMateria.Parent" xml:space="preserve">
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 42</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 24</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Rol:</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
     <value>gpbBuscarInscripciones</value>
   </data>
-  <data name="&gt;&gt;cboMateria.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;cboGrupo.Name" xml:space="preserve">
-    <value>cboGrupo</value>
+  <data name="cboRol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 42</value>
   </data>
-  <data name="&gt;&gt;cboGrupo.Type" xml:space="preserve">
+  <data name="cboRol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 28</value>
+  </data>
+  <data name="cboRol.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;cboRol.Name" xml:space="preserve">
+    <value>cboRol</value>
+  </data>
+  <data name="&gt;&gt;cboRol.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cboGrupo.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cboRol.Parent" xml:space="preserve">
     <value>gpbBuscarInscripciones</value>
   </data>
-  <data name="&gt;&gt;cboGrupo.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cboRol.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblGrupo.Name" xml:space="preserve">
-    <value>lblGrupo</value>
-  </data>
-  <data name="&gt;&gt;lblGrupo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblGrupo.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
-  </data>
-  <data name="&gt;&gt;lblGrupo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblMateria.Name" xml:space="preserve">
-    <value>lblMateria</value>
-  </data>
-  <data name="&gt;&gt;lblMateria.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMateria.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
-  </data>
-  <data name="&gt;&gt;lblMateria.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 70</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Size" type="System.Drawing.Size, System.Drawing">
-    <value>722, 108</value>
-  </data>
-  <data name="gpbBuscarInscripciones.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Text" xml:space="preserve">
-    <value>Buscar Inscripciones</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.Name" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="cboMateria.Items" xml:space="preserve">
     <value>3if</value>
@@ -316,7 +295,7 @@
     <value>gpbBuscarInscripciones</value>
   </data>
   <data name="&gt;&gt;cboMateria.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="cboGrupo.Items" xml:space="preserve">
     <value>E.M.T.</value>
@@ -361,7 +340,7 @@
     <value>gpbBuscarInscripciones</value>
   </data>
   <data name="&gt;&gt;cboGrupo.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="lblGrupo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -391,7 +370,7 @@
     <value>gpbBuscarInscripciones</value>
   </data>
   <data name="&gt;&gt;lblGrupo.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="lblMateria.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -421,7 +400,34 @@
     <value>gpbBuscarInscripciones</value>
   </data>
   <data name="&gt;&gt;lblMateria.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
+  </data>
+  <data name="gpbBuscarInscripciones.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="gpbBuscarInscripciones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 70</value>
+  </data>
+  <data name="gpbBuscarInscripciones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>722, 108</value>
+  </data>
+  <data name="gpbBuscarInscripciones.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="gpbBuscarInscripciones.Text" xml:space="preserve">
+    <value>Buscar Inscripciones</value>
+  </data>
+  <data name="&gt;&gt;gpbBuscarInscripciones.Name" xml:space="preserve">
+    <value>gpbBuscarInscripciones</value>
+  </data>
+  <data name="&gt;&gt;gpbBuscarInscripciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbBuscarInscripciones.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpbBuscarInscripciones.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblListaAlumnos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

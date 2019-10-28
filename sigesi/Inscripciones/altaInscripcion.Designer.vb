@@ -27,6 +27,8 @@ Partial Class altaInscripcion
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.gpbBuscarInscripciones = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.cboRol = New System.Windows.Forms.ComboBox()
         Me.cboMateria = New System.Windows.Forms.ComboBox()
         Me.cboGrupo = New System.Windows.Forms.ComboBox()
         Me.lblGrupo = New System.Windows.Forms.Label()
@@ -67,6 +69,8 @@ Partial Class altaInscripcion
         '
         'gpbBuscarInscripciones
         '
+        Me.gpbBuscarInscripciones.Controls.Add(Me.Label1)
+        Me.gpbBuscarInscripciones.Controls.Add(Me.cboRol)
         Me.gpbBuscarInscripciones.Controls.Add(Me.cboMateria)
         Me.gpbBuscarInscripciones.Controls.Add(Me.cboGrupo)
         Me.gpbBuscarInscripciones.Controls.Add(Me.lblGrupo)
@@ -75,6 +79,19 @@ Partial Class altaInscripcion
         Me.gpbBuscarInscripciones.ForeColor = System.Drawing.Color.White
         Me.gpbBuscarInscripciones.Name = "gpbBuscarInscripciones"
         Me.gpbBuscarInscripciones.TabStop = False
+        '
+        'Label1
+        '
+        resources.ApplyResources(Me.Label1, "Label1")
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Name = "Label1"
+        '
+        'cboRol
+        '
+        Me.cboRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboRol.FormattingEnabled = True
+        resources.ApplyResources(Me.cboRol, "cboRol")
+        Me.cboRol.Name = "cboRol"
         '
         'cboMateria
         '
@@ -165,4 +182,6 @@ Partial Class altaInscripcion
     Friend WithEvents cboMateria As System.Windows.Forms.ComboBox
     Friend WithEvents txtLista As System.Windows.Forms.TextBox
     Friend WithEvents lblLista As System.Windows.Forms.Label
+    Friend WithEvents cboRol As System.Windows.Forms.ComboBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

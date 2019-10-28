@@ -191,6 +191,24 @@
     <Compile Include="Materia\modificarMateria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reportes\cantidadAlumnosGrupo.Designer.vb">
+      <DependentUpon>cantidadAlumnosGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\cantidadAlumnosGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\reporte.Designer.vb">
+      <DependentUpon>reporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\reporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\alumosMasUnGrupo.Designer.vb">
+      <DependentUpon>alumosMasUnGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\alumosMasUnGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Singleton.vb" />
     <Compile Include="RecursoLenguajeESP.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -204,10 +222,10 @@
     <Compile Include="Usuario\bajaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GestionEInformes.Designer.vb">
+    <Compile Include="Reportes\GestionEInformes.Designer.vb">
       <DependentUpon>GestionEInformes.vb</DependentUpon>
     </Compile>
-    <Compile Include="GestionEInformes.vb">
+    <Compile Include="Reportes\GestionEInformes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home\homeAdministrativo.Designer.vb">
@@ -301,10 +319,10 @@
     <Compile Include="Menu\menuDirector.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IncidenciasDocente.Designer.vb">
+    <Compile Include="Incidencias\IncidenciasDocente.Designer.vb">
       <DependentUpon>IncidenciasDocente.vb</DependentUpon>
     </Compile>
-    <Compile Include="IncidenciasDocente.vb">
+    <Compile Include="Incidencias\IncidenciasDocente.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu\menuDocente.Designer.vb">
@@ -340,16 +358,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RecursoLenguajeENG.resx</DependentUpon>
     </Compile>
-    <Compile Include="reporteDocente.Designer.vb">
+    <Compile Include="Reportes\reporteDocente.Designer.vb">
       <DependentUpon>reporteDocente.vb</DependentUpon>
     </Compile>
-    <Compile Include="reporteDocente.vb">
+    <Compile Include="Reportes\reporteDocente.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="reportes.Designer.vb">
+    <Compile Include="Reportes\reportes.Designer.vb">
       <DependentUpon>reportes.vb</DependentUpon>
     </Compile>
-    <Compile Include="reportes.vb">
+    <Compile Include="Reportes\reportes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="selecUsu.Designer.vb">
@@ -414,10 +432,19 @@
     <EmbeddedResource Include="Materia\modificarMateria.resx">
       <DependentUpon>modificarMateria.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\cantidadAlumnosGrupo.resx">
+      <DependentUpon>cantidadAlumnosGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\reporte.resx">
+      <DependentUpon>reporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\alumosMasUnGrupo.resx">
+      <DependentUpon>alumosMasUnGrupo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Usuario\bajaUsuario.resx">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GestionEInformes.resx">
+    <EmbeddedResource Include="Reportes\GestionEInformes.resx">
       <DependentUpon>GestionEInformes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home\homeAdministrativo.resx">
@@ -465,7 +492,7 @@
     <EmbeddedResource Include="Menu\menuDirector.resx">
       <DependentUpon>menuDirector.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IncidenciasDocente.resx">
+    <EmbeddedResource Include="Incidencias\IncidenciasDocente.resx">
       <DependentUpon>IncidenciasDocente.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\menuDocente.resx">
@@ -485,10 +512,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>RecursoLenguajeENG.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="reporteDocente.resx">
+    <EmbeddedResource Include="Reportes\reporteDocente.resx">
       <DependentUpon>reporteDocente.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="reportes.resx">
+    <EmbeddedResource Include="Reportes\reportes.resx">
       <DependentUpon>reportes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RecursoLenguajeESP.resx">

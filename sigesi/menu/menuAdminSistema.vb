@@ -1,5 +1,5 @@
 ﻿Public Class menuAdminSistema
-    Private Sub abrirFormPanel(ByVal formHijo As Object)
+    Public Sub abrirFormPanel(ByVal formHijo As Object)
         'creo metodo para abrir formularios dentro d el panel central
         ' valido q si tiene objetos dentro, q los remueva
         If Me.pnlCentral.Controls.Count > 0 Then
@@ -19,11 +19,8 @@
         Me.pnlCentral.Tag = formH
         'muestro el formulario
         formH.Show()
-
-
-
-
     End Sub
+
     Private Sub menuAdminSistema_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         abrirFormPanel(homeAdminSIstema)
     End Sub
@@ -110,5 +107,9 @@
 
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         abrirFormPanel(listarInscripcion)
+    End Sub
+
+    Private Sub Reportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Reportes.Click
+        abrirFormPanel(reporte)
     End Sub
 End Class

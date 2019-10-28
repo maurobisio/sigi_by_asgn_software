@@ -224,3 +224,7 @@ D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sig
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listaIncidencias.resources
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listarInscripcion.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaInscripcion.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaInscripcion.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.cantidadAlumnosGrupo.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.reporte.resources
+D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.alumosMasUnGrupo.resources
