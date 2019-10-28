@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblTitulo.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="btnSalir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -181,7 +181,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnSalir.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="btnAgregar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -211,7 +211,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnAgregar.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;cboMateria.Name" xml:space="preserve">
     <value>cboMateria</value>
@@ -286,6 +286,36 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gpbBuscarInscripciones.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboMateria.Items" xml:space="preserve">
+    <value>3if</value>
+  </data>
+  <data name="cboMateria.Items1" xml:space="preserve">
+    <value>2ij</value>
+  </data>
+  <data name="cboMateria.Items2" xml:space="preserve">
+    <value>1id</value>
+  </data>
+  <data name="cboMateria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 42</value>
+  </data>
+  <data name="cboMateria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 28</value>
+  </data>
+  <data name="cboMateria.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.Name" xml:space="preserve">
+    <value>cboMateria</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.Parent" xml:space="preserve">
+    <value>gpbBuscarInscripciones</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="cboGrupo.Items" xml:space="preserve">
@@ -421,7 +451,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblListaAlumnos.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="dgvListarAlumnos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -445,36 +475,63 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dgvListarAlumnos.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
-  <data name="cboMateria.Items" xml:space="preserve">
-    <value>3if</value>
+  <data name="txtLista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 468</value>
   </data>
-  <data name="cboMateria.Items1" xml:space="preserve">
-    <value>2ij</value>
+  <data name="txtLista.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="cboMateria.Items2" xml:space="preserve">
-    <value>1id</value>
+  <data name="txtLista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 20</value>
   </data>
-  <data name="cboMateria.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 42</value>
+  <data name="txtLista.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
   </data>
-  <data name="cboMateria.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 28</value>
+  <data name="&gt;&gt;txtLista.Name" xml:space="preserve">
+    <value>txtLista</value>
   </data>
-  <data name="cboMateria.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
+  <data name="&gt;&gt;txtLista.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cboMateria.Name" xml:space="preserve">
-    <value>cboMateria</value>
+  <data name="&gt;&gt;txtLista.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;cboMateria.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtLista.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;cboMateria.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+  <data name="lblLista.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;cboMateria.ZOrder" xml:space="preserve">
+  <data name="lblLista.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lblLista.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 467</value>
+  </data>
+  <data name="lblLista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 18</value>
+  </data>
+  <data name="lblLista.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lblLista.Text" xml:space="preserve">
+    <value>Número de Lista</value>
+  </data>
+  <data name="&gt;&gt;lblLista.Name" xml:space="preserve">
+    <value>lblLista</value>
+  </data>
+  <data name="&gt;&gt;lblLista.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLista.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLista.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -485,9 +542,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>795, 552</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

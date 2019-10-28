@@ -54,8 +54,8 @@ Public Class listarInscripcion
 
     Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
         'controlar si no son vacios
-        Dim id_grupo As Integer = Convert.ToInt32(cboGrupo.SelectedValue)
-        Dim id_materia As Integer = Convert.ToInt32(cboMateria.SelectedValue)
+        id_grupo = Convert.ToInt32(cboGrupo.SelectedValue)
+        id_materia = Convert.ToInt32(cboMateria.SelectedValue)
         'MsgBox("grupo: " + cboGrupo.SelectedValue.ToString)
         'MsgBox("materia:" + cboMateria.SelectedValue.ToString)
 
@@ -176,7 +176,6 @@ Public Class listarInscripcion
                     command += " ) "
                     command += "AND pertenece.ci = " + ci.ToString
                     command += ";"
-                    MsgBox(command)
 
                     dataAdapter = New MySqlDataAdapter(command, connection)
                     'Abrir la conexión

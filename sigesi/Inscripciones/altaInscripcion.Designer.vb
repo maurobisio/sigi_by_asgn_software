@@ -27,12 +27,14 @@ Partial Class altaInscripcion
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.gpbBuscarInscripciones = New System.Windows.Forms.GroupBox()
+        Me.cboMateria = New System.Windows.Forms.ComboBox()
         Me.cboGrupo = New System.Windows.Forms.ComboBox()
         Me.lblGrupo = New System.Windows.Forms.Label()
         Me.lblMateria = New System.Windows.Forms.Label()
         Me.lblListaAlumnos = New System.Windows.Forms.Label()
         Me.dgvListarAlumnos = New System.Windows.Forms.DataGridView()
-        Me.cboMateria = New System.Windows.Forms.ComboBox()
+        Me.txtLista = New System.Windows.Forms.TextBox()
+        Me.lblLista = New System.Windows.Forms.Label()
         Me.gpbBuscarInscripciones.SuspendLayout()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -74,6 +76,14 @@ Partial Class altaInscripcion
         Me.gpbBuscarInscripciones.Name = "gpbBuscarInscripciones"
         Me.gpbBuscarInscripciones.TabStop = False
         '
+        'cboMateria
+        '
+        Me.cboMateria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboMateria.FormattingEnabled = True
+        Me.cboMateria.Items.AddRange(New Object() {resources.GetString("cboMateria.Items"), resources.GetString("cboMateria.Items1"), resources.GetString("cboMateria.Items2")})
+        resources.ApplyResources(Me.cboMateria, "cboMateria")
+        Me.cboMateria.Name = "cboMateria"
+        '
         'cboGrupo
         '
         Me.cboGrupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
@@ -107,13 +117,17 @@ Partial Class altaInscripcion
         Me.dgvListarAlumnos.Name = "dgvListarAlumnos"
         Me.dgvListarAlumnos.ReadOnly = True
         '
-        'cboMateria
+        'txtLista
         '
-        Me.cboMateria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cboMateria.FormattingEnabled = True
-        Me.cboMateria.Items.AddRange(New Object() {resources.GetString("cboMateria.Items"), resources.GetString("cboMateria.Items1"), resources.GetString("cboMateria.Items2")})
-        resources.ApplyResources(Me.cboMateria, "cboMateria")
-        Me.cboMateria.Name = "cboMateria"
+        resources.ApplyResources(Me.txtLista, "txtLista")
+        Me.txtLista.Name = "txtLista"
+        '
+        'lblLista
+        '
+        resources.ApplyResources(Me.lblLista, "lblLista")
+        Me.lblLista.BackColor = System.Drawing.Color.Transparent
+        Me.lblLista.ForeColor = System.Drawing.Color.Black
+        Me.lblLista.Name = "lblLista"
         '
         'altaInscripcion
         '
@@ -121,6 +135,8 @@ Partial Class altaInscripcion
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Controls.Add(Me.lblLista)
+        Me.Controls.Add(Me.txtLista)
         Me.Controls.Add(Me.gpbBuscarInscripciones)
         Me.Controls.Add(Me.lblListaAlumnos)
         Me.Controls.Add(Me.dgvListarAlumnos)
@@ -147,4 +163,6 @@ Partial Class altaInscripcion
     Friend WithEvents lblListaAlumnos As System.Windows.Forms.Label
     Friend WithEvents dgvListarAlumnos As System.Windows.Forms.DataGridView
     Friend WithEvents cboMateria As System.Windows.Forms.ComboBox
+    Friend WithEvents txtLista As System.Windows.Forms.TextBox
+    Friend WithEvents lblLista As System.Windows.Forms.Label
 End Class
