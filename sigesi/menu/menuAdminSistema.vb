@@ -112,4 +112,8 @@
     Private Sub Reportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Reportes.Click
         abrirFormPanel(reporte)
     End Sub
+
+    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
+        abrirFormPanel(listaIncidencias)
+    End Sub
 End Class

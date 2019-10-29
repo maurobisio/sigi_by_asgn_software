@@ -4,6 +4,10 @@ Public Class alumosMasUnGrupo
 
 
     Private Sub cantidadAlumnosGrupo_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        gridLoad()
+    End Sub
+
+    Public Sub gridLoad()
         'Establece la conexón con el orgien de los datos
         Dim connection As New MySqlConnection
         'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos

@@ -191,10 +191,28 @@
     <Compile Include="Materia\modificarMateria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reportes\boletin.Designer.vb">
+      <DependentUpon>boletin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\boletin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Reportes\cantidadAlumnosGrupo.Designer.vb">
       <DependentUpon>cantidadAlumnosGrupo.vb</DependentUpon>
     </Compile>
     <Compile Include="Reportes\cantidadAlumnosGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\cantidadIncidenciasPorTipo2019.Designer.vb">
+      <DependentUpon>cantidadIncidenciasPorTipo2019.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\cantidadIncidenciasPorTipo2019.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\docenteDictaSolaMateria.Designer.vb">
+      <DependentUpon>docenteDictaSolaMateria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\docenteDictaSolaMateria.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reportes\reporte.Designer.vb">
@@ -207,6 +225,18 @@
       <DependentUpon>alumosMasUnGrupo.vb</DependentUpon>
     </Compile>
     <Compile Include="Reportes\alumosMasUnGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\top10AlumnosMasFaltas.Designer.vb">
+      <DependentUpon>top10AlumnosMasFaltas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\top10AlumnosMasFaltas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\top50AlumnosMejorNota.Designer.vb">
+      <DependentUpon>top50AlumnosMejorNota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\top50AlumnosMejorNota.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Singleton.vb" />
@@ -432,14 +462,29 @@
     <EmbeddedResource Include="Materia\modificarMateria.resx">
       <DependentUpon>modificarMateria.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\boletin.resx">
+      <DependentUpon>boletin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\cantidadAlumnosGrupo.resx">
       <DependentUpon>cantidadAlumnosGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\cantidadIncidenciasPorTipo2019.resx">
+      <DependentUpon>cantidadIncidenciasPorTipo2019.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\docenteDictaSolaMateria.resx">
+      <DependentUpon>docenteDictaSolaMateria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\reporte.resx">
       <DependentUpon>reporte.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\alumosMasUnGrupo.resx">
       <DependentUpon>alumosMasUnGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\top10AlumnosMasFaltas.resx">
+      <DependentUpon>top10AlumnosMasFaltas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\top50AlumnosMejorNota.resx">
+      <DependentUpon>top50AlumnosMejorNota.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Usuario\bajaUsuario.resx">
       <DependentUpon>bajaUsuario.vb</DependentUpon>

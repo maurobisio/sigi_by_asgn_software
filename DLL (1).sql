@@ -86,7 +86,7 @@ CREATE TABLE tiene (
                     id_tiene int not null AUTO_INCREMENT,
 					id_materia int not null,
                     id_grupo int not null,
-                    primary key (id_tiene, id_materia, id_grupo),
+                    primary key (id_tiene),
                     foreign key (id_materia) references materia (id_materia),
                     foreign key (id_grupo) references grupo (id_grupo)
                     );
@@ -96,43 +96,46 @@ CREATE TABLE pertenece(
 					ci int not null,
                     id_tiene int not null,
                     nro_lista int not null,
-                    primary key (id_pertenece, ci, id_tiene),
+                    primary key (id_pertenece),
                     foreign key (ci) references usuario (ci),
                     foreign key (id_tiene) references tiene (id_tiene)
                     );
 
-CREATE TABLE registro_tiene(
-                    id_registro_tiene int not null,
-					id_tiene int not null,
-                    falta_justificada char,
-                    falta_injustificada char,
-                    promedio_1 int,
-                    promedio_2 int,
-                    promedio_3 int,
-                    ci int not null,
-					primary key (id_registro_tiene, id_tiene, ci),
-                    foreign key (id_tiene) references tiene (id_tiene),
-                    foreign key (ci) references usuario (ci)
+CREATE TABLE tipo_registro(
+					id_tipo_registro int not null AUTO_INCREMENT,
+					nom_registro varchar(250) not null,
+                    primary key (id_tipo_registro)
                     );
-                    
-CREATE TABLE registro_notas(
-					id_registro_nota int not null,
-					id_tiene int not null,
-                    ci int not null,
-                    notas int,
-                    primary key (id_tiene, id_registro_nota, ci),
-                    foreign key (id_tiene) references tiene (id_tiene),
-                    foreign key (ci) references usuario (ci)
+
+CREATE TABLE registro(
+					id_registro int not null AUTO_INCREMENT,
+					id_pertenece int not null,
+                    id_tipo_registro int not null,
+                    valor int,
+                    observacion varchar(250),
+                    fecha datetime, 
+                    primary key (id_registro),
+                    foreign key (id_pertenece) references pertenece (id_pertenece),
+                    foreign key (id_tipo_registro) references tipo_registro (id_tipo_registro)
                     );
-                    
-CREATE TABLE registro_faltas(
-					id_registro_faltas int not null,
-					id_tiene int not null,
-                    ci int not null,
-                    faltas int,
-                    primary key (id_tiene, id_registro_faltas, ci),
-                    foreign key (id_tiene) references tiene (id_tiene),
-                    foreign key (ci) references usuario (ci)
+
+CREATE TABLE tipo_incidencia(
+					id_tipo_incidencia int not null AUTO_INCREMENT,
+					nom_tipo varchar(250) not null,
+                    primary key (id_tipo_incidencia)
+                    );
+
+CREATE TABLE incidencia(
+					id_incidencia int not null AUTO_INCREMENT,
+					id_alumno int not null,
+                    id_autoridad int not null,
+                    id_tipo_incidencia int not null,
+                    observación varchar(250),
+                    fecha datetime, 
+                    primary key (id_incidencia),
+                    foreign key (id_tipo_incidencia) references tipo_incidencia (id_tipo_incidencia),
+                    foreign key (id_alumno) references usuario (ci),
+                    foreign key (id_autoridad) references usuario (ci)
                     );
 
 INSERT INTO rol (id_rol, nombre_rol) 
@@ -150,57 +153,77 @@ VALUES ('5','Alumno/a');
 
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('0', 'root', 'root', 'root', 'root', 'root', 'root','0');
-
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('1', 'director', 'director', 'director', 'director', 'director', 'director','1');
-
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('2', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel','2');
-
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('3', 'admin', 'admin', 'admin', 'admin', 'admin', 'admin','3');
-
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('4', 'docente', 'docente', 'docente', 'docente', 'docente', 'docente','4');
-
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('5', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno','5');
 
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('0','Fisica', '2019');
-
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('1','Quimica', '2019');
-
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('2','Sociologia', '2019');
-
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('3','Historia', '2019');
-
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('4','Base de Datos', '2019');
 
 INSERT INTO edificio (id_edificio, tipo_edificio) 
 VALUES ('0','Central');
-
 INSERT INTO edificio (id_edificio, tipo_edificio) 
 VALUES ('1','Anexo 1');
-
 INSERT INTO edificio (id_edificio, tipo_edificio) 
 VALUES ('2','Anexo 2');
 
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
 VALUES ('0','3ro HI', 'Matutino', '0');
-
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
 VALUES ('1','2ro HI', 'Vespertino', '1');
-
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
 VALUES ('2','1ro HI', 'Nocturno', '2');
 
 INSERT INTO tiene (id_grupo,id_materia)
 VALUES ('0','0');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('0','1');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('0','2');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('1','1');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('1','2');
+
 
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('5','1','0');
+VALUES ('1','1','0');
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('2','1','0');
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('3','1','0');
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('4','1','0');
+
+INSERT INTO tipo_registro (nom_registro)
+VALUES ('Calificación');
+INSERT INTO tipo_registro (nom_registro)
+VALUES ('Inasistencia');
+
+INSERT INTO tipo_incidencia (nom_tipo)
+VALUES ('Suspención');
+INSERT INTO tipo_incidencia (nom_tipo)
+VALUES ('Observaciones');
+INSERT INTO tipo_incidencia (nom_tipo)
+VALUES ('Califiaciónes bajas');
+INSERT INTO tipo_incidencia (nom_tipo)
+VALUES ('Observaciones');
+
+
+
+
