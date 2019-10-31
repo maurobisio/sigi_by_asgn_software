@@ -263,6 +263,13 @@ INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
 VALUES ('7','3', '7','Calificación Final','2019-10-31 10:12:00');
 
 
-
+INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
+VALUES ('5','1', '1','Suspencion','2019-10-31 10:12:00');
+INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
+VALUES ('5','2', '1','Suspencion','2019-10-31 10:12:00');
+INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
+VALUES ('5','3', '1','Suspencion','2019-10-31 10:12:00');
+INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
+VALUES ('5','4', '1','Suspencion','2019-10-31 10:12:00');
 
 
