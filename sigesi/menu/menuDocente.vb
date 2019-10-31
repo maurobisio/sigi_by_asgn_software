@@ -91,6 +91,6 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
-        abrirFormPanel(New reporteDocente)
+        'abrirFormPanel(New reporteDocente)
     End Sub
 End Class

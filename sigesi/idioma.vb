@@ -167,18 +167,18 @@
         modificarUsuario.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
 
         altaIncidencia.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaIncidencia
-        altaIncidencia.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
-        altaIncidencia.lblDesc.Text = sigesi.My.Resources.RecursoLenguajeENG.lblDesc
+        'altaIncidencia.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        altaIncidencia.lblObs.Text = sigesi.My.Resources.RecursoLenguajeENG.lblDesc
         altaIncidencia.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAgregar
 
-        listaIncidencias.gpbBuscarIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarIncidencia
+        'listaIncidencias.gpbBuscarIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarIncidencia
         listaIncidencias.lblListaIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaIncidencia
-        listaIncidencias.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
-        listaIncidencias.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
-        listaIncidencias.lblAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAlumno
+        'listaIncidencias.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
+        'listaIncidencias.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
+        'listaIncidencias.lblAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAlumno
         listaIncidencias.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
         listaIncidencias.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
-        listaIncidencias.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
+        'listaIncidencias.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
         listaIncidencias.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
         homeAdministrativo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdministrativo

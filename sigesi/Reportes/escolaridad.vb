@@ -41,7 +41,7 @@ Public Class escolaridad
                         command = ""
 
                         connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                        command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre, materia.nom_materia, materia.año, grupo.nombre_grupo, AVG(registro.valor) "
+                        command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre, materia.nom_materia, materia.año, grupo.nombre_grupo, registro.valor "
                         command += "FROM (((((((tipo_registro "
                         command += "INNER JOIN registro ON registro.id_tipo_registro = tipo_registro.id_tipo_registro) "
                         command += "INNER JOIN pertenece ON pertenece.id_pertenece = registro.id_pertenece) "
@@ -50,9 +50,8 @@ Public Class escolaridad
                         command += "INNER JOIN tiene ON pertenece.id_tiene = tiene.id_tiene) "
                         command += "INNER JOIN materia ON materia.id_materia = tiene.id_materia) "
                         command += "INNER JOIN grupo ON grupo.id_grupo = tiene.id_grupo) "
-                        command += "WHERE tipo_registro.nom_registro = 'Calificación' AND rol.nombre_rol = 'Alumno/a' AND usuario.ci='" + txtCi.Text + "' "
-                        command += "GROUP BY pertenece.id_pertenece "
-                        command += "HAVING(AVG(registro.valor));"
+                        command += "WHERE tipo_registro.nom_registro = 'Calificación Final' AND rol.nombre_rol = 'Alumno/a' AND usuario.ci='" + txtCi.Text + "' "
+                        command += "GROUP BY pertenece.id_pertenece;"
 
                         dataAdapter = New MySqlDataAdapter(command, connection)
                         'Abrir la conexión

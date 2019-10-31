@@ -22,158 +22,36 @@ Partial Class listaIncidencias
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.dgvListarAlumnos = New System.Windows.Forms.DataGridView()
+        Me.dgvListarIncidencias = New System.Windows.Forms.DataGridView()
         Me.lblListaIncidencia = New System.Windows.Forms.Label()
-        Me.gpbBuscarIncidencia = New System.Windows.Forms.GroupBox()
-        Me.cboAlumno = New System.Windows.Forms.ComboBox()
-        Me.lblAlumno = New System.Windows.Forms.Label()
-        Me.btnCancelar = New System.Windows.Forms.Button()
-        Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.cboCurso = New System.Windows.Forms.ComboBox()
-        Me.cboGrupo = New System.Windows.Forms.ComboBox()
-        Me.lblGrupo = New System.Windows.Forms.Label()
-        Me.lblMateria = New System.Windows.Forms.Label()
         Me.btnAlta = New System.Windows.Forms.Button()
         Me.btnBaja = New System.Windows.Forms.Button()
-        CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.gpbBuscarIncidencia.SuspendLayout()
+        Me.lblCi = New System.Windows.Forms.Label()
+        Me.txtCi = New System.Windows.Forms.TextBox()
+        Me.btnBuscar = New System.Windows.Forms.Button()
+        CType(Me.dgvListarIncidencias, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'dgvListarAlumnos
+        'dgvListarIncidencias
         '
-        Me.dgvListarAlumnos.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.dgvListarAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvListarAlumnos.Location = New System.Drawing.Point(27, 254)
-        Me.dgvListarAlumnos.Name = "dgvListarAlumnos"
-        Me.dgvListarAlumnos.ReadOnly = True
-        Me.dgvListarAlumnos.Size = New System.Drawing.Size(491, 166)
-        Me.dgvListarAlumnos.TabIndex = 4
+        Me.dgvListarIncidencias.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.dgvListarIncidencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvListarIncidencias.Location = New System.Drawing.Point(12, 135)
+        Me.dgvListarIncidencias.Name = "dgvListarIncidencias"
+        Me.dgvListarIncidencias.ReadOnly = True
+        Me.dgvListarIncidencias.Size = New System.Drawing.Size(517, 376)
+        Me.dgvListarIncidencias.TabIndex = 4
         '
         'lblListaIncidencia
         '
         Me.lblListaIncidencia.AutoSize = True
         Me.lblListaIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblListaIncidencia.ForeColor = System.Drawing.Color.White
-        Me.lblListaIncidencia.Location = New System.Drawing.Point(39, 226)
+        Me.lblListaIncidencia.Location = New System.Drawing.Point(28, 107)
         Me.lblListaIncidencia.Name = "lblListaIncidencia"
         Me.lblListaIncidencia.Size = New System.Drawing.Size(191, 25)
         Me.lblListaIncidencia.TabIndex = 3
         Me.lblListaIncidencia.Text = "Lista de Incidencia"
-        '
-        'gpbBuscarIncidencia
-        '
-        Me.gpbBuscarIncidencia.Controls.Add(Me.cboAlumno)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.lblAlumno)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.btnCancelar)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.btnBuscar)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.cboCurso)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.cboGrupo)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.lblGrupo)
-        Me.gpbBuscarIncidencia.Controls.Add(Me.lblMateria)
-        Me.gpbBuscarIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gpbBuscarIncidencia.ForeColor = System.Drawing.Color.White
-        Me.gpbBuscarIncidencia.Location = New System.Drawing.Point(27, 33)
-        Me.gpbBuscarIncidencia.Name = "gpbBuscarIncidencia"
-        Me.gpbBuscarIncidencia.Size = New System.Drawing.Size(616, 172)
-        Me.gpbBuscarIncidencia.TabIndex = 59
-        Me.gpbBuscarIncidencia.TabStop = False
-        Me.gpbBuscarIncidencia.Text = "Buscar Incidencias"
-        '
-        'cboAlumno
-        '
-        Me.cboAlumno.FormattingEnabled = True
-        Me.cboAlumno.Items.AddRange(New Object() {"3if", "2ij", "1id"})
-        Me.cboAlumno.Location = New System.Drawing.Point(377, 77)
-        Me.cboAlumno.Name = "cboAlumno"
-        Me.cboAlumno.Size = New System.Drawing.Size(149, 28)
-        Me.cboAlumno.TabIndex = 62
-        '
-        'lblAlumno
-        '
-        Me.lblAlumno.AutoSize = True
-        Me.lblAlumno.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAlumno.ForeColor = System.Drawing.Color.White
-        Me.lblAlumno.Location = New System.Drawing.Point(272, 77)
-        Me.lblAlumno.Name = "lblAlumno"
-        Me.lblAlumno.Size = New System.Drawing.Size(81, 24)
-        Me.lblAlumno.TabIndex = 61
-        Me.lblAlumno.Text = "Alumno:"
-        '
-        'btnCancelar
-        '
-        Me.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnCancelar.FlatAppearance.BorderSize = 0
-        Me.btnCancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
-        Me.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancelar.ForeColor = System.Drawing.Color.White
-        Me.btnCancelar.Image = Global.sigesi.My.Resources.Resources.icono_limpiar
-        Me.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCancelar.Location = New System.Drawing.Point(74, 109)
-        Me.btnCancelar.Name = "btnCancelar"
-        Me.btnCancelar.Size = New System.Drawing.Size(165, 48)
-        Me.btnCancelar.TabIndex = 60
-        Me.btnCancelar.Text = "       Cancelar"
-        Me.btnCancelar.UseVisualStyleBackColor = True
-        '
-        'btnBuscar
-        '
-        Me.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnBuscar.FlatAppearance.BorderSize = 0
-        Me.btnBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
-        Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBuscar.ForeColor = System.Drawing.Color.White
-        Me.btnBuscar.Image = Global.sigesi.My.Resources.Resources.icono_lupa
-        Me.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBuscar.Location = New System.Drawing.Point(400, 109)
-        Me.btnBuscar.Name = "btnBuscar"
-        Me.btnBuscar.Size = New System.Drawing.Size(195, 49)
-        Me.btnBuscar.TabIndex = 36
-        Me.btnBuscar.Text = "  Buscar "
-        Me.btnBuscar.UseVisualStyleBackColor = True
-        '
-        'cboCurso
-        '
-        Me.cboCurso.FormattingEnabled = True
-        Me.cboCurso.Items.AddRange(New Object() {"3if", "2ij", "1id"})
-        Me.cboCurso.Location = New System.Drawing.Point(377, 42)
-        Me.cboCurso.Name = "cboCurso"
-        Me.cboCurso.Size = New System.Drawing.Size(149, 28)
-        Me.cboCurso.TabIndex = 32
-        '
-        'cboGrupo
-        '
-        Me.cboGrupo.FormattingEnabled = True
-        Me.cboGrupo.Items.AddRange(New Object() {"E.M.T.", "Administración", "Electrónica", "Mecánica", "Ciclo básico", "Bachillerato Humanistico", "Bachillerato  Biológico", "Bachillerato Medicina"})
-        Me.cboGrupo.Location = New System.Drawing.Point(109, 42)
-        Me.cboGrupo.Name = "cboGrupo"
-        Me.cboGrupo.Size = New System.Drawing.Size(149, 28)
-        Me.cboGrupo.TabIndex = 25
-        '
-        'lblGrupo
-        '
-        Me.lblGrupo.AutoSize = True
-        Me.lblGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblGrupo.ForeColor = System.Drawing.Color.White
-        Me.lblGrupo.Location = New System.Drawing.Point(12, 42)
-        Me.lblGrupo.Name = "lblGrupo"
-        Me.lblGrupo.Size = New System.Drawing.Size(68, 24)
-        Me.lblGrupo.TabIndex = 0
-        Me.lblGrupo.Text = "Grupo:"
-        '
-        'lblMateria
-        '
-        Me.lblMateria.AutoSize = True
-        Me.lblMateria.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMateria.ForeColor = System.Drawing.Color.White
-        Me.lblMateria.Location = New System.Drawing.Point(272, 42)
-        Me.lblMateria.Name = "lblMateria"
-        Me.lblMateria.Size = New System.Drawing.Size(76, 24)
-        Me.lblMateria.TabIndex = 1
-        Me.lblMateria.Text = "Materia:"
         '
         'btnAlta
         '
@@ -187,7 +65,7 @@ Partial Class listaIncidencias
         Me.btnAlta.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnAlta.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
         Me.btnAlta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAlta.Location = New System.Drawing.Point(524, 254)
+        Me.btnAlta.Location = New System.Drawing.Point(535, 134)
         Me.btnAlta.Name = "btnAlta"
         Me.btnAlta.Size = New System.Drawing.Size(199, 69)
         Me.btnAlta.TabIndex = 6
@@ -206,46 +84,79 @@ Partial Class listaIncidencias
         Me.btnBaja.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnBaja.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
         Me.btnBaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBaja.Location = New System.Drawing.Point(524, 329)
+        Me.btnBaja.Location = New System.Drawing.Point(535, 209)
         Me.btnBaja.Name = "btnBaja"
         Me.btnBaja.Size = New System.Drawing.Size(199, 57)
         Me.btnBaja.TabIndex = 60
         Me.btnBaja.Text = " Baja"
         Me.btnBaja.UseVisualStyleBackColor = False
         '
+        'lblCi
+        '
+        Me.lblCi.AutoSize = True
+        Me.lblCi.BackColor = System.Drawing.Color.Transparent
+        Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.lblCi.ForeColor = System.Drawing.Color.White
+        Me.lblCi.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.lblCi.Location = New System.Drawing.Point(30, 70)
+        Me.lblCi.Name = "lblCi"
+        Me.lblCi.Size = New System.Drawing.Size(34, 18)
+        Me.lblCi.TabIndex = 63
+        Me.lblCi.Text = "C.I."
+        '
+        'txtCi
+        '
+        Me.txtCi.Location = New System.Drawing.Point(70, 70)
+        Me.txtCi.MaxLength = 8
+        Me.txtCi.Name = "txtCi"
+        Me.txtCi.Size = New System.Drawing.Size(191, 20)
+        Me.txtCi.TabIndex = 62
+        '
+        'btnBuscar
+        '
+        Me.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBuscar.FlatAppearance.BorderSize = 0
+        Me.btnBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
+        Me.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBuscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBuscar.ForeColor = System.Drawing.Color.White
+        Me.btnBuscar.Image = Global.sigesi.My.Resources.Resources.icono_lupa
+        Me.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBuscar.Location = New System.Drawing.Point(280, 54)
+        Me.btnBuscar.Name = "btnBuscar"
+        Me.btnBuscar.Size = New System.Drawing.Size(195, 49)
+        Me.btnBuscar.TabIndex = 61
+        Me.btnBuscar.Text = "  Buscar "
+        Me.btnBuscar.UseVisualStyleBackColor = True
+        '
         'listaIncidencias
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(735, 448)
+        Me.ClientSize = New System.Drawing.Size(735, 523)
+        Me.Controls.Add(Me.lblCi)
+        Me.Controls.Add(Me.txtCi)
+        Me.Controls.Add(Me.btnBuscar)
         Me.Controls.Add(Me.btnBaja)
-        Me.Controls.Add(Me.gpbBuscarIncidencia)
         Me.Controls.Add(Me.lblListaIncidencia)
         Me.Controls.Add(Me.btnAlta)
-        Me.Controls.Add(Me.dgvListarAlumnos)
+        Me.Controls.Add(Me.dgvListarIncidencias)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "listaIncidencias"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "listarAlumno"
-        CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.gpbBuscarIncidencia.ResumeLayout(False)
-        Me.gpbBuscarIncidencia.PerformLayout()
+        CType(Me.dgvListarIncidencias, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents dgvListarAlumnos As System.Windows.Forms.DataGridView
+    Friend WithEvents dgvListarIncidencias As System.Windows.Forms.DataGridView
     Friend WithEvents lblListaIncidencia As System.Windows.Forms.Label
     Friend WithEvents btnAlta As System.Windows.Forms.Button
-    Friend WithEvents gpbBuscarIncidencia As System.Windows.Forms.GroupBox
-    Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
-    Friend WithEvents lblGrupo As System.Windows.Forms.Label
-    Friend WithEvents lblMateria As System.Windows.Forms.Label
-    Friend WithEvents cboCurso As System.Windows.Forms.ComboBox
-    Friend WithEvents btnBuscar As System.Windows.Forms.Button
-    Friend WithEvents btnCancelar As System.Windows.Forms.Button
     Friend WithEvents btnBaja As System.Windows.Forms.Button
-    Friend WithEvents cboAlumno As System.Windows.Forms.ComboBox
-    Friend WithEvents lblAlumno As System.Windows.Forms.Label
+    Friend WithEvents lblCi As System.Windows.Forms.Label
+    Friend WithEvents txtCi As System.Windows.Forms.TextBox
+    Friend WithEvents btnBuscar As System.Windows.Forms.Button
 End Class

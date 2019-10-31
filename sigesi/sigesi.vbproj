@@ -258,12 +258,6 @@
     <Compile Include="Usuario\bajaUsuario.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reportes\GestionEInformes.Designer.vb">
-      <DependentUpon>GestionEInformes.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Reportes\GestionEInformes.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Home\homeAdministrativo.Designer.vb">
       <DependentUpon>homeAdministrativo.vb</DependentUpon>
     </Compile>
@@ -394,12 +388,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RecursoLenguajeENG.resx</DependentUpon>
     </Compile>
-    <Compile Include="Reportes\reporteDocente.Designer.vb">
-      <DependentUpon>reporteDocente.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Reportes\reporteDocente.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Reportes\reportes.Designer.vb">
       <DependentUpon>reportes.vb</DependentUpon>
     </Compile>
@@ -498,9 +486,6 @@
     <EmbeddedResource Include="Usuario\bajaUsuario.resx">
       <DependentUpon>bajaUsuario.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reportes\GestionEInformes.resx">
-      <DependentUpon>GestionEInformes.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Home\homeAdministrativo.resx">
       <DependentUpon>homeAdministrativo.vb</DependentUpon>
     </EmbeddedResource>
@@ -565,9 +550,6 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>RecursoLenguajeENG.Designer.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reportes\reporteDocente.resx">
-      <DependentUpon>reporteDocente.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\reportes.resx">
       <DependentUpon>reportes.vb</DependentUpon>

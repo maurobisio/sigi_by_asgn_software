@@ -171,7 +171,6 @@ C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\siges
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listarMateria.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarMateria.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaUsuario.resources
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.GestioneInformes.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.homeAdministrativo.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.homeAdminSIstema.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.homeBedel.resources
@@ -191,7 +190,6 @@ C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\siges
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarUsuario.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.Resources.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeENG.resources
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.reporteDocente.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.reportes.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeESP.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.selecUsu.resources

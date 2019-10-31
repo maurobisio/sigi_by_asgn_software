@@ -1,63 +1,12 @@
 ﻿
-'*******************************CODIGO PARA LA SEGUNDA ENTREGA DEL PROYECTO****************************************************
-'Imports MySql.Data.MySqlClient
+Imports MySql.Data.MySqlClient
+
 Public Class listaIncidencias
 
-    '*******************************CODIGO PARA LA SEGUNDA ENTREGA DEL PROYECTO****************************************************
-    ' Dim conexion As New MySqlConnection
-    ' Dim datos As DataSet
-    ' Dim adaptador As New MySqlDataAdapter
-    Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        'altaAlumno.Show()
-
-    End Sub
-
-    Private Sub btnEliminar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-
-    End Sub
-
-    Private Sub btnModificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        'modificarAlumno.Show()
-
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvListarAlumnos.CellContentClick
-
-    End Sub
-
+    Dim id_incidencia = DBNull.Value.ToString
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Close()
         menuBedel.Show()
-
-
-
-    End Sub
-
-
-
-    Private Sub listarAlumno_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-        '*******************************CODIGO PARA LA SEGUNDA ENTREGA DEL PROYECTO****************************************************
-
-        '  Try
-
-        'conexion.ConnectionString = "Server=localhost;user=root;password=;database=sigesi"
-        ' conexion.Open()
-        ' Dim consulta As String
-        ' consulta = "select * from alumnos"
-        ' adaptador = New MySqlDataAdapter(consulta, conexion)
-        ' datos = New DataSet
-        ' adaptador.Fill(datos, "alumnos")
-        'dgvListarAlumnos.DataSource = datos
-        ' dgvListarAlumnos.DataMember = "alumnos"
-
-
-        'Catch ex As Exception
-        'MsgBox(ex.Message)
-        ' End Try
-
-
     End Sub
 
     Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
@@ -68,12 +17,87 @@ Public Class listaIncidencias
         'modificarAlumno.Show()
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancelar.Click
-        Call LimpiarForm(Me)
-
+    Private Sub btnBuscar_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
+        If (txtCi.Text = "") Then
+            MsgBox("Ingrese una cedula de identidad valida")
+        Else
+            loadGrid(txtCi.Text)
+        End If
     End Sub
 
-    Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
+    Private Sub loadGrid(ByVal id_incidencia As String)
+        'Establece la conexón con el orgien de los datos
+        Dim connection As New MySqlConnection
+        'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+        Dim dataAdapter As New MySqlDataAdapter
+        'Contiene los datos resultantes de ejecutar el comando SQL.
+        Dim dataSet As New DataSet
+        'Recupera datos del proceedor(SELECT * FROM ...)
+        Dim command As String
 
+        Try
+            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            command = "SELECT incidencia.id_incidencia, incidencia.observación, incidencia.fecha, incidencia.id_autoridad, usuario.primer_nombre, usuario.segundo_nombre "
+            command += "FROM (incidencia "
+            command += "INNER JOIN usuario ON usuario.ci = incidencia.id_autoridad) "
+            command += "WHERE incidencia.id_alumno =" + id_incidencia.ToString
+            command += ";"
+            dataAdapter = New MySqlDataAdapter(command, connection)
+            'Abrir la conexión
+            connection.Open()
+            'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+            dataAdapter.Fill(dataSet, "incidencia")
+            dgvListarIncidencias.DataSource = dataSet
+            dgvListarIncidencias.DataMember = "incidencia"
+
+            connection.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+    End Sub
+
+    Private Sub dgvListarIncidencias_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvListarIncidencias.CellClick
+        Dim i As Integer
+        i = dgvListarIncidencias.CurrentRow.Index
+        id_incidencia = dgvListarIncidencias.Item(0, i).Value()
+    End Sub
+
+    Private Sub btnBaja_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBaja.Click
+        If MessageBox.Show("¿Seguro desea dar de baja?", "Baja", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) = DialogResult.OK Then
+            If (id_incidencia.ToString <> DBNull.Value.ToString) Then
+                'Establece la conexón con el orgien de los datos
+                Dim connection As New MySqlConnection
+                'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+                Dim dataAdapter As New MySqlDataAdapter
+                'Contiene los datos resultantes de ejecutar el comando SQL.
+                Dim dataSet As New DataSet
+                'Recupera datos del proceedor(SELECT * FROM ...)
+                Dim command As String
+
+
+                Try
+                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    command = "DELETE FROM incidencia "
+                    command += "WHERE incidencia.id_incidencia =" + id_incidencia.ToString
+                    command += ";"
+
+                    dataAdapter = New MySqlDataAdapter(command, connection)
+                    'Abrir la conexión
+                    connection.Open()
+                    'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+                    dataAdapter.Fill(dataSet, "tiene")
+                    MsgBox("Incidencia borrada correctamente")
+                    loadGrid(txtCi.Text)
+
+                    connection.Close()
+                    'dgvLoad()
+                Catch ex As Exception
+                    MsgBox(ex.ToString)
+                End Try
+
+            Else
+                MsgBox("Selecciones una fila")
+            End If
+        End If
     End Sub
 End Class

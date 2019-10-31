@@ -121,6 +121,6 @@
     End Sub
 
     Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGestionInformes.Click
-        abrirFormPanel(New GestioneInformes)
+        'abrirFormPanel(New GestioneInformes)
     End Sub
 End Class

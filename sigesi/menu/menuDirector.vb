@@ -121,11 +121,11 @@
     End Sub
 
     Private Sub Button4_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(New reporteDocente)
+        'abrirFormPanel(New reporteDocente)
     End Sub
 
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGestionInformes.Click
-        abrirFormPanel(New GestioneInformes)
+        'abrirFormPanel(New GestioneInformes)
     End Sub
 
     Private Sub pnlCentral_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles pnlCentral.Paint

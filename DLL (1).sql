@@ -221,6 +221,8 @@ INSERT INTO tipo_registro (nom_registro)
 VALUES ('Calificación');
 INSERT INTO tipo_registro (nom_registro)
 VALUES ('Inasistencia');
+INSERT INTO tipo_registro (nom_registro)
+VALUES ('Calificación Final');
 
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Suspención');
@@ -230,6 +232,8 @@ INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Califiaciónes bajas');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Solicitud de boletin');
+INSERT INTO tipo_incidencia (nom_tipo)
+VALUES ('Formula 69');
 
 INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
 VALUES ('6','1', '8','Calificación','2019-10-31 10:12:00');
@@ -249,6 +253,15 @@ INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
 VALUES ('7','1', '6','Calificación','2019-10-31 10:12:00');
 INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
 VALUES ('7','1', '12','Calificación','2019-10-31 10:12:00');
+
+
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('5','3', '8','Calificación Final','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('6','3', '9','Calificación Final','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('7','3', '7','Calificación Final','2019-10-31 10:12:00');
+
 
 
 
