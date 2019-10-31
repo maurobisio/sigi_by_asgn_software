@@ -215,6 +215,12 @@
     <Compile Include="Reportes\docenteDictaSolaMateria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reportes\escolaridad.Designer.vb">
+      <DependentUpon>escolaridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\escolaridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Reportes\reporte.Designer.vb">
       <DependentUpon>reporte.vb</DependentUpon>
     </Compile>
@@ -473,6 +479,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\docenteDictaSolaMateria.resx">
       <DependentUpon>docenteDictaSolaMateria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\escolaridad.resx">
+      <DependentUpon>escolaridad.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\reporte.resx">
       <DependentUpon>reporte.vb</DependentUpon>

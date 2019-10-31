@@ -209,6 +209,13 @@ INSERT INTO pertenece (ci, id_tiene, nro_lista)
 VALUES ('3','1','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
 VALUES ('4','1','0');
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('5','1','0');
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('5','2','0');
+INSERT INTO pertenece (ci, id_tiene, nro_lista)
+VALUES ('5','3','0');
+
 
 INSERT INTO tipo_registro (nom_registro)
 VALUES ('Calificación');
@@ -222,7 +229,26 @@ VALUES ('Observaciones');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Califiaciónes bajas');
 INSERT INTO tipo_incidencia (nom_tipo)
-VALUES ('Observaciones');
+VALUES ('Solicitud de boletin');
+
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('6','1', '8','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('6','1', '7','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('6','1', '10','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('5','1', '8','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('5','1', '7','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('5','1', '10','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('7','1', '3','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('7','1', '6','Calificación','2019-10-31 10:12:00');
+INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
+VALUES ('7','1', '12','Calificación','2019-10-31 10:12:00');
 
 
 

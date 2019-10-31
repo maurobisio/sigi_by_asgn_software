@@ -30,6 +30,7 @@ Partial Class reporte
         Me.btnDocentesDictandoUna = New System.Windows.Forms.Button()
         Me.btnBoletin = New System.Windows.Forms.Button()
         Me.btnListarLosGrupos = New System.Windows.Forms.Button()
+        Me.btnEscolaridad = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnCantidadAlumnosGrupo
@@ -136,12 +137,26 @@ Partial Class reporte
         Me.btnListarLosGrupos.Text = "Listar los grupos del Instituto"
         Me.btnListarLosGrupos.UseVisualStyleBackColor = False
         '
+        'btnEscolaridad
+        '
+        Me.btnEscolaridad.BackColor = System.Drawing.Color.White
+        Me.btnEscolaridad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnEscolaridad.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnEscolaridad.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnEscolaridad.Location = New System.Drawing.Point(62, 349)
+        Me.btnEscolaridad.Name = "btnEscolaridad"
+        Me.btnEscolaridad.Size = New System.Drawing.Size(93, 32)
+        Me.btnEscolaridad.TabIndex = 18
+        Me.btnEscolaridad.Text = "Escolaridad"
+        Me.btnEscolaridad.UseVisualStyleBackColor = False
+        '
         'reporte
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(746, 372)
+        Me.ClientSize = New System.Drawing.Size(746, 402)
+        Me.Controls.Add(Me.btnEscolaridad)
         Me.Controls.Add(Me.btnListarLosGrupos)
         Me.Controls.Add(Me.btnBoletin)
         Me.Controls.Add(Me.btnDocentesDictandoUna)
@@ -164,4 +179,5 @@ Partial Class reporte
     Friend WithEvents btnDocentesDictandoUna As System.Windows.Forms.Button
     Friend WithEvents btnBoletin As System.Windows.Forms.Button
     Friend WithEvents btnListarLosGrupos As System.Windows.Forms.Button
+    Friend WithEvents btnEscolaridad As System.Windows.Forms.Button
 End Class

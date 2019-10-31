@@ -233,3 +233,12 @@ D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sig
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.top10AlumnosMasFaltas.resources
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.top50AlumnosMejorNota.resources
 D:\Users\e435323\Documents\GitHub\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.boletin.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.boletin.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.cantidadAlumnosGrupo.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.cantidadIncidenciasPorTipo2019.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.docenteDictaSolaMateria.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.reporte.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.alumosMasUnGrupo.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.top10AlumnosMasFaltas.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.top50AlumnosMejorNota.resources
+C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.escolaridad.resources

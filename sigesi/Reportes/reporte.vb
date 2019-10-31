@@ -34,4 +34,8 @@ Public Class reporte
     Private Sub btnBoletin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBoletin.Click
         menuAdminSistema.abrirFormPanel(boletin)
     End Sub
+
+    Private Sub btnEscolaridad_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEscolaridad.Click
+        menuAdminSistema.abrirFormPanel(escolaridad)
+    End Sub
 End Class
