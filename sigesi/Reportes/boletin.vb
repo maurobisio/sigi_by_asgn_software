@@ -5,6 +5,7 @@ Public Class boletin
     Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
         If txtCi.Text = "" Then
             MsgBox("Ingrese la cedula de identidad del alumno")
+            MsgBox(DateTimeFechaDesde.text)
         Else
             'Establece la conexón con el orgien de los datos
             Dim connection As New MySqlConnection
@@ -50,7 +51,10 @@ Public Class boletin
                         command += "INNER JOIN tiene ON pertenece.id_tiene = tiene.id_tiene) "
                         command += "INNER JOIN materia ON materia.id_materia = tiene.id_materia) "
                         command += "INNER JOIN grupo ON grupo.id_grupo = tiene.id_grupo) "
-                        command += "WHERE tipo_registro.nom_registro = 'Calificación' AND rol.nombre_rol = 'Alumno/a' AND usuario.ci='" + txtCi.Text + "' "
+                        command += "WHERE tipo_registro.nom_registro = 'Calificación' AND rol.nombre_rol = 'Alumno/a' AND usuario.ci='" + txtCi.Text + " 00:00:00' "
+                        command += "AND registro.fecha BETWEEN '" + DateTimeFechaDesde.Text
+                        command += "' AND '" + DateTimeFechaHasta.Text
+                        command += " 23:59:59' "
                         command += "GROUP BY pertenece.id_pertenece "
                         command += "HAVING(AVG(registro.valor));"
 
@@ -72,5 +76,13 @@ Public Class boletin
                 MsgBox(ex.ToString)
             End Try
         End If
+    End Sub
+
+
+    Private Sub boletin_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        DateTimeFechaDesde.Format = DateTimePickerFormat.Custom
+        DateTimeFechaDesde.CustomFormat = "yyyy-MM-dd"
+        DateTimeFechaHasta.Format = DateTimePickerFormat.Custom
+        DateTimeFechaHasta.CustomFormat = "yyyy-MM-dd"
     End Sub
 End Class

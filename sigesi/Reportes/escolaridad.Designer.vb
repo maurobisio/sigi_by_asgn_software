@@ -50,7 +50,7 @@ Partial Class escolaridad
         Me.btnBuscar.ForeColor = System.Drawing.Color.White
         Me.btnBuscar.Image = Global.sigesi.My.Resources.Resources.icono_lupa
         Me.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBuscar.Location = New System.Drawing.Point(539, 57)
+        Me.btnBuscar.Location = New System.Drawing.Point(254, 61)
         Me.btnBuscar.Name = "btnBuscar"
         Me.btnBuscar.Size = New System.Drawing.Size(195, 49)
         Me.btnBuscar.TabIndex = 40
