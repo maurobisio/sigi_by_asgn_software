@@ -94,7 +94,7 @@
         'abrirFormPanel(New reporteDocente)
     End Sub
 
-    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
+    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listaIncidencias)
     End Sub
 

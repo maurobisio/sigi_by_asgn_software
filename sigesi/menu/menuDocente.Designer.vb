@@ -25,7 +25,6 @@ Partial Class menuDocente
         Me.components = New System.ComponentModel.Container()
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
         Me.btnRegistro = New System.Windows.Forms.Button()
-        Me.btnIncidencia = New System.Windows.Forms.Button()
         Me.btnInicio = New System.Windows.Forms.Button()
         Me.PctMenu = New System.Windows.Forms.PictureBox()
         Me.picASgn = New System.Windows.Forms.PictureBox()
@@ -48,7 +47,6 @@ Partial Class menuDocente
         '
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
         Me.pnlIzquierda.Controls.Add(Me.btnRegistro)
-        Me.pnlIzquierda.Controls.Add(Me.btnIncidencia)
         Me.pnlIzquierda.Controls.Add(Me.btnInicio)
         Me.pnlIzquierda.Controls.Add(Me.PctMenu)
         Me.pnlIzquierda.Controls.Add(Me.picASgn)
@@ -70,29 +68,12 @@ Partial Class menuDocente
         Me.btnRegistro.ForeColor = System.Drawing.Color.White
         Me.btnRegistro.Image = Global.sigesi.My.Resources.Resources.icono_gestion_x_40
         Me.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRegistro.Location = New System.Drawing.Point(0, 190)
+        Me.btnRegistro.Location = New System.Drawing.Point(-4, 73)
         Me.btnRegistro.Name = "btnRegistro"
         Me.btnRegistro.Size = New System.Drawing.Size(218, 54)
         Me.btnRegistro.TabIndex = 57
         Me.btnRegistro.Text = "Registros"
         Me.btnRegistro.UseVisualStyleBackColor = True
-        '
-        'btnIncidencia
-        '
-        Me.btnIncidencia.FlatAppearance.BorderSize = 0
-        Me.btnIncidencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnIncidencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIncidencia.ForeColor = System.Drawing.Color.White
-        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
-        Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncidencia.Location = New System.Drawing.Point(0, 130)
-        Me.btnIncidencia.Name = "btnIncidencia"
-        Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
-        Me.btnIncidencia.TabIndex = 56
-        Me.btnIncidencia.Text = "Incidencias"
-        Me.btnIncidencia.UseVisualStyleBackColor = True
         '
         'btnInicio
         '
@@ -249,7 +230,6 @@ Partial Class menuDocente
     Friend WithEvents picIsgesi As System.Windows.Forms.PictureBox
     Friend WithEvents pnlArriba As System.Windows.Forms.Panel
     Friend WithEvents btnRegistro As System.Windows.Forms.Button
-    Friend WithEvents btnIncidencia As System.Windows.Forms.Button
     Friend WithEvents btnInicio As System.Windows.Forms.Button
     Friend WithEvents pnlCentral As System.Windows.Forms.Panel
 End Class

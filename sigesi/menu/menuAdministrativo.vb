@@ -73,19 +73,19 @@
         login.Show()
     End Sub
 
-    Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
+    Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarMateria)
     End Sub
 
-    Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
+    Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarGrupo)
     End Sub
 
-    Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
+    Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarEdificio)
     End Sub
 
-    Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateriaGrupo.Click
+    Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarMateriaGrupo)
     End Sub
 
@@ -97,11 +97,11 @@
         abrirFormPanel(listarRegistro)
     End Sub
 
-    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarUsuarios)
     End Sub
 
-    Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
+    Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarInscripcion)
     End Sub
 
