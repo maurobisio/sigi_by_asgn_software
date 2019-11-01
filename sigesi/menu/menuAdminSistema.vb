@@ -25,9 +25,7 @@
         abrirFormPanel(homeAdminSIstema)
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(homeAdminSIstema)
-    End Sub
+    
 
     Private Sub tmrMostrarMenu_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tmrMostrarMenu.Tick
         'codifico el timer para controlar el panel izquierdo al apretar el boton de menu dentro del panel
@@ -63,26 +61,12 @@
         tmrMostrarMenu.Enabled = True
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
-        Me.Close()
-        login.Show()
-
-    End Sub
-
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
-        abrirFormPanel(listarUsuarios)
-    End Sub
-
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click
         Me.Close()
     End Sub
 
     Private Sub btnMinimizar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMinimizar.Click
         Me.WindowState = FormWindowState.Minimized
-    End Sub
-
-    Private Sub pnlCentral_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles pnlCentral.Paint
-
     End Sub
 
     Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
@@ -101,23 +85,32 @@
         abrirFormPanel(listarMateriaGrupo)
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
-        abrirFormPanel(listaIncidencias)
-    End Sub
-
-    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        abrirFormPanel(listarInscripcion)
-    End Sub
-
-    Private Sub Reportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Reportes.Click
-        abrirFormPanel(reporte)
-    End Sub
-
     Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
         abrirFormPanel(listaIncidencias)
     End Sub
 
     Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
         abrirFormPanel(listarRegistro)
+    End Sub
+
+    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        abrirFormPanel(listarUsuarios)
+    End Sub
+
+    Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
+        abrirFormPanel(listarInscripcion)
+    End Sub
+
+    Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
+        abrirFormPanel(reporte)
+    End Sub
+
+    Private Sub btnCerrarSesion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
+        Me.Close()
+        login.Show()
+    End Sub
+
+    Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
+        abrirFormPanel(homeAdminSIstema)
     End Sub
 End Class

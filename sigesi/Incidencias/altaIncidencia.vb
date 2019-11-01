@@ -58,8 +58,6 @@ Public Class altaIncidencia
                         command += "', '" + DateTimeFecha.Text
                         command += " 10:12:00');"
 
-                        MsgBox(command)
-
                         dataAdapter = New MySqlDataAdapter(command, connection)
                         'Abrir la conexión
                         connection.Open()

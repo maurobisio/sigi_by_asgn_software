@@ -3,6 +3,10 @@
 Public Class listarGrupo
     
     Private Sub datagridview_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        gridLoad()
+    End Sub
+
+    Public Sub gridLoad()
         'Establece la conexón con el orgien de los datos
         Dim connection As New MySqlConnection
         'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
@@ -39,17 +43,8 @@ Public Class listarGrupo
 
     End Sub
 
-
-    Private Sub btnMax_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-    End Sub
-
     Private Sub btnMinimizar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.WindowState = FormWindowState.Minimized
-    End Sub
-
-    Private Sub btnRestaurar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
     End Sub
 
     Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -60,18 +55,6 @@ Public Class listarGrupo
 
     Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
         altaGrupo.Show()
-
-    End Sub
-
-
-
-
-    Private Sub dgvLIstarUsuarios_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvLIstarGrupos.CellClick
-
-
-    End Sub
-
-    Private Sub dgvLIstarUsuarios_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvLIstarGrupos.CellContentClick
 
     End Sub
 End Class

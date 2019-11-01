@@ -1,6 +1,6 @@
 ﻿Public Class menuDocente
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(New IncidenciasDocente)
 
     End Sub
@@ -59,7 +59,7 @@
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(New homeDocente)
     End Sub
 
@@ -90,7 +90,28 @@
 
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'abrirFormPanel(New reporteDocente)
+    End Sub
+
+    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
+        abrirFormPanel(listaIncidencias)
+    End Sub
+
+    Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
+        abrirFormPanel(listarRegistro)
+    End Sub
+
+    Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        abrirFormPanel(reporte)
+    End Sub
+
+    Private Sub btnCerrarSesion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
+        Me.Close()
+        login.Show()
+    End Sub
+
+    Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
+        abrirFormPanel(New homeDocente)
     End Sub
 End Class

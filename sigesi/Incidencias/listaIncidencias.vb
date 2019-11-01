@@ -37,9 +37,10 @@ Public Class listaIncidencias
 
         Try
             connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-            command = "SELECT incidencia.id_incidencia, incidencia.observación, incidencia.fecha, incidencia.id_autoridad, usuario.primer_nombre, usuario.segundo_nombre "
-            command += "FROM (incidencia "
+            command = "SELECT incidencia.id_incidencia, tipo_incidencia.nom_tipo, incidencia.observación, incidencia.fecha, incidencia.id_autoridad, usuario.primer_nombre, usuario.segundo_nombre "
+            command += "FROM ((incidencia "
             command += "INNER JOIN usuario ON usuario.ci = incidencia.id_autoridad) "
+            command += "INNER JOIN tipo_incidencia ON incidencia.id_tipo_incidencia = tipo_incidencia.id_tipo_incidencia) "
             command += "WHERE incidencia.id_alumno =" + id_incidencia.ToString
             command += ";"
             dataAdapter = New MySqlDataAdapter(command, connection)

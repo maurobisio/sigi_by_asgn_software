@@ -41,7 +41,6 @@ Partial Class login
         Me.lnsUsuario = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.picLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picIsgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -212,7 +211,6 @@ Partial Class login
         'pnlCentral
         '
         Me.pnlCentral.BackColor = System.Drawing.Color.Black
-        Me.pnlCentral.Controls.Add(Me.Button1)
         Me.pnlCentral.Controls.Add(Me.picCandado)
         Me.pnlCentral.Controls.Add(Me.Panel1)
         Me.pnlCentral.Controls.Add(Me.lblUsu)
@@ -282,23 +280,6 @@ Partial Class login
         Me.LineShape1.Y1 = 220
         Me.LineShape1.Y2 = 220
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.DimGray
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(91, 207)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(689, 33)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Entrar"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -339,5 +320,4 @@ Partial Class login
     Friend WithEvents lnsUsuario As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents LineShape2 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
-    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

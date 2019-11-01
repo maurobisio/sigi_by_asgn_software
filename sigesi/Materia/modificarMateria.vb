@@ -41,6 +41,7 @@ Public Class modificarMateria
             End Try
             Call LimpiarForm(Me)
             loadGrid()
+            listarMateria.loadGrid()
         End If
 
     End Sub

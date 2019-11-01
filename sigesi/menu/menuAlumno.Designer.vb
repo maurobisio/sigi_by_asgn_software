@@ -24,23 +24,21 @@ Partial Class menuAlumno
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lblSolicitar = New System.Windows.Forms.Label()
-        Me.chkBoletin = New System.Windows.Forms.CheckBox()
-        Me.chkEscolaridad = New System.Windows.Forms.CheckBox()
-        Me.chk = New System.Windows.Forms.CheckBox()
         Me.tmrFechaHora = New System.Windows.Forms.Timer(Me.components)
-        Me.btnMail = New System.Windows.Forms.Button()
         Me.btnMinimizar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnCerrarSesion = New System.Windows.Forms.Button()
-        Me.pic1 = New System.Windows.Forms.PictureBox()
         Me.pic2 = New System.Windows.Forms.PictureBox()
         Me.lblFecha = New System.Windows.Forms.Label()
         Me.lblHOra = New System.Windows.Forms.Label()
         Me.pic3 = New System.Windows.Forms.PictureBox()
+        Me.btnSolicitaBoletin = New System.Windows.Forms.Button()
+        Me.btnSolicitarEscolaridad = New System.Windows.Forms.Button()
+        Me.btnSolicitarFichaAcumulativa = New System.Windows.Forms.Button()
+        Me.btnPaseEgreso = New System.Windows.Forms.Button()
+        Me.btnSolicitarFormula69 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
-        CType(Me.pic1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,77 +51,9 @@ Partial Class menuAlumno
         Me.Label1.Size = New System.Drawing.Size(0, 13)
         Me.Label1.TabIndex = 1
         '
-        'lblSolicitar
-        '
-        Me.lblSolicitar.AutoSize = True
-        Me.lblSolicitar.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSolicitar.ForeColor = System.Drawing.Color.White
-        Me.lblSolicitar.Location = New System.Drawing.Point(267, 138)
-        Me.lblSolicitar.Name = "lblSolicitar"
-        Me.lblSolicitar.Size = New System.Drawing.Size(98, 22)
-        Me.lblSolicitar.TabIndex = 4
-        Me.lblSolicitar.Text = "Solicitar :"
-        '
-        'chkBoletin
-        '
-        Me.chkBoletin.AutoSize = True
-        Me.chkBoletin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.chkBoletin.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkBoletin.ForeColor = System.Drawing.Color.White
-        Me.chkBoletin.Location = New System.Drawing.Point(387, 139)
-        Me.chkBoletin.Name = "chkBoletin"
-        Me.chkBoletin.Size = New System.Drawing.Size(82, 24)
-        Me.chkBoletin.TabIndex = 8
-        Me.chkBoletin.Text = "Boletín"
-        Me.chkBoletin.UseVisualStyleBackColor = True
-        '
-        'chkEscolaridad
-        '
-        Me.chkEscolaridad.AutoSize = True
-        Me.chkEscolaridad.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.chkEscolaridad.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.chkEscolaridad.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkEscolaridad.ForeColor = System.Drawing.Color.White
-        Me.chkEscolaridad.Location = New System.Drawing.Point(387, 175)
-        Me.chkEscolaridad.Name = "chkEscolaridad"
-        Me.chkEscolaridad.Size = New System.Drawing.Size(120, 24)
-        Me.chkEscolaridad.TabIndex = 9
-        Me.chkEscolaridad.Text = "Escolaridad"
-        Me.chkEscolaridad.UseVisualStyleBackColor = True
-        '
-        'chk
-        '
-        Me.chk.AutoSize = True
-        Me.chk.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.chk.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chk.ForeColor = System.Drawing.Color.White
-        Me.chk.Location = New System.Drawing.Point(387, 210)
-        Me.chk.Name = "chk"
-        Me.chk.Size = New System.Drawing.Size(166, 24)
-        Me.chk.TabIndex = 10
-        Me.chk.Text = "Ficha acumulativa"
-        Me.chk.UseVisualStyleBackColor = True
-        '
         'tmrFechaHora
         '
         Me.tmrFechaHora.Enabled = True
-        '
-        'btnMail
-        '
-        Me.btnMail.FlatAppearance.BorderSize = 0
-        Me.btnMail.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray
-        Me.btnMail.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
-        Me.btnMail.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMail.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMail.ForeColor = System.Drawing.Color.White
-        Me.btnMail.Image = Global.sigesi.My.Resources.Resources.icono1
-        Me.btnMail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnMail.Location = New System.Drawing.Point(438, 372)
-        Me.btnMail.Name = "btnMail"
-        Me.btnMail.Size = New System.Drawing.Size(235, 48)
-        Me.btnMail.TabIndex = 35
-        Me.btnMail.Text = "           Enviar via Email"
-        Me.btnMail.UseVisualStyleBackColor = True
         '
         'btnMinimizar
         '
@@ -159,7 +89,6 @@ Partial Class menuAlumno
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Highlight
         Me.Panel1.Controls.Add(Me.btnCerrarSesion)
-        Me.Panel1.Controls.Add(Me.pic1)
         Me.Panel1.Controls.Add(Me.pic2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.ForeColor = System.Drawing.Color.White
@@ -184,19 +113,6 @@ Partial Class menuAlumno
         Me.btnCerrarSesion.TabIndex = 35
         Me.btnCerrarSesion.Text = "         Cerrar sesión"
         Me.btnCerrarSesion.UseVisualStyleBackColor = True
-        '
-        'pic1
-        '
-        Me.pic1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pic1.BackColor = System.Drawing.Color.Transparent
-        Me.pic1.Image = Global.sigesi.My.Resources.Resources.cooltext3309054766168342
-        Me.pic1.Location = New System.Drawing.Point(0, 0)
-        Me.pic1.Name = "pic1"
-        Me.pic1.Size = New System.Drawing.Size(212, 101)
-        Me.pic1.TabIndex = 9
-        Me.pic1.TabStop = False
         '
         'pic2
         '
@@ -242,30 +158,94 @@ Partial Class menuAlumno
         Me.pic3.TabIndex = 16
         Me.pic3.TabStop = False
         '
+        'btnSolicitaBoletin
+        '
+        Me.btnSolicitaBoletin.BackColor = System.Drawing.Color.White
+        Me.btnSolicitaBoletin.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnSolicitaBoletin.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnSolicitaBoletin.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnSolicitaBoletin.Location = New System.Drawing.Point(267, 88)
+        Me.btnSolicitaBoletin.Name = "btnSolicitaBoletin"
+        Me.btnSolicitaBoletin.Size = New System.Drawing.Size(151, 32)
+        Me.btnSolicitaBoletin.TabIndex = 36
+        Me.btnSolicitaBoletin.Text = "Solicitar Boletin"
+        Me.btnSolicitaBoletin.UseVisualStyleBackColor = False
+        '
+        'btnSolicitarEscolaridad
+        '
+        Me.btnSolicitarEscolaridad.BackColor = System.Drawing.Color.White
+        Me.btnSolicitarEscolaridad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnSolicitarEscolaridad.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnSolicitarEscolaridad.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnSolicitarEscolaridad.Location = New System.Drawing.Point(267, 126)
+        Me.btnSolicitarEscolaridad.Name = "btnSolicitarEscolaridad"
+        Me.btnSolicitarEscolaridad.Size = New System.Drawing.Size(191, 32)
+        Me.btnSolicitarEscolaridad.TabIndex = 37
+        Me.btnSolicitarEscolaridad.Text = "Solicitar Escolaridad"
+        Me.btnSolicitarEscolaridad.UseVisualStyleBackColor = False
+        '
+        'btnSolicitarFichaAcumulativa
+        '
+        Me.btnSolicitarFichaAcumulativa.BackColor = System.Drawing.Color.White
+        Me.btnSolicitarFichaAcumulativa.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnSolicitarFichaAcumulativa.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnSolicitarFichaAcumulativa.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnSolicitarFichaAcumulativa.Location = New System.Drawing.Point(267, 164)
+        Me.btnSolicitarFichaAcumulativa.Name = "btnSolicitarFichaAcumulativa"
+        Me.btnSolicitarFichaAcumulativa.Size = New System.Drawing.Size(237, 32)
+        Me.btnSolicitarFichaAcumulativa.TabIndex = 38
+        Me.btnSolicitarFichaAcumulativa.Text = "Solicitar Ficha Acumulativa"
+        Me.btnSolicitarFichaAcumulativa.UseVisualStyleBackColor = False
+        '
+        'btnPaseEgreso
+        '
+        Me.btnPaseEgreso.BackColor = System.Drawing.Color.White
+        Me.btnPaseEgreso.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnPaseEgreso.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnPaseEgreso.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnPaseEgreso.Location = New System.Drawing.Point(267, 202)
+        Me.btnPaseEgreso.Name = "btnPaseEgreso"
+        Me.btnPaseEgreso.Size = New System.Drawing.Size(191, 32)
+        Me.btnPaseEgreso.TabIndex = 39
+        Me.btnPaseEgreso.Text = "Solicitar Pase Egreso"
+        Me.btnPaseEgreso.UseVisualStyleBackColor = False
+        '
+        'btnSolicitarFormula69
+        '
+        Me.btnSolicitarFormula69.BackColor = System.Drawing.Color.White
+        Me.btnSolicitarFormula69.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnSolicitarFormula69.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.btnSolicitarFormula69.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.btnSolicitarFormula69.Location = New System.Drawing.Point(267, 244)
+        Me.btnSolicitarFormula69.Name = "btnSolicitarFormula69"
+        Me.btnSolicitarFormula69.Size = New System.Drawing.Size(191, 32)
+        Me.btnSolicitarFormula69.TabIndex = 40
+        Me.btnSolicitarFormula69.Text = "Solicitar Formula 69"
+        Me.btnSolicitarFormula69.UseVisualStyleBackColor = False
+        '
         'menuAlumno
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(863, 432)
-        Me.Controls.Add(Me.btnMail)
+        Me.Controls.Add(Me.btnSolicitarFormula69)
+        Me.Controls.Add(Me.btnPaseEgreso)
+        Me.Controls.Add(Me.btnSolicitarFichaAcumulativa)
+        Me.Controls.Add(Me.btnSolicitarEscolaridad)
+        Me.Controls.Add(Me.btnSolicitaBoletin)
         Me.Controls.Add(Me.lblFecha)
         Me.Controls.Add(Me.btnMinimizar)
         Me.Controls.Add(Me.pic3)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lblHOra)
-        Me.Controls.Add(Me.chk)
-        Me.Controls.Add(Me.chkEscolaridad)
-        Me.Controls.Add(Me.chkBoletin)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.lblSolicitar)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "menuAlumno"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "menuAlumno"
         Me.Panel1.ResumeLayout(False)
-        CType(Me.pic1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -273,19 +253,18 @@ Partial Class menuAlumno
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents lblSolicitar As System.Windows.Forms.Label
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents pic1 As System.Windows.Forms.PictureBox
     Friend WithEvents pic2 As System.Windows.Forms.PictureBox
-    Friend WithEvents chkBoletin As System.Windows.Forms.CheckBox
-    Friend WithEvents chkEscolaridad As System.Windows.Forms.CheckBox
-    Friend WithEvents chk As System.Windows.Forms.CheckBox
     Friend WithEvents lblHOra As System.Windows.Forms.Label
     Friend WithEvents lblFecha As System.Windows.Forms.Label
     Friend WithEvents btnMinimizar As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents tmrFechaHora As System.Windows.Forms.Timer
     Friend WithEvents btnCerrarSesion As System.Windows.Forms.Button
-    Friend WithEvents btnMail As System.Windows.Forms.Button
     Friend WithEvents pic3 As System.Windows.Forms.PictureBox
+    Friend WithEvents btnSolicitaBoletin As System.Windows.Forms.Button
+    Friend WithEvents btnSolicitarEscolaridad As System.Windows.Forms.Button
+    Friend WithEvents btnSolicitarFichaAcumulativa As System.Windows.Forms.Button
+    Friend WithEvents btnPaseEgreso As System.Windows.Forms.Button
+    Friend WithEvents btnSolicitarFormula69 As System.Windows.Forms.Button
 End Class

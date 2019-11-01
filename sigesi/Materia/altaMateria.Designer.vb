@@ -124,6 +124,7 @@ Partial Class altaMateria
         Me.Controls.Add(Me.txtCod)
         Me.Controls.Add(Me.lblCod)
         Me.Name = "altaMateria"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Alta de Materia"
         Me.ResumeLayout(False)
         Me.PerformLayout()

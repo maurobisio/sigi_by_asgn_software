@@ -74,6 +74,7 @@ Public Class modificarEdificio
             End Try
             Call LimpiarForm(Me)
             loadGrid()
+            listarEdificio.loadGrid()
         End If
 
     End Sub

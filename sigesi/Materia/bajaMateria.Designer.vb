@@ -105,6 +105,7 @@ Partial Class bajaMateria
         Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.lblTitulo)
         Me.Name = "bajaMateria"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "bajaMateria"
         Me.ResumeLayout(False)
         Me.PerformLayout()

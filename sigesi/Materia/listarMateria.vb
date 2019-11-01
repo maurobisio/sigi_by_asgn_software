@@ -16,6 +16,10 @@ Public Class listarMateria
 
 
     Private Sub listarMateria_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        loadGrid()
+    End Sub
+
+    Public Sub loadGrid()
         'Establece la conexón con el orgien de los datos
         Dim connection As New MySqlConnection
         'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
@@ -41,6 +45,5 @@ Public Class listarMateria
             MsgBox(ex.ToString)
         End Try
     End Sub
-
 
 End Class

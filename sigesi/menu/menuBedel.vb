@@ -1,10 +1,6 @@
 ﻿Public Class menuBedel
 
    
-    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-    End Sub
-    
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(New listarInscripcion)
     End Sub
@@ -89,38 +85,49 @@
         End If
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
-        Me.Hide()
+    Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
+        abrirFormPanel(listarMateria)
+    End Sub
+
+    Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
+        abrirFormPanel(listarGrupo)
+    End Sub
+
+    Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
+        abrirFormPanel(listarEdificio)
+    End Sub
+
+    Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateriaGrupo.Click
+        abrirFormPanel(listarMateriaGrupo)
+    End Sub
+
+    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
+        abrirFormPanel(listaIncidencias)
+    End Sub
+
+    Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
+        abrirFormPanel(listarRegistro)
+    End Sub
+
+    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        abrirFormPanel(listarUsuarios)
+    End Sub
+
+    Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
+        abrirFormPanel(listarInscripcion)
+    End Sub
+
+    Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
+        abrirFormPanel(reporte)
+    End Sub
+
+    Private Sub btnCerrarSesion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
+        Me.Close()
         login.Show()
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumno.Click
-        abrirFormPanel(New listarInscripcion)
+    Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
+        abrirFormPanel(homeBedel)
     End Sub
 
-    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
-        abrirFormPanel(New IncidenciasDocente)
-    End Sub
-
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(New homeBedel)
-    End Sub
-
-    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalones.Click
-        abrirFormPanel(New listarEdificio)
-    End Sub
-
-    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
-        abrirFormPanel(New reportes)
-
-    End Sub
-
-
-    Private Sub ContextMenuStrip1_Opening(ByVal sender As System.Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles ContextMenuStrip1.Opening
-
-    End Sub
-
-    Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGestionInformes.Click
-        'abrirFormPanel(New GestioneInformes)
-    End Sub
 End Class

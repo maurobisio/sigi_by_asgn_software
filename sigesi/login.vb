@@ -76,6 +76,8 @@ Public Class login
                                     menuDocente.Show()
                                 Case 5
                                     Me.Hide()
+
+                                    menuAlumno.ci = dataSet.Tables("usuario").Rows(0)("ci")
                                     menuAlumno.Show()
                             End Select
                         Else
@@ -90,7 +92,4 @@ Public Class login
         End If
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        menuAdminSistema.Show()
-    End Sub
 End Class

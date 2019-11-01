@@ -26,9 +26,8 @@ Partial Class menuAdminSistema
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
         Me.btnRegistro = New System.Windows.Forms.Button()
         Me.btnIncidencia = New System.Windows.Forms.Button()
-        Me.Reportes = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.btnIncidencias = New System.Windows.Forms.Button()
+        Me.btnReportes = New System.Windows.Forms.Button()
+        Me.btnInscripcion = New System.Windows.Forms.Button()
         Me.btnMateriaGrupo = New System.Windows.Forms.Button()
         Me.btnEdificio = New System.Windows.Forms.Button()
         Me.btnGrupo = New System.Windows.Forms.Button()
@@ -57,9 +56,8 @@ Partial Class menuAdminSistema
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
         Me.pnlIzquierda.Controls.Add(Me.btnRegistro)
         Me.pnlIzquierda.Controls.Add(Me.btnIncidencia)
-        Me.pnlIzquierda.Controls.Add(Me.Reportes)
-        Me.pnlIzquierda.Controls.Add(Me.Button1)
-        Me.pnlIzquierda.Controls.Add(Me.btnIncidencias)
+        Me.pnlIzquierda.Controls.Add(Me.btnReportes)
+        Me.pnlIzquierda.Controls.Add(Me.btnInscripcion)
         Me.pnlIzquierda.Controls.Add(Me.btnMateriaGrupo)
         Me.pnlIzquierda.Controls.Add(Me.btnEdificio)
         Me.pnlIzquierda.Controls.Add(Me.btnGrupo)
@@ -83,9 +81,9 @@ Partial Class menuAdminSistema
         Me.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnRegistro.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegistro.ForeColor = System.Drawing.Color.White
-        Me.btnRegistro.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnRegistro.Image = Global.sigesi.My.Resources.Resources.icono_gestion_x_40
         Me.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRegistro.Location = New System.Drawing.Point(0, 481)
+        Me.btnRegistro.Location = New System.Drawing.Point(0, 418)
         Me.btnRegistro.Name = "btnRegistro"
         Me.btnRegistro.Size = New System.Drawing.Size(218, 54)
         Me.btnRegistro.TabIndex = 47
@@ -100,65 +98,48 @@ Partial Class menuAdminSistema
         Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnIncidencia.ForeColor = System.Drawing.Color.White
-        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
         Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncidencia.Location = New System.Drawing.Point(0, 436)
+        Me.btnIncidencia.Location = New System.Drawing.Point(0, 358)
         Me.btnIncidencia.Name = "btnIncidencia"
         Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
         Me.btnIncidencia.TabIndex = 46
         Me.btnIncidencia.Text = "Incidencias"
         Me.btnIncidencia.UseVisualStyleBackColor = True
         '
-        'Reportes
+        'btnReportes
         '
-        Me.Reportes.FlatAppearance.BorderSize = 0
-        Me.Reportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Reportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.Reportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Reportes.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Reportes.ForeColor = System.Drawing.Color.White
-        Me.Reportes.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.Reportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Reportes.Location = New System.Drawing.Point(-3, 390)
-        Me.Reportes.Name = "Reportes"
-        Me.Reportes.Size = New System.Drawing.Size(218, 54)
-        Me.Reportes.TabIndex = 45
-        Me.Reportes.Text = "Reportes"
-        Me.Reportes.UseVisualStyleBackColor = True
+        Me.btnReportes.FlatAppearance.BorderSize = 0
+        Me.btnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReportes.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReportes.ForeColor = System.Drawing.Color.White
+        Me.btnReportes.Image = Global.sigesi.My.Resources.Resources.depositphotos_116517602_stock_illustration_closed_spiral_notebook_and_pen_copy
+        Me.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnReportes.Location = New System.Drawing.Point(0, 469)
+        Me.btnReportes.Name = "btnReportes"
+        Me.btnReportes.Size = New System.Drawing.Size(218, 54)
+        Me.btnReportes.TabIndex = 45
+        Me.btnReportes.Text = "Reportes"
+        Me.btnReportes.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnInscripcion
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(3, 342)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(218, 54)
-        Me.Button1.TabIndex = 44
-        Me.Button1.Text = "Inscripciones"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'btnIncidencias
-        '
-        Me.btnIncidencias.FlatAppearance.BorderSize = 0
-        Me.btnIncidencias.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnIncidencias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnIncidencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIncidencias.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIncidencias.ForeColor = System.Drawing.Color.White
-        Me.btnIncidencias.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnIncidencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncidencias.Location = New System.Drawing.Point(-3, 201)
-        Me.btnIncidencias.Name = "btnIncidencias"
-        Me.btnIncidencias.Size = New System.Drawing.Size(218, 54)
-        Me.btnIncidencias.TabIndex = 43
-        Me.btnIncidencias.Text = "Incidencias"
-        Me.btnIncidencias.UseVisualStyleBackColor = True
+        Me.btnInscripcion.FlatAppearance.BorderSize = 0
+        Me.btnInscripcion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnInscripcion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnInscripcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnInscripcion.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInscripcion.ForeColor = System.Drawing.Color.White
+        Me.btnInscripcion.Image = Global.sigesi.My.Resources.Resources.icono_gestion_x_40
+        Me.btnInscripcion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInscripcion.Location = New System.Drawing.Point(0, 298)
+        Me.btnInscripcion.Name = "btnInscripcion"
+        Me.btnInscripcion.Size = New System.Drawing.Size(218, 54)
+        Me.btnInscripcion.TabIndex = 44
+        Me.btnInscripcion.Text = "Inscripciones"
+        Me.btnInscripcion.UseVisualStyleBackColor = True
         '
         'btnMateriaGrupo
         '
@@ -170,7 +151,7 @@ Partial Class menuAdminSistema
         Me.btnMateriaGrupo.ForeColor = System.Drawing.Color.White
         Me.btnMateriaGrupo.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnMateriaGrupo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnMateriaGrupo.Location = New System.Drawing.Point(0, 246)
+        Me.btnMateriaGrupo.Location = New System.Drawing.Point(-4, 204)
         Me.btnMateriaGrupo.Name = "btnMateriaGrupo"
         Me.btnMateriaGrupo.Size = New System.Drawing.Size(247, 54)
         Me.btnMateriaGrupo.TabIndex = 42
@@ -185,9 +166,9 @@ Partial Class menuAdminSistema
         Me.btnEdificio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnEdificio.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEdificio.ForeColor = System.Drawing.Color.White
-        Me.btnEdificio.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnEdificio.Image = Global.sigesi.My.Resources.Resources.Icono_Restaurar
         Me.btnEdificio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEdificio.Location = New System.Drawing.Point(0, 294)
+        Me.btnEdificio.Location = New System.Drawing.Point(0, 251)
         Me.btnEdificio.Name = "btnEdificio"
         Me.btnEdificio.Size = New System.Drawing.Size(218, 54)
         Me.btnEdificio.TabIndex = 41
@@ -202,7 +183,7 @@ Partial Class menuAdminSistema
         Me.btnGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnGrupo.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGrupo.ForeColor = System.Drawing.Color.White
-        Me.btnGrupo.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnGrupo.Image = Global.sigesi.My.Resources.Resources.ICONO_SALONES
         Me.btnGrupo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnGrupo.Location = New System.Drawing.Point(0, 155)
         Me.btnGrupo.Name = "btnGrupo"
@@ -219,7 +200,7 @@ Partial Class menuAdminSistema
         Me.btnMateria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnMateria.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMateria.ForeColor = System.Drawing.Color.White
-        Me.btnMateria.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnMateria.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
         Me.btnMateria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnMateria.Location = New System.Drawing.Point(-3, 109)
         Me.btnMateria.Name = "btnMateria"
@@ -285,7 +266,7 @@ Partial Class menuAdminSistema
         Me.btnUsuarios.ForeColor = System.Drawing.Color.White
         Me.btnUsuarios.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
         Me.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUsuarios.Location = New System.Drawing.Point(0, 58)
+        Me.btnUsuarios.Location = New System.Drawing.Point(-3, 59)
         Me.btnUsuarios.Name = "btnUsuarios"
         Me.btnUsuarios.Size = New System.Drawing.Size(218, 54)
         Me.btnUsuarios.TabIndex = 34
@@ -408,9 +389,8 @@ Partial Class menuAdminSistema
     Friend WithEvents btnGrupo As System.Windows.Forms.Button
     Friend WithEvents btnEdificio As System.Windows.Forms.Button
     Friend WithEvents btnMateriaGrupo As System.Windows.Forms.Button
-    Friend WithEvents btnIncidencias As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Reportes As System.Windows.Forms.Button
+    Friend WithEvents btnInscripcion As System.Windows.Forms.Button
+    Friend WithEvents btnReportes As System.Windows.Forms.Button
     Friend WithEvents btnRegistro As System.Windows.Forms.Button
     Friend WithEvents btnIncidencia As System.Windows.Forms.Button
 End Class

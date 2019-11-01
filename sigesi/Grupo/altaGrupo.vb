@@ -22,7 +22,7 @@ Public Class altaGrupo
             dataAdapter.Fill(dataSet, "edificio")
             ComboEdi.DataSource = dataSet.Tables("edificio")
             ComboEdi.DisplayMember = "tipo_edificio"
-            ComboEdi.ValueMember = "tipo_edificio"
+            ComboEdi.ValueMember = "id_edificio"
             connection.Close()
         Catch ex As Exception
             MsgBox(ex.ToString)
@@ -51,7 +51,7 @@ Public Class altaGrupo
                 command += "VALUES ('" + txtCod.Text
                 command += "', '" + txtNom.Text
                 command += "','" + txtTurn.Text
-                command += "', '" + ComboEdi.Text
+                command += "', '" + ComboEdi.SelectedValue.ToString
                 command += "');"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -66,10 +66,8 @@ Public Class altaGrupo
             Catch ex As Exception
                 MsgBox(ex.ToString)
             End Try
+            listarGrupo.gridLoad()
         End If
-    End Sub
-
-    Private Sub txtCi_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtCod.TextChanged
 
     End Sub
 
@@ -82,57 +80,4 @@ Public Class altaGrupo
         Me.Close()
 
     End Sub
-
-    Private Sub txtCi_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtCod.KeyPress
-        ' valido numeros (hay que ir al evento key press y dentro del :)
-        If Char.IsNumber(e.KeyChar) Then
-            e.Handled = False
-        ElseIf Char.IsControl(e.KeyChar) Then
-            e.Handled = False
-        Else
-            e.Handled = True
-
-
-
-        End If
-    End Sub
-
-    Private Sub txtTel_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-    End Sub
-
-    Private Sub txtTel_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
-        ' valido numeros (hay que ir al evento key press y dentro del :)
-        If Char.IsNumber(e.KeyChar) Then
-            e.Handled = False
-        ElseIf Char.IsControl(e.KeyChar) Then
-            e.Handled = False
-        Else
-            e.Handled = True
-
-
-
-        End If
-    End Sub
-
-    Private Sub txtNom_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtNom.KeyPress
-        ' valido letras (hay que ir al evento key press y dentro del :)
-        If Char.IsLetter(e.KeyChar) Then
-            e.Handled = False
-        ElseIf Char.IsControl(e.KeyChar) Then
-            e.Handled = False
-        Else
-            e.Handled = True
-
-
-
-        End If
-
-    End Sub
-
-    Private Sub cboRoll_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
-        e.Handled = True
-
-    End Sub
-
 End Class

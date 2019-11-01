@@ -13,28 +13,16 @@ Public Class listarInscripcion
 
     End Sub
 
-    Private Sub btnEliminar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-
-    End Sub
-
     Private Sub btnModificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'modificarAlumno.Show()
 
     End Sub
 
-
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Close()
         menuBedel.Show()
 
-
-
     End Sub
-
-
-
-    
 
     Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
         'Tiene que controlar que no puede cursar Materias de Distintos Grupos en el mismo turno.
@@ -53,6 +41,10 @@ Public Class listarInscripcion
     End Sub
 
     Private Sub btnBuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar.Click
+        gridLoad()
+    End Sub
+
+    Public Sub gridLoad()
         'controlar si no son vacios
         id_grupo = Convert.ToInt32(cboGrupo.SelectedValue)
         id_materia = Convert.ToInt32(cboMateria.SelectedValue)

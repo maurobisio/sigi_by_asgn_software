@@ -34,6 +34,7 @@ Public Class altaEdificio
             Catch ex As Exception
                 MsgBox(ex.ToString)
             End Try
+            listarEdificio.loadGrid()
         End If
     End Sub
 

@@ -3,6 +3,10 @@
 Public Class listarEdificio
     
     Private Sub datagridview_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        loadGrid()
+    End Sub
+
+    Public Sub loadGrid()
         'Establece la conexón con el orgien de los datos
         Dim connection As New MySqlConnection
         'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos

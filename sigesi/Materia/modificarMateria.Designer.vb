@@ -179,6 +179,7 @@ Partial Class modificarMateria
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.btnModificar)
         Me.Name = "modificarMateria"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "modificarMateria"
         CType(Me.dgvModificarUsu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

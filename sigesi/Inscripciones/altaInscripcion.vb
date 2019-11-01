@@ -79,7 +79,7 @@ Public Class altaInscripcion
             command += "INNER JOIN grupo ON grupo.id_grupo = tiene.id_grupo) "
             command += "WHERE grupo.id_grupo ='" + cboGrupo.SelectedValue.ToString
             command += "';"
-            'MsgBox(command)
+
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
             connection.Open()
@@ -108,43 +108,94 @@ Public Class altaInscripcion
             MsgBox("Complete el número de lista")
         Else
             If (ci.ToString <> DBNull.Value.ToString) Then
+                If (Not usuarioInscripto()) Then
+                    'Establece la conexón con el orgien de los datos
+                    Dim connection As New MySqlConnection
+                    'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+                    Dim dataAdapter As New MySqlDataAdapter
+                    'Contiene los datos resultantes de ejecutar el comando SQL.
+                    Dim dataSet As New DataSet
+                    'Recupera datos del proceedor(SELECT * FROM ...)
+                    Dim command As String
 
-                'Establece la conexón con el orgien de los datos
-                Dim connection As New MySqlConnection
-                'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
-                Dim dataAdapter As New MySqlDataAdapter
-                'Contiene los datos resultantes de ejecutar el comando SQL.
-                Dim dataSet As New DataSet
-                'Recupera datos del proceedor(SELECT * FROM ...)
-                Dim command As String
+                    Try
+                        connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                        command = "INSERT INTO pertenece (ci, id_tiene, nro_lista)"
+                        command += "VALUES ('" + ci.ToString
+                        command += "',(SELECT id_tiene FROM tiene "
+                        command += "WHERE tiene.id_grupo =" + id_grupo.ToString
+                        command += " AND tiene.id_materia =" + id_materia.ToString
+                        command += "),'" + txtLista.Text
+                        command += "');"
 
-                Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                    command = "INSERT INTO pertenece (ci, id_tiene, nro_lista)"
-                    command += "VALUES ('" + ci.ToString
-                    command += "',(SELECT id_tiene FROM tiene "
-                    command += "WHERE tiene.id_grupo =" + id_grupo.ToString
-                    command += " AND tiene.id_materia =" + id_materia.ToString
-                    command += "),'" + txtLista.Text
-                    command += "');"
+                        dataAdapter = New MySqlDataAdapter(command, connection)
+                        'Abrir la conexión
+                        connection.Open()
+                        'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+                        dataAdapter.Fill(dataSet, "edificio")
+                        MsgBox("Inscripción ingresada correctamente")
+                        Call LimpiarForm(Me)
 
-                    dataAdapter = New MySqlDataAdapter(command, connection)
-                    'Abrir la conexión
-                    connection.Open()
-                    'Llenamos el dataSet con el método Fill() del objeto dataAdapter
-                    dataAdapter.Fill(dataSet, "edificio")
-                    MsgBox("Inscripción ingresada correctamente")
-                    Call LimpiarForm(Me)
+                        connection.Close()
+                    Catch ex As Exception
+                        MsgBox(ex.ToString)
+                    End Try
+                    listarInscripcion.gridLoad()
+                Else
+                    MsgBox("El usuario ya esta inscripto a la materia")
+                End If
 
-                    connection.Close()
-                Catch ex As Exception
-                    MsgBox(ex.ToString)
-                End Try
             Else
                 MsgBox("Selecciones una fila")
             End If
         End If
     End Sub
+
+    Private Function usuarioInscripto() As Boolean
+        'controlar si no son vacios
+        id_grupo = Convert.ToInt32(cboGrupo.SelectedValue)
+        id_materia = Convert.ToInt32(cboMateria.SelectedValue)
+        'MsgBox("grupo: " + cboGrupo.SelectedValue.ToString)
+        'MsgBox("materia:" + cboMateria.SelectedValue.ToString)
+
+        'Establece la conexón con el orgien de los datos
+        Dim connection As New MySqlConnection
+        'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+        Dim dataAdapter As New MySqlDataAdapter
+        'Contiene los datos resultantes de ejecutar el comando SQL.
+        Dim dataSet As New DataSet
+        'Recupera datos del proceedor(SELECT * FROM ...)
+        Dim command As String
+
+        Try
+            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            command = "SELECT * "
+            command += "FROM ((tiene "
+            command += "INNER JOIN pertenece ON tiene.id_tiene = pertenece.id_tiene) "
+            command += "INNER JOIN usuario ON usuario.ci = pertenece.ci) "
+            command += "WHERE(tiene.id_materia =" + id_materia.ToString
+            command += " AND tiene.id_grupo =" + id_grupo.ToString
+            command += " AND pertenece.ci=" + ci.ToString
+            command += ")"
+
+            dataAdapter = New MySqlDataAdapter(command, connection)
+            'Abrir la conexión
+            connection.Open()
+            'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+            dataAdapter.Fill(dataSet, "usuario")
+
+            connection.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+
+        If (dataSet.Tables("usuario").Rows.Count <> 0) Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
+
 
     Private Sub dgvListarAlumnos_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvListarAlumnos.CellClick
         Dim i As Integer

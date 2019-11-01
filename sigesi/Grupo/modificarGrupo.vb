@@ -82,7 +82,6 @@ Public Class modificarGrupo
                 '' Do whatever with these records.
                 '' e.g
                 id = row("id_edificio")
-                MsgBox(id)
             Next
            
             Try
@@ -100,7 +99,7 @@ Public Class modificarGrupo
                 connection.Open()
                 'Llenamos el dataSet con el método Fill() del objeto dataAdapter
                 dataAdapter.Fill(dataSet, "usuario")
-                MsgBox("Usuario modificado correctamente")
+                MsgBox("Grupo modificado correctamente")
                 Call LimpiarForm(Me)
 
                 connection.Close()
@@ -109,6 +108,7 @@ Public Class modificarGrupo
             End Try
             Call LimpiarForm(Me)
             loadGrid()
+            listarGrupo.gridLoad()
         End If
 
     End Sub

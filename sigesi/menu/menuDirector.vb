@@ -67,10 +67,6 @@
 
     End Sub
 
-    Private Sub btnSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-    End Sub
-
     Private Sub btnMinimizar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.WindowState = FormWindowState.Minimized
     End Sub
@@ -80,55 +76,48 @@
         login.Close()
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(New listarUsuarios)
+    Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
+        abrirFormPanel(listarMateria)
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(New homeDIrector)
+    Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
+        abrirFormPanel(listarGrupo)
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
-        Me.Hide()
-        login.Show()
-
+    Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
+        abrirFormPanel(listarEdificio)
     End Sub
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlumno.Click
-        abrirFormPanel(New listarInscripcion)
+    Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateriaGrupo.Click
+        abrirFormPanel(listarMateriaGrupo)
     End Sub
 
-    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencias.Click
-        abrirFormPanel(New IncidenciasDocente)
+    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
+        abrirFormPanel(listaIncidencias)
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
-        abrirFormPanel(New reportes)
+    Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
+        abrirFormPanel(listarRegistro)
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalones.Click
-        abrirFormPanel(New listarEdificio)
+    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        abrirFormPanel(listarUsuarios)
     End Sub
 
-    Private Sub btnSalir_Click_2(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalir.Click
+    Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
+        abrirFormPanel(listarInscripcion)
+    End Sub
 
-        login.Close()
+    Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
+        abrirFormPanel(reporte)
+    End Sub
+
+    Private Sub btnCerrarSesion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
         Me.Close()
+        login.Show()
     End Sub
 
-    Private Sub btnMinimizar_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMinimizar.Click
-        Me.WindowState = FormWindowState.Minimized
-    End Sub
-
-    Private Sub Button4_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        'abrirFormPanel(New reporteDocente)
-    End Sub
-
-    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGestionInformes.Click
-        'abrirFormPanel(New GestioneInformes)
-    End Sub
-
-    Private Sub pnlCentral_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles pnlCentral.Paint
-
+    Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
+        abrirFormPanel(homeDIrector)
     End Sub
 End Class

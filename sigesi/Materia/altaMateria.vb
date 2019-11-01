@@ -34,6 +34,7 @@ Public Class altaMateria
             Catch ex As Exception
                 MsgBox(ex.ToString)
             End Try
+            listarMateria.loadGrid()
         End If
     End Sub
 End Class

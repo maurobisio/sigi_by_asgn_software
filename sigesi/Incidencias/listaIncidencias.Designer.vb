@@ -36,10 +36,10 @@ Partial Class listaIncidencias
         '
         Me.dgvListarIncidencias.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.dgvListarIncidencias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvListarIncidencias.Location = New System.Drawing.Point(12, 135)
+        Me.dgvListarIncidencias.Location = New System.Drawing.Point(33, 152)
         Me.dgvListarIncidencias.Name = "dgvListarIncidencias"
         Me.dgvListarIncidencias.ReadOnly = True
-        Me.dgvListarIncidencias.Size = New System.Drawing.Size(517, 376)
+        Me.dgvListarIncidencias.Size = New System.Drawing.Size(496, 387)
         Me.dgvListarIncidencias.TabIndex = 4
         '
         'lblListaIncidencia
@@ -47,7 +47,7 @@ Partial Class listaIncidencias
         Me.lblListaIncidencia.AutoSize = True
         Me.lblListaIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblListaIncidencia.ForeColor = System.Drawing.Color.White
-        Me.lblListaIncidencia.Location = New System.Drawing.Point(28, 107)
+        Me.lblListaIncidencia.Location = New System.Drawing.Point(37, 124)
         Me.lblListaIncidencia.Name = "lblListaIncidencia"
         Me.lblListaIncidencia.Size = New System.Drawing.Size(191, 25)
         Me.lblListaIncidencia.TabIndex = 3
@@ -65,7 +65,7 @@ Partial Class listaIncidencias
         Me.btnAlta.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnAlta.Image = Global.sigesi.My.Resources.Resources.icono_agregar_ususario_50
         Me.btnAlta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAlta.Location = New System.Drawing.Point(535, 134)
+        Me.btnAlta.Location = New System.Drawing.Point(535, 163)
         Me.btnAlta.Name = "btnAlta"
         Me.btnAlta.Size = New System.Drawing.Size(199, 69)
         Me.btnAlta.TabIndex = 6
@@ -84,7 +84,7 @@ Partial Class listaIncidencias
         Me.btnBaja.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnBaja.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
         Me.btnBaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBaja.Location = New System.Drawing.Point(535, 209)
+        Me.btnBaja.Location = New System.Drawing.Point(535, 238)
         Me.btnBaja.Name = "btnBaja"
         Me.btnBaja.Size = New System.Drawing.Size(199, 57)
         Me.btnBaja.TabIndex = 60
@@ -135,7 +135,7 @@ Partial Class listaIncidencias
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(735, 523)
+        Me.ClientSize = New System.Drawing.Size(735, 581)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.txtCi)
         Me.Controls.Add(Me.btnBuscar)

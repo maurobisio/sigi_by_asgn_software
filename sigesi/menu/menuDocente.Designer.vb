@@ -24,35 +24,35 @@ Partial Class menuDocente
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
+        Me.btnRegistro = New System.Windows.Forms.Button()
+        Me.btnIncidencia = New System.Windows.Forms.Button()
+        Me.btnInicio = New System.Windows.Forms.Button()
+        Me.PctMenu = New System.Windows.Forms.PictureBox()
+        Me.picASgn = New System.Windows.Forms.PictureBox()
+        Me.btnCerrarSesion = New System.Windows.Forms.Button()
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
-        Me.pnlCentral = New System.Windows.Forms.Panel()
         Me.pnlArriba = New System.Windows.Forms.Panel()
         Me.btnMinimizar = New System.Windows.Forms.Button()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.picIsgesi = New System.Windows.Forms.PictureBox()
-        Me.btnReportes = New System.Windows.Forms.Button()
-        Me.btnIncidencias = New System.Windows.Forms.Button()
-        Me.PctMenu = New System.Windows.Forms.PictureBox()
-        Me.picASgn = New System.Windows.Forms.PictureBox()
-        Me.btnCerrarSesion = New System.Windows.Forms.Button()
-        Me.btnInicio = New System.Windows.Forms.Button()
+        Me.pnlCentral = New System.Windows.Forms.Panel()
         Me.pnlIzquierda.SuspendLayout()
-        Me.pnlArriba.SuspendLayout()
-        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picASgn, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlArriba.SuspendLayout()
+        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlIzquierda
         '
         Me.pnlIzquierda.BackColor = System.Drawing.SystemColors.Highlight
-        Me.pnlIzquierda.Controls.Add(Me.btnReportes)
-        Me.pnlIzquierda.Controls.Add(Me.btnIncidencias)
+        Me.pnlIzquierda.Controls.Add(Me.btnRegistro)
+        Me.pnlIzquierda.Controls.Add(Me.btnIncidencia)
+        Me.pnlIzquierda.Controls.Add(Me.btnInicio)
         Me.pnlIzquierda.Controls.Add(Me.PctMenu)
         Me.pnlIzquierda.Controls.Add(Me.picASgn)
         Me.pnlIzquierda.Controls.Add(Me.btnCerrarSesion)
-        Me.pnlIzquierda.Controls.Add(Me.btnInicio)
         Me.pnlIzquierda.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnlIzquierda.ForeColor = System.Drawing.Color.White
         Me.pnlIzquierda.Location = New System.Drawing.Point(0, 0)
@@ -60,20 +60,103 @@ Partial Class menuDocente
         Me.pnlIzquierda.Size = New System.Drawing.Size(214, 715)
         Me.pnlIzquierda.TabIndex = 8
         '
+        'btnRegistro
+        '
+        Me.btnRegistro.FlatAppearance.BorderSize = 0
+        Me.btnRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRegistro.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRegistro.ForeColor = System.Drawing.Color.White
+        Me.btnRegistro.Image = Global.sigesi.My.Resources.Resources.icono_gestion_x_40
+        Me.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnRegistro.Location = New System.Drawing.Point(0, 190)
+        Me.btnRegistro.Name = "btnRegistro"
+        Me.btnRegistro.Size = New System.Drawing.Size(218, 54)
+        Me.btnRegistro.TabIndex = 57
+        Me.btnRegistro.Text = "Registros"
+        Me.btnRegistro.UseVisualStyleBackColor = True
+        '
+        'btnIncidencia
+        '
+        Me.btnIncidencia.FlatAppearance.BorderSize = 0
+        Me.btnIncidencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnIncidencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIncidencia.ForeColor = System.Drawing.Color.White
+        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
+        Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnIncidencia.Location = New System.Drawing.Point(0, 130)
+        Me.btnIncidencia.Name = "btnIncidencia"
+        Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
+        Me.btnIncidencia.TabIndex = 56
+        Me.btnIncidencia.Text = "Incidencias"
+        Me.btnIncidencia.UseVisualStyleBackColor = True
+        '
+        'btnInicio
+        '
+        Me.btnInicio.FlatAppearance.BorderSize = 0
+        Me.btnInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnInicio.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInicio.ForeColor = System.Drawing.Color.White
+        Me.btnInicio.Image = Global.sigesi.My.Resources.Resources.icono_house
+        Me.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnInicio.Location = New System.Drawing.Point(3, 537)
+        Me.btnInicio.Name = "btnInicio"
+        Me.btnInicio.Size = New System.Drawing.Size(218, 54)
+        Me.btnInicio.TabIndex = 49
+        Me.btnInicio.Text = "  Inicio"
+        Me.btnInicio.UseVisualStyleBackColor = True
+        '
+        'PctMenu
+        '
+        Me.PctMenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PctMenu.BackColor = System.Drawing.Color.Transparent
+        Me.PctMenu.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PctMenu.Image = Global.sigesi.My.Resources.Resources.Mobile_Menu_Icon
+        Me.PctMenu.Location = New System.Drawing.Point(164, 7)
+        Me.PctMenu.Name = "PctMenu"
+        Me.PctMenu.Size = New System.Drawing.Size(47, 40)
+        Me.PctMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PctMenu.TabIndex = 36
+        Me.PctMenu.TabStop = False
+        '
+        'picASgn
+        '
+        Me.picASgn.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.picASgn.Image = Global.sigesi.My.Resources.Resources.logo_asgn_gr2
+        Me.picASgn.Location = New System.Drawing.Point(0, 673)
+        Me.picASgn.Name = "picASgn"
+        Me.picASgn.Size = New System.Drawing.Size(214, 42)
+        Me.picASgn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picASgn.TabIndex = 8
+        Me.picASgn.TabStop = False
+        '
+        'btnCerrarSesion
+        '
+        Me.btnCerrarSesion.FlatAppearance.BorderSize = 0
+        Me.btnCerrarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCerrarSesion.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCerrarSesion.ForeColor = System.Drawing.Color.White
+        Me.btnCerrarSesion.Image = Global.sigesi.My.Resources.Resources.icono_candado_40
+        Me.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnCerrarSesion.Location = New System.Drawing.Point(0, 619)
+        Me.btnCerrarSesion.Name = "btnCerrarSesion"
+        Me.btnCerrarSesion.Size = New System.Drawing.Size(218, 48)
+        Me.btnCerrarSesion.TabIndex = 34
+        Me.btnCerrarSesion.Text = "         Cerrar sesíon"
+        Me.btnCerrarSesion.UseVisualStyleBackColor = True
+        '
         'tmrOcultarMenu
         '
         '
         'tmrMostrarMenu
         '
-        '
-        'pnlCentral
-        '
-        Me.pnlCentral.BackColor = System.Drawing.Color.Black
-        Me.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlCentral.Location = New System.Drawing.Point(214, 0)
-        Me.pnlCentral.Name = "pnlCentral"
-        Me.pnlCentral.Size = New System.Drawing.Size(735, 715)
-        Me.pnlCentral.TabIndex = 38
         '
         'pnlArriba
         '
@@ -126,115 +209,32 @@ Partial Class menuDocente
         Me.picIsgesi.TabIndex = 14
         Me.picIsgesi.TabStop = False
         '
-        'btnReportes
+        'pnlCentral
         '
-        Me.btnReportes.FlatAppearance.BorderSize = 0
-        Me.btnReportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReportes.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReportes.ForeColor = System.Drawing.Color.White
-        Me.btnReportes.Image = Global.sigesi.My.Resources.Resources.depositphotos_116517602_stock_illustration_closed_spiral_notebook_and_pen_copy
-        Me.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnReportes.Location = New System.Drawing.Point(1, 191)
-        Me.btnReportes.Name = "btnReportes"
-        Me.btnReportes.Size = New System.Drawing.Size(219, 54)
-        Me.btnReportes.TabIndex = 38
-        Me.btnReportes.Text = "      Reportes"
-        Me.btnReportes.UseVisualStyleBackColor = True
-        '
-        'btnIncidencias
-        '
-        Me.btnIncidencias.FlatAppearance.BorderSize = 0
-        Me.btnIncidencias.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnIncidencias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnIncidencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIncidencias.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIncidencias.ForeColor = System.Drawing.Color.White
-        Me.btnIncidencias.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
-        Me.btnIncidencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncidencias.Location = New System.Drawing.Point(1, 264)
-        Me.btnIncidencias.Name = "btnIncidencias"
-        Me.btnIncidencias.Size = New System.Drawing.Size(220, 48)
-        Me.btnIncidencias.TabIndex = 37
-        Me.btnIncidencias.Text = "        Incidencias"
-        Me.btnIncidencias.UseVisualStyleBackColor = True
-        '
-        'PctMenu
-        '
-        Me.PctMenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PctMenu.BackColor = System.Drawing.Color.Transparent
-        Me.PctMenu.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PctMenu.Image = Global.sigesi.My.Resources.Resources.Mobile_Menu_Icon
-        Me.PctMenu.Location = New System.Drawing.Point(164, 7)
-        Me.PctMenu.Name = "PctMenu"
-        Me.PctMenu.Size = New System.Drawing.Size(47, 40)
-        Me.PctMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PctMenu.TabIndex = 36
-        Me.PctMenu.TabStop = False
-        '
-        'picASgn
-        '
-        Me.picASgn.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.picASgn.Image = Global.sigesi.My.Resources.Resources.logo_asgn_gr2
-        Me.picASgn.Location = New System.Drawing.Point(0, 673)
-        Me.picASgn.Name = "picASgn"
-        Me.picASgn.Size = New System.Drawing.Size(214, 42)
-        Me.picASgn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picASgn.TabIndex = 8
-        Me.picASgn.TabStop = False
-        '
-        'btnCerrarSesion
-        '
-        Me.btnCerrarSesion.FlatAppearance.BorderSize = 0
-        Me.btnCerrarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnCerrarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCerrarSesion.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCerrarSesion.ForeColor = System.Drawing.Color.White
-        Me.btnCerrarSesion.Image = Global.sigesi.My.Resources.Resources.icono_candado_40
-        Me.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCerrarSesion.Location = New System.Drawing.Point(3, 428)
-        Me.btnCerrarSesion.Name = "btnCerrarSesion"
-        Me.btnCerrarSesion.Size = New System.Drawing.Size(218, 48)
-        Me.btnCerrarSesion.TabIndex = 34
-        Me.btnCerrarSesion.Text = "         Cerrar sesíon"
-        Me.btnCerrarSesion.UseVisualStyleBackColor = True
-        '
-        'btnInicio
-        '
-        Me.btnInicio.FlatAppearance.BorderSize = 0
-        Me.btnInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnInicio.Font = New System.Drawing.Font("Berlin Sans FB", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnInicio.ForeColor = System.Drawing.Color.White
-        Me.btnInicio.Image = Global.sigesi.My.Resources.Resources.icono_house
-        Me.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnInicio.Location = New System.Drawing.Point(1, 343)
-        Me.btnInicio.Name = "btnInicio"
-        Me.btnInicio.Size = New System.Drawing.Size(220, 54)
-        Me.btnInicio.TabIndex = 31
-        Me.btnInicio.Text = " Inicio"
-        Me.btnInicio.UseVisualStyleBackColor = True
+        Me.pnlCentral.BackColor = System.Drawing.Color.Black
+        Me.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlCentral.Location = New System.Drawing.Point(214, 67)
+        Me.pnlCentral.Name = "pnlCentral"
+        Me.pnlCentral.Size = New System.Drawing.Size(735, 648)
+        Me.pnlCentral.TabIndex = 38
         '
         'menuDocente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(949, 715)
-        Me.Controls.Add(Me.pnlArriba)
         Me.Controls.Add(Me.pnlCentral)
+        Me.Controls.Add(Me.pnlArriba)
         Me.Controls.Add(Me.pnlIzquierda)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "menuDocente"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "menuDocente"
         Me.pnlIzquierda.ResumeLayout(False)
-        Me.pnlArriba.ResumeLayout(False)
-        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picASgn, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlArriba.ResumeLayout(False)
+        CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -242,14 +242,14 @@ Partial Class menuDocente
     Friend WithEvents PctMenu As System.Windows.Forms.PictureBox
     Friend WithEvents picASgn As System.Windows.Forms.PictureBox
     Friend WithEvents btnCerrarSesion As System.Windows.Forms.Button
-    Friend WithEvents btnInicio As System.Windows.Forms.Button
-    Friend WithEvents btnIncidencias As System.Windows.Forms.Button
     Friend WithEvents tmrOcultarMenu As System.Windows.Forms.Timer
     Friend WithEvents tmrMostrarMenu As System.Windows.Forms.Timer
-    Friend WithEvents pnlCentral As System.Windows.Forms.Panel
     Friend WithEvents btnMinimizar As System.Windows.Forms.Button
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents picIsgesi As System.Windows.Forms.PictureBox
     Friend WithEvents pnlArriba As System.Windows.Forms.Panel
-    Friend WithEvents btnReportes As System.Windows.Forms.Button
+    Friend WithEvents btnRegistro As System.Windows.Forms.Button
+    Friend WithEvents btnIncidencia As System.Windows.Forms.Button
+    Friend WithEvents btnInicio As System.Windows.Forms.Button
+    Friend WithEvents pnlCentral As System.Windows.Forms.Panel
 End Class
