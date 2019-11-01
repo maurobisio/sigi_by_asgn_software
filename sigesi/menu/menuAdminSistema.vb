@@ -116,4 +116,8 @@
     Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
         abrirFormPanel(listaIncidencias)
     End Sub
+
+    Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
+        abrirFormPanel(listarRegistro)
+    End Sub
 End Class

@@ -191,6 +191,18 @@
     <Compile Include="Materia\modificarMateria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Registros\altaRegistro.Designer.vb">
+      <DependentUpon>altaRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\altaRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\listarRegistro.Designer.vb">
+      <DependentUpon>listarRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\listarRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Reportes\boletin.Designer.vb">
       <DependentUpon>boletin.vb</DependentUpon>
     </Compile>
@@ -455,6 +467,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\modificarMateria.resx">
       <DependentUpon>modificarMateria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\altaRegistro.resx">
+      <DependentUpon>altaRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\listarRegistro.resx">
+      <DependentUpon>listarRegistro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\boletin.resx">
       <DependentUpon>boletin.vb</DependentUpon>

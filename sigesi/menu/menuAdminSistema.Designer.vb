@@ -24,6 +24,8 @@ Partial Class menuAdminSistema
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
+        Me.btnRegistro = New System.Windows.Forms.Button()
+        Me.btnIncidencia = New System.Windows.Forms.Button()
         Me.Reportes = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnIncidencias = New System.Windows.Forms.Button()
@@ -43,8 +45,6 @@ Partial Class menuAdminSistema
         Me.picIsgesi = New System.Windows.Forms.PictureBox()
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
-        Me.btnIncidencia = New System.Windows.Forms.Button()
-        Me.btnRegistro = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -74,6 +74,40 @@ Partial Class menuAdminSistema
         Me.pnlIzquierda.Name = "pnlIzquierda"
         Me.pnlIzquierda.Size = New System.Drawing.Size(214, 674)
         Me.pnlIzquierda.TabIndex = 0
+        '
+        'btnRegistro
+        '
+        Me.btnRegistro.FlatAppearance.BorderSize = 0
+        Me.btnRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRegistro.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRegistro.ForeColor = System.Drawing.Color.White
+        Me.btnRegistro.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnRegistro.Location = New System.Drawing.Point(0, 481)
+        Me.btnRegistro.Name = "btnRegistro"
+        Me.btnRegistro.Size = New System.Drawing.Size(218, 54)
+        Me.btnRegistro.TabIndex = 47
+        Me.btnRegistro.Text = "Registros"
+        Me.btnRegistro.UseVisualStyleBackColor = True
+        '
+        'btnIncidencia
+        '
+        Me.btnIncidencia.FlatAppearance.BorderSize = 0
+        Me.btnIncidencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnIncidencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIncidencia.ForeColor = System.Drawing.Color.White
+        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnIncidencia.Location = New System.Drawing.Point(0, 436)
+        Me.btnIncidencia.Name = "btnIncidencia"
+        Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
+        Me.btnIncidencia.TabIndex = 46
+        Me.btnIncidencia.Text = "Incidencias"
+        Me.btnIncidencia.UseVisualStyleBackColor = True
         '
         'Reportes
         '
@@ -336,40 +370,6 @@ Partial Class menuAdminSistema
         '
         'tmrMostrarMenu
         '
-        '
-        'btnIncidencia
-        '
-        Me.btnIncidencia.FlatAppearance.BorderSize = 0
-        Me.btnIncidencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnIncidencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIncidencia.ForeColor = System.Drawing.Color.White
-        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncidencia.Location = New System.Drawing.Point(0, 436)
-        Me.btnIncidencia.Name = "btnIncidencia"
-        Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
-        Me.btnIncidencia.TabIndex = 46
-        Me.btnIncidencia.Text = "Incidencias"
-        Me.btnIncidencia.UseVisualStyleBackColor = True
-        '
-        'btnRegistro
-        '
-        Me.btnRegistro.FlatAppearance.BorderSize = 0
-        Me.btnRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnRegistro.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRegistro.ForeColor = System.Drawing.Color.White
-        Me.btnRegistro.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRegistro.Location = New System.Drawing.Point(0, 481)
-        Me.btnRegistro.Name = "btnRegistro"
-        Me.btnRegistro.Size = New System.Drawing.Size(218, 54)
-        Me.btnRegistro.TabIndex = 47
-        Me.btnRegistro.Text = "Registros"
-        Me.btnRegistro.UseVisualStyleBackColor = True
         '
         'menuAdminSistema
         '
