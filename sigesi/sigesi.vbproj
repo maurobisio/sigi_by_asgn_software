@@ -78,8 +78,10 @@
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Diagnostics" />
+    <Import Include="System.Text.RegularExpressions" />
     <Import Include="System.Windows.Forms" />
     <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms.Layout" />
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>

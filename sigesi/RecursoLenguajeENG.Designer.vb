@@ -92,6 +92,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnAlumnosMasUnGrupo() As String
+            Get
+                Return ResourceManager.GetString("btnAlumnosMasUnGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Back.
         '''</summary>
         Friend Shared ReadOnly Property btnAtras() As String
@@ -106,6 +115,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property btnBaja() As String
             Get
                 Return ResourceManager.GetString("btnBaja", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnBoletin() As String
+            Get
+                Return ResourceManager.GetString("btnBoletin", resourceCulture)
             End Get
         End Property
         
@@ -128,11 +146,29 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnCantidadAlumnosGrupo() As String
+            Get
+                Return ResourceManager.GetString("btnCantidadAlumnosGrupo", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Close Session.
         '''</summary>
         Friend Shared ReadOnly Property btnCerrarSesion() As String
             Get
                 Return ResourceManager.GetString("btnCerrarSesion", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnDocentesDictandoUna() As String
+            Get
+                Return ResourceManager.GetString("btnDocentesDictandoUna", resourceCulture)
             End Get
         End Property
         
@@ -160,6 +196,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property btnEntrar() As String
             Get
                 Return ResourceManager.GetString("btnEntrar", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnEscolaridad() As String
+            Get
+                Return ResourceManager.GetString("btnEscolaridad", resourceCulture)
             End Get
         End Property
         
@@ -205,6 +250,15 @@ Namespace My.Resources
         Friend Shared ReadOnly Property btnInscripcion() As String
             Get
                 Return ResourceManager.GetString("btnInscripcion", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnListarLosGrupos() As String
+            Get
+                Return ResourceManager.GetString("btnListarLosGrupos", resourceCulture)
             End Get
         End Property
         
@@ -304,6 +358,33 @@ Namespace My.Resources
         Friend Shared ReadOnly Property btnSolicitarFormula69() As String
             Get
                 Return ResourceManager.GetString("btnSolicitarFormula69", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnTipoYCantidadInsc() As String
+            Get
+                Return ResourceManager.GetString("btnTipoYCantidadInsc", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnTop10MasFaltas() As String
+            Get
+                Return ResourceManager.GetString("btnTop10MasFaltas", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to .
+        '''</summary>
+        Friend Shared ReadOnly Property btnTop50MejoresNotas() As String
+            Get
+                Return ResourceManager.GetString("btnTop50MejoresNotas", resourceCulture)
             End Get
         End Property
         

@@ -56,7 +56,6 @@ Public Class login
 
                             'obtengo el rol del usuario'
                             Dim user_rol = dataSet.Tables("usuario").Rows(0)("id_rol")
-                            MsgBox(user_rol)
 
                             Select Case user_rol
                                 Case 0

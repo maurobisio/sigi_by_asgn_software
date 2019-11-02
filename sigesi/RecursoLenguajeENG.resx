@@ -384,4 +384,31 @@
   <data name="lbValor" xml:space="preserve">
     <value>Value</value>
   </data>
+  <data name="btnAlumnosMasUnGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBoletin" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCantidadAlumnosGrupo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDocentesDictandoUna" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnEscolaridad" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnListarLosGrupos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTipoYCantidadInsc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTop10MasFaltas" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTop50MejoresNotas" xml:space="preserve">
+    <value />
+  </data>
 </root>

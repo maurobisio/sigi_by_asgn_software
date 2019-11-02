@@ -220,6 +220,16 @@
         altaRegistro.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
         altaRegistro.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
+        reporte.btnListarLosGrupos.Text = sigesi.My.Resources.RecursoLenguajeENG.btnListarLosGrupos
+        reporte.btnCantidadAlumnosGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCantidadAlumnosGrupo
+        reporte.btnAlumnosMasUnGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlumnosMasUnGrupo
+        reporte.btnTipoYCantidadInsc.Text = sigesi.My.Resources.RecursoLenguajeENG.btnTipoYCantidadInsc
+        reporte.btnTop10MasFaltas.Text = sigesi.My.Resources.RecursoLenguajeENG.btnTop10MasFaltas
+        reporte.btnTop50MejoresNotas.Text = sigesi.My.Resources.RecursoLenguajeENG.btnTop50MejoresNotas
+        reporte.btnDocentesDictandoUna.Text = sigesi.My.Resources.RecursoLenguajeENG.btnDocentesDictandoUna
+        reporte.btnBoletin.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBoletin
+        reporte.btnEscolaridad.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEscolaridad
+
         homeAdministrativo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdministrativo
         homeAdminSIstema.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdminSistema
         homeBedel.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeBedel

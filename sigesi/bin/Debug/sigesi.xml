@@ -725,6 +725,10 @@ sigesi
 	<summary>
   Looks up a localized string similar to Student.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAlumnosMasUnGrupo">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAtras">
 	<summary>
   Looks up a localized string similar to Back.
@@ -732,6 +736,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBaja">
 	<summary>
   Looks up a localized string similar to Drop.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBoletin">
+	<summary>
+  Looks up a localized string similar to .
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBuscar">
 	<summary>
@@ -741,9 +749,17 @@ sigesi
 	<summary>
   Looks up a localized string similar to Cancel.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnCantidadAlumnosGrupo">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion">
 	<summary>
   Looks up a localized string similar to Close Session.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnDocentesDictandoUna">
+	<summary>
+  Looks up a localized string similar to .
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEdificio">
 	<summary>
@@ -756,6 +772,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEntrar">
 	<summary>
   Looks up a localized string similar to Enter.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEscolaridad">
+	<summary>
+  Looks up a localized string similar to .
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnGestionInformes">
 	<summary>
@@ -776,6 +796,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnInscripcion">
 	<summary>
   Looks up a localized string similar to Inscriptions.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnListarLosGrupos">
+	<summary>
+  Looks up a localized string similar to .
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnMateria">
 	<summary>
@@ -820,6 +844,18 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarFormula69">
 	<summary>
   Looks up a localized string similar to Request Formula 69.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnTipoYCantidadInsc">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnTop10MasFaltas">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnTop50MejoresNotas">
+	<summary>
+  Looks up a localized string similar to .
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnUsuario">
 	<summary>
