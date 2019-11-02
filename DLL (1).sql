@@ -154,15 +154,15 @@ VALUES ('5','Alumno/a');
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
 VALUES ('0', 'root', 'root', 'root', 'root', 'root', 'root','0');
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('1', 'director', 'director', 'director', 'director', 'director', 'director','1');
+VALUES ('49508304', 'director', 'director', 'director', 'director', 'director', 'director','1');
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('2', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel','2');
+VALUES ('33288615', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel','2');
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('3', 'admin', 'admin', 'admin', 'admin', 'admin', 'admin','3');
+VALUES ('14869143', 'admin', 'admin', 'admin', 'admin', 'admin', 'admin','3');
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('4', 'docente', 'docente', 'docente', 'docente', 'docente', 'docente','4');
+VALUES ('10749389', 'docente', 'docente', 'docente', 'docente', 'docente', 'docente','4');
 INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('5', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno','5');
+VALUES ('49348459', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno','5');
 
 INSERT INTO materia (id_materia, nom_materia, año) 
 VALUES ('0','Fisica', '2019');
@@ -229,7 +229,7 @@ VALUES ('Revalida');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Suspención');
 INSERT INTO tipo_incidencia (nom_tipo)
-VALUES ('Observaciones');
+VALUES ('Observacionerols');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Califiaciónes bajas');
 INSERT INTO tipo_incidencia (nom_tipo)
