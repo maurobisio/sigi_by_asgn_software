@@ -1,10 +1,5 @@
 ﻿Public Class menuDocente
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(New IncidenciasDocente)
-
-    End Sub
-   
     Private Sub PctMenu_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PctMenu.Click
         'codifico el boton: activo los timers y les pongo condicion dentro d if  con los valores del ancho del panel q pase en los timers
         If pnlIzquierda.Width = 214 Then

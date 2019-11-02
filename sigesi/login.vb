@@ -41,7 +41,7 @@ Public Class login
 
                     Try
                         connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                        command = "SELECT * FROM usuario WHERE email='" & txtUsu.Text & "' and pass='" & txtPwd.Text & "';"
+                        command = "SELECT * FROM usuario WHERE ci='" & txtUsu.Text & "' and pass='" & txtPwd.Text & "';"
                         dataAdapter = New MySqlDataAdapter(command, connection)
                         'Abrir la conexión
                         connection.Open()

@@ -32,7 +32,7 @@ Partial Class listarRegistro
         Me.lblMateria = New System.Windows.Forms.Label()
         Me.btnAlta = New System.Windows.Forms.Button()
         Me.btnEliminar = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnBuscar2 = New System.Windows.Forms.Button()
         Me.dgvListarRegistros = New System.Windows.Forms.DataGridView()
         Me.lblListaRegistros = New System.Windows.Forms.Label()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -173,23 +173,23 @@ Partial Class listarRegistro
         Me.btnEliminar.Text = " Baja"
         Me.btnEliminar.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnBuscar2
         '
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = Global.sigesi.My.Resources.Resources.icono_lupa
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(524, 255)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(160, 40)
-        Me.Button1.TabIndex = 37
-        Me.Button1.Text = "  Buscar "
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnBuscar2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBuscar2.FlatAppearance.BorderSize = 0
+        Me.btnBuscar2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnBuscar2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight
+        Me.btnBuscar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBuscar2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBuscar2.ForeColor = System.Drawing.Color.White
+        Me.btnBuscar2.Image = Global.sigesi.My.Resources.Resources.icono_lupa
+        Me.btnBuscar2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnBuscar2.Location = New System.Drawing.Point(524, 255)
+        Me.btnBuscar2.Name = "btnBuscar2"
+        Me.btnBuscar2.Size = New System.Drawing.Size(160, 40)
+        Me.btnBuscar2.TabIndex = 37
+        Me.btnBuscar2.Text = "  Buscar "
+        Me.btnBuscar2.UseVisualStyleBackColor = True
         '
         'dgvListarRegistros
         '
@@ -220,7 +220,7 @@ Partial Class listarRegistro
         Me.ClientSize = New System.Drawing.Size(735, 580)
         Me.Controls.Add(Me.lblListaRegistros)
         Me.Controls.Add(Me.dgvListarRegistros)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnBuscar2)
         Me.Controls.Add(Me.btnEliminar)
         Me.Controls.Add(Me.gpbBuscarInscripciones)
         Me.Controls.Add(Me.lblListaInscriptos)
@@ -248,7 +248,7 @@ Partial Class listarRegistro
     Friend WithEvents cboMateria As System.Windows.Forms.ComboBox
     Friend WithEvents btnBuscar As System.Windows.Forms.Button
     Friend WithEvents btnEliminar As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnBuscar2 As System.Windows.Forms.Button
     Friend WithEvents dgvListarRegistros As System.Windows.Forms.DataGridView
     Friend WithEvents lblListaRegistros As System.Windows.Forms.Label
 End Class

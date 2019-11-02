@@ -26,7 +26,7 @@ Partial Class altaInscripcion
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.gpbBuscarInscripciones = New System.Windows.Forms.GroupBox()
+        Me.gpbDatos = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cboRol = New System.Windows.Forms.ComboBox()
         Me.cboMateria = New System.Windows.Forms.ComboBox()
@@ -36,8 +36,8 @@ Partial Class altaInscripcion
         Me.lblListaAlumnos = New System.Windows.Forms.Label()
         Me.dgvListarAlumnos = New System.Windows.Forms.DataGridView()
         Me.txtLista = New System.Windows.Forms.TextBox()
-        Me.lblLista = New System.Windows.Forms.Label()
-        Me.gpbBuscarInscripciones.SuspendLayout()
+        Me.lblNumeroLista = New System.Windows.Forms.Label()
+        Me.gpbDatos.SuspendLayout()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -67,18 +67,18 @@ Partial Class altaInscripcion
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.UseVisualStyleBackColor = False
         '
-        'gpbBuscarInscripciones
+        'gpbDatos
         '
-        Me.gpbBuscarInscripciones.Controls.Add(Me.Label1)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboRol)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboMateria)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboGrupo)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.lblGrupo)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.lblMateria)
-        resources.ApplyResources(Me.gpbBuscarInscripciones, "gpbBuscarInscripciones")
-        Me.gpbBuscarInscripciones.ForeColor = System.Drawing.Color.White
-        Me.gpbBuscarInscripciones.Name = "gpbBuscarInscripciones"
-        Me.gpbBuscarInscripciones.TabStop = False
+        Me.gpbDatos.Controls.Add(Me.Label1)
+        Me.gpbDatos.Controls.Add(Me.cboRol)
+        Me.gpbDatos.Controls.Add(Me.cboMateria)
+        Me.gpbDatos.Controls.Add(Me.cboGrupo)
+        Me.gpbDatos.Controls.Add(Me.lblGrupo)
+        Me.gpbDatos.Controls.Add(Me.lblMateria)
+        resources.ApplyResources(Me.gpbDatos, "gpbDatos")
+        Me.gpbDatos.ForeColor = System.Drawing.Color.White
+        Me.gpbDatos.Name = "gpbDatos"
+        Me.gpbDatos.TabStop = False
         '
         'Label1
         '
@@ -139,12 +139,12 @@ Partial Class altaInscripcion
         resources.ApplyResources(Me.txtLista, "txtLista")
         Me.txtLista.Name = "txtLista"
         '
-        'lblLista
+        'lblNumeroLista
         '
-        resources.ApplyResources(Me.lblLista, "lblLista")
-        Me.lblLista.BackColor = System.Drawing.Color.Transparent
-        Me.lblLista.ForeColor = System.Drawing.Color.Black
-        Me.lblLista.Name = "lblLista"
+        resources.ApplyResources(Me.lblNumeroLista, "lblNumeroLista")
+        Me.lblNumeroLista.BackColor = System.Drawing.Color.Transparent
+        Me.lblNumeroLista.ForeColor = System.Drawing.Color.Black
+        Me.lblNumeroLista.Name = "lblNumeroLista"
         '
         'altaInscripcion
         '
@@ -152,9 +152,9 @@ Partial Class altaInscripcion
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.Controls.Add(Me.lblLista)
+        Me.Controls.Add(Me.lblNumeroLista)
         Me.Controls.Add(Me.txtLista)
-        Me.Controls.Add(Me.gpbBuscarInscripciones)
+        Me.Controls.Add(Me.gpbDatos)
         Me.Controls.Add(Me.lblListaAlumnos)
         Me.Controls.Add(Me.dgvListarAlumnos)
         Me.Controls.Add(Me.btnSalir)
@@ -163,8 +163,8 @@ Partial Class altaInscripcion
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "altaInscripcion"
         Me.TopMost = True
-        Me.gpbBuscarInscripciones.ResumeLayout(False)
-        Me.gpbBuscarInscripciones.PerformLayout()
+        Me.gpbDatos.ResumeLayout(False)
+        Me.gpbDatos.PerformLayout()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -173,7 +173,7 @@ Partial Class altaInscripcion
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
-    Friend WithEvents gpbBuscarInscripciones As System.Windows.Forms.GroupBox
+    Friend WithEvents gpbDatos As System.Windows.Forms.GroupBox
     Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
     Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblMateria As System.Windows.Forms.Label
@@ -181,7 +181,7 @@ Partial Class altaInscripcion
     Friend WithEvents dgvListarAlumnos As System.Windows.Forms.DataGridView
     Friend WithEvents cboMateria As System.Windows.Forms.ComboBox
     Friend WithEvents txtLista As System.Windows.Forms.TextBox
-    Friend WithEvents lblLista As System.Windows.Forms.Label
+    Friend WithEvents lblNumeroLista As System.Windows.Forms.Label
     Friend WithEvents cboRol As System.Windows.Forms.ComboBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

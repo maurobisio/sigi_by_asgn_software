@@ -324,4 +324,64 @@
   <data name="lblYear" xml:space="preserve">
     <value>Year</value>
   </data>
+  <data name="btnInscripcion" xml:space="preserve">
+    <value>Inscriptions</value>
+  </data>
+  <data name="btnPaseEgreso" xml:space="preserve">
+    <value>Request Egress Pass</value>
+  </data>
+  <data name="btnRegistro" xml:space="preserve">
+    <value>Registry</value>
+  </data>
+  <data name="btnSolicitaBoletin" xml:space="preserve">
+    <value>Request Newsletter</value>
+  </data>
+  <data name="btnSolicitarEscolaridad" xml:space="preserve">
+    <value>Request Schooling</value>
+  </data>
+  <data name="btnSolicitarFichaAcumulativa" xml:space="preserve">
+    <value>Request Cumulative File</value>
+  </data>
+  <data name="btnSolicitarFormula69" xml:space="preserve">
+    <value>Request Formula 69</value>
+  </data>
+  <data name="gpbBuscarAlumno" xml:space="preserve">
+    <value>Search student</value>
+  </data>
+  <data name="gpbDatos" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="lblCiAlumno" xml:space="preserve">
+    <value>Ci student</value>
+  </data>
+  <data name="lblCiAutoridad" xml:space="preserve">
+    <value>Ci authority</value>
+  </data>
+  <data name="lblFecha" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblListaAlumnos" xml:space="preserve">
+    <value>Student List</value>
+  </data>
+  <data name="lblListaInscriptos" xml:space="preserve">
+    <value>Registered list</value>
+  </data>
+  <data name="lblListaRegistros" xml:space="preserve">
+    <value>List of records</value>
+  </data>
+  <data name="lblNumeroLista" xml:space="preserve">
+    <value>Number list</value>
+  </data>
+  <data name="lblTipoIncidencia" xml:space="preserve">
+    <value>Type of incidence</value>
+  </data>
+  <data name="lblTipoRegistro" xml:space="preserve">
+    <value>Type of register</value>
+  </data>
+  <data name="lblTituloAgregarInscripcion" xml:space="preserve">
+    <value>Add inscription</value>
+  </data>
+  <data name="lbValor" xml:space="preserve">
+    <value>Value</value>
+  </data>
 </root>

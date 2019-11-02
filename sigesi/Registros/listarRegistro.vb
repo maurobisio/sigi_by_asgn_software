@@ -172,7 +172,7 @@ Public Class listarRegistro
         ci = dgvListarAlumnos.Item(0, i).Value()
     End Sub
 
-    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBuscar2.Click
         If (ci.ToString <> DBNull.Value.ToString) Then
             'Establece la conexón con el orgien de los datos
             Dim connection As New MySqlConnection

@@ -213,6 +213,105 @@
   <data name="&gt;&gt;btnAgregar.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cboRol.Name" xml:space="preserve">
+    <value>cboRol</value>
+  </data>
+  <data name="&gt;&gt;cboRol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboRol.Parent" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;cboRol.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.Name" xml:space="preserve">
+    <value>cboMateria</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.Parent" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;cboMateria.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboGrupo.Name" xml:space="preserve">
+    <value>cboGrupo</value>
+  </data>
+  <data name="&gt;&gt;cboGrupo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboGrupo.Parent" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;cboGrupo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblGrupo.Name" xml:space="preserve">
+    <value>lblGrupo</value>
+  </data>
+  <data name="&gt;&gt;lblGrupo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrupo.Parent" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;lblGrupo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblMateria.Name" xml:space="preserve">
+    <value>lblMateria</value>
+  </data>
+  <data name="&gt;&gt;lblMateria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMateria.Parent" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;lblMateria.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gpbDatos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="gpbDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 70</value>
+  </data>
+  <data name="gpbDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>722, 108</value>
+  </data>
+  <data name="gpbDatos.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="gpbDatos.Text" xml:space="preserve">
+    <value>Datos</value>
+  </data>
+  <data name="&gt;&gt;gpbDatos.Name" xml:space="preserve">
+    <value>gpbDatos</value>
+  </data>
+  <data name="&gt;&gt;gpbDatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpbDatos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpbDatos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -241,7 +340,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+    <value>gpbDatos</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -262,7 +361,7 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cboRol.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+    <value>gpbDatos</value>
   </data>
   <data name="&gt;&gt;cboRol.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -292,7 +391,7 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cboMateria.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+    <value>gpbDatos</value>
   </data>
   <data name="&gt;&gt;cboMateria.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -337,7 +436,7 @@
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cboGrupo.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+    <value>gpbDatos</value>
   </data>
   <data name="&gt;&gt;cboGrupo.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -367,7 +466,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblGrupo.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+    <value>gpbDatos</value>
   </data>
   <data name="&gt;&gt;lblGrupo.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -397,37 +496,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblMateria.Parent" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
+    <value>gpbDatos</value>
   </data>
   <data name="&gt;&gt;lblMateria.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 70</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Size" type="System.Drawing.Size, System.Drawing">
-    <value>722, 108</value>
-  </data>
-  <data name="gpbBuscarInscripciones.TabIndex" type="System.Int32, mscorlib">
-    <value>64</value>
-  </data>
-  <data name="gpbBuscarInscripciones.Text" xml:space="preserve">
-    <value>Buscar Inscripciones</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.Name" xml:space="preserve">
-    <value>gpbBuscarInscripciones</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gpbBuscarInscripciones.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="lblListaAlumnos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -507,37 +579,37 @@
   <data name="&gt;&gt;txtLista.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="lblLista.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblNumeroLista.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblLista.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lblNumeroLista.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
-  <data name="lblLista.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lblNumeroLista.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblLista.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblNumeroLista.Location" type="System.Drawing.Point, System.Drawing">
     <value>38, 467</value>
   </data>
-  <data name="lblLista.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblNumeroLista.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 18</value>
   </data>
-  <data name="lblLista.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblNumeroLista.TabIndex" type="System.Int32, mscorlib">
     <value>66</value>
   </data>
-  <data name="lblLista.Text" xml:space="preserve">
+  <data name="lblNumeroLista.Text" xml:space="preserve">
     <value>Número de Lista</value>
   </data>
-  <data name="&gt;&gt;lblLista.Name" xml:space="preserve">
-    <value>lblLista</value>
+  <data name="&gt;&gt;lblNumeroLista.Name" xml:space="preserve">
+    <value>lblNumeroLista</value>
   </data>
-  <data name="&gt;&gt;lblLista.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblNumeroLista.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblLista.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblNumeroLista.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblLista.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblNumeroLista.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

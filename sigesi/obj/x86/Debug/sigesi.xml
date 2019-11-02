@@ -773,6 +773,10 @@ sigesi
 	<summary>
   Looks up a localized string similar to Start.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnInscripcion">
+	<summary>
+  Looks up a localized string similar to Inscriptions.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnMateria">
 	<summary>
   Looks up a localized string similar to Subject.
@@ -785,6 +789,14 @@ sigesi
 	<summary>
   Looks up a localized string similar to Modify.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnPaseEgreso">
+	<summary>
+  Looks up a localized string similar to Request Egress Pass.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnRegistro">
+	<summary>
+  Looks up a localized string similar to Registry.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnReportes">
 	<summary>
   Looks up a localized string similar to Reports.
@@ -793,9 +805,29 @@ sigesi
 	<summary>
   Looks up a localized string similar to Classrooms.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnSolicitaBoletin">
+	<summary>
+  Looks up a localized string similar to Request Newsletter.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarEscolaridad">
+	<summary>
+  Looks up a localized string similar to Request Schooling.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarFichaAcumulativa">
+	<summary>
+  Looks up a localized string similar to Request Cumulative File.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarFormula69">
+	<summary>
+  Looks up a localized string similar to Request Formula 69.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnUsuario">
 	<summary>
   Looks up a localized string similar to Users.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumno">
+	<summary>
+  Looks up a localized string similar to Search student.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumnos">
 	<summary>
@@ -808,6 +840,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarInscripciones">
 	<summary>
   Looks up a localized string similar to Search inscription.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.gpbDatos">
+	<summary>
+  Looks up a localized string similar to Data.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblAdministrativo">
 	<summary>
@@ -841,6 +877,14 @@ sigesi
 	<summary>
   Looks up a localized string similar to Identity card.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCiAlumno">
+	<summary>
+  Looks up a localized string similar to Ci student.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCiAutoridad">
+	<summary>
+  Looks up a localized string similar to Ci authority.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblCod">
 	<summary>
   Looks up a localized string similar to Code.
@@ -873,13 +917,29 @@ sigesi
 	<summary>
   Looks up a localized string similar to E-mail.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblFecha">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblGrupo">
 	<summary>
   Looks up a localized string similar to Group.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos">
+	<summary>
+  Looks up a localized string similar to Student List.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblListaIncidencia">
 	<summary>
   Looks up a localized string similar to list incidents.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblListaInscriptos">
+	<summary>
+  Looks up a localized string similar to Registered list.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblListaRegistros">
+	<summary>
+  Looks up a localized string similar to List of records.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblMateria">
 	<summary>
@@ -892,6 +952,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblNom1">
 	<summary>
   Looks up a localized string similar to Second Name.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblNumeroLista">
+	<summary>
+  Looks up a localized string similar to Number list.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblPwd">
 	<summary>
@@ -908,6 +972,18 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTel">
 	<summary>
   Looks up a localized string similar to Telephone.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTipoIncidencia">
+	<summary>
+  Looks up a localized string similar to Type of incidence.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTipoRegistro">
+	<summary>
+  Looks up a localized string similar to Type of register.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAgregarInscripcion">
+	<summary>
+  Looks up a localized string similar to Add inscription.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaEdificio">
 	<summary>
@@ -988,6 +1064,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblYear">
 	<summary>
   Looks up a localized string similar to Year.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lbValor">
+	<summary>
+  Looks up a localized string similar to Value.
 </summary>
 </member><member name="T:sigesi.My.Resources.RecursoLenguajeENG">
 	<summary>

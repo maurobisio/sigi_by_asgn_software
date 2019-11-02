@@ -185,12 +185,10 @@ C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\siges
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.menuAlumno.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.menuBedel.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.menuDirector.resources
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.IncidenciasDocente.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.menuDocente.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarUsuario.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.Resources.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeENG.resources
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.reportes.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeESP.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.selecUsu.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.vbproj.GenerateResource.Cache

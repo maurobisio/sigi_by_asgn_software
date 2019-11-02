@@ -151,6 +151,7 @@
         listarUsuarios.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
         listarUsuarios.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
         listarUsuarios.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
+        listarUsuarios.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
         modificarUsuario.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarUsuario
         modificarUsuario.lblAyuda.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarUsuario
@@ -166,20 +167,58 @@
         modificarUsuario.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
         modificarUsuario.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
 
+        altaIncidencia.lblCiAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCiAlumno
+        altaIncidencia.lblCiAutoridad.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCiAutoridad
+        altaIncidencia.lblTipoIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTipoIncidencia
+        altaIncidencia.lblFecha.Text = sigesi.My.Resources.RecursoLenguajeENG.lblFecha
         altaIncidencia.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaIncidencia
-        'altaIncidencia.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         altaIncidencia.lblObs.Text = sigesi.My.Resources.RecursoLenguajeENG.lblDesc
         altaIncidencia.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAgregar
 
-        'listaIncidencias.gpbBuscarIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarIncidencia
         listaIncidencias.lblListaIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaIncidencia
-        'listaIncidencias.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
-        'listaIncidencias.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
-        'listaIncidencias.lblAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAlumno
         listaIncidencias.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
         listaIncidencias.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
-        'listaIncidencias.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
         listaIncidencias.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+
+        listarInscripcion.gpbBuscarInscripciones.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarInscripciones
+        listarInscripcion.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
+        listarInscripcion.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
+        listarInscripcion.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
+        listarInscripcion.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
+        listarInscripcion.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
+        listarInscripcion.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+
+        altaInscripcion.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAgregarInscripcion
+        altaInscripcion.gpbDatos.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbDatos
+        altaInscripcion.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
+        altaInscripcion.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
+        altaInscripcion.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
+        altaInscripcion.lblNumeroLista.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNumeroLista
+        altaInscripcion.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
+        altaInscripcion.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
+
+        listarRegistro.gpbBuscarInscripciones.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarInscripciones
+        listarRegistro.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
+        listarRegistro.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
+        listarRegistro.lblListaInscriptos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaInscriptos
+        listarRegistro.lblListaRegistros.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaRegistros
+        listarRegistro.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
+        listarRegistro.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
+        listarRegistro.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+        listarRegistro.btnBuscar2.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+
+        altaRegistro.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAgregarInscripcion
+        altaRegistro.gpbBuscarAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.gpbBuscarAlumno
+        altaRegistro.lblGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblGrupo
+        altaRegistro.lblMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.lblMateria
+        altaRegistro.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
+        altaRegistro.lblTipoRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTipoRegistro
+        altaRegistro.lbValor.Text = sigesi.My.Resources.RecursoLenguajeENG.lbValor
+        altaRegistro.lblObs.Text = sigesi.My.Resources.RecursoLenguajeENG.lblDesc
+        altaRegistro.lblFecha.Text = sigesi.My.Resources.RecursoLenguajeENG.lblFecha
+        altaRegistro.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
+        altaRegistro.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
+        altaRegistro.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
         homeAdministrativo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdministrativo
         homeAdminSIstema.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdminSistema
@@ -187,41 +226,57 @@
         homeDIrector.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeDirector
         homeDocente.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeDirector
 
-        'menuAdministrativo.btnAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlumno
-        'menuAdministrativo.btnIncidencias.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
+        menuAdministrativo.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
+        menuAdministrativo.btnRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.btnRegistro
+        menuAdministrativo.btnIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
         menuAdministrativo.btnInicio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInicio
         menuAdministrativo.btnCerrarSesion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion
 
+        menuAdminSistema.btnInscripcion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInscripcion
+        menuAdminSistema.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
+        menuAdminSistema.btnRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.btnRegistro
         menuAdminSistema.btnUsuarios.Text = sigesi.My.Resources.RecursoLenguajeENG.btnUsuario
         menuAdminSistema.btnMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateria
         menuAdminSistema.btnGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGrupo
-        'menuAdminSistema.btnIncidencias.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
+        menuAdminSistema.btnIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
         menuAdminSistema.btnMateriaGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateriaGrupo
         menuAdminSistema.btnEdificio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEdificio
         menuAdminSistema.btnInicio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInicio
         menuAdminSistema.btnCerrarSesion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion
 
+        menuAlumno.btnSolicitaBoletin.Text = sigesi.My.Resources.RecursoLenguajeENG.btnSolicitaBoletin
+        menuAlumno.btnSolicitarEscolaridad.Text = sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarEscolaridad
+        menuAlumno.btnSolicitarFichaAcumulativa.Text = sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarFichaAcumulativa
+        menuAlumno.btnPaseEgreso.Text = sigesi.My.Resources.RecursoLenguajeENG.btnPaseEgreso
+        menuAlumno.btnSolicitarFormula69.Text = sigesi.My.Resources.RecursoLenguajeENG.btnSolicitarFormula69
         menuAlumno.btnCerrarSesion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion
 
-        'menuBedel.btnGestionInformes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGestionInformes
-        'menuBedel.btnAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlumno
-        ' menuBedel.btnSalones.Text = sigesi.My.Resources.RecursoLenguajeENG.btnSalones
-        ' menuBedel.btnIncidencias.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
-        'menuBedel.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
-        ' menuBedel.btnGestionInformes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGestionInformes
+        menuBedel.btnInscripcion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInscripcion
+        menuBedel.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
+        menuBedel.btnRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.btnRegistro
+        menuBedel.btnUsuarios.Text = sigesi.My.Resources.RecursoLenguajeENG.btnUsuario
+        menuBedel.btnMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateria
+        menuBedel.btnGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGrupo
+        menuBedel.btnIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
+        menuBedel.btnMateriaGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateriaGrupo
+        menuBedel.btnEdificio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEdificio
         menuBedel.btnInicio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInicio
         menuBedel.btnCerrarSesion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion
 
-        'menuDirector.btnAlumno.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlumno
-        'menuDirector.btnIncidencias.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
+        menuDirector.btnInscripcion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInscripcion
         menuDirector.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
-        ' menuDirector.btnSalones.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
-        'menuDirector.btnGestionInformes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGestionInformes
+        menuDirector.btnRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.btnRegistro
+        menuDirector.btnUsuarios.Text = sigesi.My.Resources.RecursoLenguajeENG.btnUsuario
+        menuDirector.btnMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateria
+        menuDirector.btnGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGrupo
+        menuDirector.btnIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
+        menuDirector.btnMateriaGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateriaGrupo
+        menuDirector.btnEdificio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEdificio
         menuDirector.btnInicio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInicio
         menuDirector.btnCerrarSesion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion
 
-        'menuDocente.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
-        'menuDocente.btnIncidencias.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
+        menuDocente.btnRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.btnRegistro
+        menuDocente.btnIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias
         menuDocente.btnInicio.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInicio
         menuDocente.btnCerrarSesion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion
 

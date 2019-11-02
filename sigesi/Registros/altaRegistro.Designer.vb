@@ -26,7 +26,7 @@ Partial Class altaRegistro
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.gpbBuscarInscripciones = New System.Windows.Forms.GroupBox()
+        Me.gpbBuscarAlumno = New System.Windows.Forms.GroupBox()
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cboRol = New System.Windows.Forms.ComboBox()
@@ -44,7 +44,7 @@ Partial Class altaRegistro
         Me.lblObs = New System.Windows.Forms.Label()
         Me.cboTipoRegistro = New System.Windows.Forms.ComboBox()
         Me.lblTipoRegistro = New System.Windows.Forms.Label()
-        Me.gpbBuscarInscripciones.SuspendLayout()
+        Me.gpbBuscarAlumno.SuspendLayout()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -74,19 +74,19 @@ Partial Class altaRegistro
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.UseVisualStyleBackColor = False
         '
-        'gpbBuscarInscripciones
+        'gpbBuscarAlumno
         '
-        Me.gpbBuscarInscripciones.Controls.Add(Me.btnBuscar)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.Label1)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboRol)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboMateria)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.cboGrupo)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.lblGrupo)
-        Me.gpbBuscarInscripciones.Controls.Add(Me.lblMateria)
-        resources.ApplyResources(Me.gpbBuscarInscripciones, "gpbBuscarInscripciones")
-        Me.gpbBuscarInscripciones.ForeColor = System.Drawing.Color.White
-        Me.gpbBuscarInscripciones.Name = "gpbBuscarInscripciones"
-        Me.gpbBuscarInscripciones.TabStop = False
+        Me.gpbBuscarAlumno.Controls.Add(Me.btnBuscar)
+        Me.gpbBuscarAlumno.Controls.Add(Me.Label1)
+        Me.gpbBuscarAlumno.Controls.Add(Me.cboRol)
+        Me.gpbBuscarAlumno.Controls.Add(Me.cboMateria)
+        Me.gpbBuscarAlumno.Controls.Add(Me.cboGrupo)
+        Me.gpbBuscarAlumno.Controls.Add(Me.lblGrupo)
+        Me.gpbBuscarAlumno.Controls.Add(Me.lblMateria)
+        resources.ApplyResources(Me.gpbBuscarAlumno, "gpbBuscarAlumno")
+        Me.gpbBuscarAlumno.ForeColor = System.Drawing.Color.White
+        Me.gpbBuscarAlumno.Name = "gpbBuscarAlumno"
+        Me.gpbBuscarAlumno.TabStop = False
         '
         'btnBuscar
         '
@@ -183,6 +183,7 @@ Partial Class altaRegistro
         '
         resources.ApplyResources(Me.txtObservacion, "txtObservacion")
         Me.txtObservacion.Name = "txtObservacion"
+        Me.txtObservacion.Text = Global.sigesi.My.Resources.RecursoLenguajeENG.lblDesc
         '
         'lblObs
         '
@@ -220,7 +221,7 @@ Partial Class altaRegistro
         Me.Controls.Add(Me.DateTimeFecha)
         Me.Controls.Add(Me.lbValor)
         Me.Controls.Add(Me.txtValor)
-        Me.Controls.Add(Me.gpbBuscarInscripciones)
+        Me.Controls.Add(Me.gpbBuscarAlumno)
         Me.Controls.Add(Me.lblListaAlumnos)
         Me.Controls.Add(Me.dgvListarAlumnos)
         Me.Controls.Add(Me.btnSalir)
@@ -229,8 +230,8 @@ Partial Class altaRegistro
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "altaRegistro"
         Me.TopMost = True
-        Me.gpbBuscarInscripciones.ResumeLayout(False)
-        Me.gpbBuscarInscripciones.PerformLayout()
+        Me.gpbBuscarAlumno.ResumeLayout(False)
+        Me.gpbBuscarAlumno.PerformLayout()
         CType(Me.dgvListarAlumnos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -239,7 +240,7 @@ Partial Class altaRegistro
     Friend WithEvents lblTitulo As System.Windows.Forms.Label
     Friend WithEvents btnSalir As System.Windows.Forms.Button
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
-    Friend WithEvents gpbBuscarInscripciones As System.Windows.Forms.GroupBox
+    Friend WithEvents gpbBuscarAlumno As System.Windows.Forms.GroupBox
     Friend WithEvents cboGrupo As System.Windows.Forms.ComboBox
     Friend WithEvents lblGrupo As System.Windows.Forms.Label
     Friend WithEvents lblMateria As System.Windows.Forms.Label
