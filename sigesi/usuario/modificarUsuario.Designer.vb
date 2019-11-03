@@ -32,13 +32,11 @@ Partial Class modificarUsuario
         Me.txtPwd = New System.Windows.Forms.TextBox()
         Me.lblApe = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
-        Me.lblCi = New System.Windows.Forms.Label()
         Me.lblTel = New System.Windows.Forms.Label()
         Me.cboRoll = New System.Windows.Forms.ComboBox()
         Me.lblRoll = New System.Windows.Forms.Label()
         Me.btnModificar = New System.Windows.Forms.Button()
         Me.txtApe = New System.Windows.Forms.TextBox()
-        Me.txtCi = New System.Windows.Forms.TextBox()
         Me.lblPwd = New System.Windows.Forms.Label()
         Me.dgvModificarUsu = New System.Windows.Forms.DataGridView()
         Me.btnSalir = New System.Windows.Forms.Button()
@@ -150,18 +148,6 @@ Partial Class modificarUsuario
         Me.lblNom.TabIndex = 32
         Me.lblNom.Text = "Primer Nombre"
         '
-        'lblCi
-        '
-        Me.lblCi.AutoSize = True
-        Me.lblCi.BackColor = System.Drawing.Color.Transparent
-        Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCi.ForeColor = System.Drawing.Color.Black
-        Me.lblCi.Location = New System.Drawing.Point(108, 211)
-        Me.lblCi.Name = "lblCi"
-        Me.lblCi.Size = New System.Drawing.Size(34, 18)
-        Me.lblCi.TabIndex = 31
-        Me.lblCi.Text = "C.I."
-        '
         'lblTel
         '
         Me.lblTel.AutoSize = True
@@ -214,14 +200,6 @@ Partial Class modificarUsuario
         Me.txtApe.Name = "txtApe"
         Me.txtApe.Size = New System.Drawing.Size(127, 20)
         Me.txtApe.TabIndex = 3
-        '
-        'txtCi
-        '
-        Me.txtCi.Location = New System.Drawing.Point(223, 208)
-        Me.txtCi.MaxLength = 8
-        Me.txtCi.Name = "txtCi"
-        Me.txtCi.Size = New System.Drawing.Size(127, 20)
-        Me.txtCi.TabIndex = 0
         '
         'lblPwd
         '
@@ -324,13 +302,11 @@ Partial Class modificarUsuario
         Me.Controls.Add(Me.txtPwd)
         Me.Controls.Add(Me.lblApe)
         Me.Controls.Add(Me.lblNom)
-        Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.lblTel)
         Me.Controls.Add(Me.cboRoll)
         Me.Controls.Add(Me.lblRoll)
         Me.Controls.Add(Me.btnModificar)
         Me.Controls.Add(Me.txtApe)
-        Me.Controls.Add(Me.txtCi)
         Me.Controls.Add(Me.lblPwd)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "modificarUsuario"
@@ -353,13 +329,11 @@ Partial Class modificarUsuario
     Friend WithEvents txtPwd As System.Windows.Forms.TextBox
     Friend WithEvents lblApe As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
-    Friend WithEvents lblCi As System.Windows.Forms.Label
     Friend WithEvents lblTel As System.Windows.Forms.Label
     Friend WithEvents cboRoll As System.Windows.Forms.ComboBox
     Friend WithEvents lblRoll As System.Windows.Forms.Label
     Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents txtApe As System.Windows.Forms.TextBox
-    Friend WithEvents txtCi As System.Windows.Forms.TextBox
     Friend WithEvents lblPwd As System.Windows.Forms.Label
     Friend WithEvents dgvModificarUsu As System.Windows.Forms.DataGridView
     Friend WithEvents lblAyuda As System.Windows.Forms.Label

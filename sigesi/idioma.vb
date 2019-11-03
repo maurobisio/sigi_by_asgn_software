@@ -155,7 +155,7 @@
 
         modificarUsuario.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarUsuario
         modificarUsuario.lblAyuda.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarUsuario
-        modificarUsuario.lblCi.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCi
+        'modificarUsuario.lblCi.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCi
         modificarUsuario.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         modificarUsuario.lblNom1.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom1
         modificarUsuario.lblApe.Text = sigesi.My.Resources.RecursoLenguajeENG.lblApe
@@ -264,7 +264,6 @@
         menuBedel.btnInscripcion.Text = sigesi.My.Resources.RecursoLenguajeENG.btnInscripcion
         menuBedel.btnReportes.Text = sigesi.My.Resources.RecursoLenguajeENG.btnReportes
         menuBedel.btnRegistro.Text = sigesi.My.Resources.RecursoLenguajeENG.btnRegistro
-        menuBedel.btnUsuarios.Text = sigesi.My.Resources.RecursoLenguajeENG.btnUsuario
         menuBedel.btnMateria.Text = sigesi.My.Resources.RecursoLenguajeENG.btnMateria
         menuBedel.btnGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnGrupo
         menuBedel.btnIncidencia.Text = sigesi.My.Resources.RecursoLenguajeENG.btnIncidencias

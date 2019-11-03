@@ -109,7 +109,7 @@
         abrirFormPanel(listarRegistro)
     End Sub
 
-    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(listarUsuarios)
     End Sub
 

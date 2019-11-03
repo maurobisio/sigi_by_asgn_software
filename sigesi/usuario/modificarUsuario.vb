@@ -1,7 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class modificarUsuario
-
+    Private ci As String
     Private Sub dgvModificarUsu_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         loadGrid()
     End Sub
@@ -44,7 +44,7 @@ Public Class modificarUsuario
     Private Sub dgvModificarUsu_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvModificarUsu.CellClick
         Dim i As Integer
         i = dgvModificarUsu.CurrentRow.Index
-        txtCi.Text = dgvModificarUsu.Item(0, i).Value()
+        ci = dgvModificarUsu.Item(0, i).Value()
         txtApe.Text = dgvModificarUsu.Item(3, i).Value()
         txtNom.Text = dgvModificarUsu.Item(1, i).Value()
         txtNom1.Text = dgvModificarUsu.Item(2, i).Value()
@@ -55,7 +55,7 @@ Public Class modificarUsuario
     End Sub
 
     Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
-        If txtApe.Text = "" Or txtCi.Text = "" Or txtDir.Text = "" Or txtEmail.Text = "" Or txtNom.Text = "" Or txtPwd.Text = "" Or txtTel.Text = "" Or txtNom1.Text = "" Or cboRoll.Text = "" Then
+        If txtApe.Text = "" Or txtDir.Text = "" Or txtEmail.Text = "" Or txtNom.Text = "" Or txtPwd.Text = "" Or txtTel.Text = "" Or txtNom1.Text = "" Or cboRoll.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -86,7 +86,7 @@ Public Class modificarUsuario
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "UPDATE usuario SET "
-                command += "ci='" + txtCi.Text
+                command += "ci='" + ci
                 command += "', primer_nombre='" + txtNom.Text
                 command += "', segundo_nombre='" + txtNom1.Text
                 command += "', apellido='" + txtApe.Text
@@ -94,7 +94,7 @@ Public Class modificarUsuario
                 command += "', email='" + txtEmail.Text
                 command += "', pass='" + txtPwd.Text
                 command += "', id_rol='" + rol
-                command += "' WHERE ci='" + txtCi.Text + "';"
+                command += "' WHERE ci='" + ci + "';"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
@@ -127,7 +127,7 @@ Public Class modificarUsuario
         Call LimpiarForm(Me)
     End Sub
 
-    Private Sub txtCi_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtCi.KeyPress
+    Private Sub txtCi_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
         ' valido numeros (hay que ir al evento key press y dentro del :)
         If Char.IsNumber(e.KeyChar) Then
             e.Handled = False
@@ -177,7 +177,7 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub txtCi_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtCi.TextChanged
+    Private Sub txtCi_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
@@ -201,7 +201,7 @@ Public Class modificarUsuario
 
     End Sub
 
-    Private Sub lbl1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblCi.Click
+    Private Sub lbl1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 

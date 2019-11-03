@@ -45,7 +45,6 @@ Partial Class menuBedel
         Me.PctMenu = New System.Windows.Forms.PictureBox()
         Me.picAsgn = New System.Windows.Forms.PictureBox()
         Me.btnCerrarSesion = New System.Windows.Forms.Button()
-        Me.btnUsuarios = New System.Windows.Forms.Button()
         Me.pnlArriba.SuspendLayout()
         CType(Me.picIsgesi, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlIzquierda.SuspendLayout()
@@ -136,7 +135,6 @@ Partial Class menuBedel
         Me.pnlIzquierda.Controls.Add(Me.btnGrupo)
         Me.pnlIzquierda.Controls.Add(Me.btnMateria)
         Me.pnlIzquierda.Controls.Add(Me.btnInicio)
-        Me.pnlIzquierda.Controls.Add(Me.btnUsuarios)
         Me.pnlIzquierda.Controls.Add(Me.PctMenu)
         Me.pnlIzquierda.Controls.Add(Me.picAsgn)
         Me.pnlIzquierda.Controls.Add(Me.btnCerrarSesion)
@@ -341,23 +339,6 @@ Partial Class menuBedel
         Me.btnCerrarSesion.Text = "         Cerrar sesíon"
         Me.btnCerrarSesion.UseVisualStyleBackColor = True
         '
-        'btnUsuarios
-        '
-        Me.btnUsuarios.FlatAppearance.BorderSize = 0
-        Me.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUsuarios.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUsuarios.ForeColor = System.Drawing.Color.White
-        Me.btnUsuarios.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUsuarios.Location = New System.Drawing.Point(-1, 49)
-        Me.btnUsuarios.Name = "btnUsuarios"
-        Me.btnUsuarios.Size = New System.Drawing.Size(218, 54)
-        Me.btnUsuarios.TabIndex = 48
-        Me.btnUsuarios.Text = "     Usuarios"
-        Me.btnUsuarios.UseVisualStyleBackColor = True
-        '
         'menuBedel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -400,5 +381,4 @@ Partial Class menuBedel
     Friend WithEvents btnGrupo As System.Windows.Forms.Button
     Friend WithEvents btnMateria As System.Windows.Forms.Button
     Friend WithEvents btnInicio As System.Windows.Forms.Button
-    Friend WithEvents btnUsuarios As System.Windows.Forms.Button
 End Class

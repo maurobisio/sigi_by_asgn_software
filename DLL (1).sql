@@ -176,11 +176,31 @@ INSERT INTO materia (id_materia, nom_materia, año)
 VALUES ('4','Base de Datos', '2019');
 
 INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('0','Central');
+VALUES ('0','Dirección');
 INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('1','Anexo 1');
+VALUES ('1','Aulas');
 INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Anexo 2');
+VALUES ('2','Laboratorios');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Sub Dirección');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Adscripción');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Administración');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Cordinación de Informatica');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Biblioteca');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Salas de profesores');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Salas de servidores');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Cantina');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Patio');
+INSERT INTO edificio (id_edificio, tipo_edificio) 
+VALUES ('2','Corredores');
 
 INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
 VALUES ('0','3ro HI', 'Matutino', '0');
@@ -229,7 +249,7 @@ VALUES ('Revalida');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Suspención');
 INSERT INTO tipo_incidencia (nom_tipo)
-VALUES ('Observacionerols');
+VALUES ('Observaciones');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Califiaciónes bajas');
 INSERT INTO tipo_incidencia (nom_tipo)
@@ -242,9 +262,6 @@ INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Pase Egreso');
 INSERT INTO tipo_incidencia (nom_tipo)
 VALUES ('Ficha Acumulativa');
-INSERT INTO tipo_incidencia (nom_tipo)
-VALUES ('Diploma');
-
 
 
 INSERT INTO registro(id_pertenece, id_tipo_registro,valor, observacion, fecha)
