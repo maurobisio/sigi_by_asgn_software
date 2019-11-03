@@ -202,19 +202,19 @@ VALUES ('1','2');
 
 
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('1','1','0');
+VALUES ('49508304','1','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('2','1','0');
+VALUES ('33288615','1','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('3','1','0');
+VALUES ('14869143','1','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('4','1','0');
+VALUES ('10749389','1','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('5','1','0');
+VALUES ('49348459','1','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('5','2','0');
+VALUES ('49348459','2','0');
 INSERT INTO pertenece (ci, id_tiene, nro_lista)
-VALUES ('5','3','0');
+VALUES ('49348459','3','0');
 
 
 INSERT INTO tipo_registro (nom_registro)
@@ -276,12 +276,12 @@ VALUES ('7','3', '7','Calificación Final','2019-10-31 10:12:00');
 
 
 INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
-VALUES ('5','1', '1','Suspencion','2019-10-31 10:12:00');
+VALUES ('49348459','49508304', '1','Suspencion','2019-10-31 10:12:00');
 INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
-VALUES ('5','2', '1','Suspencion','2019-10-31 10:12:00');
+VALUES ('49348459','33288615', '1','Suspencion','2019-10-31 10:12:00');
 INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
-VALUES ('5','3', '1','Suspencion','2019-10-31 10:12:00');
+VALUES ('49348459','14869143', '1','Suspencion','2019-10-31 10:12:00');
 INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha)
-VALUES ('5','4', '1','Suspencion','2019-10-31 10:12:00');
+VALUES ('49348459','10749389', '1','Suspencion','2019-10-31 10:12:00');
 
 
