@@ -92,7 +92,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Students attending more than one group.
         '''</summary>
         Friend Shared ReadOnly Property btnAlumnosMasUnGrupo() As String
             Get
@@ -119,7 +119,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Bulletin.
         '''</summary>
         Friend Shared ReadOnly Property btnBoletin() As String
             Get
@@ -146,7 +146,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Number of students per group.
         '''</summary>
         Friend Shared ReadOnly Property btnCantidadAlumnosGrupo() As String
             Get
@@ -164,7 +164,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Teachers dictating a single subject.
         '''</summary>
         Friend Shared ReadOnly Property btnDocentesDictandoUna() As String
             Get
@@ -200,7 +200,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Scholarship.
         '''</summary>
         Friend Shared ReadOnly Property btnEscolaridad() As String
             Get
@@ -254,7 +254,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to List the institute groups.
         '''</summary>
         Friend Shared ReadOnly Property btnListarLosGrupos() As String
             Get
@@ -362,7 +362,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Type and number of incidents year 2019.
         '''</summary>
         Friend Shared ReadOnly Property btnTipoYCantidadInsc() As String
             Get
@@ -371,7 +371,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Top 10 students with more absences.
         '''</summary>
         Friend Shared ReadOnly Property btnTop10MasFaltas() As String
             Get
@@ -380,7 +380,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to 50 students with better grades.
         '''</summary>
         Friend Shared ReadOnly Property btnTop50MejoresNotas() As String
             Get

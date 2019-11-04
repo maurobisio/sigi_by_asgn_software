@@ -385,30 +385,30 @@
     <value>Value</value>
   </data>
   <data name="btnAlumnosMasUnGrupo" xml:space="preserve">
-    <value />
+    <value>Students attending more than one group</value>
   </data>
   <data name="btnBoletin" xml:space="preserve">
-    <value />
+    <value>Bulletin</value>
   </data>
   <data name="btnCantidadAlumnosGrupo" xml:space="preserve">
-    <value />
+    <value>Number of students per group</value>
   </data>
   <data name="btnDocentesDictandoUna" xml:space="preserve">
-    <value />
+    <value>Teachers dictating a single subject</value>
   </data>
   <data name="btnEscolaridad" xml:space="preserve">
-    <value />
+    <value>Scholarship</value>
   </data>
   <data name="btnListarLosGrupos" xml:space="preserve">
-    <value />
+    <value>List the institute groups</value>
   </data>
   <data name="btnTipoYCantidadInsc" xml:space="preserve">
-    <value />
+    <value>Type and number of incidents year 2019</value>
   </data>
   <data name="btnTop10MasFaltas" xml:space="preserve">
-    <value />
+    <value>Top 10 students with more absences</value>
   </data>
   <data name="btnTop50MejoresNotas" xml:space="preserve">
-    <value />
+    <value>50 students with better grades</value>
   </data>
 </root>

@@ -727,7 +727,7 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAlumnosMasUnGrupo">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Students attending more than one group.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnAtras">
 	<summary>
@@ -739,7 +739,7 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBoletin">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Bulletin.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnBuscar">
 	<summary>
@@ -751,7 +751,7 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnCantidadAlumnosGrupo">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Number of students per group.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnCerrarSesion">
 	<summary>
@@ -759,7 +759,7 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnDocentesDictandoUna">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Teachers dictating a single subject.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEdificio">
 	<summary>
@@ -775,7 +775,7 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnEscolaridad">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Scholarship.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnGestionInformes">
 	<summary>
@@ -799,7 +799,7 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnListarLosGrupos">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to List the institute groups.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnMateria">
 	<summary>
@@ -847,15 +847,15 @@ sigesi
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnTipoYCantidadInsc">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Type and number of incidents year 2019.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnTop10MasFaltas">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Top 10 students with more absences.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnTop50MejoresNotas">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to 50 students with better grades.
 </summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.btnUsuario">
 	<summary>

@@ -105,7 +105,7 @@
     End Sub
 
     Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
-        abrirFormPanel(New reporte)
+        abrirFormPanel(reporte)
     End Sub
 
     Private Sub btnCerrarSesion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click

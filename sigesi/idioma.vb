@@ -205,6 +205,7 @@
         altaRegistro.lblListaAlumnos.Text = sigesi.My.Resources.RecursoLenguajeENG.lblListaAlumnos
         altaRegistro.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
+
         reporte.btnListarLosGrupos.Text = sigesi.My.Resources.RecursoLenguajeENG.btnListarLosGrupos
         reporte.btnCantidadAlumnosGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCantidadAlumnosGrupo
         reporte.btnAlumnosMasUnGrupo.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlumnosMasUnGrupo
