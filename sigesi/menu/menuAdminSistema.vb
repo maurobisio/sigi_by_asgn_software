@@ -1,4 +1,7 @@
 ﻿Public Class menuAdminSistema
+
+    Shared Property ci As Object
+
     Public Sub abrirFormPanel(ByVal formHijo As Object)
         'creo metodo para abrir formularios dentro d el panel central
         ' valido q si tiene objetos dentro, q los remueva

@@ -2,13 +2,18 @@
 Imports System.Text.RegularExpressions
 
 Public Class altaUsuario
+    Shared Property rol As Object
 
     Private Sub formHijo_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
+        If rol = 2 Or rol = 3 Then
+            cboRol.Items.Clear()
+            cboRol.Items.Add("Alumno/a")
+            cboRol.SelectedIndex = 0
+        End If
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtApe.Text = "" Or txtCi.Text = "" Or txtDir.Text = "" Or txtEmail.Text = "" Or txtNom1.Text = "" Or cboRoll.Text = "" Or txtNom.Text = "" Or txtPwd.Text = "" Or txtTel.Text = "" Then
+        If txtApe.Text = "" Or txtCi.Text = "" Or txtDir.Text = "" Or txtEmail.Text = "" Or txtNom1.Text = "" Or cboRol.Text = "" Or txtNom.Text = "" Or txtPwd.Text = "" Or txtTel.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             If validate_ci(txtCi.Text) Then
@@ -22,7 +27,7 @@ Public Class altaUsuario
                 'Recupera datos del proceedor(SELECT * FROM ...)
                 Dim command As String
                 Dim rol As String = ""
-                Select Case cboRoll.Text
+                Select Case cboRol.Text
                     Case "Administrador de sistema"
                         rol = "0"
                     Case "Director/a"
@@ -99,7 +104,7 @@ Public Class altaUsuario
                 MsgBox("La cedula de identidad es invalida")
             End If
 
-            End If
+        End If
     End Sub
 
 
@@ -190,7 +195,7 @@ Public Class altaUsuario
 
     End Sub
 
-    Private Sub cboRoll_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cboRoll.KeyPress
+    Private Sub cboRoll_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cboRol.KeyPress
         e.Handled = True
     End Sub
 

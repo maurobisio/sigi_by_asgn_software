@@ -1,6 +1,6 @@
 ﻿Public Class menuAdministrativo
 
-    Shared Property ci As Object
+    Shared Property rol As Object
 
     Private Sub tmrOcultarMenu_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tmrOcultarMenu.Tick
         'hago 2 timer para que agrande o achique el panel izquierdo
@@ -98,6 +98,7 @@
 
 
     Private Sub btnUsuarios_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        listarUsuarios.rol = rol
         abrirFormPanel(listarUsuarios)
     End Sub
 End Class

@@ -28,7 +28,7 @@ Partial Class altaUsuario
         Me.txtApe = New System.Windows.Forms.TextBox()
         Me.btnAgregar = New System.Windows.Forms.Button()
         Me.lblRoll = New System.Windows.Forms.Label()
-        Me.cboRoll = New System.Windows.Forms.ComboBox()
+        Me.cboRol = New System.Windows.Forms.ComboBox()
         Me.lblTel = New System.Windows.Forms.Label()
         Me.lblCi = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
@@ -78,12 +78,12 @@ Partial Class altaUsuario
         Me.lblRoll.ForeColor = System.Drawing.Color.Black
         Me.lblRoll.Name = "lblRoll"
         '
-        'cboRoll
+        'cboRol
         '
-        Me.cboRoll.FormattingEnabled = True
-        Me.cboRoll.Items.AddRange(New Object() {resources.GetString("cboRoll.Items"), resources.GetString("cboRoll.Items1"), resources.GetString("cboRoll.Items2"), resources.GetString("cboRoll.Items3"), resources.GetString("cboRoll.Items4"), resources.GetString("cboRoll.Items5")})
-        resources.ApplyResources(Me.cboRoll, "cboRoll")
-        Me.cboRoll.Name = "cboRoll"
+        Me.cboRol.FormattingEnabled = True
+        Me.cboRol.Items.AddRange(New Object() {resources.GetString("cboRol.Items"), resources.GetString("cboRol.Items1"), resources.GetString("cboRol.Items2"), resources.GetString("cboRol.Items3"), resources.GetString("cboRol.Items4"), resources.GetString("cboRol.Items5")})
+        resources.ApplyResources(Me.cboRol, "cboRol")
+        Me.cboRol.Name = "cboRol"
         '
         'lblTel
         '
@@ -203,7 +203,7 @@ Partial Class altaUsuario
         Me.Controls.Add(Me.lblNom)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.lblTel)
-        Me.Controls.Add(Me.cboRoll)
+        Me.Controls.Add(Me.cboRol)
         Me.Controls.Add(Me.lblRoll)
         Me.Controls.Add(Me.btnAgregar)
         Me.Controls.Add(Me.txtApe)
@@ -221,7 +221,7 @@ Partial Class altaUsuario
     Friend WithEvents txtApe As System.Windows.Forms.TextBox
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
     Friend WithEvents lblRoll As System.Windows.Forms.Label
-    Friend WithEvents cboRoll As System.Windows.Forms.ComboBox
+    Friend WithEvents cboRol As System.Windows.Forms.ComboBox
     Friend WithEvents lblTel As System.Windows.Forms.Label
     Friend WithEvents lblCi As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label

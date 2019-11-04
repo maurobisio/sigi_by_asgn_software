@@ -1,6 +1,6 @@
 ﻿Public Class menuBedel
 
-    Shared Property ci As Object
+    Shared Property rol As Object
 
    
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -129,6 +129,7 @@
     End Sub
 
     Private Sub btnUsuarios_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        listarUsuarios.rol = rol
         abrirFormPanel(listarUsuarios)
     End Sub
 End Class

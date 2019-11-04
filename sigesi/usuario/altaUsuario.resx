@@ -264,43 +264,43 @@
   <data name="&gt;&gt;lblRoll.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cboRoll.Items" xml:space="preserve">
+  <data name="cboRol.Items" xml:space="preserve">
     <value>Administrador de sistema</value>
   </data>
-  <data name="cboRoll.Items1" xml:space="preserve">
+  <data name="cboRol.Items1" xml:space="preserve">
     <value>Director/a</value>
   </data>
-  <data name="cboRoll.Items2" xml:space="preserve">
+  <data name="cboRol.Items2" xml:space="preserve">
     <value>Bedel</value>
   </data>
-  <data name="cboRoll.Items3" xml:space="preserve">
+  <data name="cboRol.Items3" xml:space="preserve">
     <value>Administrativo/a</value>
   </data>
-  <data name="cboRoll.Items4" xml:space="preserve">
+  <data name="cboRol.Items4" xml:space="preserve">
     <value>Docente</value>
   </data>
-  <data name="cboRoll.Items5" xml:space="preserve">
+  <data name="cboRol.Items5" xml:space="preserve">
     <value>Alumno/a</value>
   </data>
-  <data name="cboRoll.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cboRol.Location" type="System.Drawing.Point, System.Drawing">
     <value>141, 338</value>
   </data>
-  <data name="cboRoll.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="cboRol.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 21</value>
   </data>
-  <data name="cboRoll.TabIndex" type="System.Int32, mscorlib">
+  <data name="cboRol.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;cboRoll.Name" xml:space="preserve">
-    <value>cboRoll</value>
+  <data name="&gt;&gt;cboRol.Name" xml:space="preserve">
+    <value>cboRol</value>
   </data>
-  <data name="&gt;&gt;cboRoll.Type" xml:space="preserve">
+  <data name="&gt;&gt;cboRol.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cboRoll.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cboRol.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;cboRoll.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cboRol.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
   <data name="lblTel.AutoSize" type="System.Boolean, mscorlib">
