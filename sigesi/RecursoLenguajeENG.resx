@@ -411,4 +411,10 @@
   <data name="btnTop50MejoresNotas" xml:space="preserve">
     <value>50 students with better grades</value>
   </data>
+  <data name="lblFechaDesde" xml:space="preserve">
+    <value>Date from</value>
+  </data>
+  <data name="lblFechaHasta" xml:space="preserve">
+    <value>Date up</value>
+  </data>
 </root>

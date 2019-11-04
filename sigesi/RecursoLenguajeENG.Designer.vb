@@ -614,6 +614,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Date from.
+        '''</summary>
+        Friend Shared ReadOnly Property lblFechaDesde() As String
+            Get
+                Return ResourceManager.GetString("lblFechaDesde", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Date up.
+        '''</summary>
+        Friend Shared ReadOnly Property lblFechaHasta() As String
+            Get
+                Return ResourceManager.GetString("lblFechaHasta", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Group.
         '''</summary>
         Friend Shared ReadOnly Property lblGrupo() As String

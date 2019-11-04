@@ -216,6 +216,12 @@
         reporte.btnBoletin.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBoletin
         reporte.btnEscolaridad.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEscolaridad
 
+        boletin.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+        boletin.lblFechaDesde.Text = sigesi.My.Resources.RecursoLenguajeENG.lblFechaDesde
+        boletin.lblFechaHasta.Text = sigesi.My.Resources.RecursoLenguajeENG.lblFechaHasta
+
+        escolaridad.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
+
         homeAdministrativo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdministrativo
         homeAdminSIstema.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeAdminSistema
         homeBedel.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloHomeBedel

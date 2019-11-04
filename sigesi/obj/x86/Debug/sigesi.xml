@@ -957,6 +957,14 @@ sigesi
 	<summary>
   Looks up a localized string similar to Date.
 </summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblFechaDesde">
+	<summary>
+  Looks up a localized string similar to Date from.
+</summary>
+</member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblFechaHasta">
+	<summary>
+  Looks up a localized string similar to Date up.
+</summary>
 </member><member name="P:sigesi.My.Resources.RecursoLenguajeENG.lblGrupo">
 	<summary>
   Looks up a localized string similar to Group.

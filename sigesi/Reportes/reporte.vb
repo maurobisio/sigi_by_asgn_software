@@ -12,7 +12,7 @@ Public Class reporte
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnListarLosGrupos.Click
-        menuAdminSistema.abrirFormPanel(New listarGrupo)
+        menuAdminSistema.abrirFormPanel(listarGrupo)
     End Sub
 
     Private Sub btnTipoYCantidadInsc_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTipoYCantidadInsc.Click
@@ -32,10 +32,10 @@ Public Class reporte
     End Sub
 
     Private Sub btnBoletin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBoletin.Click
-        menuAdminSistema.abrirFormPanel(New boletin)
+        menuAdminSistema.abrirFormPanel(boletin)
     End Sub
 
     Private Sub btnEscolaridad_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEscolaridad.Click
-        menuAdminSistema.abrirFormPanel(New escolaridad)
+        menuAdminSistema.abrirFormPanel(escolaridad)
     End Sub
 End Class
