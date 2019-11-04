@@ -51,44 +51,34 @@
         listarInscripcion.btnBuscar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBuscar
 
         altaEdificio.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaEdificio
-        altaEdificio.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        'altaEdificio.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         altaEdificio.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         altaEdificio.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAgregar
-
-        bajaEdificio.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaEdificio
-        bajaEdificio.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
-        bajaEdificio.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
-        bajaEdificio.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
 
         listarEdificio.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
         listarEdificio.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
         listarEdificio.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
 
         modificarEdificio.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarEdificio
-        modificarEdificio.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        'modificarEdificio.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         modificarEdificio.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         modificarEdificio.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
         modificarEdificio.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
         modificarEdificio.lblAyuda.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarEdificio
 
         altaGrupo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaGrupo
-        altaGrupo.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        'altaGrupo.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         altaGrupo.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         altaGrupo.lblTurno.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTurno
         altaGrupo.lblEdificio.Text = sigesi.My.Resources.RecursoLenguajeENG.lblEdificio
         altaGrupo.btnAgregar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAgregar
-
-        bajaGrupo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaGrupo
-        bajaGrupo.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
-        bajaGrupo.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
-        bajaGrupo.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
 
         listarGrupo.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
         listarGrupo.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
         listarGrupo.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
 
         modificarGrupo.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarGrupo
-        modificarGrupo.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        'modificarGrupo.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         modificarGrupo.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         modificarGrupo.lblTurno.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTurno
         modificarGrupo.lblEdificio.Text = sigesi.My.Resources.RecursoLenguajeENG.lblEdificio
@@ -97,21 +87,16 @@
         modificarGrupo.lblAyuda.Text = sigesi.My.Resources.RecursoLenguajeENG.lblAyudaModificarGrupo
 
         altaMateria.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloAltaGrupo
-        altaMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        'altaMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         altaMateria.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         altaMateria.lblYear.Text = sigesi.My.Resources.RecursoLenguajeENG.lblYear
-
-        bajaMateria.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloBajaGrupo
-        bajaMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
-        bajaMateria.btnCancelar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnCancelar
-        bajaMateria.btnEliminar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnEliminar
 
         listarMateria.btnAlta.Text = sigesi.My.Resources.RecursoLenguajeENG.btnAlta
         listarMateria.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar
         listarMateria.btnBaja.Text = sigesi.My.Resources.RecursoLenguajeENG.btnBaja
 
         modificarMateria.lblTitulo.Text = sigesi.My.Resources.RecursoLenguajeENG.lblTituloModificarGrupo
-        modificarMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
+        'modificarMateria.lblCod.Text = sigesi.My.Resources.RecursoLenguajeENG.lblCod
         modificarMateria.lblNom.Text = sigesi.My.Resources.RecursoLenguajeENG.lblNom
         modificarMateria.lblYear.Text = sigesi.My.Resources.RecursoLenguajeENG.lblYear
         modificarMateria.btnModificar.Text = sigesi.My.Resources.RecursoLenguajeENG.btnModificar

@@ -26,6 +26,7 @@ Partial Class menuDirector
         Me.tmrMostrarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.tmrOcultarMenu = New System.Windows.Forms.Timer(Me.components)
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
+        Me.btnUsuarios = New System.Windows.Forms.Button()
         Me.btnRegistro = New System.Windows.Forms.Button()
         Me.btnIncidencia = New System.Windows.Forms.Button()
         Me.btnReportes = New System.Windows.Forms.Button()
@@ -43,7 +44,6 @@ Partial Class menuDirector
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.pic1 = New System.Windows.Forms.PictureBox()
         Me.pnlCentral = New System.Windows.Forms.Panel()
-        Me.btnUsuarios = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picAsgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -79,6 +79,23 @@ Partial Class menuDirector
         Me.pnlIzquierda.Name = "pnlIzquierda"
         Me.pnlIzquierda.Size = New System.Drawing.Size(214, 681)
         Me.pnlIzquierda.TabIndex = 7
+        '
+        'btnUsuarios
+        '
+        Me.btnUsuarios.FlatAppearance.BorderSize = 0
+        Me.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUsuarios.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUsuarios.ForeColor = System.Drawing.Color.White
+        Me.btnUsuarios.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
+        Me.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnUsuarios.Location = New System.Drawing.Point(-1, 51)
+        Me.btnUsuarios.Name = "btnUsuarios"
+        Me.btnUsuarios.Size = New System.Drawing.Size(218, 54)
+        Me.btnUsuarios.TabIndex = 49
+        Me.btnUsuarios.Text = "     Usuarios"
+        Me.btnUsuarios.UseVisualStyleBackColor = True
         '
         'btnRegistro
         '
@@ -333,23 +350,6 @@ Partial Class menuDirector
         Me.pnlCentral.Name = "pnlCentral"
         Me.pnlCentral.Size = New System.Drawing.Size(735, 610)
         Me.pnlCentral.TabIndex = 11
-        '
-        'btnUsuarios
-        '
-        Me.btnUsuarios.FlatAppearance.BorderSize = 0
-        Me.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUsuarios.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUsuarios.ForeColor = System.Drawing.Color.White
-        Me.btnUsuarios.Image = Global.sigesi.My.Resources.Resources.ICONO_USUARIOS_50X50
-        Me.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUsuarios.Location = New System.Drawing.Point(-1, 51)
-        Me.btnUsuarios.Name = "btnUsuarios"
-        Me.btnUsuarios.Size = New System.Drawing.Size(218, 54)
-        Me.btnUsuarios.TabIndex = 49
-        Me.btnUsuarios.Text = "     Usuarios"
-        Me.btnUsuarios.UseVisualStyleBackColor = True
         '
         'menuDirector
         '

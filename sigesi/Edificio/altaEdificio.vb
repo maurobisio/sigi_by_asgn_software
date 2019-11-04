@@ -3,7 +3,7 @@
 Public Class altaEdificio
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCod.Text = "" Or txtNom.Text = "" Then
+        If txtNom.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -17,9 +17,8 @@ Public Class altaEdificio
 
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                command = "INSERT INTO edificio (id_edificio, tipo_edificio) "
-                command += "VALUES ('" + txtCod.Text
-                command += "', '" + txtNom.Text
+                command = "INSERT INTO edificio (tipo_edificio) "
+                command += "VALUES ('" + txtNom.Text
                 command += "');"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -48,7 +47,7 @@ Public Class altaEdificio
 
     End Sub
 
-    Private Sub txtCod_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtCod.KeyPress
+    Private Sub txtCod_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
         ' valido numeros (hay que ir al evento key press y dentro del :)
         If Char.IsNumber(e.KeyChar) Then
             e.Handled = False

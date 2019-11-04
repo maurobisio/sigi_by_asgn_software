@@ -34,8 +34,6 @@ Partial Class modificarGrupo
         Me.txtNom1 = New System.Windows.Forms.TextBox()
         Me.lblEdificio = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
-        Me.lblCod = New System.Windows.Forms.Label()
-        Me.txtCod = New System.Windows.Forms.TextBox()
         CType(Me.dgvModificarGru, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -114,14 +112,14 @@ Partial Class modificarGrupo
         'ComboEdi
         '
         Me.ComboEdi.FormattingEnabled = True
-        Me.ComboEdi.Location = New System.Drawing.Point(118, 279)
+        Me.ComboEdi.Location = New System.Drawing.Point(119, 266)
         Me.ComboEdi.Name = "ComboEdi"
         Me.ComboEdi.Size = New System.Drawing.Size(191, 21)
         Me.ComboEdi.TabIndex = 53
         '
         'txtturn
         '
-        Me.txtturn.Location = New System.Drawing.Point(118, 251)
+        Me.txtturn.Location = New System.Drawing.Point(119, 238)
         Me.txtturn.MaxLength = 50
         Me.txtturn.Name = "txtturn"
         Me.txtturn.Size = New System.Drawing.Size(191, 20)
@@ -134,7 +132,7 @@ Partial Class modificarGrupo
         Me.lblTurno.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
         Me.lblTurno.ForeColor = System.Drawing.Color.Black
         Me.lblTurno.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblTurno.Location = New System.Drawing.Point(36, 250)
+        Me.lblTurno.Location = New System.Drawing.Point(37, 237)
         Me.lblTurno.Name = "lblTurno"
         Me.lblTurno.Size = New System.Drawing.Size(52, 18)
         Me.lblTurno.TabIndex = 52
@@ -142,7 +140,7 @@ Partial Class modificarGrupo
         '
         'txtNom1
         '
-        Me.txtNom1.Location = New System.Drawing.Point(118, 222)
+        Me.txtNom1.Location = New System.Drawing.Point(119, 209)
         Me.txtNom1.MaxLength = 50
         Me.txtNom1.Name = "txtNom1"
         Me.txtNom1.Size = New System.Drawing.Size(191, 20)
@@ -155,7 +153,7 @@ Partial Class modificarGrupo
         Me.lblEdificio.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
         Me.lblEdificio.ForeColor = System.Drawing.Color.Black
         Me.lblEdificio.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblEdificio.Location = New System.Drawing.Point(37, 277)
+        Me.lblEdificio.Location = New System.Drawing.Point(38, 264)
         Me.lblEdificio.Name = "lblEdificio"
         Me.lblEdificio.Size = New System.Drawing.Size(64, 18)
         Me.lblEdificio.TabIndex = 51
@@ -168,32 +166,11 @@ Partial Class modificarGrupo
         Me.lblNom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
         Me.lblNom.ForeColor = System.Drawing.Color.Black
         Me.lblNom.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblNom.Location = New System.Drawing.Point(36, 223)
+        Me.lblNom.Location = New System.Drawing.Point(37, 210)
         Me.lblNom.Name = "lblNom"
         Me.lblNom.Size = New System.Drawing.Size(68, 18)
         Me.lblNom.TabIndex = 50
         Me.lblNom.Text = "Nombre"
-        '
-        'lblCod
-        '
-        Me.lblCod.AutoSize = True
-        Me.lblCod.BackColor = System.Drawing.Color.Transparent
-        Me.lblCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.lblCod.ForeColor = System.Drawing.Color.Black
-        Me.lblCod.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblCod.Location = New System.Drawing.Point(37, 198)
-        Me.lblCod.Name = "lblCod"
-        Me.lblCod.Size = New System.Drawing.Size(62, 18)
-        Me.lblCod.TabIndex = 49
-        Me.lblCod.Text = "Código"
-        '
-        'txtCod
-        '
-        Me.txtCod.Location = New System.Drawing.Point(118, 196)
-        Me.txtCod.MaxLength = 8
-        Me.txtCod.Name = "txtCod"
-        Me.txtCod.Size = New System.Drawing.Size(191, 20)
-        Me.txtCod.TabIndex = 46
         '
         'modificarGrupo
         '
@@ -207,8 +184,6 @@ Partial Class modificarGrupo
         Me.Controls.Add(Me.txtNom1)
         Me.Controls.Add(Me.lblEdificio)
         Me.Controls.Add(Me.lblNom)
-        Me.Controls.Add(Me.lblCod)
-        Me.Controls.Add(Me.txtCod)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.lblAyuda)
         Me.Controls.Add(Me.dgvModificarGru)
@@ -237,6 +212,4 @@ Partial Class modificarGrupo
     Friend WithEvents txtNom1 As System.Windows.Forms.TextBox
     Friend WithEvents lblEdificio As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
-    Friend WithEvents lblCod As System.Windows.Forms.Label
-    Friend WithEvents txtCod As System.Windows.Forms.TextBox
 End Class

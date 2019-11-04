@@ -2,6 +2,8 @@
 
 Public Class modificarEdificio
 
+    Private id_edificio As Integer
+
     Private Sub dgvModificarUsu_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         loadGrid()
     End Sub
@@ -36,12 +38,12 @@ Public Class modificarEdificio
     Private Sub dgvModificarUsu_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvModificarEd.CellClick
         Dim i As Integer
         i = dgvModificarEd.CurrentRow.Index
-        txtCod.Text = dgvModificarEd.Item(0, i).Value()
+        id_edificio = dgvModificarEd.Item(0, i).Value()
         txtNom.Text = dgvModificarEd.Item(1, i).Value()
     End Sub
 
     Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
-        If txtCod.Text = "" Or txtNom.Text = "" Then
+        If txtNom.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -56,9 +58,8 @@ Public Class modificarEdificio
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "UPDATE edificio SET "
-                command += "id_edificio='" + txtCod.Text
-                command += "', tipo_edificio='" + txtNom.Text
-                command += "' WHERE id_edificio='" + txtCod.Text + "';"
+                command += "tipo_edificio='" + txtNom.Text
+                command += "' WHERE id_edificio='" + id_edificio.ToString + "';"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
@@ -99,7 +100,7 @@ Public Class modificarEdificio
         End If
     End Sub
 
-    Private Sub txtCod_KeyPress1(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtCod.KeyPress
+    Private Sub txtCod_KeyPress1(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
         ' valido numeros (hay que ir al evento key press y dentro del :)
         If Char.IsNumber(e.KeyChar) Then
             e.Handled = False

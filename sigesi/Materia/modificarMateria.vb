@@ -1,13 +1,13 @@
 ﻿
 Imports MySql.Data.MySqlClient
 Public Class modificarMateria
-
+    Private id_materia As Integer
     Private Sub btnCancelar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancelar.Click
 
     End Sub
 
     Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
-        If txtCod.Text = "" Or txtNom.Text = "" Or txtAño.Text = "" Then
+        If txtNom.Text = "" Or txtAño.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -22,10 +22,9 @@ Public Class modificarMateria
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "UPDATE materia SET "
-                command += "id_materia='" + txtCod.Text
-                command += "', nom_materia='" + txtNom.Text
+                command += "nom_materia='" + txtNom.Text
                 command += "', año='" + txtAño.Text
-                command += "' WHERE id_materia='" + txtCod.Text + "';"
+                command += "' WHERE id_materia='" + id_materia.ToString + "';"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
@@ -81,7 +80,7 @@ Public Class modificarMateria
     Private Sub dgvModificarUsu_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvModificarUsu.CellClick
         Dim i As Integer
         i = dgvModificarUsu.CurrentRow.Index
-        txtCod.Text = dgvModificarUsu.Item(0, i).Value()
+        id_materia = dgvModificarUsu.Item(0, i).Value()
         txtNom.Text = dgvModificarUsu.Item(1, i).Value()
         txtAño.Text = dgvModificarUsu.Item(2, i).Value()
     End Sub

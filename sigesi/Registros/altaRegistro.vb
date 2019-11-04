@@ -54,7 +54,8 @@ Public Class altaRegistro
             command += "WHERE tiene.id_materia =" + id_materia.ToString
             command += " AND tiene.id_grupo =" + id_grupo.ToString
             command += " AND rol.nombre_rol = '" + cboRol.Text.ToString
-            command += "';"
+            command += "' AND usuario.estado = '1'"
+            command += ";"
 
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -216,7 +217,8 @@ Public Class altaRegistro
             command += "WHERE tiene.id_materia =" + id_materia.ToString
             command += " AND tiene.id_grupo =" + id_grupo.ToString
             command += " AND rol.nombre_rol = '" + cboRol.Text.ToString
-            command += "';"
+            command += "' AND usuario.estado = '1'"
+            command += ";"
 
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión

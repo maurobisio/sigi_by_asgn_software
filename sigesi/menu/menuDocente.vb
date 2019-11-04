@@ -89,10 +89,6 @@
         'abrirFormPanel(New reporteDocente)
     End Sub
 
-    Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listaIncidencias)
-    End Sub
-
     Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
         abrirFormPanel(listarRegistro)
     End Sub
@@ -107,6 +103,10 @@
     End Sub
 
     Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(New homeDocente)
+        abrirFormPanel(homeDocente)
+    End Sub
+
+    Private Sub btnIncidencia_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
+        abrirFormPanel(listaIncidencias)
     End Sub
 End Class

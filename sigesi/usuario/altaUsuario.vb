@@ -12,6 +12,7 @@ Public Class altaUsuario
             MsgBox("Complete todos los campos")
         Else
             If validate_ci(txtCi.Text) Then
+
                 'Establece la conexón con el orgien de los datos
                 Dim connection As New MySqlConnection
                 'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
@@ -20,7 +21,6 @@ Public Class altaUsuario
                 Dim dataSet As New DataSet
                 'Recupera datos del proceedor(SELECT * FROM ...)
                 Dim command As String
-
                 Dim rol As String = ""
                 Select Case cboRoll.Text
                     Case "Administrador de sistema"
@@ -36,35 +36,70 @@ Public Class altaUsuario
                     Case "Alumno/a"
                         rol = "5"
                 End Select
-
+                Dim existe As Integer = 0
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                    command = "INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol) "
-                    command += "VALUES ('" + txtCi.Text
-                    command += "', '" + txtNom.Text
-                    command += "','" + txtNom1.Text
-                    command += "', '" + txtApe.Text
-                    command += "', '" + txtDir.Text
-                    command += "', '" + txtEmail.Text
-                    command += "', '" + txtPwd.Text
-                    command += "', '" + rol + "');"
 
-                    dataAdapter = New MySqlDataAdapter(command, connection)
+                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    Command = "SELECT * FROM usuario WHERE ci='" & txtCi.Text & "';"
+                    dataAdapter = New MySqlDataAdapter(Command, connection)
                     'Abrir la conexión
                     connection.Open()
                     'Llenamos el dataSet con el método Fill() del objeto dataAdapter
-                    dataAdapter.Fill(dataSet, "usuario")
-                    MsgBox("Usuario ingresado correctamente")
-                    Call LimpiarForm(Me)
-                    listarUsuarios.gridLoad()
+                    dataAdapter.Fill(DataSet, "usuario")
+                    'cerreamos la conexión
                     connection.Close()
+                    'Las Tablas, filas y columnas del DataSet se pueden acceder por su índice o por su nombre dataSet.Tables("usuario").Rows[n]
+                    'Encontro un usuario'
+                    If (DataSet.Tables("usuario").Rows.Count <> 0) Then
+                        existe = 1
+                        MsgBox("Usuario ya existe o fue eliminado y debe contactarse con un administrador del sistema")
+                    Else
+                        existe = 0
+                    End If
                 Catch ex As Exception
                     MsgBox(ex.ToString)
                 End Try
+
+                If existe = 0 Then
+                    Try
+                        'Establece la conexón con el orgien de los datos
+                        connection = New MySqlConnection
+                        'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+                        dataAdapter = New MySqlDataAdapter
+                        'Contiene los datos resultantes de ejecutar el comando SQL.
+                        dataSet = New DataSet
+                        'Recupera datos del proceedor(SELECT * FROM ...)
+                        command = ""
+                        connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                        command = "INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado) "
+                        command += "VALUES ('" + txtCi.Text
+                        command += "', '" + txtNom.Text
+                        command += "','" + txtNom1.Text
+                        command += "', '" + txtApe.Text
+                        command += "', '" + txtDir.Text
+                        command += "', '" + txtEmail.Text
+                        command += "', '" + txtTel.Text
+                        command += "', '" + txtPwd.Text
+                        command += "', '" + rol + "', '1');"
+
+                        dataAdapter = New MySqlDataAdapter(command, connection)
+                        'Abrir la conexión
+                        connection.Open()
+                        'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+                        dataAdapter.Fill(dataSet, "usuario")
+                        MsgBox("Usuario ingresado correctamente")
+                        listarUsuarios.gridLoad()
+                        Call LimpiarForm(Me)
+                        connection.Close()
+                    Catch ex As Exception
+                        MsgBox(ex.ToString)
+                    End Try
+                End If
             Else
                 MsgBox("La cedula de identidad es invalida")
             End If
-        End If
+
+            End If
     End Sub
 
 

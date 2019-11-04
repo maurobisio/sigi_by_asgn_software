@@ -23,19 +23,12 @@ Partial Class altaEdificio
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(altaEdificio))
-        Me.txtCod = New System.Windows.Forms.TextBox()
         Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.lblCod = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
         Me.txtNom = New System.Windows.Forms.TextBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'txtCod
-        '
-        resources.ApplyResources(Me.txtCod, "txtCod")
-        Me.txtCod.Name = "txtCod"
         '
         'btnAgregar
         '
@@ -44,13 +37,6 @@ Partial Class altaEdificio
         Me.btnAgregar.ForeColor = System.Drawing.SystemColors.MenuHighlight
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.UseVisualStyleBackColor = False
-        '
-        'lblCod
-        '
-        resources.ApplyResources(Me.lblCod, "lblCod")
-        Me.lblCod.BackColor = System.Drawing.Color.Transparent
-        Me.lblCod.ForeColor = System.Drawing.Color.Black
-        Me.lblCod.Name = "lblCod"
         '
         'lblNom
         '
@@ -92,9 +78,7 @@ Partial Class altaEdificio
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.lblNom)
-        Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnAgregar)
-        Me.Controls.Add(Me.txtCod)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "altaEdificio"
         Me.TopMost = True
@@ -102,9 +86,7 @@ Partial Class altaEdificio
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents txtCod As System.Windows.Forms.TextBox
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
-    Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
     Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents lblTitulo As System.Windows.Forms.Label

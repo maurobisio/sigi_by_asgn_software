@@ -39,6 +39,7 @@ Public Class altaInscripcion
             command += "FROM (usuario "
             command += "INNER JOIN rol ON usuario.id_rol = rol.id_rol) "
             command += "WHERE rol.nombre_rol = 'Alumno/a'"
+            command += " AND usuario.estado = '1'"
             command += ";"
 
             dataAdapter = New MySqlDataAdapter(command, connection)
@@ -221,7 +222,8 @@ Public Class altaInscripcion
             Command += "FROM (usuario "
             Command += "INNER JOIN rol ON usuario.id_rol = rol.id_rol) "
             command += "WHERE rol.nombre_rol = '" + nombre_rol.ToString
-            command += "';"
+            command += "' AND usuario.estado = '1'"
+            command += ";"
 
             dataAdapter = New MySqlDataAdapter(Command, connection)
             'Abrir la conexión

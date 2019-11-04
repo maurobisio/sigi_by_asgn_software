@@ -23,9 +23,7 @@ Partial Class altaGrupo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(altaGrupo))
-        Me.txtCod = New System.Windows.Forms.TextBox()
         Me.btnAgregar = New System.Windows.Forms.Button()
-        Me.lblCod = New System.Windows.Forms.Label()
         Me.lblNom = New System.Windows.Forms.Label()
         Me.lblEdificio = New System.Windows.Forms.Label()
         Me.txtNom = New System.Windows.Forms.TextBox()
@@ -36,11 +34,6 @@ Partial Class altaGrupo
         Me.ComboEdi = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
-        'txtCod
-        '
-        resources.ApplyResources(Me.txtCod, "txtCod")
-        Me.txtCod.Name = "txtCod"
-        '
         'btnAgregar
         '
         Me.btnAgregar.BackColor = System.Drawing.Color.White
@@ -48,13 +41,6 @@ Partial Class altaGrupo
         Me.btnAgregar.ForeColor = System.Drawing.SystemColors.MenuHighlight
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.UseVisualStyleBackColor = False
-        '
-        'lblCod
-        '
-        resources.ApplyResources(Me.lblCod, "lblCod")
-        Me.lblCod.BackColor = System.Drawing.Color.Transparent
-        Me.lblCod.ForeColor = System.Drawing.Color.Black
-        Me.lblCod.Name = "lblCod"
         '
         'lblNom
         '
@@ -125,9 +111,7 @@ Partial Class altaGrupo
         Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.lblEdificio)
         Me.Controls.Add(Me.lblNom)
-        Me.Controls.Add(Me.lblCod)
         Me.Controls.Add(Me.btnAgregar)
-        Me.Controls.Add(Me.txtCod)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "altaGrupo"
         Me.TopMost = True
@@ -135,9 +119,7 @@ Partial Class altaGrupo
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents txtCod As System.Windows.Forms.TextBox
     Friend WithEvents btnAgregar As System.Windows.Forms.Button
-    Friend WithEvents lblCod As System.Windows.Forms.Label
     Friend WithEvents lblNom As System.Windows.Forms.Label
     Friend WithEvents lblEdificio As System.Windows.Forms.Label
     Friend WithEvents txtNom As System.Windows.Forms.TextBox

@@ -23,8 +23,10 @@ CREATE TABLE usuario(
                     apellido varchar(100),
                     direccion varchar(100),
                     email varchar(50),
+                    telefono varchar(50),
                     pass varchar(50),
                     id_rol int not null,
+                    estado int not null,
                     primary key (ci),
                     foreign key (id_rol) references rol (id_rol)
                     );
@@ -61,13 +63,13 @@ CREATE TABLE solicita_gestiona(
                     );
                     
 CREATE TABLE edificio(
-                    id_edificio int not null,
+                    id_edificio int not null AUTO_INCREMENT,
 					tipo_edificio varchar(50),
                     primary key (id_edificio)
                     );
 	
 CREATE TABLE grupo(
-                    id_grupo int not null,
+                    id_grupo int not null AUTO_INCREMENT,
 					nombre_grupo varchar(10),
                     turno varchar(20),
                     id_edificio int not null,
@@ -76,7 +78,7 @@ CREATE TABLE grupo(
                     );
                     
 CREATE TABLE materia(
-					id_materia int not null,
+					id_materia int not null AUTO_INCREMENT,
                     nom_materia varchar(20),
                     año int not null,
                     primary key (id_materia)
@@ -151,74 +153,74 @@ VALUES ('4','Docente');
 INSERT INTO rol (id_rol, nombre_rol) 
 VALUES ('5','Alumno/a');
 
-INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('0', 'root', 'root', 'root', 'root', 'root', 'root','0');
-INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('49508304', 'director', 'director', 'director', 'director', 'director', 'director','1');
-INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('33288615', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel','2');
-INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('14869143', 'admin', 'admin', 'admin', 'admin', 'admin', 'admin','3');
-INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('10749389', 'docente', 'docente', 'docente', 'docente', 'docente', 'docente','4');
-INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, pass, id_rol)
-VALUES ('49348459', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno','5');
+INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado)
+VALUES ('0', 'root', 'root', 'root', 'root', 'root', 'tel','root','0', '1');
+INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado)
+VALUES ('49508304', 'director', 'director', 'director', 'director', 'director', 'tel','director','1', '1');
+INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado)
+VALUES ('33288615', 'bedel', 'bedel', 'bedel', 'bedel', 'bedel','tel', 'bedel','2', '1');
+INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado)
+VALUES ('14869143', 'admin', 'admin', 'admin', 'admin', 'admin', 'tel','admin','3', '1');
+INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado)
+VALUES ('10749389', 'docente', 'docente', 'docente', 'docente', 'docente', 'tel','docente','4', '1');
+INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado)
+VALUES ('49348459', 'alumno', 'alumno', 'alumno', 'alumno', 'alumno', 'tel','alumno','5', '1');
 
-INSERT INTO materia (id_materia, nom_materia, año) 
-VALUES ('0','Fisica', '2019');
-INSERT INTO materia (id_materia, nom_materia, año) 
-VALUES ('1','Quimica', '2019');
-INSERT INTO materia (id_materia, nom_materia, año) 
-VALUES ('2','Sociologia', '2019');
-INSERT INTO materia (id_materia, nom_materia, año) 
-VALUES ('3','Historia', '2019');
-INSERT INTO materia (id_materia, nom_materia, año) 
-VALUES ('4','Base de Datos', '2019');
+INSERT INTO materia (nom_materia, año) 
+VALUES ('Fisica', '2019');
+INSERT INTO materia (nom_materia, año) 
+VALUES ('Quimica', '2019');
+INSERT INTO materia (nom_materia, año) 
+VALUES ('Sociologia', '2019');
+INSERT INTO materia (nom_materia, año) 
+VALUES ('Historia', '2019');
+INSERT INTO materia (nom_materia, año) 
+VALUES ('Base de Datos', '2019');
 
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('0','Dirección');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('1','Aulas');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Laboratorios');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Sub Dirección');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Adscripción');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Administración');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Cordinación de Informatica');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Biblioteca');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Salas de profesores');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Salas de servidores');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Cantina');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Patio');
-INSERT INTO edificio (id_edificio, tipo_edificio) 
-VALUES ('2','Corredores');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Dirección');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Aulas');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Laboratorios');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Sub Dirección');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Adscripción');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Administración');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Cordinación de Informatica');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Biblioteca');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Salas de profesores');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Salas de servidores');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Cantina');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Patio');
+INSERT INTO edificio (tipo_edificio) 
+VALUES ('Corredores');
 
-INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
-VALUES ('0','3ro HI', 'Matutino', '0');
-INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
-VALUES ('1','2ro HI', 'Vespertino', '1');
-INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) 
-VALUES ('2','1ro HI', 'Nocturno', '2');
+INSERT INTO grupo (nombre_grupo, turno, id_edificio) 
+VALUES ('3ro HI', 'Matutino', '1');
+INSERT INTO grupo (nombre_grupo, turno, id_edificio) 
+VALUES ('2ro HI', 'Vespertino', '2');
+INSERT INTO grupo (nombre_grupo, turno, id_edificio) 
+VALUES ('1ro HI', 'Nocturno', '3');
 
-INSERT INTO tiene (id_grupo,id_materia)
-VALUES ('0','0');
-INSERT INTO tiene (id_grupo,id_materia)
-VALUES ('0','1');
-INSERT INTO tiene (id_grupo,id_materia)
-VALUES ('0','2');
 INSERT INTO tiene (id_grupo,id_materia)
 VALUES ('1','1');
 INSERT INTO tiene (id_grupo,id_materia)
 VALUES ('1','2');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('1','3');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('2','2');
+INSERT INTO tiene (id_grupo,id_materia)
+VALUES ('2','3');
 
 
 INSERT INTO pertenece (ci, id_tiene, nro_lista)

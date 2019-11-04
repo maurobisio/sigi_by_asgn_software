@@ -100,10 +100,6 @@
         abrirFormPanel(listarRegistro)
     End Sub
 
-    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarUsuarios)
-    End Sub
-
     Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
         abrirFormPanel(listarInscripcion)
     End Sub
@@ -119,5 +115,9 @@
 
     Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
         abrirFormPanel(homeDIrector)
+    End Sub
+
+    Private Sub btnUsuarios_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        abrirFormPanel(listarUsuarios)
     End Sub
 End Class

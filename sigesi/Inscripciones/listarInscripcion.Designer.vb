@@ -95,7 +95,6 @@ Partial Class listarInscripcion
         '
         Me.cboMateria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMateria.FormattingEnabled = True
-        Me.cboMateria.Items.AddRange(New Object() {"3if", "2ij", "1id"})
         Me.cboMateria.Location = New System.Drawing.Point(323, 42)
         Me.cboMateria.Name = "cboMateria"
         Me.cboMateria.Size = New System.Drawing.Size(149, 28)
@@ -105,7 +104,6 @@ Partial Class listarInscripcion
         '
         Me.cboGrupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboGrupo.FormattingEnabled = True
-        Me.cboGrupo.Items.AddRange(New Object() {"E.M.T.", "Administración", "Electrónica", "Mecánica", "Ciclo básico", "Bachillerato Humanistico", "Bachillerato  Biológico", "Bachillerato Medicina"})
         Me.cboGrupo.Location = New System.Drawing.Point(86, 42)
         Me.cboGrupo.Name = "cboGrupo"
         Me.cboGrupo.Size = New System.Drawing.Size(149, 28)

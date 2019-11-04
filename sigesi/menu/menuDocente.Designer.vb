@@ -24,6 +24,7 @@ Partial Class menuDocente
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pnlIzquierda = New System.Windows.Forms.Panel()
+        Me.btnIncidencia = New System.Windows.Forms.Button()
         Me.btnRegistro = New System.Windows.Forms.Button()
         Me.btnInicio = New System.Windows.Forms.Button()
         Me.PctMenu = New System.Windows.Forms.PictureBox()
@@ -36,7 +37,6 @@ Partial Class menuDocente
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.picIsgesi = New System.Windows.Forms.PictureBox()
         Me.pnlCentral = New System.Windows.Forms.Panel()
-        Me.btnIncidencia = New System.Windows.Forms.Button()
         Me.pnlIzquierda.SuspendLayout()
         CType(Me.PctMenu, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picASgn, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,6 +59,23 @@ Partial Class menuDocente
         Me.pnlIzquierda.Name = "pnlIzquierda"
         Me.pnlIzquierda.Size = New System.Drawing.Size(214, 715)
         Me.pnlIzquierda.TabIndex = 8
+        '
+        'btnIncidencia
+        '
+        Me.btnIncidencia.FlatAppearance.BorderSize = 0
+        Me.btnIncidencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.btnIncidencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
+        Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIncidencia.ForeColor = System.Drawing.Color.White
+        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
+        Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnIncidencia.Location = New System.Drawing.Point(0, 73)
+        Me.btnIncidencia.Name = "btnIncidencia"
+        Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
+        Me.btnIncidencia.TabIndex = 58
+        Me.btnIncidencia.Text = "Incidencias"
+        Me.btnIncidencia.UseVisualStyleBackColor = True
         '
         'btnRegistro
         '
@@ -200,23 +217,6 @@ Partial Class menuDocente
         Me.pnlCentral.Name = "pnlCentral"
         Me.pnlCentral.Size = New System.Drawing.Size(735, 648)
         Me.pnlCentral.TabIndex = 38
-        '
-        'btnIncidencia
-        '
-        Me.btnIncidencia.FlatAppearance.BorderSize = 0
-        Me.btnIncidencia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.btnIncidencia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black
-        Me.btnIncidencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnIncidencia.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIncidencia.ForeColor = System.Drawing.Color.White
-        Me.btnIncidencia.Image = Global.sigesi.My.Resources.Resources.icono_incidencia_50_
-        Me.btnIncidencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnIncidencia.Location = New System.Drawing.Point(0, 73)
-        Me.btnIncidencia.Name = "btnIncidencia"
-        Me.btnIncidencia.Size = New System.Drawing.Size(218, 54)
-        Me.btnIncidencia.TabIndex = 58
-        Me.btnIncidencia.Text = "Incidencias"
-        Me.btnIncidencia.UseVisualStyleBackColor = True
         '
         'menuDocente
         '

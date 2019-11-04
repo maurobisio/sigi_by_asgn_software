@@ -91,12 +91,6 @@
     <Compile Include="Edificio\altaEdificio.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Edificio\bajaEdificio.Designer.vb">
-      <DependentUpon>bajaEdificio.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Edificio\bajaEdificio.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Edificio\listarEdificio.Designer.vb">
       <DependentUpon>listarEdificio.vb</DependentUpon>
     </Compile>
@@ -133,12 +127,6 @@
     <Compile Include="Grupo\altaGrupo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Grupo\bajaGrupo.Designer.vb">
-      <DependentUpon>bajaGrupo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Grupo\bajaGrupo.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Grupo\listarGrupo.Designer.vb">
       <DependentUpon>listarGrupo.vb</DependentUpon>
     </Compile>
@@ -173,12 +161,6 @@
       <DependentUpon>altaMateria.vb</DependentUpon>
     </Compile>
     <Compile Include="Materia\altaMateria.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Materia\bajaMateria.Designer.vb">
-      <DependentUpon>bajaMateria.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Materia\bajaMateria.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Materia\listarMateria.Designer.vb">
@@ -407,9 +389,6 @@
     <EmbeddedResource Include="Edificio\altaEdificio.resx">
       <DependentUpon>altaEdificio.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Edificio\bajaEdificio.resx">
-      <DependentUpon>bajaEdificio.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Edificio\listarEdificio.resx">
       <DependentUpon>listarEdificio.vb</DependentUpon>
     </EmbeddedResource>
@@ -428,9 +407,6 @@
     <EmbeddedResource Include="Grupo\altaGrupo.resx">
       <DependentUpon>altaGrupo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Grupo\bajaGrupo.resx">
-      <DependentUpon>bajaGrupo.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Grupo\listarGrupo.resx">
       <DependentUpon>listarGrupo.vb</DependentUpon>
     </EmbeddedResource>
@@ -448,9 +424,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\altaMateria.resx">
       <DependentUpon>altaMateria.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Materia\bajaMateria.resx">
-      <DependentUpon>bajaMateria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Materia\listarMateria.resx">
       <DependentUpon>listarMateria.vb</DependentUpon>

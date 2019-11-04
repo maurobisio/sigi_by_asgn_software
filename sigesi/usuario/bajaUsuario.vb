@@ -18,7 +18,7 @@ Public Class bajaUsuario
 
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                command = "DELETE  FROM usuario  WHERE ci= '" + txtCi.Text + "' ;"
+                command = "UPDATE usuario SET estado = '0'  WHERE ci= '" + txtCi.Text + "' ;"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
@@ -27,7 +27,7 @@ Public Class bajaUsuario
                 dataAdapter.Fill(dataSet, "usuario")
                 MsgBox("Usuario borrado correctamente")
                 Call LimpiarForm(Me)
-
+                listarUsuarios.gridLoad()
                 connection.Close()
             Catch ex As Exception
                 MsgBox(ex.ToString)

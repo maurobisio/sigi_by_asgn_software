@@ -3,7 +3,7 @@
 Public Class altaMateria
 
     Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCod.Text = "" Or txtNom.Text = "" Or txtAño.Text = "" Then
+        If txtNom.Text = "" Or txtAño.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -17,9 +17,8 @@ Public Class altaMateria
 
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                command = "INSERT INTO materia (id_materia, nom_materia, año) "
-                command += "VALUES ('" + txtCod.Text
-                command += "', '" + txtNom.Text
+                command = "INSERT INTO materia (nom_materia, año) "
+                command += "VALUES ('" + txtNom.Text
                 command += "', '" + txtAño.Text + "');"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)

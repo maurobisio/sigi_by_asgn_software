@@ -67,9 +67,11 @@ Public Class login
                                     Case 2
                                         Me.Hide()
                                         menuBedel.Show()
+                                        menuBedel.ci = dataSet.Tables("usuario").Rows(0)("ci")
                                     Case 3
                                         Me.Hide()
                                         menuAdministrativo.Show()
+                                        menuAdministrativo.ci = dataSet.Tables("usuario").Rows(0)("ci")
                                     Case 4
                                         Me.Hide()
                                         menuDocente.Show()

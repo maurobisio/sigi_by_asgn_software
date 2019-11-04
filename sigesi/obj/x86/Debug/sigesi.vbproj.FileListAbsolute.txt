@@ -167,7 +167,6 @@ C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\bin\Debug\sigesi.xm
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.vbprojResolveAssemblyReference.cache
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaGrupo.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaMateria.resources
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaMateria.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listarMateria.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarMateria.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaUsuario.resources
@@ -192,12 +191,10 @@ C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\siges
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.RecursoLenguajeESP.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.selecUsu.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.vbproj.GenerateResource.Cache
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaGrupo.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listarGrupo.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarGrupo.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaEdificio.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.listarEdificio.resources
-C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaEdificio.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.modificarEdificio.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.altaMateriaGrupo.resources
 C:\Users\Mauro\Documents\Github\sigi_by_asgn_software\sigesi\obj\x86\Debug\sigesi.bajaMateriaGrupo.resources

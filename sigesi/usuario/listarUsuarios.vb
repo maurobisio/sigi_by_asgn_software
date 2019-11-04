@@ -41,7 +41,8 @@ Public Class listarUsuarios
 
         Try
             connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-            command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol;"
+            command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
+            command += "WHERE estado = '1';"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
             connection.Open()
@@ -72,9 +73,9 @@ Public Class listarUsuarios
 
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
+                command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
                 command += "WHERE ci=" + txtCi.Text
-                command += ";"
+                command += " AND estado = '1';"
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
                 connection.Open()

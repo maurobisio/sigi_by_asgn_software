@@ -97,7 +97,6 @@ Partial Class altaInscripcion
         '
         Me.cboMateria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboMateria.FormattingEnabled = True
-        Me.cboMateria.Items.AddRange(New Object() {resources.GetString("cboMateria.Items"), resources.GetString("cboMateria.Items1"), resources.GetString("cboMateria.Items2")})
         resources.ApplyResources(Me.cboMateria, "cboMateria")
         Me.cboMateria.Name = "cboMateria"
         '
@@ -105,7 +104,6 @@ Partial Class altaInscripcion
         '
         Me.cboGrupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboGrupo.FormattingEnabled = True
-        Me.cboGrupo.Items.AddRange(New Object() {resources.GetString("cboGrupo.Items"), resources.GetString("cboGrupo.Items1"), resources.GetString("cboGrupo.Items2"), resources.GetString("cboGrupo.Items3"), resources.GetString("cboGrupo.Items4"), resources.GetString("cboGrupo.Items5"), resources.GetString("cboGrupo.Items6"), resources.GetString("cboGrupo.Items7")})
         resources.ApplyResources(Me.cboGrupo, "cboGrupo")
         Me.cboGrupo.Name = "cboGrupo"
         '

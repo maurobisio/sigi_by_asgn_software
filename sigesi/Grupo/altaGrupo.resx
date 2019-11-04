@@ -118,31 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txtCod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 75</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtCod.MaxLength" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="txtCod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 20</value>
-  </data>
-  <data name="txtCod.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtCod.Name" xml:space="preserve">
-    <value>txtCod</value>
-  </data>
-  <data name="&gt;&gt;txtCod.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtCod.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtCod.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="btnAgregar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
@@ -156,6 +131,7 @@
   <data name="btnAgregar.Size" type="System.Drawing.Size, System.Drawing">
     <value>235, 32</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAgregar.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
@@ -172,39 +148,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnAgregar.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="lblCod.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblCod.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
-  </data>
-  <data name="lblCod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblCod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 77</value>
-  </data>
-  <data name="lblCod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 18</value>
-  </data>
-  <data name="lblCod.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="lblCod.Text" xml:space="preserve">
-    <value>Código</value>
-  </data>
-  <data name="&gt;&gt;lblCod.Name" xml:space="preserve">
-    <value>lblCod</value>
-  </data>
-  <data name="&gt;&gt;lblCod.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCod.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblCod.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
   <data name="lblNom.AutoSize" type="System.Boolean, mscorlib">
@@ -217,7 +160,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblNom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 102</value>
+    <value>52, 90</value>
   </data>
   <data name="lblNom.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 18</value>
@@ -250,7 +193,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblEdificio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 156</value>
+    <value>53, 144</value>
   </data>
   <data name="lblEdificio.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 18</value>
@@ -274,7 +217,7 @@
     <value>6</value>
   </data>
   <data name="txtNom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 101</value>
+    <value>134, 89</value>
   </data>
   <data name="txtNom.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
@@ -370,7 +313,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblTurno.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 129</value>
+    <value>52, 117</value>
   </data>
   <data name="lblTurno.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 18</value>
@@ -394,7 +337,7 @@
     <value>2</value>
   </data>
   <data name="txtTurn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 130</value>
+    <value>134, 118</value>
   </data>
   <data name="txtTurn.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
@@ -418,7 +361,7 @@
     <value>1</value>
   </data>
   <data name="ComboEdi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 158</value>
+    <value>134, 146</value>
   </data>
   <data name="ComboEdi.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 21</value>

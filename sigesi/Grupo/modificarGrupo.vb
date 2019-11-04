@@ -2,6 +2,8 @@
 
 Public Class modificarGrupo
 
+    Private id_grupo As Integer
+
     Dim dataSetEdificio As New DataSet
     Private Sub dgvModificarUsu_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         loadGrid()
@@ -54,14 +56,14 @@ Public Class modificarGrupo
     Private Sub dgvModificarUsu_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dgvModificarGru.CellClick
         Dim i As Integer
         i = dgvModificarGru.CurrentRow.Index
-        txtCod.Text = dgvModificarGru.Item(0, i).Value()
+        id_grupo = dgvModificarGru.Item(0, i).Value()
         txtNom1.Text = dgvModificarGru.Item(1, i).Value()
         txtturn.Text = dgvModificarGru.Item(2, i).Value()
         ComboEdi.Text = dgvModificarGru.Item(3, i).Value()
     End Sub
 
     Private Sub btnModificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
-        If txtCod.Text = "" Or txtNom1.Text = "" Or txtturn.Text = "" Or ComboEdi.Text = "" Then
+        If txtNom1.Text = "" Or txtturn.Text = "" Or ComboEdi.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -83,15 +85,14 @@ Public Class modificarGrupo
                 '' e.g
                 id = row("id_edificio")
             Next
-           
+
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
                 command = "UPDATE grupo SET "
-                command += "id_grupo='" + txtCod.Text
-                command += "', nombre_grupo='" + txtNom1.Text
+                command += "nombre_grupo='" + txtNom1.Text
                 command += "', turno='" + txtturn.Text
                 command += "', id_edificio='" + id.ToString
-                command += "' WHERE id_grupo='" + txtCod.Text + "';"
+                command += "' WHERE id_grupo='" + id_grupo.ToString + "';"
                 'id_edificio tiene que ser el id del texto seleccionado, para eso obtengo el id donde 
 
                 dataAdapter = New MySqlDataAdapter(command, connection)

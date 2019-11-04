@@ -1,5 +1,7 @@
 ﻿Public Class menuAdministrativo
 
+    Shared Property ci As Object
+
     Private Sub tmrOcultarMenu_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tmrOcultarMenu.Tick
         'hago 2 timer para que agrande o achique el panel izquierdo
         'sin el panel izquiero tiene un ancho menor q 60 
@@ -73,36 +75,12 @@
         login.Show()
     End Sub
 
-    Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarMateria)
-    End Sub
-
-    Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarGrupo)
-    End Sub
-
-    Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarEdificio)
-    End Sub
-
-    Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarMateriaGrupo)
-    End Sub
-
     Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
         abrirFormPanel(listaIncidencias)
     End Sub
 
     Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
         abrirFormPanel(listarRegistro)
-    End Sub
-
-    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarUsuarios)
-    End Sub
-
-    Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarInscripcion)
     End Sub
 
     Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
@@ -115,8 +93,11 @@
     End Sub
 
     Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(New homeAdministrativo)
+        abrirFormPanel(homeAdministrativo)
     End Sub
 
 
+    Private Sub btnUsuarios_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        abrirFormPanel(listarUsuarios)
+    End Sub
 End Class

@@ -1,5 +1,7 @@
 ﻿Public Class menuBedel
 
+    Shared Property ci As Object
+
    
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         abrirFormPanel(New listarInscripcion)
@@ -109,10 +111,6 @@
         abrirFormPanel(listarRegistro)
     End Sub
 
-    Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        abrirFormPanel(listarUsuarios)
-    End Sub
-
     Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
         abrirFormPanel(listarInscripcion)
     End Sub
@@ -130,4 +128,7 @@
         abrirFormPanel(homeBedel)
     End Sub
 
+    Private Sub btnUsuarios_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
+        abrirFormPanel(listarUsuarios)
+    End Sub
 End Class

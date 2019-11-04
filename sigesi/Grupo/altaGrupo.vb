@@ -33,7 +33,7 @@ Public Class altaGrupo
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAgregar.Click
-        If txtCod.Text = "" Or txtNom.Text = "" Or txtTurn.Text = "" Or ComboEdi.Text = "" Then
+        If txtNom.Text = "" Or txtTurn.Text = "" Or ComboEdi.Text = "" Then
             MsgBox("Complete todos los campos")
         Else
             'Establece la conexón con el orgien de los datos
@@ -47,9 +47,8 @@ Public Class altaGrupo
 
             Try
                 connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-                command = "INSERT INTO grupo (id_grupo, nombre_grupo, turno, id_edificio) "
-                command += "VALUES ('" + txtCod.Text
-                command += "', '" + txtNom.Text
+                command = "INSERT INTO grupo (nombre_grupo, turno, id_edificio) "
+                command += "VALUES ('" + txtNom.Text
                 command += "','" + txtTurn.Text
                 command += "', '" + ComboEdi.SelectedValue.ToString
                 command += "');"

@@ -30,8 +30,6 @@ Partial Class modificarEdificio
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.txtNom = New System.Windows.Forms.TextBox()
         Me.lblNom = New System.Windows.Forms.Label()
-        Me.lblCod = New System.Windows.Forms.Label()
-        Me.txtCod = New System.Windows.Forms.TextBox()
         CType(Me.dgvModificarEd, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -109,7 +107,7 @@ Partial Class modificarEdificio
         '
         'txtNom
         '
-        Me.txtNom.Location = New System.Drawing.Point(116, 221)
+        Me.txtNom.Location = New System.Drawing.Point(118, 211)
         Me.txtNom.MaxLength = 50
         Me.txtNom.Name = "txtNom"
         Me.txtNom.Size = New System.Drawing.Size(191, 20)
@@ -122,32 +120,11 @@ Partial Class modificarEdificio
         Me.lblNom.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
         Me.lblNom.ForeColor = System.Drawing.Color.Black
         Me.lblNom.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblNom.Location = New System.Drawing.Point(42, 220)
+        Me.lblNom.Location = New System.Drawing.Point(44, 210)
         Me.lblNom.Name = "lblNom"
         Me.lblNom.Size = New System.Drawing.Size(68, 18)
         Me.lblNom.TabIndex = 49
         Me.lblNom.Text = "Nombre"
-        '
-        'lblCod
-        '
-        Me.lblCod.AutoSize = True
-        Me.lblCod.BackColor = System.Drawing.Color.Transparent
-        Me.lblCod.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.lblCod.ForeColor = System.Drawing.Color.Black
-        Me.lblCod.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.lblCod.Location = New System.Drawing.Point(48, 197)
-        Me.lblCod.Name = "lblCod"
-        Me.lblCod.Size = New System.Drawing.Size(62, 18)
-        Me.lblCod.TabIndex = 48
-        Me.lblCod.Text = "Código"
-        '
-        'txtCod
-        '
-        Me.txtCod.Location = New System.Drawing.Point(116, 195)
-        Me.txtCod.MaxLength = 8
-        Me.txtCod.Name = "txtCod"
-        Me.txtCod.Size = New System.Drawing.Size(191, 20)
-        Me.txtCod.TabIndex = 46
         '
         'modificarEdificio
         '
@@ -157,8 +134,6 @@ Partial Class modificarEdificio
         Me.ClientSize = New System.Drawing.Size(487, 297)
         Me.Controls.Add(Me.txtNom)
         Me.Controls.Add(Me.lblNom)
-        Me.Controls.Add(Me.lblCod)
-        Me.Controls.Add(Me.txtCod)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.lblAyuda)
         Me.Controls.Add(Me.dgvModificarEd)
@@ -183,6 +158,4 @@ Partial Class modificarEdificio
     Friend WithEvents btnCancelar As System.Windows.Forms.Button
     Friend WithEvents txtNom As System.Windows.Forms.TextBox
     Friend WithEvents lblNom As System.Windows.Forms.Label
-    Friend WithEvents lblCod As System.Windows.Forms.Label
-    Friend WithEvents txtCod As System.Windows.Forms.TextBox
 End Class

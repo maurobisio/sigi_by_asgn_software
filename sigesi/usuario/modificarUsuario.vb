@@ -18,7 +18,8 @@ Public Class modificarUsuario
 
         Try
             connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
-            command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol;"
+            command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
+            command += "WHERE estado = '1'"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
             connection.Open()
@@ -50,8 +51,9 @@ Public Class modificarUsuario
         txtNom1.Text = dgvModificarUsu.Item(2, i).Value()
         txtDir.Text = dgvModificarUsu.Item(4, i).Value()
         txtEmail.Text = dgvModificarUsu.Item(5, i).Value()
-        txtPwd.Text = dgvModificarUsu.Item(6, i).Value()
-        cboRoll.Text = dgvModificarUsu.Item(7, i).Value()
+        txtTel.Text = dgvModificarUsu.Item(6, i).Value()
+        txtPwd.Text = dgvModificarUsu.Item(7, i).Value()
+        cboRoll.Text = dgvModificarUsu.Item(8, i).Value()
     End Sub
 
     Private Sub btnAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
@@ -92,6 +94,7 @@ Public Class modificarUsuario
                 command += "', apellido='" + txtApe.Text
                 command += "', direccion='" + txtDir.Text
                 command += "', email='" + txtEmail.Text
+                command += "', telefono='" + txtTel.Text
                 command += "', pass='" + txtPwd.Text
                 command += "', id_rol='" + rol
                 command += "' WHERE ci='" + ci + "';"

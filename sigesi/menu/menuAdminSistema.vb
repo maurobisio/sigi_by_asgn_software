@@ -70,35 +70,35 @@
     End Sub
 
     Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
-        abrirFormPanel(New listarMateria)
+        abrirFormPanel(listarMateria)
     End Sub
 
     Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
-        abrirFormPanel(New listarGrupo)
+        abrirFormPanel(listarGrupo)
     End Sub
 
     Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
-        abrirFormPanel(New listarEdificio)
+        abrirFormPanel(listarEdificio)
     End Sub
 
     Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateriaGrupo.Click
-        abrirFormPanel(New listarMateriaGrupo)
+        abrirFormPanel(listarMateriaGrupo)
     End Sub
 
     Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
-        abrirFormPanel(New listaIncidencias)
+        abrirFormPanel(listaIncidencias)
     End Sub
 
     Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
-        abrirFormPanel(New listarRegistro)
+        abrirFormPanel(listarRegistro)
     End Sub
 
     Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
-        abrirFormPanel(New listarUsuarios)
+        abrirFormPanel(listarUsuarios)
     End Sub
 
     Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
-        abrirFormPanel(New listarInscripcion)
+        abrirFormPanel(listarInscripcion)
     End Sub
 
     Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
@@ -111,6 +111,6 @@
     End Sub
 
     Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(New homeAdminSIstema)
+        abrirFormPanel(homeAdminSIstema)
     End Sub
 End Class

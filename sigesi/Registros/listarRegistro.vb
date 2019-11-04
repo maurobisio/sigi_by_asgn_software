@@ -48,7 +48,8 @@ Public Class listarRegistro
             command += "INNER JOIN pertenece ON tiene.id_tiene = pertenece.id_tiene) "
             command += "INNER JOIN usuario ON usuario.ci = pertenece.ci) "
             command += "WHERE(tiene.id_materia =" + id_materia.ToString
-            command += " And tiene.id_grupo =" + id_grupo.ToString
+            command += " AND tiene.id_grupo =" + id_grupo.ToString
+            command += " AND usuario.estado = '1'"
             command += ")"
 
             dataAdapter = New MySqlDataAdapter(command, connection)
@@ -86,6 +87,37 @@ Public Class listarRegistro
             cboGrupo.DataSource = dataSet.Tables("grupo")
             cboGrupo.DisplayMember = "nombre_grupo"
             cboGrupo.ValueMember = "id_grupo"
+            connection.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+
+        'Establece la conexón con el orgien de los datos
+        connection = New MySqlConnection
+        'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
+        dataAdapter = New MySqlDataAdapter
+        'Contiene los datos resultantes de ejecutar el comando SQL.
+        dataSet = New DataSet
+        'Recupera datos del proceedor(SELECT * FROM ...)
+        command = ""
+        Try
+            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            command = "SELECT materia.id_materia, materia.nom_materia "
+            command += "FROM ((materia "
+            command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "
+            command += "INNER JOIN grupo ON grupo.id_grupo = tiene.id_grupo) "
+            command += "WHERE grupo.id_grupo ='" + cboGrupo.SelectedValue.ToString
+            command += "';"
+            'MsgBox(command)
+            dataAdapter = New MySqlDataAdapter(command, connection)
+            'Abrir la conexión
+            connection.Open()
+            'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+            dataAdapter.Fill(dataSet, "materia")
+            cboMateria.DataSource = dataSet.Tables("materia")
+            cboMateria.DisplayMember = "nom_materia"
+            cboMateria.ValueMember = "id_materia"
+
             connection.Close()
         Catch ex As Exception
             MsgBox(ex.ToString)
