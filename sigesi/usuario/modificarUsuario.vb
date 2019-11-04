@@ -110,6 +110,7 @@ Public Class modificarUsuario
             End Try
             Call LimpiarForm(Me)
             loadGrid()
+            listarUsuarios.gridLoad()
         End If
 
     End Sub

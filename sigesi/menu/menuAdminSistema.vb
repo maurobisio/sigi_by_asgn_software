@@ -70,39 +70,39 @@
     End Sub
 
     Private Sub btnMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateria.Click
-        abrirFormPanel(listarMateria)
+        abrirFormPanel(New listarMateria)
     End Sub
 
     Private Sub btnGrupo_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGrupo.Click
-        abrirFormPanel(listarGrupo)
+        abrirFormPanel(New listarGrupo)
     End Sub
 
     Private Sub btnEdificio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnEdificio.Click
-        abrirFormPanel(listarEdificio)
+        abrirFormPanel(New listarEdificio)
     End Sub
 
     Private Sub btnGrupoMateria_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMateriaGrupo.Click
-        abrirFormPanel(listarMateriaGrupo)
+        abrirFormPanel(New listarMateriaGrupo)
     End Sub
 
     Private Sub btnIncidencia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIncidencia.Click
-        abrirFormPanel(listaIncidencias)
+        abrirFormPanel(New listaIncidencias)
     End Sub
 
     Private Sub btnRegistro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistro.Click
-        abrirFormPanel(listarRegistro)
+        abrirFormPanel(New listarRegistro)
     End Sub
 
     Private Sub btnUsuarios_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUsuarios.Click
-        abrirFormPanel(listarUsuarios)
+        abrirFormPanel(New listarUsuarios)
     End Sub
 
     Private Sub btnInscripcion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInscripcion.Click
-        abrirFormPanel(listarInscripcion)
+        abrirFormPanel(New listarInscripcion)
     End Sub
 
     Private Sub btnReportes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReportes.Click
-        abrirFormPanel(reporte)
+        abrirFormPanel(New reporte)
     End Sub
 
     Private Sub btnCerrarSesion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCerrarSesion.Click
@@ -111,6 +111,6 @@
     End Sub
 
     Private Sub btnInicio_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInicio.Click
-        abrirFormPanel(homeAdminSIstema)
+        abrirFormPanel(New homeAdminSIstema)
     End Sub
 End Class

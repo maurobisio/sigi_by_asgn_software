@@ -56,7 +56,7 @@ Public Class altaUsuario
                     dataAdapter.Fill(dataSet, "usuario")
                     MsgBox("Usuario ingresado correctamente")
                     Call LimpiarForm(Me)
-
+                    listarUsuarios.gridLoad()
                     connection.Close()
                 Catch ex As Exception
                     MsgBox(ex.ToString)
@@ -79,8 +79,6 @@ Public Class altaUsuario
         Dim a As Integer = 0
         Dim i As Integer
 
-        MsgBox(Len(ci))
-        MsgBox(ci)
         If Len(ci) <= 6 Then
             For i = Len(ci) To 6
                 ci = "0" + ci
@@ -90,9 +88,9 @@ Public Class altaUsuario
         For i = 0 To 6
             a += (Convert.ToInt32("" + "2987634"(i)) * Convert.ToInt32("" + ci(i)))
         Next
-        MsgBox(a)
+
         a = a Mod 10
-        MsgBox(a)
+
         If (a Mod 10 = 0) Then
             Return 0
         Else
