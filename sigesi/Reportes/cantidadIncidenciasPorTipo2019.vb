@@ -14,7 +14,7 @@ Public Class cantidadIncidenciasPorTipo2019
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT tipo_incidencia.id_tipo_incidencia, tipo_incidencia.nom_tipo, COUNT(incidencia.id_incidencia) "
             command += "FROM (incidencia "
             command += "INNER JOIN tipo_incidencia ON tipo_incidencia.id_tipo_incidencia = incidencia.id_tipo_incidencia) "

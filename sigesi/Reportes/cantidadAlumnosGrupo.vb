@@ -14,7 +14,7 @@ Public Class cantidadAlumnosGrupo
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT grupo.id_grupo, grupo.nombre_grupo, COUNT(pertenece.id_pertenece) "
             command += "FROM ((grupo "
             command += "INNER JOIN tiene ON tiene.id_grupo = grupo.id_grupo) "

@@ -14,7 +14,7 @@ Public Class top10AlumnosMasFaltas
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre, COUNT(registro.valor) "
             command += "FROM ((((tipo_registro "
             command += "INNER JOIN registro ON registro.id_tipo_registro = tipo_registro.id_tipo_registro) "

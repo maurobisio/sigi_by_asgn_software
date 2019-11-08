@@ -42,7 +42,7 @@ Public Class listarRegistro
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre, usuario.apellido, usuario.email "
             command += "FROM ((tiene "
             command += "INNER JOIN pertenece ON tiene.id_tiene = pertenece.id_tiene) "
@@ -77,7 +77,7 @@ Public Class listarRegistro
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_grupo, nombre_grupo, turno FROM grupo;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -101,7 +101,7 @@ Public Class listarRegistro
         'Recupera datos del proceedor(SELECT * FROM ...)
         command = ""
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT materia.id_materia, materia.nom_materia "
             command += "FROM ((materia "
             command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "
@@ -136,7 +136,7 @@ Public Class listarRegistro
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT materia.id_materia, materia.nom_materia "
             command += "FROM ((materia "
             command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "
@@ -173,7 +173,7 @@ Public Class listarRegistro
 
 
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "DELETE FROM registro "
                     command += "WHERE registro.id_registro = " + id_registro.ToString
                     command += ";"
@@ -215,7 +215,7 @@ Public Class listarRegistro
             'Recupera datos del proceedor(SELECT * FROM ...)
             Dim command As String
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "SELECT registro.id_registro, tipo_registro.nom_registro, registro.valor, registro.fecha, registro.observacion "
                 command += "FROM (((((((materia "
                 command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "

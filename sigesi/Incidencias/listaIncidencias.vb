@@ -25,7 +25,7 @@ Public Class listaIncidencias
         End If
     End Sub
 
-    Private Sub loadGrid(ByVal id_incidencia As String)
+    Private Sub loadGrid(ByVal id_alumno As String)
         'Establece la conexón con el orgien de los datos
         Dim connection As New MySqlConnection
         'Representa un conjunto de comandos SQL y una conexión al origen de datos para rellenar el objeto DataSet y actualizar los datos
@@ -36,12 +36,12 @@ Public Class listaIncidencias
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT incidencia.id_incidencia, tipo_incidencia.nom_tipo, incidencia.observación, incidencia.fecha, incidencia.id_autoridad, usuario.primer_nombre, usuario.segundo_nombre "
             command += "FROM ((incidencia "
             command += "INNER JOIN usuario ON usuario.ci = incidencia.id_autoridad) "
             command += "INNER JOIN tipo_incidencia ON incidencia.id_tipo_incidencia = tipo_incidencia.id_tipo_incidencia) "
-            command += "WHERE incidencia.id_alumno =" + id_incidencia.ToString
+            command += "WHERE incidencia.id_alumno =" + id_alumno.ToString
             command += ";"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -77,7 +77,7 @@ Public Class listaIncidencias
 
 
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "DELETE FROM incidencia "
                     command += "WHERE incidencia.id_incidencia =" + id_incidencia.ToString
                     command += ";"
@@ -100,5 +100,9 @@ Public Class listaIncidencias
                 MsgBox("Selecciones una fila")
             End If
         End If
+    End Sub
+
+    Private Sub btnModificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
+        modificarIncidencia.Show()
     End Sub
 End Class

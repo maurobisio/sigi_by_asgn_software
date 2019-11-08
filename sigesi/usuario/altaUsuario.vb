@@ -44,7 +44,7 @@ Public Class altaUsuario
                 Dim existe As Integer = 0
                 Try
 
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     Command = "SELECT * FROM usuario WHERE ci='" & txtCi.Text & "';"
                     dataAdapter = New MySqlDataAdapter(Command, connection)
                     'Abrir la conexión
@@ -75,7 +75,7 @@ Public Class altaUsuario
                         dataSet = New DataSet
                         'Recupera datos del proceedor(SELECT * FROM ...)
                         command = ""
-                        connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                        connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                         command = "INSERT INTO usuario (ci, primer_nombre, segundo_nombre, apellido, direccion, email, telefono, pass, id_rol, estado) "
                         command += "VALUES ('" + txtCi.Text
                         command += "', '" + txtNom.Text

@@ -17,7 +17,7 @@ Public Class bajaMateriaGrupo
 
 
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "DELETE  FROM usuario  WHERE ci= '" + txtCi.Text + "' ;"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)

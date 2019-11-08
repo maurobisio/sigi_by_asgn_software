@@ -13,7 +13,7 @@ Public Class altaMateriaGrupo
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_materia, nom_materia, año FROM materia;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -29,7 +29,7 @@ Public Class altaMateriaGrupo
         End Try
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_grupo, nombre_grupo, turno, tipo_edificio FROM grupo INNER JOIN edificio ON grupo.id_edificio = edificio.id_edificio;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -60,7 +60,7 @@ Public Class altaMateriaGrupo
             Dim existe As Boolean = False
 
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "SELECT * FROM tiene WHERE "
                 command += "id_grupo=" + txtCodGrup.Text
                 command += " and id_materia =" + txtCodMat.Text
@@ -80,7 +80,7 @@ Public Class altaMateriaGrupo
 
             If Not existe Then
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "INSERT INTO tiene (id_grupo, id_materia) "
                     command += "VALUES ('" + txtCodGrup.Text
                     command += "', '" + txtCodMat.Text

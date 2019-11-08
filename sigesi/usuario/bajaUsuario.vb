@@ -17,7 +17,7 @@ Public Class bajaUsuario
 
 
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "UPDATE usuario SET estado = '0'  WHERE ci= '" + txtCi.Text + "' ;"
 
                 dataAdapter = New MySqlDataAdapter(command, connection)

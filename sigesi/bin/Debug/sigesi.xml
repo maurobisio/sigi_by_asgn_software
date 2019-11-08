@@ -268,6 +268,10 @@ sigesi
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:sigesi.My.Resources.Resources.databasename">
+	<summary>
+  Looks up a localized string similar to sigesi.
+</summary>
 </member><member name="P:sigesi.My.Resources.Resources.depositphotos_116517602_stock_illustration_closed_spiral_notebook_and_pen_copy">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -616,6 +620,10 @@ sigesi
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:sigesi.My.Resources.Resources.password">
+	<summary>
+  Looks up a localized string similar to root.
+</summary>
 </member><member name="P:sigesi.My.Resources.Resources.Preddeyspadlock">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -631,6 +639,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.Resources.salones3">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.server">
+	<summary>
+  Looks up a localized string similar to localhost.
 </summary>
 </member><member name="P:sigesi.My.Resources.Resources.sfondo_copy">
 	<summary>
@@ -699,6 +711,10 @@ sigesi
 </member><member name="P:sigesi.My.Resources.Resources.ultima1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sigesi.My.Resources.Resources.userid">
+	<summary>
+  Looks up a localized string similar to root.
 </summary>
 </member><member name="T:sigesi.My.Resources.Resources">
 	<summary>

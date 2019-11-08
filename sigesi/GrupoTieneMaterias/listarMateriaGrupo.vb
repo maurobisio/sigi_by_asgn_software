@@ -20,7 +20,7 @@ Public Class listarMateriaGrupo
 
 
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "DELETE FROM tiene WHERE id_tiene= '" + id_tiene.ToString + "' ;"
 
                     dataAdapter = New MySqlDataAdapter(command, connection)
@@ -73,7 +73,7 @@ Public Class listarMateriaGrupo
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_tiene, nombre_grupo, nom_materia FROM tiene INNER JOIN materia ON tiene.id_materia = materia.id_materia INNER JOIN grupo ON tiene.id_grupo = grupo.id_grupo;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión

@@ -29,6 +29,7 @@ Partial Class listaIncidencias
         Me.lblCi = New System.Windows.Forms.Label()
         Me.txtCi = New System.Windows.Forms.TextBox()
         Me.btnBuscar = New System.Windows.Forms.Button()
+        Me.btnModificar = New System.Windows.Forms.Button()
         CType(Me.dgvListarIncidencias, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -84,7 +85,7 @@ Partial Class listaIncidencias
         Me.btnBaja.ForeColor = System.Drawing.SystemColors.Highlight
         Me.btnBaja.Image = Global.sigesi.My.Resources.Resources.eliminar_usuario
         Me.btnBaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBaja.Location = New System.Drawing.Point(535, 238)
+        Me.btnBaja.Location = New System.Drawing.Point(535, 303)
         Me.btnBaja.Name = "btnBaja"
         Me.btnBaja.Size = New System.Drawing.Size(199, 57)
         Me.btnBaja.TabIndex = 60
@@ -130,12 +131,32 @@ Partial Class listaIncidencias
         Me.btnBuscar.Text = "  Buscar "
         Me.btnBuscar.UseVisualStyleBackColor = True
         '
+        'btnModificar
+        '
+        Me.btnModificar.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.btnModificar.BackColor = System.Drawing.Color.Black
+        Me.btnModificar.FlatAppearance.BorderSize = 0
+        Me.btnModificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnModificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnModificar.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.btnModificar.Image = Global.sigesi.My.Resources.Resources.icono_nuev
+        Me.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnModificar.Location = New System.Drawing.Point(535, 238)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(199, 59)
+        Me.btnModificar.TabIndex = 64
+        Me.btnModificar.Text = "         Modificar "
+        Me.btnModificar.UseVisualStyleBackColor = False
+        '
         'listaIncidencias
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(735, 581)
+        Me.Controls.Add(Me.btnModificar)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.txtCi)
         Me.Controls.Add(Me.btnBuscar)
@@ -159,4 +180,5 @@ Partial Class listaIncidencias
     Friend WithEvents lblCi As System.Windows.Forms.Label
     Friend WithEvents txtCi As System.Windows.Forms.TextBox
     Friend WithEvents btnBuscar As System.Windows.Forms.Button
+    Friend WithEvents btnModificar As System.Windows.Forms.Button
 End Class

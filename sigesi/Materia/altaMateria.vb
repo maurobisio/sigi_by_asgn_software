@@ -16,7 +16,7 @@ Public Class altaMateria
             Dim command As String
 
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "INSERT INTO materia (nom_materia, año) "
                 command += "VALUES ('" + txtNom.Text
                 command += "', '" + txtAño.Text + "');"

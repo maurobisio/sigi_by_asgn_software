@@ -592,6 +592,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to sigesi.
+        '''</summary>
+        Friend ReadOnly Property databasename() As String
+            Get
+                Return ResourceManager.GetString("databasename", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property depositphotos_116517602_stock_illustration_closed_spiral_notebook_and_pen_copy() As System.Drawing.Bitmap
@@ -1463,6 +1472,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to root.
+        '''</summary>
+        Friend ReadOnly Property password() As String
+            Get
+                Return ResourceManager.GetString("password", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property Preddeyspadlock() As System.Drawing.Bitmap
@@ -1499,6 +1517,15 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("salones3", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to localhost.
+        '''</summary>
+        Friend ReadOnly Property server() As String
+            Get
+                Return ResourceManager.GetString("server", resourceCulture)
             End Get
         End Property
         
@@ -1669,6 +1696,15 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("ultima1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to root.
+        '''</summary>
+        Friend ReadOnly Property userid() As String
+            Get
+                Return ResourceManager.GetString("userid", resourceCulture)
             End Get
         End Property
     End Module

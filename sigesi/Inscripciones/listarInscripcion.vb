@@ -61,7 +61,7 @@ Public Class listarInscripcion
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre, usuario.apellido, usuario.email "
             command += "FROM ((tiene "
             command += "INNER JOIN pertenece ON tiene.id_tiene = pertenece.id_tiene) "
@@ -96,7 +96,7 @@ Public Class listarInscripcion
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_grupo, nombre_grupo, turno FROM grupo;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -121,7 +121,7 @@ Public Class listarInscripcion
         command = ""
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT materia.id_materia, materia.nom_materia "
             command += "FROM ((materia "
             command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "
@@ -156,7 +156,7 @@ Public Class listarInscripcion
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT materia.id_materia, materia.nom_materia "
             command += "FROM ((materia "
             command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "
@@ -193,7 +193,7 @@ Public Class listarInscripcion
 
 
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "DELETE FROM pertenece "
                     command += "WHERE pertenece.id_tiene = (SELECT id_tiene FROM tiene "
                     command += "WHERE tiene.id_grupo = " + id_grupo.ToString

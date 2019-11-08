@@ -20,7 +20,7 @@ Public Class modificarGrupo
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_grupo, nombre_grupo, turno, tipo_edificio FROM grupo INNER JOIN edificio ON grupo.id_edificio = edificio.id_edificio;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -36,7 +36,7 @@ Public Class modificarGrupo
         End Try
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_edificio, tipo_edificio FROM edificio;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -87,7 +87,7 @@ Public Class modificarGrupo
             Next
 
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "UPDATE grupo SET "
                 command += "nombre_grupo='" + txtNom1.Text
                 command += "', turno='" + txtturn.Text

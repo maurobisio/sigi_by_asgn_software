@@ -46,7 +46,7 @@ Public Class listarUsuarios
         Dim command As String
         If rol = 2 Or rol = 3 Then
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
                 command += "WHERE estado = '1'"
                 command += " AND rol.nombre_rol ='Alumno/a';"
@@ -64,7 +64,7 @@ Public Class listarUsuarios
             End Try
         Else
             Try
-                connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
                 command += "WHERE estado = '1';"
                 dataAdapter = New MySqlDataAdapter(command, connection)
@@ -99,7 +99,7 @@ Public Class listarUsuarios
 
             If rol = 2 Or rol = 3 Then
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
                     command += "WHERE ci=" + txtCi.Text
                     command += " AND estado = '1'"
@@ -118,7 +118,7 @@ Public Class listarUsuarios
                 End Try
             Else
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "SELECT ci, primer_nombre, segundo_nombre,apellido, direccion, email, telefono, pass, nombre_rol FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
                     command += "WHERE ci=" + txtCi.Text
                     command += " AND estado = '1';"

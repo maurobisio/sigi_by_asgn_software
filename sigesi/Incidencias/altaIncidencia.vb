@@ -16,7 +16,7 @@ Public Class altaIncidencia
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_tipo_incidencia, nom_tipo FROM tipo_incidencia;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
@@ -49,7 +49,7 @@ Public Class altaIncidencia
 
 
                     Try
-                        connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                        connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                         command = "INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha) "
                         command += "VALUES ('" + txtCiAlumno.Text
                         command += "', '" + txtCiAutoridad.Text
@@ -90,7 +90,7 @@ Public Class altaIncidencia
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT * FROM usuario INNER JOIN rol ON usuario.id_rol = rol.id_rol "
             command += "WHERE usuario.ci=" + ci.ToString
             command += " AND rol.nombre_rol='" + rol_name.ToString

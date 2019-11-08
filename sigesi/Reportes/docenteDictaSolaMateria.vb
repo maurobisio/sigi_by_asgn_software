@@ -14,7 +14,7 @@ Public Class docenteDictaSolaMateria
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre "
             command += "FROM ((pertenece "
             command += "INNER JOIN usuario ON usuario.ci = pertenece.ci) "

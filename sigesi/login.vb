@@ -40,7 +40,7 @@ Public Class login
                         Dim command As String
 
                         Try
-                            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                             command = "SELECT * FROM usuario WHERE ci='" & txtUsu.Text & "' and pass='" & txtPwd.Text & "';"
                             dataAdapter = New MySqlDataAdapter(command, connection)
                             'Abrir la conexión

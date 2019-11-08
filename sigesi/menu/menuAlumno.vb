@@ -106,7 +106,7 @@ Public Class menuAlumno
 
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "INSERT INTO incidencia(id_alumno, id_autoridad, id_tipo_incidencia, observación, fecha) "
             command += "VALUES ('" + ci.ToString
             command += "', '" + "0"

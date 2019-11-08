@@ -24,7 +24,7 @@ Public Class listarMateria
 
 
                 Try
-                    connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+                    connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                     command = "DELETE  FROM materia  WHERE id_materia= '" + id_materia.ToString + "' ;"
 
                     dataAdapter = New MySqlDataAdapter(command, connection)
@@ -62,7 +62,7 @@ Public Class listarMateria
         Dim command As String
 
         Try
-            connection.ConnectionString = "server = localhost;database= sigesi; user id=root; password=root;"
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT id_materia, nom_materia, año FROM materia;"
             dataAdapter = New MySqlDataAdapter(command, connection)
             'Abrir la conexión
