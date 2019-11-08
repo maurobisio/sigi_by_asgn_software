@@ -31,8 +31,8 @@ Public Class listarUsuarios
     End Sub
 
     Private Sub btnAgregarUsuario_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAlta.Click
-        altaUsuario.Show()
         altaUsuario.rol = rol
+        altaUsuario.Show()
     End Sub
 
     Public Sub gridLoad()
