@@ -111,16 +111,16 @@ Public Class modificarUsuario
             Try
                 connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
                 command = "UPDATE usuario SET "
-                command += "ci='" + ci
-                command += "', primer_nombre='" + txtNom.Text
+                command += "primer_nombre='" + txtNom.Text
                 command += "', segundo_nombre='" + txtNom1.Text
                 command += "', apellido='" + txtApe.Text
                 command += "', direccion='" + txtDir.Text
                 command += "', email='" + txtEmail.Text
                 command += "', telefono='" + txtTel.Text
                 command += "', pass='" + txtPwd.Text
-                command += "', id_rol='" + rol
-                command += "' WHERE ci='" + ci + "';"
+                command += "', id_rol='" + rol.ToString
+                command += "' WHERE ci='" + ci.ToString + "';"
+
 
                 dataAdapter = New MySqlDataAdapter(command, connection)
                 'Abrir la conexión
