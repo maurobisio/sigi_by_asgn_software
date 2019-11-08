@@ -49,9 +49,9 @@ Partial Class modificarIncidencia
         Me.lblTitulo.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.lblTitulo.Location = New System.Drawing.Point(110, 9)
         Me.lblTitulo.Name = "lblTitulo"
-        Me.lblTitulo.Size = New System.Drawing.Size(245, 31)
+        Me.lblTitulo.Size = New System.Drawing.Size(274, 31)
         Me.lblTitulo.TabIndex = 42
-        Me.lblTitulo.Text = "Modificar  usuario"
+        Me.lblTitulo.Text = "Modificar Incidencia"
         '
         'btnModificar
         '

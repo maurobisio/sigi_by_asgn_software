@@ -35,6 +35,29 @@ Public Class altaInscripcion
 
         Try
             connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
+            command = "SELECT materia.id_materia, materia.nom_materia "
+            command += "FROM ((materia "
+            command += "INNER JOIN tiene ON materia.id_materia = tiene.id_materia) "
+            command += "INNER JOIN grupo ON grupo.id_grupo = tiene.id_grupo) "
+            command += "WHERE grupo.id_grupo ='" + cboGrupo.SelectedValue.ToString
+            command += "';"
+
+            dataAdapter = New MySqlDataAdapter(command, connection)
+            'Abrir la conexión
+            connection.Open()
+            'Llenamos el dataSet con el método Fill() del objeto dataAdapter
+            dataAdapter.Fill(dataSet, "materia")
+            cboMateria.DataSource = dataSet.Tables("materia")
+            cboMateria.DisplayMember = "nom_materia"
+            cboMateria.ValueMember = "id_materia"
+
+            connection.Close()
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+
+        Try
+            connection.ConnectionString = "server = " + sigesi.My.Resources.server + ";database= " + sigesi.My.Resources.databasename + "; user id=" + sigesi.My.Resources.userid + "; password=" + sigesi.My.Resources.password + ";"
             command = "SELECT usuario.ci, usuario.primer_nombre, usuario.segundo_nombre, usuario.apellido, usuario.email "
             command += "FROM (usuario "
             command += "INNER JOIN rol ON usuario.id_rol = rol.id_rol) "
